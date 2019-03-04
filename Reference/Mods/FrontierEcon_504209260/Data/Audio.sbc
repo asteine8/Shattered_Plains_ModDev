@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <Sounds>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>tradezonedetA</SubtypeId>
+      </Id>
+      <MaxDistance>10</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>false</Loopable>
+      <Pitch>0</Pitch>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\tzd.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>inithudA</SubtypeId>
+      </Id>
+      <MaxDistance>1</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>false</Loopable>
+      <Pitch>0</Pitch>
+      <MaxDistance>10</MaxDistance>
+      <Volume>1.00</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\hud.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+  </Sounds>
+</Definitions>
