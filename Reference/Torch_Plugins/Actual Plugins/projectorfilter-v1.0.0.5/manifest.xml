@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<PluginManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>ProjectorFilter</Name>
+  <Guid>c049e89f-fc85-474a-b76b-7b79657d4641</Guid>
+  <Repository>rexxar-tc/ProjectorFilter</Repository>
+  <Version>v1.0.0.5</Version>
+</PluginManifest>
