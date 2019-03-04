@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <SpawnGroups>
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>RBL_Virga_Corvette</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceCargoShip:true]
+                [FactionOwner:RBL]
+
+                [DisableDampeners:false]
+                [ReplenishSystems:true]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>20.0</Frequency> <!--High Frequency Spawning for Testing-->
+            <IsPirate>true</IsPirate>
+
+            <Prefabs>
+                <Prefab SubtypeId="Virga Class Corvette MKIII">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Rebel Corvette</BeaconText>
+                    <Speed>50.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+    </SpawnGroups>
+</Definitions>
