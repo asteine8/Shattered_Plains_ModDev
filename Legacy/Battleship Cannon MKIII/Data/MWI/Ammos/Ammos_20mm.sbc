@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ammos>
+  
+	<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>20mm_Bullet</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>650</DesiredSpeed>
+        <SpeedVariance>0.01</SpeedVariance>
+        <MaxTrajectory>650</MaxTrajectory>
+        <BackkickForce>10</BackkickForce>
+        <PhysicalMaterial>Missile_Telion2</PhysicalMaterial>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileHitImpulse>2</ProjectileHitImpulse>
+        <ProjectileMassDamage>10</ProjectileMassDamage>
+        <ProjectileHealthDamage>5</ProjectileHealthDamage>
+        <ProjectileTrailScale>0.7</ProjectileTrailScale>
+		<ProjectileTrailColor x="0.985" y="0.762" z="0.521" />
+		<!-- <ProjectileTrailColor x="1.000" y="0.602" z="0.658" /> Perfect Red -->
+		<!-- <ProjectileTrailColor x="1.000" y="0.582" z="0.648" /> Perfect Red 2 -->
+		<!-- <ProjectileTrailColor x="1.000" y="0.782" z="0.541" /> Orange-Yellow 2 -->
+		<!-- <ProjectileTrailColor x="0.985" y="0.762" z="0.521" /> Orange-Yellow (Last Used) -->
+        <!-- <ProjectileTrailColor x="0.975" y="0.675" z="0.960" /> Sunset -->
+        <!-- <ProjectileTrailColor x="0.950" y="0.800" z="1.000" /> Sunset-White -->
+        <!-- <ProjectileTrailColor x="1.000" y="0.602" z="0.781" /> Orange-Red -->
+        <ProjectileTrailProbability>0.14</ProjectileTrailProbability>
+      </ProjectileProperties>
+    </Ammo>
+
+  </Ammos>
+</Definitions>

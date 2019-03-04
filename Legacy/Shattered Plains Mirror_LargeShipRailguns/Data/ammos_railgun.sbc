@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ammos>
+    <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>RailgunNiFeSlugLZM</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>5000</DesiredSpeed>
+        <SpeedVariance>0</SpeedVariance>
+        <MaxTrajectory>3500</MaxTrajectory><!--Default server sync range is 3 km. Projectiles stop being visible beyond this range...-->
+        <BackkickForce>1000000</BackkickForce> <!--I wanted beefier kick-->
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileHitImpulse>225000</ProjectileHitImpulse>
+        <ProjectileMassDamage>0</ProjectileMassDamage> <!--Set this to zero. To set penetration damage, use the configuration file in AppData\Roaming\SpaceEngineers\Storage\1431583896.sbm_Railgun\RailgunConfig.sbc-->
+        <ProjectileHealthDamage>1000</ProjectileHealthDamage>
+        <ProjectileTrailScale>5</ProjectileTrailScale>
+        <ProjectileTrailColor x="0.0" y="0.5" z="1.0" />
+        <ProjectileTrailProbability>0.0</ProjectileTrailProbability>
+      </ProjectileProperties>
+    </Ammo>
+  </Ammos>
+</Definitions>

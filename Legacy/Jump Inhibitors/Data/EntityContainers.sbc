@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <EntityContainers>
+      <Container>
+         <Id>
+            <TypeId>Beacon</TypeId>
+			<SubtypeId>ZMKJumpInhibitor_Large</SubtypeId>
+         </Id>
+         <DefaultComponents>
+            <Component BuilderType="MyObjectBuilder_ModStorageComponent" SubtypeId="ZMKJumpInhibitorMod" ForceCreate="true"/>
+         </DefaultComponents>
+      </Container>
+   </EntityContainers>
+</Definitions>

@@ -1,0 +1,105 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+  
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+	  <Id>
+		<TypeId>GuiBlockCategoryDefinition</TypeId>
+		<SubtypeId/>
+	  </Id>
+			  <DisplayName>Mexpex Weapons</DisplayName>
+			  <Name>MexpexWarfareIndustries</Name>
+	  <ItemIds>
+		<!-- Turret Cannons -->
+		<string>LargeMissileTurret/HeavyDefenseTurret</string>		
+		<string>LargeMissileTurret/BattleshipCannon</string>	
+		<string>LargeMissileTurret/BattleshipCannonMK2</string>
+		<string>LargeMissileTurret/BattleshipCannonMK22</string>	
+		<string>LargeMissileTurret/BattleshipCannonMK3</string>
+		<string>LargeMissileTurret/BFTriCannon</string>	
+		<string>LargeMissileTurret/BFG_M</string>
+		
+		<!-- Fixed Cannons -->
+		<string>SmallMissileLauncherReload/StaticBattery1</string>
+		<string>SmallMissileLauncherReload/StaticBattery1Stack</string>
+		<string>SmallMissileLauncherReload/StaticBattery2</string>
+		<string>SmallMissileLauncherReload/Static150mm</string>
+		<string>SmallMissileLauncherReload/Static30mm</string>
+		
+		<!-- Defense Turrets -->
+		<string>LargeMissileTurret/TelionAFGen2</string>
+		<string>LargeMissileTurret/TelionAF</string>
+		<string>LargeGatlingTurret/TelionAMACM</string>
+	  </ItemIds>
+	</Category>
+	
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+			  <DisplayName>DisplayName_Category_ShipWeaponsTools</DisplayName>
+			  <Name>ShipWeaponsTools</Name>
+      <SearchBlocks>false</SearchBlocks>
+      <IsShipCategory>true</IsShipCategory>
+      <IsBlockCategory>false</IsBlockCategory>
+      <ItemIds>
+		<!-- Turret Cannons -->
+		<string>LargeMissileTurret/HeavyDefenseTurret</string>		
+		<string>LargeMissileTurret/BattleshipCannon</string>	
+		<string>LargeMissileTurret/BattleshipCannonMK2</string>
+		<string>LargeMissileTurret/BattleshipCannonMK22</string>	
+		<string>LargeMissileTurret/BattleshipCannonMK3</string>
+		<string>LargeMissileTurret/BFTriCannon</string>	
+		<string>LargeMissileTurret/BFG_M</string>
+		
+		<!-- Fixed Cannons -->
+		<string>SmallMissileLauncherReload/StaticBattery1</string>
+		<string>SmallMissileLauncherReload/StaticBattery1Stack</string>
+		<string>SmallMissileLauncherReload/StaticBattery2</string>
+		<string>SmallMissileLauncherReload/Static150mm</string>
+		<string>SmallMissileLauncherReload/Static30mm</string>
+		
+		<!-- Defense Turrets -->
+		<string>LargeMissileTurret/TelionAFGen2</string>
+		<string>LargeMissileTurret/TelionAF</string>
+		<string>LargeGatlingTurret/TelionAMACM</string>
+      </ItemIds>
+    </Category>
+	
+	
+	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+	  <Id>
+		<TypeId>GuiBlockCategoryDefinition</TypeId>
+		<SubtypeId/>
+	  </Id>
+			  <DisplayName>DisplayName_Category_ShipWeaponsTools</DisplayName>
+			  <Name>WeaponsTools</Name>
+	  <ItemIds>
+		<!-- Turret Cannons -->
+		<string>LargeMissileTurret/HeavyDefenseTurret</string>		
+		<string>LargeMissileTurret/BattleshipCannon</string>	
+		<string>LargeMissileTurret/BattleshipCannonMK2</string>
+		<string>LargeMissileTurret/BattleshipCannonMK22</string>	
+		<string>LargeMissileTurret/BattleshipCannonMK3</string>
+		<string>LargeMissileTurret/BFTriCannon</string>	
+		<string>LargeMissileTurret/BFG_M</string>
+		
+		<!-- Fixed Cannons -->
+		<string>SmallMissileLauncherReload/StaticBattery1</string>
+		<string>SmallMissileLauncherReload/StaticBattery1Stack</string>
+		<string>SmallMissileLauncherReload/StaticBattery2</string>
+		<string>SmallMissileLauncherReload/Static150mm</string>
+		<string>SmallMissileLauncherReload/Static30mm</string>
+		
+		<!-- Defense Turrets -->
+		<string>LargeMissileTurret/TelionAFGen2</string>
+		<string>LargeMissileTurret/TelionAF</string>
+		<string>LargeGatlingTurret/TelionAMACM</string>
+	  </ItemIds>  
+	</Category>
+	  
+	
+  </CategoryClasses>
+</Definitions>

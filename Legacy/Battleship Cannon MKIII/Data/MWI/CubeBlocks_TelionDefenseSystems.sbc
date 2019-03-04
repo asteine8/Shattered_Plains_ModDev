@@ -1,0 +1,324 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    
+	<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition" Enabled="false">
+		  <Id>
+			<TypeId>LargeGatlingTurret</TypeId>
+			<SubtypeId>TelionAMACM</SubtypeId>
+		  </Id>
+		  <DisplayName>Telion Anti-Missile Turret</DisplayName>
+		  <Icon>textures\GUI\Icons\TelionAM_Icon.dds</Icon>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="2" z="3" />
+		  <Center x="1" y="0" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\large\TelionBase.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  
+			<!-- SURVIVAL BALANCE-->
+		  <BuildTimeSeconds>45</BuildTimeSeconds>
+		  <InventoryMaxVolume>2.000</InventoryMaxVolume> <!-- Holds 2 Mags on 1x, should be 12.000 but because of assembler inventory limitation the ammo volume had to be lower by a factor of 6 needs craftable --> <!-- Not about the size of the turret, but about rather about how the magazine is loaded :) -->
+		  <Components>
+			<Component Subtype="SteelPlate" Count="40" />
+			<Component Subtype="Construction" Count="50" />
+			<Component Subtype="LargeTube" Count="15" />
+			<Component Subtype="Motor" Count="20" />
+			<Component Subtype="Computer" Count="12" />
+			<Component Subtype="Construction" Count="15" />
+			<Component Subtype="SteelPlate" Count="25" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+			<!-- SURVIVAL BALANCE-->
+		  
+		  <MountPoints>
+			<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
+		  </MountPoints>
+		  <BuildProgressModels>
+			<Model BuildPercentUpperBound="0.2" File="Models\Cubes\Large\TelionAM_Con1.mwm" />
+			<Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\TelionAM_Con2.mwm" />
+			<Model BuildPercentUpperBound="0.7" File="Models\Cubes\Large\TelionAM_Con3.mwm" />
+			<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\TelionAM_Con4.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			<StaticMode>
+			  <PlacementMode>OutsideVoxel</PlacementMode>
+			  <MaxAllowed>0.2</MaxAllowed>
+			  <MinAllowed>0</MinAllowed>
+			</StaticMode>
+			<DynamicMode>
+			  <PlacementMode>OutsideVoxel</PlacementMode>
+			  <MaxAllowed>0.2</MaxAllowed>
+			  <MinAllowed>0.01</MinAllowed>
+			</DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>TelionAMACM</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+		  <WeaponDefinitionId Subtype="TelionAMShells" />
+		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleWeapExpl</DamagedSound>
+		  <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
+		  <DestroySound>WepSmallMissileExpl</DestroySound>
+		  <ResourceSinkGroup>Defense</ResourceSinkGroup>
+		  <MinElevationDegrees>-30</MinElevationDegrees>
+		  <MaxElevationDegrees>55</MaxElevationDegrees>
+		  <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+		  <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+		  <RotationSpeed>0.00240</RotationSpeed>
+		  <ElevationSpeed>0.00240 </ElevationSpeed>
+		  <MaxRangeMeters>600</MaxRangeMeters>
+		  <AiEnabled>true</AiEnabled>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <MinFov>0.1</MinFov>
+		  <MaxFov>1.04719755</MaxFov>
+	    <PCU>300</PCU>
+    </Definition>
+
+	
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition" Enabled="false">
+		  <Id>
+			<TypeId>LargeMissileTurret</TypeId>
+			<SubtypeId>TelionAF</SubtypeId>
+		  </Id>
+		  <DisplayName>Telion Flak Turret</DisplayName>
+		  <Icon>textures\GUI\Icons\TelionAF_Icon.dds</Icon>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="2" z="3" />
+		  <Center x="1" y="0" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\large\AFBase.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  
+			<!-- SURVIVAL BALANCE-->
+		  <BuildTimeSeconds>90</BuildTimeSeconds>
+		  <InventoryMaxVolume>2.304</InventoryMaxVolume> <!-- Holds 12 Mags on 1x -->
+		  <Components>
+			<Component Subtype="SteelPlate" Count="60" />
+			<Component Subtype="Construction" Count="60" />
+			<Component Subtype="LargeTube" Count="20" />
+			<Component Subtype="Motor" Count="20" />
+			<Component Subtype="Computer" Count="12" />
+			<Component Subtype="Construction" Count="20" />
+			<Component Subtype="SteelPlate" Count="30" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+			<!-- SURVIVAL BALANCE-->
+		  
+		  <MountPoints>
+			<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
+		  </MountPoints>
+		  <BuildProgressModels>
+			<Model BuildPercentUpperBound="0.2" File="Models\Cubes\Large\TeliosCon1.mwm" />
+			<Model BuildPercentUpperBound="0.4" File="Models\Cubes\Large\TeliosCon2.mwm" />
+			<Model BuildPercentUpperBound="0.6" File="Models\Cubes\Large\TeliosCon3.mwm" />
+			<Model BuildPercentUpperBound="0.8" File="Models\Cubes\Large\TeliosCon4.mwm" />
+			<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\TeliosCon6.mwm" />
+		  </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+		  <BlockPairName>TelionAF</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+		  <WeaponDefinitionId Subtype="Telion_Flak" />
+		  <!-- <WeaponDefinitionId Subtype="TelionAF_P" /> -->
+		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleWeapExpl</DamagedSound>
+		  <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
+		  <DestroySound>WepSmallWarheadExpl</DestroySound>
+		  <ResourceSinkGroup>Defense</ResourceSinkGroup>
+		  <MinElevationDegrees>-20</MinElevationDegrees>
+		  <MaxElevationDegrees>70</MaxElevationDegrees>
+		  <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+		  <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+		  <RotationSpeed>0.00045</RotationSpeed>
+		  <ElevationSpeed>0.00010</ElevationSpeed>
+		  <MaxRangeMeters>500</MaxRangeMeters>
+		  <AiEnabled>true</AiEnabled>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <MinFov>0.1</MinFov>
+		  <MaxFov>1.04719755</MaxFov>
+      <PCU>550</PCU>
+    </Definition>
+
+	
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition" Enabled="false">
+		  <Id>
+			<TypeId>LargeMissileTurret</TypeId>
+			<SubtypeId>TelionAF_small</SubtypeId>
+		  </Id>
+		  <DisplayName>Telion Flak Turret</DisplayName>
+		  <Icon>textures\GUI\Icons\TelionAF_Icon.dds</Icon>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="5" y="5" z="5" />
+		  <Center x="2" y="0" z="2" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\large\AFBase_small.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+	  		  
+			<!-- SURVIVAL BALANCE-->
+		  <BuildTimeSeconds>90</BuildTimeSeconds>
+		  <InventoryMaxVolume>0.768</InventoryMaxVolume> <!-- Holds 4 Mags on 1x -->
+		  <Components>
+			<Component Subtype="SteelPlate" Count="40" />
+			<Component Subtype="Construction" Count="35" />
+			<Component Subtype="LargeTube" Count="12" />
+			<Component Subtype="Motor" Count="15" />
+			<Component Subtype="Computer" Count="8" />
+			<Component Subtype="Construction" Count="12" />
+			<Component Subtype="SteelPlate" Count="30" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+			<!-- SURVIVAL BALANCE-->
+		  
+		  <MountPoints>
+			<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="5" />
+		  </MountPoints>
+		  <BuildProgressModels>
+			<Model BuildPercentUpperBound="0.2" File="Models\Cubes\Large\TeliosCon1.mwm" />
+			<Model BuildPercentUpperBound="0.4" File="Models\Cubes\Large\TeliosCon2.mwm" />
+			<Model BuildPercentUpperBound="0.6" File="Models\Cubes\Large\TeliosCon3.mwm" />
+			<Model BuildPercentUpperBound="0.8" File="Models\Cubes\Large\TeliosCon4.mwm" />
+			<Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\TeliosCon6.mwm" />
+		  </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+		  <BlockPairName>TelionAF</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+		  <WeaponDefinitionId Subtype="Telion_Flak_Small" />
+		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleWeapExpl</DamagedSound>
+		  <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+		  <DestroySound>WepSmallMissileExpl</DestroySound>
+		  <ResourceSinkGroup>Defense</ResourceSinkGroup>
+		  <MinElevationDegrees>-20</MinElevationDegrees>
+		  <MaxElevationDegrees>70</MaxElevationDegrees>
+		  <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+		  <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+		  <RotationSpeed>0.00035</RotationSpeed>
+		  <ElevationSpeed>0.00008</ElevationSpeed>
+		  <MaxRangeMeters>850</MaxRangeMeters>
+		  <AiEnabled>true</AiEnabled>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <MinFov>0.1</MinFov>
+		  <MaxFov>1.04719755</MaxFov>
+      <PCU>500</PCU>
+    </Definition>
+	
+	
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition" Enabled="false">
+		  <Id>
+			<TypeId>LargeMissileTurret</TypeId>
+			<SubtypeId>TelionAFGen2</SubtypeId>
+		  </Id>
+		  <DisplayName>Telion Anti-Fighter Turret</DisplayName>
+		  <Icon>textures\GUI\Icons\TelionSphereAF_Icon.dds</Icon>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="2" z="1" />
+		  <Center x="0" y="0" z="0" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Large\TurretBase.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  
+			<!-- SURVIVAL BALANCE-->
+		  <BuildTimeSeconds>60</BuildTimeSeconds>
+		  <InventoryMaxVolume>0.768</InventoryMaxVolume> <!-- Holds 8 mags on 1x -->
+		  <Components>
+			<Component Subtype="SteelPlate" Count="60" />
+			<Component Subtype="Construction" Count="60" />
+			<Component Subtype="LargeTube" Count="20" />
+			<Component Subtype="Motor" Count="20" />
+			<Component Subtype="Computer" Count="12" />
+			<Component Subtype="Construction" Count="20" />
+			<Component Subtype="SteelPlate" Count="30" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+			<!-- SURVIVAL BALANCE-->
+		  
+		  <MountPoints>
+			<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+			<MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+			<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+			<MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+			<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+		  </MountPoints>
+		  <BuildProgressModels>
+			<Model BuildPercentUpperBound="0.2" File="Models\Large\TurretBase_Con1.mwm" />
+			<Model BuildPercentUpperBound="0.6" File="Models\Large\TurretBase_Con2.mwm" />
+			<Model BuildPercentUpperBound="1.0" File="Models\Large\TurretBase_Con3.mwm" />
+		  </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+		  <BlockPairName>TelionAFGen2</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+		  <WeaponDefinitionId Subtype="TelionAF_P_Gen2" />
+		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleWeapExpl</DamagedSound>
+		  <DestroyEffect>Explosion_Warhead_02</DestroyEffect>
+		  <DestroySound>WepSmallMissileExpl</DestroySound>
+		  <ResourceSinkGroup>Defense</ResourceSinkGroup>
+		  <MinElevationDegrees>-20</MinElevationDegrees>
+		  <MaxElevationDegrees>180</MaxElevationDegrees>
+		  <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+		  <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+		  <RotationSpeed>0.00080</RotationSpeed>
+		  <ElevationSpeed>0.0018 </ElevationSpeed>
+		  <MaxRangeMeters>850</MaxRangeMeters>
+		  <AiEnabled>true</AiEnabled>
+		  <IdleRotation>true</IdleRotation>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <MinFov>0.1</MinFov>
+		  <MaxFov>1.04719755</MaxFov>
+      <PCU>200</PCU>
+    </Definition>
+	
+  </CubeBlocks>
+</Definitions>

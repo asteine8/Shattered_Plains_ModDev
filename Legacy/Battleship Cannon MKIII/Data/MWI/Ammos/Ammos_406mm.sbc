@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ammos>
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>406mm_HE_Shell</SubtypeId>
+      </Id>
+      <BasicProperties>
+	<DesiredSpeed>350</DesiredSpeed> <!-- 650 -->
+	<SpeedVariance>0</SpeedVariance>
+	<MaxTrajectory>2000</MaxTrajectory>
+	<IsExplosive>true</IsExplosive>
+	<BackkickForce>7000</BackkickForce>
+        <PhysicalMaterial>Missilemk3</PhysicalMaterial>
+      </BasicProperties>
+      <MissileProperties>
+	<MissileMass>100</MissileMass>
+	<MissileExplosionRadius>16</MissileExplosionRadius>
+	<MissileModelName>Models\Weapons\plasmaTrace.mwm</MissileModelName>
+	<MissileAcceleration>50</MissileAcceleration>
+	<MissileInitialSpeed>400</MissileInitialSpeed> <!-- 400 -->
+	<MissileSkipAcceleration>false</MissileSkipAcceleration>
+	<MissileExplosionDamage>7000</MissileExplosionDamage>
+	</MissileProperties>
+    </Ammo>
+
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>406mm_AP_Shell</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>600</DesiredSpeed>
+        <SpeedVariance>0.01</SpeedVariance>
+        <MaxTrajectory>2000</MaxTrajectory>
+		<IsExplosive>true</IsExplosive>
+        <BackkickForce>20000</BackkickForce>
+        <PhysicalMaterial>Missilemk1</PhysicalMaterial>
+      </BasicProperties>
+      <MissileProperties>
+	<MissileMass>100</MissileMass>
+	<MissileExplosionRadius>3</MissileExplosionRadius>
+	<MissileModelName>Models\Weapons\plasmaTrace.mwm</MissileModelName>
+	<MissileAcceleration>150</MissileAcceleration>
+	<MissileInitialSpeed>450</MissileInitialSpeed>
+	<MissileSkipAcceleration>false</MissileSkipAcceleration>
+	<MissileExplosionDamage>25000</MissileExplosionDamage>
+	</MissileProperties>
+    </Ammo>
+  </Ammos>
+</Definitions>

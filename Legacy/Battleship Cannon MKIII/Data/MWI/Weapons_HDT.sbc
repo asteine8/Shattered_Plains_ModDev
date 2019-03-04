@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Heavy_Defense</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="20" ShootSoundName="HDTCannonShot" ShotsInBurst="5" />  
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.65</DeviateShotAngle>
+      <ReleaseTimeAfterFire>1250</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>5000</MuzzleFlashLifeSpan>
+	  <ReloadTime>5000</ReloadTime>
+      <AmmoMagazines>
+	  
+        <AmmoMagazine Subtype="HEShell240mm" />
+		
+      </AmmoMagazines>
+    </Weapon>
+  </Weapons>
+</Definitions>

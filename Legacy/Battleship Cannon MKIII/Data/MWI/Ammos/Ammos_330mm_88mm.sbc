@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ammos>
+	<!-- https://en.wikipedia.org/wiki/13%22/35_caliber_gun -->
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>330mm_HE_Shell</SubtypeId>
+      </Id>
+      <BasicProperties>
+	<DesiredSpeed>1100</DesiredSpeed>
+	<SpeedVariance>20</SpeedVariance>
+	<MaxTrajectory>2000</MaxTrajectory>
+	<IsExplosive>true</IsExplosive>
+	<BackkickForce>700000</BackkickForce>
+      </BasicProperties>
+      <MissileProperties>
+	<MissileMass>74.25</MissileMass>
+	<MissileExplosionRadius>4</MissileExplosionRadius>
+	<MissileModelName>Models\Weapons\plasmaTrace.mwm</MissileModelName>
+	<MissileAcceleration>100</MissileAcceleration>
+	<MissileInitialSpeed>950</MissileInitialSpeed>
+	<MissileSkipAcceleration>false</MissileSkipAcceleration>
+	<MissileExplosionDamage>5000</MissileExplosionDamage>
+	</MissileProperties>
+    </Ammo>
+
+	<!-- https://en.wikipedia.org/wiki/8.8_cm_SK_C/30_naval_gun -->	
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>88mm_HE_Shell</SubtypeId>
+      </Id>
+      <BasicProperties>
+	<DesiredSpeed>1100</DesiredSpeed>
+	<SpeedVariance>20</SpeedVariance>
+	<MaxTrajectory>800</MaxTrajectory>
+	<IsExplosive>true</IsExplosive>
+	<BackkickForce>7000</BackkickForce>
+      </BasicProperties>
+      <MissileProperties>
+	<MissileMass>19.8</MissileMass>
+	<MissileExplosionRadius>3</MissileExplosionRadius>
+	<MissileModelName>Models\Weapons\pTrace_small.mwm</MissileModelName>
+	<MissileAcceleration>100</MissileAcceleration>
+	<MissileInitialSpeed>950</MissileInitialSpeed>
+	<MissileSkipAcceleration>false</MissileSkipAcceleration>
+	<MissileExplosionDamage>1750</MissileExplosionDamage>
+	</MissileProperties>
+    </Ammo>
+  </Ammos>
+</Definitions>

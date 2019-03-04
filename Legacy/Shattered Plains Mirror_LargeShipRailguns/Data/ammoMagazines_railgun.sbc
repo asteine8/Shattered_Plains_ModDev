@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AmmoMagazines>
+    <AmmoMagazine>
+      <Id>
+      <TypeId>AmmoMagazine</TypeId>
+      <SubtypeId>NiFeDUSlugMagazineLZM</SubtypeId>
+      </Id>
+      <DisplayName>50mm NiFe-DU Slug</DisplayName> //Saboted 50mm NiFe/DU Slug
+      <Icon>Textures\GUI\Icons\50mm_slug.dds</Icon>
+      <Size>
+      <X>0.75</X>
+      <Y>0.2</Y>
+      <Z>0.2</Z>
+      </Size>
+      <Mass>45</Mass>
+      <Volume>50</Volume>
+      <Model>Models\Weapons\slug_ref.mwm</Model>
+      <Capacity>1</Capacity>
+      <AmmoDefinitionId Subtype="RailgunNiFeSlugLZM" />
+    </AmmoMagazine>
+  </AmmoMagazines>
+</Definitions>

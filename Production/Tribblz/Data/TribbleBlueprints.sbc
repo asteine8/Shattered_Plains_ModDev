@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Blueprints>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>TribbleBP</SubtypeId>
+            </Id>
+            <DisplayName>Tribble</DisplayName>
+            <Icon>Textures\Icons\tribblev4.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1000" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Cobalt" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Magnesium" />
+                <Item Amount="50" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Platinum" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Silver" />
+                <Item Amount="50000" TypeId="Ingot" SubtypeId="Stone" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Tribble" />
+            <BaseProductionTimeInSeconds>120</BaseProductionTimeInSeconds>
+        </Blueprint>
+    </Blueprints>
+</Definitions>

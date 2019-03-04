@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RespawnShips>
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>DamagedEarthDropship</SubtypeId>
+      </Id>
+      <DisplayName>Earth Dropship</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\ShatteredRespawnShipEarth.png</Icon>
+      <CooldownSeconds>600</CooldownSeconds>
+      <Prefab>Damaged_Earth_Dropship</Prefab>
+    </Ship>
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>DamagedMarsDropship</SubtypeId>
+      </Id>
+      <DisplayName>Mars Dropship</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\ShatteredRespawnShipMars.png</Icon>
+      <CooldownSeconds>600</CooldownSeconds>
+      <Prefab>Damaged_Mars_Dropship</Prefab>
+    </Ship>
+
+    <Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>DamagedEarthDropship</SubtypeId>
+      </Id>
+      <DisplayName>Atmospheric Planetary Dropship</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\ShatteredRespawnShipEarth.png</Icon>
+      <CooldownSeconds>600</CooldownSeconds>
+      <Prefab>Damaged_Earth_Dropship</Prefab>
+
+      <MinimalAirDensity>0.9</MinimalAirDensity>
+      <PlanetDeployAltitude>20000</PlanetDeployAltitude>
+      <UseForPlanetsWithAtmosphere>true</UseForPlanetsWithAtmosphere>
+      <UseForSpace>false</UseForSpace>
+      <UseForPlanetsWithoutAtmosphere>false</UseForPlanetsWithoutAtmosphere>
+
+
+      <InitialLinearVelocity x="0" y="0" z="0" />
+      <InitialAngularVelocity x="0" y="0" z="0" />
+    </Ship>
+
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnPlanetPod</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_PlanetaryLander</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\RespawnPlanetPod.png</Icon>
+      <CooldownSeconds>0</CooldownSeconds>
+      <Prefab>RespawnPlanetPod</Prefab>
+      
+      <MinimalAirDensity>0.8</MinimalAirDensity>
+      <PlanetDeployAltitude>2000</PlanetDeployAltitude>
+      <UseForPlanetsWithAtmosphere>true</UseForPlanetsWithAtmosphere>
+
+      <InitialLinearVelocity x="0" y="-95" z="0" />
+      <InitialAngularVelocity x="0" y="0.5" z="0" />
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpawn</HelpTextLocalizationId>
+    </Ship>
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnMoonPod</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_PlanetaryLander</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\RespawnMoonPod.png</Icon>
+      <CooldownSeconds>0</CooldownSeconds>
+      <Prefab>RespawnMoonPod</Prefab>
+      
+      <PlanetDeployAltitude>8</PlanetDeployAltitude>
+      <UseForPlanetsWithoutAtmosphere>true</UseForPlanetsWithoutAtmosphere>
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpawn</HelpTextLocalizationId>
+    </Ship>
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnSpacePod</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_RespawnPodSpace</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\RespawnSpacePod.png</Icon>
+      <CooldownSeconds>900</CooldownSeconds>
+      <Prefab>RespawnSpacePod</Prefab>
+      
+      <UseForSpace>true</UseForSpace>
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpaceSpawn</HelpTextLocalizationId>
+    </Ship>
+  </RespawnShips>                
+</Definitions>

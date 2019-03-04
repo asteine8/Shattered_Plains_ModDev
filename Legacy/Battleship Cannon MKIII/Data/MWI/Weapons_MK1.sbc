@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Mark_1</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="60" ShootSoundName="MK1CannonShot" ShotsInBurst="1" />  
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.35</DeviateShotAngle>
+      <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>5000</MuzzleFlashLifeSpan>
+      <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
+	  <ReloadTime>8000</ReloadTime>
+      <AmmoMagazines>
+	  
+        <AmmoMagazine Subtype="HEShell355mm" />
+		
+      </AmmoMagazines>
+    </Weapon>
+  </Weapons>
+</Definitions>

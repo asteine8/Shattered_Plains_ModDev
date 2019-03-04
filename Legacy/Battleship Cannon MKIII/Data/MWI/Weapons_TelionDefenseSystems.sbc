@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>
+  
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>TelionAMShells</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="4250" ShootSoundName="TelionAntiMissile" ShotsInBurst="1000" />  
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.025</DeviateShotAngle>
+      <ReleaseTimeAfterFire>800</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>100</MuzzleFlashLifeSpan>
+	  <ReloadTime>5500</ReloadTime>
+      <AmmoMagazines>
+	  
+        <AmmoMagazine Subtype="NATO_20×102mm" />
+		
+      </AmmoMagazines>
+    </Weapon>
+	
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>TelionAF_P_Gen2</SubtypeId>
+      </Id>
+      <!-- <MissileAmmoData RateOfFire="500" ShootSoundName="TelionFlak" ShotsInBurst="8" />  -->
+      <ProjectileAmmoData RateOfFire="500" ShootSoundName="AntiFighter" ShotsInBurst="8" />
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.775</DeviateShotAngle>
+      <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>100</MuzzleFlashLifeSpan>
+      <ReloadTime>3500</ReloadTime>
+      <AmmoMagazines>
+	  
+        <AmmoMagazine Subtype="WolfSlug40mm" />
+		
+      </AmmoMagazines>
+    </Weapon>
+
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Telion_Flak</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="400" ShootSoundName="TelionFlak" ShotsInBurst="16" />  
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>3.4</DeviateShotAngle>
+      <ReleaseTimeAfterFire>2000</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>1500</MuzzleFlashLifeSpan>
+	  <ReloadTime>10000</ReloadTime>
+      <AmmoMagazines>
+	  
+        <AmmoMagazine Subtype="ABShell40mm" />
+		
+      </AmmoMagazines>
+    </Weapon>
+	
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Telion_Flak_Small</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="250" ShootSoundName="TelionFlak" ShotsInBurst="16" />  
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>3.00</DeviateShotAngle>
+      <ReleaseTimeAfterFire>2000</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>1500</MuzzleFlashLifeSpan>
+	  <ReloadTime>15000</ReloadTime>
+      <AmmoMagazines>
+	  
+        <AmmoMagazine Subtype="ABShell40mm" />
+		
+      </AmmoMagazines>
+    </Weapon>
+	
+  </Weapons>
+</Definitions>

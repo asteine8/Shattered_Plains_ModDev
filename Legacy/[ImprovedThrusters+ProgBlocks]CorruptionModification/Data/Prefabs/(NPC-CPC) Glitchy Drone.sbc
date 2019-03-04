@@ -1,0 +1,2360 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Prefabs>
+    <Prefab xsi:type="MyObjectBuilder_PrefabDefinition">
+      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="(NPC-CPC) Glitchy Drone" />
+      <CubeGrids>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>97504382247512032</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="-5.7991480329001206" y="-6.7159914719522931" z="10.681728809620836" />
+            <Forward x="-4.53267155E-12" y="-1.13829978E-11" z="-1" />
+            <Up x="-2.21322086E-15" y="1" z="-1.13829978E-11" />
+            <Orientation>
+              <X>-5.691499E-12</X>
+              <Y>2.26633577E-12</Y>
+              <Z>1.10661043E-15</Z>
+              <W>1</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <GridSizeEnum>Small</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="1" z="-1" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCornerInv</SubtypeName>
+              <Min x="0" y="0" z="-1" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="-1" z="-2" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MyProgrammableBlock">
+              <SubtypeName>Corruption-SmallProgrammableBlock</SubtypeName>
+              <EntityId>93989402509361478</EntityId>
+              <Min x="1" y="0" z="-2" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Programmable block</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <Program>//Meridius_IX's Pirate AI Systems 
+ 
+double player_detect_range = 20000; //If player is further than this value from drone, it will not execute any behavioral scripting. 
+ 
+////////////////////////////////////////////////////// 
+//Do Not Touch Anything Below Here 
+////////////////////////////////////////////////////// 
+ 
+double player_drone_distance = 0; 
+double player_origin_distance = 0; 
+double drone_origin_distance = 0; 
+ 
+IMyRemoteControl remote_control; 
+IMyTextPanel face_panel; 
+IMyTextPanel rear_panel; 
+IMyWarhead warhead; 
+IMyRadioAntenna antenna; 
+IMyShipConnector connector; 
+IMyGyro gyro; 
+ 
+string lastMessageSent = "Default"; 
+ 
+void Main(string argument){ 
+	 
+	try{ 
+		 
+		if(Me.GetValue&lt;bool&gt;("CorruptionOwnerCheck") == false){ 
+	 
+			Echo("Non-NPC"); 
+			return; 
+		 
+		} 
+		 
+	}catch(Exception exc){ 
+	 
+		//ModAPI Despawn Failed 
+	 
+	} 
+	 
+	Vector3D world_center = new Vector3D(0,0,0); 
+	Vector3D player_coords = new Vector3D(0,0,0); 
+	Vector3D drone_coords = new Vector3D(0,0,0); 
+	Vector3D origin_coords = new Vector3D(0,0,0); 
+	 
+	//Find Remote Control Block(s) 
+	List&lt;IMyTerminalBlock&gt; remote_control_list = new List&lt;IMyTerminalBlock&gt;(); 
+	GridTerminalSystem.GetBlocksOfType&lt;IMyRemoteControl&gt;(remote_control_list); 
+	 
+	if(remote_control_list.Count != 0){ 
+		 
+		for(int i = 0; i &lt; remote_control_list.Count; i++){ 
+			 
+			if(remote_control_list[i].IsFunctional == true){ 
+				 
+				remote_control = remote_control_list[i] as IMyRemoteControl; 
+				break; 
+				 
+			} 
+			 
+		} 
+		 
+	}else{ 
+		 
+		Echo("No Remote Control Block Found. Script Cannot Execute."); 
+		return; 
+		 
+	} 
+	 
+	//Check If Drone is NPC Owned 
+	remote_control.GetNearestPlayer(out player_coords); 
+	 
+	if(player_coords == world_center){ 
+		 
+		Echo("Drone is not owned by Hostile NPC. Script Cannot Continue."); 
+		return; 
+		 
+	} 
+	 
+	drone_coords = remote_control.GetPosition(); 
+	 
+	//Get &amp; Set Origin Coords 
+	if(this.Storage == null || this.Storage == ""){ 
+		 
+		this.Storage = drone_coords.ToString(); 
+		origin_coords = drone_coords; 
+		 
+	}else{ 
+		 
+		Vector3D.TryParse(this.Storage, out origin_coords); 
+		 
+	} 
+	 
+	//Calculate Distances 
+	player_drone_distance = MeasureDistance(player_coords, drone_coords); 
+	player_origin_distance = MeasureDistance(player_coords, origin_coords); 
+	drone_origin_distance = MeasureDistance(drone_coords, origin_coords); 
+ 
+	if(player_drone_distance &gt; player_detect_range){ 
+		 
+		TryDespawn(remote_control, false); 
+		 
+	} 
+	 
+	TryDespawn(remote_control, true); 
+	 
+	 
+	////////////////////////////////////////////////////// 
+	//Pirate Behavior Start 
+	////////////////////////////////////////////////////// 
+	 
+	//Setup Lists / Blocks 
+	 
+	List&lt;IMyTerminalBlock&gt; antenna_list = new List&lt;IMyTerminalBlock&gt;(); 
+	GridTerminalSystem.GetBlocksOfType&lt;IMyRadioAntenna&gt;(antenna_list); 
+	 
+	face_panel = null; 
+	 
+	face_panel = GridTerminalSystem.GetBlockWithName("LCD Face") as IMyTextPanel; 
+	rear_panel = GridTerminalSystem.GetBlockWithName("LCD Rear") as IMyTextPanel; 
+	 
+	if(antenna_list.Count != 0){ 
+		 
+		for(int i = 0; i &lt; antenna_list.Count; i++){ 
+			 
+			if(antenna_list[i].IsFunctional == true){ 
+				 
+				antenna = antenna_list[i] as IMyRadioAntenna; 
+				break; 
+				 
+			} 
+			 
+		} 
+		 
+	} 
+	 
+	//Special Variables 
+	Random rnd = new Random(); 
+	string [] attacked_msg = {"Why are you trying to hurt me?", "I thought we were friends...", "Did I do something to upset you?", "I only wanted to help you...", "You don't like me anymore?", "Please don't be mad at me..."}; 
+	string [] retreat_msg = {"Oowww!", "That hurts!", "Leave me alone!", "Please stop!", "No more!", "Help me!"}; 
+	int random_msg_index = rnd.Next(0, 6); 
+	string selected_msg = attacked_msg[random_msg_index]; 
+	 
+	string [] button_action = {"ActionDead", "ActionEnemies", "ActionExplode", "ActionGift", "ActionGyro"}; 
+	int [] action_timer = {5, 10, 3, 30, 15}; 
+	int random_action_index = rnd.Next(0, 5); 
+	 
+	string current_mode = "ApproachPlayer"; 
+	int special_timer = 0; 
+	int previous_block_count = 0; 
+	int previous_functional_blocks = 0; 
+	 
+	int current_block_count = CheckBlockCount(); 
+	int current_functional_blocks = CheckFunctionalBlockCount(); 
+	bool getting_hacked = HackingDetection(); 
+	 
+	//Get-Init CustomData 
+	 
+	if(remote_control.CustomData == ""){ 
+		 
+		previous_block_count = current_block_count; 
+		previous_functional_blocks = current_functional_blocks; 
+		 
+		remote_control.CustomData = current_mode + "\n"; 
+		remote_control.CustomData += special_timer.ToString() + "\n"; 
+		remote_control.CustomData += current_block_count.ToString() + "\n"; 
+		remote_control.CustomData += current_functional_blocks.ToString() + "\n"; 
+		remote_control.CustomData += selected_msg; 
+ 
+	}else{ 
+		 
+		string [] data_split = remote_control.CustomData.Split('\n'); 
+		current_mode = data_split[0]; 
+		Int32.TryParse(data_split[1], out special_timer); 
+		Int32.TryParse(data_split[2], out previous_block_count); 
+		Int32.TryParse(data_split[3], out previous_functional_blocks); 
+		selected_msg = data_split[4]; 
+		 
+	} 
+	 
+	//Check for Hostility 
+	bool interruptable_mode = true; 
+	string [] exception_modes = {"ActionExplode", "Offended", "BeingHacked", "BeingDamaged", "Betrayed", "RetreatExplode", "ActionDead", "ActionGyro"}; 
+	for(int i = 0; i &lt; exception_modes.Length; i++){ 
+		 
+		if(current_mode == exception_modes[i]){ 
+			 
+			interruptable_mode = false; 
+			break; 
+			 
+		} 
+		 
+	} 
+	 
+ 
+	Vector3D rear_position = new Vector3D(0,0,0); 
+	double player_rear_distance = 0; 
+	if(rear_panel != null){ 
+		 
+		rear_position = rear_panel.GetPosition(); 
+		player_rear_distance = MeasureDistance(player_coords, rear_position); 
+		 
+	} 
+	 
+	if(face_panel != null){ 
+		 
+		if(face_panel.IsFunctional == false){ 
+			 
+			interruptable_mode = false; 
+			BlockActivation("Warheads"); 
+			current_mode = "RetreatExplode"; 
+			 
+		} 
+		 
+	}else{ 
+		 
+		interruptable_mode = false; 
+		BlockActivation("Warheads"); 
+		current_mode = "RetreatExplode"; 
+		 
+	} 
+	 
+	if(player_rear_distance &lt;= 2 &amp;&amp; player_rear_distance != 0 &amp;&amp; interruptable_mode == true){ 
+		 
+		interruptable_mode = false; 
+		current_mode = "Offended"; 
+		FacePanelManager(face_panel, "CPC-DroneFaceMad1"); 
+		antenna.CustomName = "HEY!"; 
+		TryChat(antenna.CustomName); 
+		remote_control.ClearWaypoints(); 
+		remote_control.AddWaypoint(player_coords, "Player"); 
+		remote_control.SetAutoPilotEnabled(true); 
+		special_timer = 16; 
+		 
+	} 
+	 
+	if(getting_hacked == true &amp;&amp; interruptable_mode == true){ 
+		 
+		selected_msg = attacked_msg[random_msg_index]; 
+		FacePanelManager(face_panel, "CPC-DroneFacePain"); 
+		antenna.CustomName = "Ooowwwww!"; 
+		TryChat(antenna.CustomName); 
+		current_mode = "BeingHacked"; 
+		interruptable_mode = false; 
+		special_timer = 12; 
+		 
+	} 
+	 
+	if(interruptable_mode == true){ 
+		 
+		if(current_block_count &lt; previous_block_count || current_functional_blocks &lt; previous_functional_blocks){ 
+			 
+			selected_msg = attacked_msg[random_msg_index]; 
+			FacePanelManager(face_panel, "CPC-DroneFacePain"); 
+			antenna.CustomName = "Ooowwwww!"; 
+			TryChat(antenna.CustomName); 
+			current_mode = "BeingDamaged"; 
+			interruptable_mode = false; 
+			special_timer = 12; 
+			 
+		} 
+		 
+	} 
+	 
+	//Mode: ApproachPlayer 
+	if(current_mode == "ApproachPlayer"){ 
+		 
+		remote_control.ClearWaypoints(); 
+		remote_control.AddWaypoint(player_coords, "Player"); 
+		remote_control.SetAutoPilotEnabled(true); 
+		 
+		if(player_drone_distance &lt; 3500){ 
+			 
+			remote_control.SetAutoPilotEnabled(false); 
+			antenna.CustomName = "Hi! I'm here to help! Please don't attack!"; 
+			antenna.ApplyAction("OnOff_On"); 
+			antenna.SetValueBool("EnableBroadCast", true); 
+			TryChat(antenna.CustomName); 
+			FacePanelManager(face_panel, "CPC-DroneFaceNormal"); 
+			current_mode = "FirstBroadcast"; 
+			special_timer = 300; 
+			 
+		} 
+		 
+	} 
+	 
+	//Mode: FirstBroadcast 
+	if(current_mode == "FirstBroadcast"){ 
+		 
+		if(player_drone_distance &lt; 60){ 
+			 
+			antenna.CustomName = "I'll do what I can to help! Just press the button!"; 
+			TryChat(antenna.CustomName); 
+			special_timer = 300; 
+			current_mode = "MeetPlayer"; 
+			 
+		} 
+		 
+		if(special_timer &lt;= 60 &amp;&amp; special_timer &gt;= 11 ){ 
+			 
+			antenna.CustomName = "Is anybody out there??"; 
+			TryChat(antenna.CustomName); 
+			 
+		} 
+		 
+		if(special_timer &lt;= 10){ 
+			 
+			antenna.CustomName = "Nobody ever wants my help..."; 
+			TryChat(antenna.CustomName); 
+			 
+		} 
+		 
+		special_timer -= 1; 
+		 
+	} 
+	 
+	//Mode: MeetPlayer 
+	if(current_mode == "MeetPlayer"){ 
+		 
+		if(argument == "ButtonPress"){ 
+			 
+			antenna.CustomName = "Ok, here we go!"; 
+			TryChat(antenna.CustomName); 
+			FacePanelManager(face_panel, "CPC-DroneFaceWorking"); 
+			current_mode = "ButtonPress"; 
+			special_timer = 4; 
+			 
+		} 
+		 
+		if(player_drone_distance &lt; 60 &amp;&amp; current_mode != "ButtonPress"){ 
+			 
+			if(special_timer &lt;= 300 &amp;&amp; special_timer &gt;= 241 &amp;&amp; current_mode != "ButtonPress"){ 
+				 
+				antenna.CustomName = "I'll do what I can to help! Just press the button!"; 
+				TryChat(antenna.CustomName); 
+				 
+			} 
+			 
+			if(special_timer &lt;= 240 &amp;&amp; special_timer &gt;= 181 &amp;&amp; current_mode != "ButtonPress"){ 
+				 
+				antenna.CustomName = "The button is below my face panel. Go ahead and press it!"; 
+				TryChat(antenna.CustomName); 
+				 
+			} 
+			 
+			if(special_timer &lt;= 180 &amp;&amp; special_timer &gt;= 121 &amp;&amp; current_mode != "ButtonPress"){ 
+				 
+				antenna.CustomName = "I'll do my best if you give me a chance!"; 
+				TryChat(antenna.CustomName); 
+				 
+			} 
+			 
+			if(special_timer &lt;= 120 &amp;&amp; special_timer &gt;= 61 &amp;&amp; current_mode != "ButtonPress"){ 
+				 
+				FacePanelManager(face_panel, "CPC-DroneFaceBored"); 
+				antenna.CustomName = "Maybe you don't want my help after all..."; 
+				TryChat(antenna.CustomName); 
+				 
+			} 
+			 
+			if(special_timer &lt;= 60 &amp;&amp; special_timer &gt;= 6 &amp;&amp; current_mode != "ButtonPress"){ 
+				 
+				antenna.CustomName = "I'm going to leave soon..."; 
+				TryChat(antenna.CustomName); 
+				 
+			} 
+			 
+			if(special_timer &lt;= 5 &amp;&amp; current_mode != "ButtonPress"){ 
+				 
+				antenna.CustomName = "I get it, you don't want my help. I'll go away..."; 
+				TryChat(antenna.CustomName); 
+				 
+			} 
+			 
+			if(special_timer &lt;= 0 &amp;&amp; current_mode != "ButtonPress"){ 
+				 
+				current_mode = "RetreatExplode"; 
+				 
+			} 
+			 
+			 
+			 
+		}else{ 
+			 
+			if(special_timer &gt;= 121){ 
+				 
+				antenna.CustomName = "Wait! Come back!"; 
+				TryChat(antenna.CustomName); 
+				 
+			} 
+			 
+		} 
+		 
+		special_timer -= 1; 
+		 
+		 
+	} 
+	 
+	IMyButtonPanel button_panel = GridTerminalSystem.GetBlockWithName("Button Panel") as IMyButtonPanel; 
+	if(current_mode == "MeetPlayer"){ 
+		 
+		button_panel?.ApplyAction("OnOff_On"); 
+		 
+	}else{ 
+		 
+		button_panel?.ApplyAction("OnOff_Off"); 
+		 
+	} 
+	 
+	//Mode: ButtonPress 
+	if(current_mode == "ButtonPress"){ 
+		 
+		if(special_timer &lt;= 0){ 
+			 
+			current_mode = button_action[random_action_index]; 
+			special_timer = action_timer[random_action_index] + 1; 
+			 
+		} 
+		 
+		special_timer -= 1; 
+		 
+	} 
+	 
+	//Mode: ActionGyro 
+	if(current_mode == "ActionGyro"){ 
+		 
+		BlockActivation("Gyros"); 
+		if(special_timer &lt;= 15 &amp;&amp; special_timer &gt;= 10){ 
+			 
+			FacePanelManager(face_panel, "CPC-DroneFaceDizzy"); 
+			antenna.CustomName = "Whaaa! What's going on!?"; 
+			TryChat(antenna.CustomName); 
+			 
+		} 
+		 
+		if(special_timer &lt;= 9 &amp;&amp; special_timer &gt;= 4){ 
+			 
+			antenna.CustomName = "I can't stop it!"; 
+			TryChat(antenna.CustomName); 
+			 
+		} 
+		 
+		if(special_timer &lt;= 3 &amp;&amp; special_timer &gt;= 1){ 
+			 
+			antenna.CustomName = "I think I'm going to..."; 
+			TryChat(antenna.CustomName); 
+			 
+		} 
+		 
+		if(special_timer &lt;= 0){ 
+			 
+			BlockActivation("Warheads"); 
+			 
+		} 
+		 
+		special_timer -= 1; 
+		 
+	} 
+	 
+	//Mode: ActionExplode 
+	if(current_mode == "ActionExplode"){ 
+		 
+		if(special_timer &lt;= 2 &amp;&amp; special_timer &gt;= 1){ 
+			 
+			FacePanelManager(face_panel, "CPC-DroneFaceExplode"); 
+			antenna.CustomName = "Umm.. I think I accidentally..."; 
+			TryChat(antenna.CustomName); 
+			 
+		} 
+		 
+		if(special_timer &lt;= 0){ 
+			 
+			BlockActivation("Warheads"); 
+			 
+		} 
+		 
+		special_timer -= 1; 
+		 
+	} 
+	 
+	//Mode: ActionGift 
+	if(current_mode == "ActionGift"){ 
+		 
+		if(special_timer &lt;= 30 &amp;&amp; special_timer &gt;= 6){ 
+			 
+			BlockActivation("Connectors"); 
+			FacePanelManager(face_panel, "CPC-DroneFaceHappy"); 
+			antenna.CustomName = "I brought you some supplies! I hope you like them!"; 
+			TryChat(antenna.CustomName); 
+			 
+		} 
+		 
+		if(special_timer &lt;= 5 &amp;&amp; special_timer &gt;= 1){ 
+			 
+			antenna.CustomName = "I'm glad I could help! Bye!"; 
+			TryChat(antenna.CustomName); 
+			 
+		} 
+		 
+		if(special_timer &lt;= 0){ 
+			 
+			current_mode = "RetreatExplode"; 
+			 
+		} 
+		 
+		special_timer -= 1; 
+		 
+	} 
+	 
+	//Mode: ActionEnemies 
+	if(current_mode == "ActionEnemies"){ 
+		 
+		if(special_timer &lt;= 10 &amp;&amp; special_timer &gt;= 5){ 
+			 
+			FacePanelManager(face_panel, "CPC-DroneFaceWorried"); 
+			antenna.CustomName = "Uh oh.. I think I dialed the wrong number..."; 
+			TryChat(antenna.CustomName); 
+			 
+		} 
+		 
+		if(special_timer &lt;= 4 &amp;&amp; special_timer &gt;= 1){ 
+			 
+			antenna.CustomName = "I'm sorry if I caused you any trouble..."; 
+			TryChat(antenna.CustomName); 
+			 
+		} 
+		 
+		if(special_timer &lt;= 0){ 
+			 
+			current_mode = "RetreatExplode"; 
+			 
+		} 
+		 
+		special_timer -= 1; 
+		 
+	} 
+	 
+	//Mode: ActionDead 
+	if(current_mode == "ActionDead"){ 
+		 
+		if(special_timer &lt;= 5 &amp;&amp; special_timer &gt;= 3){ 
+			 
+			antenna.CustomName = "I'm trying really hard!"; 
+			TryChat(antenna.CustomName); 
+			 
+		} 
+		 
+		if(special_timer &lt;= 2 &amp;&amp; special_timer &gt;= 1){ 
+			 
+			antenna.CustomName = "Almost got it!"; 
+			TryChat(antenna.CustomName); 
+			 
+		} 
+		 
+		if(special_timer &lt;= 0){ 
+			 
+			antenna.CustomName = "&gt;System.Error //CPU Overload"; 
+			TryChat(antenna.CustomName); 
+			FacePanelManager(face_panel, "CPC-DroneFaceDead"); 
+			IMyTimerBlock timer = GridTerminalSystem.GetBlockWithName("Timer") as IMyTimerBlock; 
+			timer.StopCountdown(); 
+			timer.Enabled = false; 
+			 
+		} 
+		 
+		special_timer -= 1; 
+		 
+	} 
+	 
+	//Mode: Offended 
+	if(current_mode == "Offended"){ 
+		 
+		if(special_timer &lt;= 12 &amp;&amp; special_timer &gt;= 6){ 
+			 
+			remote_control.SetAutoPilotEnabled(false); 
+			antenna.CustomName = "You're not supposed to look at my Private Hardware!"; 
+			TryChat(antenna.CustomName); 
+			 
+		} 
+		 
+		if(special_timer &lt;= 5 &amp;&amp; special_timer &gt;= 1){ 
+			 
+			FacePanelManager(face_panel, "CPC-DroneFaceMad2"); 
+			antenna.CustomName = "You're really weird.. I think I should leave."; 
+			TryChat(antenna.CustomName); 
+			 
+		} 
+		 
+		if(special_timer &lt;= 0){ 
+			 
+			current_mode = "RetreatExplode"; 
+			 
+		} 
+		 
+		special_timer -= 1; 
+		 
+	} 
+ 
+	//Mode: BeingDamaged 
+	if(current_mode == "BeingDamaged"){ 
+		 
+		if(current_block_count == previous_block_count){ 
+			 
+			current_mode = "Betrayed"; 
+			 
+		} 
+		 
+	} 
+	 
+	//Mode: BeingHacked 
+	if(current_mode == "BeingHacked"){ 
+		 
+		if(getting_hacked == false){ 
+			 
+			current_mode = "Betrayed"; 
+			 
+		} 
+		 
+	} 
+	 
+	//Mode: Betrayed 
+	if(current_mode == "Betrayed"){ 
+		 
+		if(special_timer &lt;= 10 &amp;&amp; special_timer &gt;= 1){ 
+			 
+			antenna.CustomName = selected_msg; 
+			TryChat(antenna.CustomName); 
+			FacePanelManager(face_panel, "CPC-DroneFaceSad1"); 
+			 
+		} 
+		 
+		 
+		if(special_timer &lt;= 0){ 
+			 
+			FacePanelManager(face_panel, "CPC-DroneFaceSad2"); 
+			current_mode = "RetreatExplode"; 
+			 
+		} 
+		 
+		special_timer -= 1; 
+		 
+	} 
+ 
+	//Mode: RetreatExplode 
+	if(current_mode == "RetreatExplode"){ 
+		 
+		remote_control.ClearWaypoints(); 
+		remote_control.AddWaypoint(origin_coords, "Origin"); 
+		remote_control.SetAutoPilotEnabled(true); 
+		 
+		if(drone_origin_distance &lt; 150){ 
+			 
+			TryDespawn(remote_control, false); 
+			 
+		} 
+		 
+		if(getting_hacked == true || current_block_count &lt; previous_block_count || current_functional_blocks &lt; previous_functional_blocks){ 
+			 
+			FacePanelManager(face_panel, "CPC-DroneFaceSad2"); 
+			antenna.CustomName = retreat_msg[random_msg_index]; 
+			TryChat(antenna.CustomName); 
+			 
+		}else{ 
+			 
+			antenna.CustomName = ""; 
+			 
+		} 
+		 
+	} 
+	 
+	//Set CustomData 
+	remote_control.CustomData = current_mode + "\n"; 
+	remote_control.CustomData += special_timer.ToString() + "\n"; 
+	remote_control.CustomData += current_block_count.ToString() + "\n"; 
+	remote_control.CustomData += current_functional_blocks.ToString() + "\n"; 
+	remote_control.CustomData += selected_msg; 
+	 
+	////////////////////////////////////////////////////// 
+	//Pirate Behavior End 
+	////////////////////////////////////////////////////// 
+	 
+} 
+ 
+void BlockActivation(string blocks){ 
+	 
+	if(blocks == "Warheads"){ 
+		 
+		List&lt;IMyTerminalBlock&gt; warhead_list = new List&lt;IMyTerminalBlock&gt;(); 
+		GridTerminalSystem.GetBlocksOfType&lt;IMyWarhead&gt;(warhead_list); 
+		for(int i = 0; i &lt; warhead_list.Count; i++){ 
+			 
+			warhead = warhead_list[i] as IMyWarhead; 
+			warhead.IsArmed = true; 
+			warhead.Detonate(); 
+			 
+		} 
+				 
+	} 
+	 
+	if(blocks == "Connectors"){ 
+		 
+		List&lt;IMyTerminalBlock&gt; connector_list = new List&lt;IMyTerminalBlock&gt;(); 
+		GridTerminalSystem.GetBlocksOfType&lt;IMyShipConnector&gt;(connector_list); 
+		for(int i = 0; i &lt; connector_list.Count; i++){ 
+			 
+			connector = connector_list[i] as IMyShipConnector; 
+			connector.ApplyAction("OnOff_On"); 
+			 
+		} 
+		 
+	} 
+	 
+	if(blocks == "Gyros"){ 
+		 
+		List&lt;IMyTerminalBlock&gt; gyro_list = new List&lt;IMyTerminalBlock&gt;(); 
+		GridTerminalSystem.GetBlocksOfType&lt;IMyGyro&gt;(gyro_list); 
+		for(int i = 0; i &lt; gyro_list.Count; i++){ 
+			 
+			gyro = gyro_list[i] as IMyGyro; 
+			gyro.SetValueBool("Override", true); 
+			 
+		} 
+		 
+	} 
+	 
+	 
+	 
+} 
+ 
+int CheckBlockCount(){ 
+	 
+	List&lt;IMyTerminalBlock&gt; all_blocks = new List&lt;IMyTerminalBlock&gt;(); 
+	GridTerminalSystem.GetBlocksOfType&lt;IMyTerminalBlock&gt;(all_blocks); 
+	 
+	return all_blocks.Count; 
+	 
+} 
+ 
+int CheckFunctionalBlockCount(){ 
+	 
+	List&lt;IMyTerminalBlock&gt; all_blocks = new List&lt;IMyTerminalBlock&gt;(); 
+	GridTerminalSystem.GetBlocksOfType&lt;IMyTerminalBlock&gt;(all_blocks); 
+	int block_counter = 0; 
+	for(int i = 0; i &lt; all_blocks.Count; i++){ 
+		 
+		if(all_blocks[i].IsFunctional == true &amp;&amp; all_blocks[i].DisassembleRatio == 1){ 
+			 
+			block_counter++; 
+			 
+		} 
+		 
+	} 
+	 
+	return block_counter; 
+	 
+} 
+ 
+bool HackingDetection(){ 
+	 
+	List&lt;IMyTerminalBlock&gt; all_blocks = new List&lt;IMyTerminalBlock&gt;(); 
+	GridTerminalSystem.GetBlocksOfType&lt;IMyTerminalBlock&gt;(all_blocks); 
+	for(int i = 0; i &lt; all_blocks.Count; i++){ 
+		 
+		if(all_blocks[i].IsBeingHacked == true){ 
+			 
+			return true; 
+			 
+		} 
+		 
+	} 
+	 
+	return false; 
+ 
+} 
+ 
+double MeasureDistance(Vector3D point_a, Vector3D point_b){ 
+	 
+	double result = Math.Round( Vector3D.Distance( point_a, point_b ), 2 ); 
+	return result; 
+	 
+} 
+ 
+void FacePanelManager(IMyTextPanel textPanel, string facePanelName){ 
+	 
+	string previousImage = textPanel.CurrentlyShownImage; 
+	 
+	if(textPanel.CurrentlyShownImage == null || textPanel.CurrentlyShownImage != facePanelName){ 
+		 
+		textPanel.AddImageToSelection(facePanelName, false); 
+		 
+		if(previousImage != null){ 
+			 
+			textPanel.RemoveImageFromSelection(textPanel.CurrentlyShownImage, true); 
+			 
+		} 
+				 
+	} 
+		 
+} 
+ 
+void TryDespawn(IMyRemoteControl remoteControl, bool gravity){ 
+	 
+	Vector3D planetPosition = new Vector3D(0,0,0); 
+	if(remoteControl.TryGetPlanetPosition(out planetPosition) == true || gravity == false){ 
+	 
+		try{ 
+		 
+			bool despawn = Me.GetValue&lt;bool&gt;("CorruptionDroneDespawn"); 
+		 
+		}catch(Exception exc){ 
+		 
+			//ModAPI Despawn Failed 
+		 
+		} 
+	 
+	} 
+ 
+} 
+ 
+void TryChat(string message){ 
+	 
+	if(message == lastMessageSent){ 
+		 
+		return; 
+		 
+	} 
+	 
+	try{ 
+		 
+		Me.CustomData = message; 
+		bool despawn = Me.GetValue&lt;bool&gt;("CorruptionDroneChat"); 
+		lastMessageSent = message; 
+	 
+	}catch(Exception exc){ 
+	 
+		//ModAPI Chat Failed 
+	 
+	} 
+ 
+}</Program>
+              <Storage />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TimerBlock">
+              <SubtypeName>TimerBlockSmall</SubtypeName>
+              <EntityId>128666001140515959</EntityId>
+              <Min x="-1" y="0" z="-2" />
+              <BlockOrientation Forward="Left" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Timer</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots>
+                  <Slot>
+                    <Index>0</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>RunWithDefaultArgument</Action>
+                      <BlockEntityId>93989402509361478</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>1</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>Start</Action>
+                      <BlockEntityId>128666001140515959</BlockEntityId>
+                    </Data>
+                  </Slot>
+                </Slots>
+              </Toolbar>
+              <Delay>1000</Delay>
+              <CurrentTime>1000</CurrentTime>
+              <IsCountingDown>true</IsCountingDown>
+              <Silent>true</Silent>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="1" z="-2" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RemoteControl">
+              <SubtypeName>SmallBlockRemoteControl</SubtypeName>
+              <EntityId>115289039604710117</EntityId>
+              <Min x="0" y="0" z="-2" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Remote Control 2</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <UseSingleWeaponMode>false</UseSingleWeaponMode>
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+              </Toolbar>
+              <SelectedGunId xsi:nil="true" />
+              <BuildToolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+              </BuildToolbar>
+              <PreviousControlledEntityId xsi:nil="true" />
+              <AutoPilotEnabled>false</AutoPilotEnabled>
+              <FlightMode>2</FlightMode>
+              <BindedCamera>0</BindedCamera>
+              <CurrentWaypointIndex>-1</CurrentWaypointIndex>
+              <Waypoints />
+              <Direction>0</Direction>
+              <DockingModeEnabled>false</DockingModeEnabled>
+              <CollisionAvoidance>true</CollisionAvoidance>
+              <Coords />
+              <Names />
+              <AutopilotSpeedLimit>69.75953</AutopilotSpeedLimit>
+              <WaypointThresholdDistance>0</WaypointThresholdDistance>
+              <IsMainRemoteControl>false</IsMainRemoteControl>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Warhead">
+              <SubtypeName>SmallWarhead</SubtypeName>
+              <EntityId>86463922148341110</EntityId>
+              <Min x="-1" y="-1" z="-2" />
+              <BlockOrientation Forward="Left" Up="Backward" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Warhead</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <CountdownMs>1170</CountdownMs>
+              <IsArmed>true</IsArmed>
+              <IsCountingDown>false</IsCountingDown>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Warhead">
+              <SubtypeName>SmallWarhead</SubtypeName>
+              <EntityId>126239543329840620</EntityId>
+              <Min x="1" y="-1" z="-2" />
+              <BlockOrientation Forward="Left" Up="Backward" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Warhead 2</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <CountdownMs>1170</CountdownMs>
+              <IsArmed>true</IsArmed>
+              <IsCountingDown>false</IsCountingDown>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Warhead">
+              <SubtypeName>SmallWarhead</SubtypeName>
+              <EntityId>107493850168159721</EntityId>
+              <Min x="-1" y="1" z="-2" />
+              <BlockOrientation Forward="Left" Up="Backward" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Warhead 3</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <CountdownMs>1170</CountdownMs>
+              <IsArmed>true</IsArmed>
+              <IsCountingDown>false</IsCountingDown>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Warhead">
+              <SubtypeName>SmallWarhead</SubtypeName>
+              <EntityId>79391633974402142</EntityId>
+              <Min x="1" y="1" z="-2" />
+              <BlockOrientation Forward="Left" Up="Backward" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Warhead 4</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <CountdownMs>1170</CountdownMs>
+              <IsArmed>true</IsArmed>
+              <IsCountingDown>false</IsCountingDown>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCornerInv</SubtypeName>
+              <Min x="1" y="2" z="-1" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCornerInv</SubtypeName>
+              <Min x="-1" y="2" z="-1" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCornerInv</SubtypeName>
+              <Min x="1" y="-2" z="-1" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCornerInv</SubtypeName>
+              <Min x="-1" y="-2" z="-1" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCornerInv</SubtypeName>
+              <Min x="2" y="1" z="-1" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCornerInv</SubtypeName>
+              <Min x="-2" y="1" z="-1" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCornerInv</SubtypeName>
+              <Min x="2" y="-1" z="-1" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCornerInv</SubtypeName>
+              <Min x="-2" y="-1" z="-1" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner</SubtypeName>
+              <Min x="2" y="2" z="-1" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner</SubtypeName>
+              <Min x="-2" y="2" z="-1" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner</SubtypeName>
+              <Min x="2" y="-2" z="-1" />
+              <BlockOrientation Forward="Up" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner</SubtypeName>
+              <Min x="-2" y="-2" z="-1" />
+              <BlockOrientation Forward="Up" Up="Backward" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="-2" z="-1" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="2" z="-1" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <EntityId>141485572465078567</EntityId>
+              <Min x="2" y="0" z="-2" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <CustomName>Ion Thrusters 2</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <EntityId>79280649633005137</EntityId>
+              <Min x="-2" y="0" z="-2" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <CustomName>Ion Thrusters 2</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCornerInv</SubtypeName>
+              <Min x="-1" y="-2" z="-2" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCornerInv</SubtypeName>
+              <Min x="1" y="-2" z="-2" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorRoundSlope</SubtypeName>
+              <Min x="-1" y="2" z="-2" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorRoundSlope</SubtypeName>
+              <Min x="1" y="2" z="-2" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorRoundSlope</SubtypeName>
+              <Min x="0" y="-2" z="-2" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="0" y="2" z="-2" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorRoundSlope</SubtypeName>
+              <Min x="-2" y="-1" z="-2" />
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorRoundSlope</SubtypeName>
+              <Min x="2" y="-1" z="-2" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorRoundSlope</SubtypeName>
+              <Min x="-2" y="1" z="-2" />
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorRoundSlope</SubtypeName>
+              <Min x="2" y="1" z="-2" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="-1" z="-1" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="-1" z="-1" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorRoundCorner</SubtypeName>
+              <Min x="-2" y="-2" z="-2" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorRoundCorner</SubtypeName>
+              <Min x="2" y="-2" z="-2" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorRoundCorner</SubtypeName>
+              <Min x="-2" y="2" z="-2" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorRoundCorner</SubtypeName>
+              <Min x="2" y="2" z="-2" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TextPanel">
+              <SubtypeName>SmallLCDPanel</SubtypeName>
+              <EntityId>103942090532236218</EntityId>
+              <Min x="-1" y="-1" z="-3" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>LCD Face</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <Description />
+              <Title>Title</Title>
+              <AccessFlag>READ_AND_WRITE_FACTION</AccessFlag>
+              <ChangeInterval>0</ChangeInterval>
+              <SelectedImages />
+              <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+              <FontSize>1</FontSize>
+              <PublicDescription />
+              <PublicTitle>Public title</PublicTitle>
+              <ShowText>NONE</ShowText>
+              <FontColor>
+                <PackedValue>4294967295</PackedValue>
+                <X>255</X>
+                <Y>255</Y>
+                <Z>255</Z>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+              </FontColor>
+              <BackgroundColor>
+                <PackedValue>4294967295</PackedValue>
+                <X>255</X>
+                <Y>255</Y>
+                <Z>255</Z>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+              </BackgroundColor>
+              <CurrentShownTexture>0</CurrentShownTexture>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="-1" z="-1" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="1" z="-1" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="0" z="-1" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="0" z="-1" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="1" z="-1" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
+              <SubtypeName>SmallBlockMediumContainer</SubtypeName>
+              <EntityId>99912621050283640</EntityId>
+              <Min x="-1" y="-1" z="0" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>3.375</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Medium Cargo Container</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+			  <ContainerType>CPC-Glitchy-Drone</ContainerType>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ShipConnector">
+              <SubtypeName>ConnectorMedium</SubtypeName>
+              <EntityId>78488497995388994</EntityId>
+              <Min x="-3" y="-1" z="0" />
+              <BlockOrientation Forward="Left" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <ShareMode>Faction</ShareMode>
+              <DeformationRatio>0.5</DeformationRatio>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>1.152</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Connector 3</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>false</Enabled>
+              <Inventory>
+                <Items />
+                <nextItemId>0</nextItemId>
+                <Volume>1.152</Volume>
+                <Mass>9223372036854.775807</Mass>
+                <MaxItemCount>2147483647</MaxItemCount>
+                <Size xsi:nil="true" />
+                <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+              </Inventory>
+              <ThrowOut>true</ThrowOut>
+              <CollectAll>true</CollectAll>
+              <MasterToSlaveTransform xsi:nil="true" />
+              <MasterToSlaveGrid xsi:nil="true" />
+              <IsMaster>false</IsMaster>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ShipConnector">
+              <SubtypeName>ConnectorMedium</SubtypeName>
+              <EntityId>103248493036013047</EntityId>
+              <Min x="2" y="-1" z="0" />
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <ShareMode>Faction</ShareMode>
+              <DeformationRatio>0.5</DeformationRatio>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>1.152</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Connector 4</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>false</Enabled>
+              <Inventory>
+                <Items />
+                <nextItemId>0</nextItemId>
+                <Volume>1.152</Volume>
+                <Mass>9223372036854.775807</Mass>
+                <MaxItemCount>2147483647</MaxItemCount>
+                <Size xsi:nil="true" />
+                <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+              </Inventory>
+              <ThrowOut>true</ThrowOut>
+              <CollectAll>true</CollectAll>
+              <MasterToSlaveTransform xsi:nil="true" />
+              <MasterToSlaveGrid xsi:nil="true" />
+              <IsMaster>false</IsMaster>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="1" y="-2" z="0" />
+              <BlockOrientation Forward="Up" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="-1" y="-2" z="0" />
+              <BlockOrientation Forward="Up" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="1" y="2" z="0" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="-1" y="2" z="0" />
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <EntityId>137434197240563586</EntityId>
+              <Min x="-2" y="0" z="3" />
+              <BlockOrientation Forward="Left" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <CustomName>Ion Thrusters 4</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <EntityId>92632074819669568</EntityId>
+              <Min x="1" y="0" z="3" />
+              <BlockOrientation Forward="Right" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <CustomName>Ion Thrusters 3</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="0" z="4" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="0" z="4" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <EntityId>110223499077554588</EntityId>
+              <Min x="1" y="0" z="5" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <CustomName>Ion Thrusters 8</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <EntityId>115784369420837013</EntityId>
+              <Min x="-1" y="0" z="5" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <CustomName>Ion Thrusters 7</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ButtonPanel">
+              <SubtypeName>ButtonPanelSmall</SubtypeName>
+              <EntityId>86070256499135063</EntityId>
+              <Min x="0" y="2" z="-3" />
+              <BlockOrientation Forward="Left" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Button Panel</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots>
+                  <Slot>
+                    <Index>0</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>Run</Action>
+                      <Parameters>
+                        <MyObjectBuilder_ToolbarItemActionParameter>
+                          <TypeCode>String</TypeCode>
+                          <Value>ButtonPress</Value>
+                        </MyObjectBuilder_ToolbarItemActionParameter>
+                      </Parameters>
+                      <BlockEntityId>93989402509361478</BlockEntityId>
+                    </Data>
+                  </Slot>
+                </Slots>
+              </Toolbar>
+              <AnyoneCanUse>true</AnyoneCanUse>
+              <CustomButtonNames>
+                <dictionary>
+                  <item>
+                    <Key xsi:type="xsd:int">0</Key>
+                    <Value xsi:type="xsd:string">The Help Button</Value>
+                  </item>
+                </dictionary>
+              </CustomButtonNames>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="2" y="0" z="5" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
+              <SubtypeName>SmallBlockGyro</SubtypeName>
+              <EntityId>135243683233601327</EntityId>
+              <Min x="0" y="0" z="3" />
+              <BlockOrientation Forward="Down" Up="Backward" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Gyroscope</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <TargetAngularVelocity x="0" y="-0" z="-2.58857465" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Reactor">
+              <SubtypeName>SmallBlockSmallGenerator</SubtypeName>
+              <EntityId>73238898544452924</EntityId>
+              <Min x="1" y="-2" z="1" />
+              <BlockOrientation Forward="Right" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items>
+                        <MyObjectBuilder_InventoryItem>
+                          <Amount>2</Amount>
+                          <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
+                            <SubtypeName>Uranium</SubtypeName>
+                          </PhysicalContent>
+                          <ItemId>0</ItemId>
+                        </MyObjectBuilder_InventoryItem>
+                      </Items>
+                      <nextItemId>1</nextItemId>
+                      <Volume>0.125</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Small Reactor</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <Inventory>
+                <Items>
+                  <MyObjectBuilder_InventoryItem>
+                    <Amount>2</Amount>
+                    <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
+                      <SubtypeName>Uranium</SubtypeName>
+                    </PhysicalContent>
+                    <ItemId>0</ItemId>
+                  </MyObjectBuilder_InventoryItem>
+                </Items>
+                <nextItemId>1</nextItemId>
+                <Volume>0.125</Volume>
+                <Mass>9223372036854.775807</Mass>
+                <MaxItemCount>2147483647</MaxItemCount>
+                <Size xsi:nil="true" />
+                <InventoryFlags>CanReceive</InventoryFlags>
+                <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+              </Inventory>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <EntityId>115870265698984511</EntityId>
+              <Min x="0" y="-2" z="3" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <CustomName>Ion Thrusters 5</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <EntityId>137942241200293490</EntityId>
+              <Min x="0" y="1" z="3" />
+              <BlockOrientation Forward="Up" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <CustomName>Ion Thrusters 6</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Reactor">
+              <SubtypeName>SmallBlockSmallGenerator</SubtypeName>
+              <EntityId>105753599317667040</EntityId>
+              <Min x="-1" y="-2" z="1" />
+              <BlockOrientation Forward="Left" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items>
+                        <MyObjectBuilder_InventoryItem>
+                          <Amount>2</Amount>
+                          <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
+                            <SubtypeName>Uranium</SubtypeName>
+                          </PhysicalContent>
+                          <ItemId>0</ItemId>
+                        </MyObjectBuilder_InventoryItem>
+                      </Items>
+                      <nextItemId>1</nextItemId>
+                      <Volume>0.125</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Small Reactor 2</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <Inventory>
+                <Items>
+                  <MyObjectBuilder_InventoryItem>
+                    <Amount>2</Amount>
+                    <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
+                      <SubtypeName>Uranium</SubtypeName>
+                    </PhysicalContent>
+                    <ItemId>0</ItemId>
+                  </MyObjectBuilder_InventoryItem>
+                </Items>
+                <nextItemId>1</nextItemId>
+                <Volume>0.125</Volume>
+                <Mass>9223372036854.775807</Mass>
+                <MaxItemCount>2147483647</MaxItemCount>
+                <Size xsi:nil="true" />
+                <InventoryFlags>CanReceive</InventoryFlags>
+                <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+              </Inventory>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Reactor">
+              <SubtypeName>SmallBlockSmallGenerator</SubtypeName>
+              <EntityId>91681534226333504</EntityId>
+              <Min x="1" y="2" z="1" />
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items>
+                        <MyObjectBuilder_InventoryItem>
+                          <Amount>2</Amount>
+                          <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
+                            <SubtypeName>Uranium</SubtypeName>
+                          </PhysicalContent>
+                          <ItemId>0</ItemId>
+                        </MyObjectBuilder_InventoryItem>
+                      </Items>
+                      <nextItemId>1</nextItemId>
+                      <Volume>0.125</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Small Reactor 3</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <Inventory>
+                <Items>
+                  <MyObjectBuilder_InventoryItem>
+                    <Amount>2</Amount>
+                    <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
+                      <SubtypeName>Uranium</SubtypeName>
+                    </PhysicalContent>
+                    <ItemId>0</ItemId>
+                  </MyObjectBuilder_InventoryItem>
+                </Items>
+                <nextItemId>1</nextItemId>
+                <Volume>0.125</Volume>
+                <Mass>9223372036854.775807</Mass>
+                <MaxItemCount>2147483647</MaxItemCount>
+                <Size xsi:nil="true" />
+                <InventoryFlags>CanReceive</InventoryFlags>
+                <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+              </Inventory>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Reactor">
+              <SubtypeName>SmallBlockSmallGenerator</SubtypeName>
+              <EntityId>115869575366078606</EntityId>
+              <Min x="-1" y="2" z="1" />
+              <BlockOrientation Forward="Left" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items>
+                        <MyObjectBuilder_InventoryItem>
+                          <Amount>2</Amount>
+                          <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
+                            <SubtypeName>Uranium</SubtypeName>
+                          </PhysicalContent>
+                          <ItemId>0</ItemId>
+                        </MyObjectBuilder_InventoryItem>
+                      </Items>
+                      <nextItemId>1</nextItemId>
+                      <Volume>0.125</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Small Reactor 4</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <Inventory>
+                <Items>
+                  <MyObjectBuilder_InventoryItem>
+                    <Amount>2</Amount>
+                    <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
+                      <SubtypeName>Uranium</SubtypeName>
+                    </PhysicalContent>
+                    <ItemId>0</ItemId>
+                  </MyObjectBuilder_InventoryItem>
+                </Items>
+                <nextItemId>1</nextItemId>
+                <Volume>0.125</Volume>
+                <Mass>9223372036854.775807</Mass>
+                <MaxItemCount>2147483647</MaxItemCount>
+                <Size xsi:nil="true" />
+                <InventoryFlags>CanReceive</InventoryFlags>
+                <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+              </Inventory>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+              <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
+              <EntityId>81928153179511676</EntityId>
+              <Min x="2" y="2" z="1" />
+              <BlockOrientation Forward="Up" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+              <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
+              <EntityId>113833701393278907</EntityId>
+              <Min x="-2" y="2" z="1" />
+              <BlockOrientation Forward="Up" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+              <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
+              <EntityId>74303489954212394</EntityId>
+              <Min x="2" y="-2" z="1" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+              <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
+              <EntityId>76589885326106240</EntityId>
+              <Min x="-2" y="-2" z="1" />
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Warhead">
+              <SubtypeName>SmallWarhead</SubtypeName>
+              <EntityId>135622942432986320</EntityId>
+              <Min x="0" y="0" z="4" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Warhead 5</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <CountdownMs>1170</CountdownMs>
+              <IsArmed>true</IsArmed>
+              <IsCountingDown>false</IsCountingDown>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
+              <SubtypeName>SmallBlockRadioAntenna</SubtypeName>
+              <EntityId>143637674549697244</EntityId>
+              <Min x="0" y="0" z="5" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Antenna 2</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>false</Enabled>
+              <BroadcastRadius>5000</BroadcastRadius>
+              <ShowShipName>false</ShowShipName>
+              <EnableBroadcasting>false</EnableBroadcasting>
+              <AttachedPB>0</AttachedPB>
+              <IgnoreAllied>false</IgnoreAllied>
+              <IgnoreOther>true</IgnoreOther>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-2" y="0" z="5" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="-2" y="0" z="6" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="2" y="0" z="6" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="-2" y="0" z="7" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="2" y="0" z="7" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+              <Min x="2" y="1" z="5" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+              <Min x="-2" y="1" z="5" />
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+              <Min x="2" y="-1" z="5" />
+              <BlockOrientation Forward="Left" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+              <Min x="-2" y="-1" z="5" />
+              <BlockOrientation Forward="Up" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="-2" y="-1" z="6" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="2" y="-1" z="6" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="-2" y="1" z="6" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Tip</SubtypeName>
+              <Min x="2" y="1" z="6" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorInvCorner2Tip</SubtypeName>
+              <Min x="-2" y="-1" z="4" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorInvCorner2Tip</SubtypeName>
+              <Min x="2" y="-1" z="4" />
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorInvCorner2Tip</SubtypeName>
+              <Min x="-2" y="1" z="4" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorInvCorner2Tip</SubtypeName>
+              <Min x="2" y="1" z="4" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorInvCorner2Base</SubtypeName>
+              <Min x="-2" y="-1" z="3" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorInvCorner2Base</SubtypeName>
+              <Min x="2" y="-1" z="3" />
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorInvCorner2Base</SubtypeName>
+              <Min x="-2" y="1" z="3" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorInvCorner2Base</SubtypeName>
+              <Min x="2" y="1" z="3" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="-2" y="0" z="4" />
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="2" y="0" z="4" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="-1" y="-1" z="5" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="1" y="-1" z="5" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="-1" y="1" z="5" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="1" y="1" z="5" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="-1" y="-1" z="4" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="1" y="-1" z="4" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="-1" y="1" z="4" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="1" y="1" z="4" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="0" y="-1" z="5" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="0" y="1" z="5" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="0" y="-1" z="6" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="0" y="1" z="6" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="-1" z="4" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="1" z="4" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="0" y="-2" z="4" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="0" y="2" z="4" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="-1" z="3" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="-1" z="3" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="1" z="3" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="1" z="3" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="1" y="-2" z="3" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="-1" y="-2" z="3" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="1" y="2" z="3" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="-1" y="2" z="3" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="1" y="-2" z="2" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="-1" y="-2" z="2" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="1" y="2" z="2" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="-1" y="2" z="2" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner</SubtypeName>
+              <Min x="-1" y="-3" z="-2" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner</SubtypeName>
+              <Min x="1" y="-3" z="-2" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0" y="0" z="0.05" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TextPanel">
+              <SubtypeName>SmallTextPanel</SubtypeName>
+              <EntityId>136856606786023388</EntityId>
+              <Min x="0" y="0" z="7" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+              <ShareMode>Faction</ShareMode>
+              <CustomName>LCD Rear</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <Description />
+              <Title>Title</Title>
+              <AccessFlag>READ_AND_WRITE_FACTION</AccessFlag>
+              <ChangeInterval>0</ChangeInterval>
+              <SelectedImages />
+              <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+              <FontSize>1</FontSize>
+              <PublicDescription>
+
+
+
+
+
+
+
+                      Private Hardware
+                           No Peeking</PublicDescription>
+              <PublicTitle>Public title</PublicTitle>
+              <ShowText>PUBLIC</ShowText>
+              <FontColor>
+                <PackedValue>4294967295</PackedValue>
+                <X>255</X>
+                <Y>255</Y>
+                <Z>255</Z>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+              </FontColor>
+              <BackgroundColor>
+                <PackedValue>4278190080</PackedValue>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+                <R>0</R>
+                <G>0</G>
+                <B>0</B>
+                <A>255</A>
+              </BackgroundColor>
+              <CurrentShownTexture>0</CurrentShownTexture>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="2" z="0" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="2" z="1" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="-2" z="0" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="-2" z="1" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="0" y="-2" z="2" />
+              <BlockOrientation Forward="Up" Up="Backward" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="0" y="2" z="2" />
+              <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <ConveyorLines>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="-1" y="0" z="1" />
+              <StartDirection>Left</StartDirection>
+              <EndPosition x="-2" y="0" z="1" />
+              <EndDirection>Right</EndDirection>
+              <Sections />
+              <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="1" y="0" z="1" />
+              <StartDirection>Right</StartDirection>
+              <EndPosition x="2" y="0" z="1" />
+              <EndDirection>Left</EndDirection>
+              <Sections />
+              <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="2" y="-1" z="1" />
+              <StartDirection>Down</StartDirection>
+              <EndPosition x="1" y="-2" z="1" />
+              <EndDirection>Right</EndDirection>
+              <Sections>
+                <Section Direction="Down" Length="1" />
+                <Section Direction="Left" Length="1" />
+              </Sections>
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="-2" y="-1" z="1" />
+              <StartDirection>Down</StartDirection>
+              <EndPosition x="-1" y="-2" z="1" />
+              <EndDirection>Left</EndDirection>
+              <Sections>
+                <Section Direction="Down" Length="1" />
+                <Section Direction="Right" Length="1" />
+              </Sections>
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="2" y="1" z="1" />
+              <StartDirection>Up</StartDirection>
+              <EndPosition x="1" y="2" z="1" />
+              <EndDirection>Right</EndDirection>
+              <Sections>
+                <Section Direction="Up" Length="1" />
+                <Section Direction="Left" Length="1" />
+              </Sections>
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="-2" y="1" z="1" />
+              <StartDirection>Up</StartDirection>
+              <EndPosition x="-1" y="2" z="1" />
+              <EndDirection>Left</EndDirection>
+              <Sections>
+                <Section Direction="Up" Length="1" />
+                <Section Direction="Right" Length="1" />
+              </Sections>
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+          </ConveyorLines>
+          <DisplayName>(NPC-CPC) Glitchy Drone</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+      </CubeGrids>
+    </Prefab>
+  </Prefabs>
+</Definitions>

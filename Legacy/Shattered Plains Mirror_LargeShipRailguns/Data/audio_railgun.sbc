@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sounds>
+  
+  <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>WepShipLargeRailgunShotLZM</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>750.207764</MaxDistance>
+      <Volume>0.8</Volume>
+      <Loopable>false</Loopable>
+	  <Waves>
+        <Wave Type="D3">
+          <Start>Audio\railgun_fire_3d.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+	
+	  <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>WepShipLargeRailgunDryLZM</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>104.207764</MaxDistance>
+      <Volume>0.380835</Volume>
+	  <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\WepMissileWarning.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+	
+	
+    </Sounds>
+</Definitions>

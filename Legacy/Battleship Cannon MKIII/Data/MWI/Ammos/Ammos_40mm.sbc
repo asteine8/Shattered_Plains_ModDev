@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ammos>
+
+	<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>40mm_Wolfram_Slug</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>800</DesiredSpeed>
+        <SpeedVariance>0.01</SpeedVariance>
+        <MaxTrajectory>1000</MaxTrajectory>
+        <BackkickForce>2000</BackkickForce>
+        <PhysicalMaterial>Missile_Telion1</PhysicalMaterial>
+      </BasicProperties>
+      <ProjectileProperties>
+        <ProjectileHitImpulse>30000</ProjectileHitImpulse>
+        <ProjectileMassDamage>600</ProjectileMassDamage>
+        <ProjectileHealthDamage>200</ProjectileHealthDamage>
+        <ProjectileTrailScale>1.35</ProjectileTrailScale>
+		<ProjectileTrailColor x="0.485" y="0.585" z="1.000" />
+		<!-- <ProjectileTrailColor x="0.985" y="0.762" z="0.521" /> Orange -->
+        <!-- <ProjectileTrailColor x="0.525" y="0.625" z="1.000" /> Silver-Blue (Last Used) -->
+		<!-- <ProjectileTrailColor x="0.425" y="0.525" z="1.000" /> Blue -->
+        <!-- <ProjectileTrailColor x="1.000" y="0.602" z="0.781" /> Orange-Red -->
+        <ProjectileTrailProbability>1</ProjectileTrailProbability>
+      </ProjectileProperties>
+    </Ammo>
+
+
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>40mm_Airburst_Shell</SubtypeId>
+      </Id>
+      <BasicProperties>
+        <DesiredSpeed>700</DesiredSpeed>
+        <SpeedVariance>0.01</SpeedVariance>
+        <MaxTrajectory>450</MaxTrajectory>
+        <BackkickForce>2000</BackkickForce>
+        <PhysicalMaterial>Missile_Telion1</PhysicalMaterial>
+      </BasicProperties>
+		<MissileProperties>
+			<MissileMass>9</MissileMass>
+			<MissileExplosionRadius>2</MissileExplosionRadius>
+			<MissileModelName>Models\Weapons\pTrace_small.mwm</MissileModelName>
+			<MissileAcceleration>300</MissileAcceleration>
+			<MissileInitialSpeed>500</MissileInitialSpeed>
+			<MissileSkipAcceleration>false</MissileSkipAcceleration>
+			<MissileExplosionDamage>45</MissileExplosionDamage>
+		</MissileProperties>
+    </Ammo>
+
+  </Ammos>
+</Definitions>

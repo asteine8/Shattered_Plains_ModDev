@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>
+   
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Corruption-Sniper-Launcher</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="60" ShootSoundName="WepShipSmallMissileShot" ShotsInBurst="0" />
+      <DeviateShotAngle>0.1</DeviateShotAngle>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <AmmoMagazines>
+       <AmmoMagazine Subtype="Corruption-Missile200mm-Sniper" />
+      </AmmoMagazines>
+      <ReloadTime>2000</ReloadTime>
+    </Weapon>
+	
+	<Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Corruption-Barrage-Launcher</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="600" ShootSoundName="WepShipSmallMissileShot" ShotsInBurst="16" />
+      <DeviateShotAngle>6</DeviateShotAngle>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <AmmoMagazines>
+       <AmmoMagazine Subtype="Missile200mm" />
+      </AmmoMagazines>
+      <ReloadTime>5000</ReloadTime>
+    </Weapon>
+	
+	<Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Corruption-Gatling-Scatter-Cannon</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="1000" ShootSoundName="WepShipGatlingShot" ShotsInBurst="180" />
+      <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+	    <DeviateShotAngle>3.5</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="NATO_25x184mm" />
+      </AmmoMagazines>
+      <ReloadTime>4000</ReloadTime>
+    </Weapon>
+	
+	<Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>Corruption-Turret-Scatter-Cannon</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="1000" ShootSoundName="WepGatlingTurretShot" ShotsInBurst="360" />
+      <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+      <DeviateShotAngle>4</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="NATO_25x184mm" />
+      </AmmoMagazines>
+      <ReloadTime>3000</ReloadTime>
+    </Weapon>
+    
+  </Weapons>
+</Definitions>

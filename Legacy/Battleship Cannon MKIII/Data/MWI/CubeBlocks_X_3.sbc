@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition" Enabled="false">
+		
+		  <Id>
+			<TypeId>LargeMissileTurret</TypeId>
+			<SubtypeId>BFTriCannon</SubtypeId>
+		  </Id>
+		  <DisplayName>X-3 Heavy Battery</DisplayName>
+		  <Icon>textures\GUI\Icons\X-3HeavyBattery_icon.dds</Icon>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="7" y="5" z="7" />
+		  <Center x="3" y="0" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Cubes\Gen2_7x7_TriBase.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  
+		  
+			<!-- SURVIVAL BALANCE-->
+		  <BuildTimeSeconds>160</BuildTimeSeconds>
+		  <InventoryMaxVolume>0.828</InventoryMaxVolume>
+		  <Components>
+			<Component Subtype="SteelPlate" Count="1200" />
+			<Component Subtype="Construction" Count="150" />
+			<Component Subtype="LargeTube" Count="150" />
+			<Component Subtype="Motor" Count="50" />
+			<Component Subtype="Computer" Count="50" />
+			<Component Subtype="MetalGrid" Count="100" />
+			<Component Subtype="Construction" Count="100" />
+			<Component Subtype="SteelPlate" Count="1000" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+			<!-- SURVIVAL BALANCE-->
+		  
+		  
+		  <MountPoints>
+			<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="7" EndY="7" />
+		  </MountPoints>
+		  <BuildProgressModels>
+			<Model BuildPercentUpperBound="0.5" File="Models\Cubes\ConstructionModels\Gen2_7x7_TriBase_con1.mwm" />
+			<Model BuildPercentUpperBound="1.0" File="Models\Cubes\ConstructionModels\Gen2_7x7_TriBase_con2.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			<StaticMode>
+			  <PlacementMode>OutsideVoxel</PlacementMode>
+			  <MaxAllowed>0.2</MaxAllowed>
+			  <MinAllowed>0</MinAllowed>
+			</StaticMode>
+			<DynamicMode>
+			  <PlacementMode>OutsideVoxel</PlacementMode>
+			  <MaxAllowed>0.2</MaxAllowed>
+			  <MinAllowed>0.01</MinAllowed>
+			</DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>X3HB</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+		  <WeaponDefinitionId Subtype="7x7_TriBarrel_460" />
+		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleWeapExpl</DamagedSound>
+		  <DestroyEffect>Explosion_Warhead_50</DestroyEffect>
+		  <DestroySound>WepLrgWarheadExpl</DestroySound>
+		  <ResourceSinkGroup>Defense</ResourceSinkGroup>
+		  <MinElevationDegrees>-5</MinElevationDegrees>
+		  <MaxElevationDegrees>35</MaxElevationDegrees>
+		  <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+		  <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+		  <RotationSpeed>0.00008</RotationSpeed>
+		  <ElevationSpeed>0.00015</ElevationSpeed>
+		  <MaxRangeMeters>1200</MaxRangeMeters>
+		  <AiEnabled>true</AiEnabled>
+		  <IdleRotation>false</IdleRotation>
+		  <DeformationRatio>0.3</DeformationRatio>
+		  <EmissiveColorPreset>Default</EmissiveColorPreset>
+		  <MinFov>0.1</MinFov>
+		  <MaxFov>1.04719755</MaxFov>
+      <PCU>120</PCU>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <Components>
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Tribble</SubtypeId>
+            </Id>
+            <DisplayName>Tribble</DisplayName>
+            <Icon>Textures\Icons\tribblev4.dds</Icon>
+            <Size>
+                <X>0.35</X>
+                <Y>0.35</Y>
+                <Z>0.35</Z>
+            </Size>
+            <Mass>100</Mass>
+            <Volume>1000</Volume>
+            <Model>Models\Components\CargoContainerMedium.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>100</MaxIntegrity>
+            <DropProbability>1.00</DropProbability>
+            <Health>50</Health>
+        </Component>
+    </Components>
+
+</Definitions>

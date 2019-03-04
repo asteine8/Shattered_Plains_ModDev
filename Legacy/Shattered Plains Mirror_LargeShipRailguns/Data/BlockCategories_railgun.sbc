@@ -1,0 +1,51 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CategoryClasses>
+        <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+            <Name>LargeBlocks</Name>
+            <ItemIds>
+                <string>SmallMissileLauncher/LargeRailGunLZM</string>
+                <string>LargeGatlingTurret/LargeRailgunTurretLZM</string>
+            </ItemIds>
+        </Category>
+        
+        <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>DisplayName_Category_ShipWeaponsTools</DisplayName>
+            <Name>ShipWeaponsTools</Name>
+            <SearchBlocks>false</SearchBlocks>
+            <IsShipCategory>true</IsShipCategory>
+            <IsBlockCategory>false</IsBlockCategory>
+            <ItemIds>
+                <string>SmallMissileLauncher/LargeRailGunLZM</string>
+                <!--<string>LargeGatlingTurret/LargeRailgunTurretLZM</string>-->
+                <!-- This is what shows up for toolbar binding firing. Doesn't work for turrets -->
+            </ItemIds>
+        </Category>  
+        
+        <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>DisplayName_Category_ShipWeaponsTools</DisplayName>
+            <Name>WeaponsTools</Name>
+            <SearchBlocks>false</SearchBlocks>
+            <IsShipCategory>true</IsShipCategory>
+            <IsBlockCategory>false</IsBlockCategory>
+            <ItemIds>
+                <string>SmallMissileLauncher/LargeRailGunLZM</string>
+                <string>LargeGatlingTurret/LargeRailgunTurretLZM</string> 
+            </ItemIds>
+        </Category>
+        
+    </CategoryClasses>
+</Definitions>

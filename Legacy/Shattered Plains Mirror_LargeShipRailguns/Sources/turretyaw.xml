@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Model Name="Default">
+  <Parameter Name="Centered">false</Parameter>
+  <Parameter Name="RescaleFactor">1</Parameter>
+  <Parameter Name="RescaleToLengthInMeters">false</Parameter>
+  <Parameter Name="SpecularPower">10</Parameter>
+  <Parameter Name="SpecularShininess">0.8</Parameter>
+  <Material Name="railgun_cm">
+    <Parameter Name="SpecularIntensity">0</Parameter>
+    <Parameter Name="SpecularPower">2</Parameter>
+    <Parameter Name="DiffuseColorX">255</Parameter>
+    <Parameter Name="DiffuseColorY">255</Parameter>
+    <Parameter Name="DiffuseColorZ">255</Parameter>
+    <Parameter Name="DiffuseTexture">Textures\Models\Cubes\railgun_cm.DDS</Parameter>
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="NormalTexture">Textures\Models\Cubes\railgun_ng.dds</Parameter>
+    <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\railgun_cm.dds</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\railgun_ng.dds</Parameter>
+    <Parameter Name="AddMapsTexture">Textures\Models\Cubes\railgun_add.dds</Parameter>
+  </Material>
+   <Material Name="railgun_turret_cm">
+    <Parameter Name="SpecularIntensity">0</Parameter>
+    <Parameter Name="SpecularPower">2</Parameter>
+    <Parameter Name="DiffuseColorX">255</Parameter>
+    <Parameter Name="DiffuseColorY">255</Parameter>
+    <Parameter Name="DiffuseColorZ">255</Parameter>
+    <Parameter Name="DiffuseTexture">Textures\Models\Cubes\railgun_turret_cm.DDS</Parameter>
+    <Parameter Name="Technique">MESH</Parameter>
+    <Parameter Name="NormalTexture">Textures\Models\Cubes\railgun_turret_ng.dds</Parameter>
+    <Parameter Name="ColorMetalTexture">Textures\Models\Cubes\railgun_turret_cm.dds</Parameter>
+    <Parameter Name="NormalGlossTexture">Textures\Models\Cubes\railgun_turret_ng.dds</Parameter>
+    <Parameter Name="AddMapsTexture">Textures\Models\Cubes\railgun_turret_add.dds</Parameter>
+  </Material>
+</Model>

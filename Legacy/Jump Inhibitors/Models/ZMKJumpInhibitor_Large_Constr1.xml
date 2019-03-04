@@ -1,0 +1,1422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Model Name="ZMKJumpInhibitor">
+	<Parameter Name="RescaleFactor">1.0</Parameter>
+	<Parameter Name="RescaleToLengthInMeters">false</Parameter>
+	<Parameter Name="Centered">false</Parameter>
+	<Parameter Name="SpecularPower">0.0</Parameter>
+	<Parameter Name="SpecularShininess">0.0</Parameter>
+	<Material Name="Emissive2">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #52">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="Emissive3">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #42">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #72">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="EmissveAtlasUnlit">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #74">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #59">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #29">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #96">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="Conveyor">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #77">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="Emissive0">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="PaintedMetal_Clean">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="PaintedMetalScratched_Yellow">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="Emissive1.005">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #33">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #76">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #53">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #37">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #68">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="PaintedMetalScratched_VeryDark">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #60">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="PanelingColorable">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="PaintedMetal_VeryDark">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="Decals">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #32">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #44">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="RubberWheels">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="Construction">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #75">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #28">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="PaintedMetal_Default">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #85">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #83">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="Terminal">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #79">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #55">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="Doodads">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="RustyMetalScratched">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="PaintedMetal_Colorable">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #47">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #97">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #49">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="PaintedMetalScratched_Colorable">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #82">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #3">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #39">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="Emissive.001">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="RubberScratched">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #98">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="PaintedMetalScratched_Darker">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="Conveyor_Yellow">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #54">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #27">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #26">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="PaintedMetal_Darker">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #73">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="Metal_Dull">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #45">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #69">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="Emissive4">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="PaintedMetal_Yellow">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #78">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #89">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #56">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #86">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #13">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="GlassInside">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="RustyMetal">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #43">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #31">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="Rubber">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="EmissiveAtlas">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #87">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #99">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #81">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="Chrome">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<!--material has no DiffuseTexture-->
+		<!--material has no NormalTexture-->
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Chrome_cm.DDS</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Chrome_ng.DDS</Parameter>
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="BlueFrostedMetal">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #84">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="RubberWheelsScratched">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #36">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="Metal_Shiny">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #41">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #57">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="TextAtlas">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="BlackMattePlastic">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="CameraLens">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #51">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #61">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="PanelingDarker">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #46">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #88">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #35">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #30">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="GlassOutside">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #48">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #58">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #38">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="BlackMetal">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SE_Blocks Slot #34">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+</Model>

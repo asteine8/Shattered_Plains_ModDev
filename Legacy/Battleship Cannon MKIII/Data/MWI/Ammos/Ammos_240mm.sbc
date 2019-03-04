@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ammos>
+  
+	<!-- https://en.wikipedia.org/wiki/BL_9.2_inch_gun_Mk_IX%E2%80%93X -->
+	<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+      <Id>
+        <TypeId>AmmoDefinition</TypeId>
+        <SubtypeId>240mm_HE_Shell</SubtypeId>
+      </Id>
+      <BasicProperties>
+	<DesiredSpeed>500</DesiredSpeed>
+	<SpeedVariance>0</SpeedVariance>
+	<MaxTrajectory>900</MaxTrajectory>
+	<IsExplosive>true</IsExplosive>
+	<BackkickForce>7000</BackkickForce>
+        <PhysicalMaterial>Missilemk1</PhysicalMaterial>
+      </BasicProperties>
+      <MissileProperties>
+	<MissileMass>100</MissileMass>
+	<MissileExplosionRadius>6</MissileExplosionRadius>
+	<MissileModelName>Models\Weapons\plasmaTrace.mwm</MissileModelName>
+	<MissileAcceleration>75</MissileAcceleration>
+	<MissileInitialSpeed>425</MissileInitialSpeed>
+	<MissileSkipAcceleration>false</MissileSkipAcceleration>
+	<MissileExplosionDamage>2000</MissileExplosionDamage>
+	</MissileProperties>
+    </Ammo>
+	
+  </Ammos>
+</Definitions>

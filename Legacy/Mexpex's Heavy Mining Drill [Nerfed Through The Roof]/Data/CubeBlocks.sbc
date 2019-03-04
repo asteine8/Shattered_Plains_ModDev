@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+	    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+      <Id>
+        <TypeId>Drill</TypeId>
+        <SubtypeId>LargeMegaDrill</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Mining Drill</DisplayName>
+      <public>false</public>
+      <Icon>Textures\GUI\Icons\MegaDrillIcon.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="7" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\DrillBase.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="18000" />
+        <Component Subtype="Construction" Count="200" />
+        <Component Subtype="SmallTube" Count="140" />
+        <Component Subtype="LargeTube" Count="120" />
+        <Component Subtype="Motor" Count="50" />
+        <Component Subtype="Computer" Count="70" />
+        <Component Subtype="SteelPlate" Count="4000" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.2" File="Models\Cubes\Large\DrillBaseCon1.mwm" />
+        <Model BuildPercentUpperBound="0.4" File="Models\Cubes\Large\DrillBaseCon2.mwm" />
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\DrillBaseCon3.mwm" />
+        <Model BuildPercentUpperBound="0.6" File="Models\Cubes\Large\DrillBaseCon4.mwm" />
+        <Model BuildPercentUpperBound="0.9" File="Models\Cubes\Large\DrillBaseCon5.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\DrillBaseCon6.mwm" />
+
+
+      </BuildProgressModels>
+
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="5" EndY="5" />
+
+      </MountPoints>
+
+      <BlockPairName>MegaDrill</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>180</BuildTimeSeconds>
+      <Center x="2" y="2" z="0" />
+      <SensorRadius>10</SensorRadius>
+      <SensorOffset>2</SensorOffset>
+	<CutOutRadius>10.5</CutOutRadius>
+      <CutOutOffset>-1</CutOutOffset>
+      <DeformationRatio>0.1</DeformationRatio>
+      <DamageEffectId>212</DamageEffectId>
+    </Definition>
+
+	    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+
+      <Id>
+        <TypeId>Drill</TypeId>
+        <SubtypeId>SmallMegaDrill</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Mining Drill</DisplayName>
+      <public>false</public>
+      <Icon>Textures\GUI\Icons\MegaDrillIcon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="15" y="15" z="21" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\DrillBase_Small.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="500" />
+        <Component Subtype="Construction" Count="800" />
+        <Component Subtype="SmallTube" Count="600" />
+        <Component Subtype="LargeTube" Count="50" />
+        <Component Subtype="Motor" Count="40" />
+        <Component Subtype="Computer" Count="30" />
+        <Component Subtype="SteelPlate" Count="4000" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.2" File="Models\Cubes\Large\DrillBaseSmallCon1.mwm" />
+        <Model BuildPercentUpperBound="0.4" File="Models\Cubes\Large\DrillBaseSmallCon2.mwm" />
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\DrillBaseSmallCon3.mwm" />
+        <Model BuildPercentUpperBound="0.6" File="Models\Cubes\Large\DrillBaseSmallCon4.mwm" />
+        <Model BuildPercentUpperBound="0.9" File="Models\Cubes\Large\DrillBaseSmallCon5.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\DrillBaseSmallCon6.mwm" />
+
+
+      </BuildProgressModels>
+
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="15" EndY="15" />
+
+      </MountPoints>
+
+      <BlockPairName>MegaDrill</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>180</BuildTimeSeconds>
+      <Center x="7" y="7" z="0" />
+      <SensorRadius>6</SensorRadius>
+      <SensorOffset>0.5</SensorOffset>
+	<CutOutRadius>8</CutOutRadius>
+      <CutOutOffset>-2.05</CutOutOffset>
+      <DeformationRatio>0.01</DeformationRatio>
+      <DamageEffectId>212</DamageEffectId>
+    </Definition>
+
+
+
+
+
+
+
+
+
+
+	    <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+      <Id>
+        <TypeId>Drill</TypeId>
+        <SubtypeId>XLsMegaDrill</SubtypeId>
+      </Id>
+      <DisplayName>Heavy Mining Drill(Small-XL)</DisplayName>
+      <public>false</public>
+      <Icon>Textures\GUI\Icons\MegaDrillIcon.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="25" y="25" z="35" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\DrillBaseLSmall.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <Components>
+        <Component Subtype="SteelPlate" Count="18000" />
+        <Component Subtype="Construction" Count="200" />
+        <Component Subtype="SmallTube" Count="140" />
+        <Component Subtype="LargeTube" Count="120" />
+        <Component Subtype="Motor" Count="50" />
+        <Component Subtype="Computer" Count="70" />
+        <Component Subtype="SteelPlate" Count="4000" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.2" File="Models\Cubes\Large\DrillBaseCon1.mwm" />
+        <Model BuildPercentUpperBound="0.4" File="Models\Cubes\Large\DrillBaseCon2.mwm" />
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\DrillBaseCon3.mwm" />
+        <Model BuildPercentUpperBound="0.6" File="Models\Cubes\Large\DrillBaseCon4.mwm" />
+        <Model BuildPercentUpperBound="0.9" File="Models\Cubes\Large\DrillBaseCon5.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\DrillBaseCon6.mwm" />
+
+
+      </BuildProgressModels>
+
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="25" EndY="25" />
+
+      </MountPoints>
+
+      <BlockPairName>MegaDrillSL</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>180</BuildTimeSeconds>
+      <Center x="12" y="12" z="0" />
+      <SensorRadius>10</SensorRadius>
+      <SensorOffset>2</SensorOffset>
+	<CutOutRadius>10.5</CutOutRadius>
+      <CutOutOffset>-1</CutOutOffset>
+      <DeformationRatio>0.01</DeformationRatio>
+      <DamageEffectId>212</DamageEffectId>
+    </Definition>
+
+	</CubeBlocks>
+</Definitions>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>
+    <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>BFGCannon_M</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="60" ShootSoundName="MK1CoilCannon" ShotsInBurst = "1" />  
+      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+      <DeviateShotAngle>0.075</DeviateShotAngle>
+      <ReleaseTimeAfterFire>15000</ReleaseTimeAfterFire>
+      <MuzzleFlashLifeSpan>5000</MuzzleFlashLifeSpan>
+      <ReloadTime>40000</ReloadTime>
+      <AmmoMagazines>
+	  
+        <AmmoMagazine Subtype="EMSlug460mm" />
+		
+      </AmmoMagazines>
+    </Weapon>
+  </Weapons>
+</Definitions>

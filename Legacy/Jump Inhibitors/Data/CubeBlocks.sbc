@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+		<!--JumpInhibitor-->
+		<Definition xsi:type="MyObjectBuilder_BeaconDefinition">
+			<Id>
+				<TypeId>Beacon</TypeId>
+				<SubtypeId>ZMKJumpInhibitor_Large</SubtypeId>
+			</Id>
+			<DisplayName>Jump Inhibitor</DisplayName>
+			<Icon>Textures\Icons\ZMKJumpInhibitor_Large.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="7" y="7" z="5" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\ZMKJumpInhibitor_Large.mwm</Model>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\ZMKJumpInhibitor_Large_Constr1.mwm" />
+				<Model BuildPercentUpperBound="0.67" File="Models\ZMKJumpInhibitor_Large_Constr2.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\ZMKJumpInhibitor_Large_Constr3.mwm" />
+			</BuildProgressModels>
+			<Components>
+				<Component Subtype="SteelPlate" Count="1000" />
+				<Component Subtype="LargeTube" Count="250" />
+				<Component Subtype="MetalGrid" Count="350" />
+				<Component Subtype="GravityGenerator" Count="175" />
+				<Component Subtype="Detector" Count="80" />
+				<Component Subtype="RadioCommunication" Count="200" />
+				<Component Subtype="Superconductor" Count="5000" />
+				<Component Subtype="Computer" Count="800" />
+				<Component Subtype="Construction" Count="400" />
+				<Component Subtype="SteelPlate" Count="375" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<BlockPairName>ZMKJumpInhibitor</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<EmissiveColorPreset>Inhibitor</EmissiveColorPreset>
+			<BuildTimeSeconds>90</BuildTimeSeconds>
+			<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+			<DestroySound>WepLrgWarheadExpl</DestroySound>
+			<Description>Prevents jumping in a radius around it and prevents jumping into that radius from outside. Extreme power draw.</Description>
+			<PCU>1000</PCU>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

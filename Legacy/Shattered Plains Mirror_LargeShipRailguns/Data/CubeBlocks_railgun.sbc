@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<CubeBlocks>    
+	<Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
+      <Id>
+        <TypeId>SmallMissileLauncher</TypeId>
+        <SubtypeId>LargeRailGunLZM</SubtypeId>
+      </Id>
+      <DisplayName>Large Ship Railgun</DisplayName>
+      <Icon>Textures\GUI\Icons\Railgun.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>6</Z>
+      </Size>
+      <ModelOffset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.1</Z>
+      </ModelOffset>
+      <Model>Models\Weapons\railgun.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="200" />
+        <Component Subtype="Construction" Count="50" />
+        <Component Subtype="MetalGrid" Count="4" />
+		<Component Subtype="Superconductor" Count="300" />
+		<Component Subtype="PowerCell" Count="60" />
+		<Component Subtype="Computer" Count="100" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Bottom" StartX="0" StartY="5" EndX="1" EndY="6" />
+		
+		<MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+		<MountPoint Side="Left" StartX="5" StartY="0" EndX="6" EndY="1" />
+		
+		<MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+		
+      </MountPoints>
+      
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Weapons\railgun_stage1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Weapons\railgun_stage2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Weapons\railgun_stage3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeRailgunLZM</BlockPairName>
+      <WeaponDefinitionId Subtype="LargeShipRailgunLZM" />
+	  <InventoryMaxVolume>0.32</InventoryMaxVolume>
+	  
+	  <DamageEffectId>214</DamageEffectId>
+	  <ExcludedAreaForCamera>10</ExcludedAreaForCamera>
+	  <BuildTimeSeconds>60</BuildTimeSeconds>
+	  <PhysicsOption>Convex</PhysicsOption>
+	  
+    </Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+       <Id>
+        <TypeId>LargeGatlingTurret</TypeId>
+        <SubtypeId>LargeRailgunTurretLZM</SubtypeId>
+      </Id>
+      <DisplayName>Large Ship Railgun Turret</DisplayName>
+      <Icon>Textures\GUI\Icons\railgun_turret.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="7" y="3" z="7" />
+      <ModelOffset x="0" y="-3.5" z="0" />
+      <Model>Models\Weapons\heavyturret_base.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+       <Components>
+        <Component Subtype="SteelPlate" Count="300" />
+        <Component Subtype="Construction" Count="100" />
+        <Component Subtype="MetalGrid" Count="6" />
+		<Component Subtype="Motor" Count="8" />
+		<Component Subtype="PowerCell" Count="60" />
+		<Component Subtype="Superconductor" Count="500" />
+		<Component Subtype="Computer" Count="150" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SteelPlate" Count="100" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+	  
+      <MountPoints>
+	  
+        <MountPoint Side="Bottom" StartX="3" StartY="2" EndX="4" EndY="5" />
+
+		
+      </MountPoints>
+	  
+	   <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Weapons\heavyturret_stage1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Weapons\heavyturret_stage2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Weapons\heavyturret_stage3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>LargeRailgunTurretLZM</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>90</BuildTimeSeconds>
+      <OverlayTexture>Textures\GUI\Screens\railgun_turret_overlay.dds</OverlayTexture>
+      <WeaponDefinitionId Subtype="LargeShipRailgunLZM" />
+      <InventoryMaxVolume>0.384</InventoryMaxVolume>
+	  <AiEnabled>true</AiEnabled>
+      <MaxRangeMeters>2500</MaxRangeMeters>
+      <MinElevationDegrees>-2</MinElevationDegrees>
+      <MaxElevationDegrees>75</MaxElevationDegrees>
+      <RotationSpeed> 0.000125</RotationSpeed>
+      <ElevationSpeed>0.000125</ElevationSpeed>
+      <IdleRotation> false </IdleRotation>
+      <DamageEffectId>214</DamageEffectId>
+      <MinFov>0.01</MinFov>
+      <MaxFov>1.04719755</MaxFov>
+    </Definition>
+</CubeBlocks>
+</Definitions>
+

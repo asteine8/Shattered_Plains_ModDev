@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<PirateAntennas>
+
+<!--HIVE SHIP-->
+
+<Antenna>
+	<Id>
+		<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+		<SubtypeId>(CPC)HIVE_1</SubtypeId>
+	</Id>
+	<Name>Manufacturing Kamikaze Drones</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>60000</SpawnTimeMs>
+	<FirstSpawnTimeMs>60000</FirstSpawnTimeMs>
+	<MaxDrones>10</MaxDrones>
+	<SpawnGroups>
+		<Group>(CPC)KAMIKAZE_DRONE_1_ANTENNA</Group>
+	</SpawnGroups>
+</Antenna>
+
+<Antenna>
+	<Id>
+		<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+		<SubtypeId>(CPC)HIVE_2</SubtypeId>
+	</Id>
+	<Name>Manufacturing Horsefly Drones</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>60000</SpawnTimeMs>
+	<FirstSpawnTimeMs>60000</FirstSpawnTimeMs>
+	<MaxDrones>10</MaxDrones>
+	<SpawnGroups>
+		<Group>(CPC)HORSEFLY_DRONE_1_ANTENNA</Group>
+	</SpawnGroups>
+</Antenna>
+
+<Antenna>
+	<Id>
+		<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+		<SubtypeId>(CPC)HIVE_3</SubtypeId>
+	</Id>
+	<Name>Manufacturing Salvage Drones</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>60000</SpawnTimeMs>
+	<FirstSpawnTimeMs>60000</FirstSpawnTimeMs>
+	<MaxDrones>10</MaxDrones>
+	<SpawnGroups>
+		<Group>(CPC)SALVAGE_DRONE_1_ANTENNA</Group>
+	</SpawnGroups>
+</Antenna>
+
+<Antenna>
+	<Id>
+		<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+		<SubtypeId>(CPC)HIVE_4</SubtypeId>
+	</Id>
+	<Name>Manufacturing Fighter Drones</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>60000</SpawnTimeMs>
+	<FirstSpawnTimeMs>60000</FirstSpawnTimeMs>
+	<MaxDrones>10</MaxDrones>
+	<SpawnGroups>
+		<Group>(CPC)FIGHTER_DRONE_1_ANTENNA</Group>
+	</SpawnGroups>
+</Antenna>
+
+<Antenna>
+	<Id>
+		<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+		<SubtypeId>(CPC)HIVE_5</SubtypeId>
+	</Id>
+	<Name>Manufacturing Strike Drones</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>60000</SpawnTimeMs>
+	<FirstSpawnTimeMs>60000</FirstSpawnTimeMs>
+	<MaxDrones>10</MaxDrones>
+	<SpawnGroups>
+		<Group>(CPC)STRIKE_DRONE_1_ANTENNA</Group>
+	</SpawnGroups>
+</Antenna>
+
+<Antenna>
+	<Id>
+		<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+		<SubtypeId>(CPC)HIVE_6</SubtypeId>
+	</Id>
+	<Name>Manufacturing Sniper Drones</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>60000</SpawnTimeMs>
+	<FirstSpawnTimeMs>60000</FirstSpawnTimeMs>
+	<MaxDrones>10</MaxDrones>
+	<SpawnGroups>
+		<Group>(CPC)SNIPER_DRONE_1_ANTENNA</Group>
+	</SpawnGroups>
+</Antenna>
+
+<Antenna>
+	<Id>
+		<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+		<SubtypeId>(CPC)HIVE_7</SubtypeId>
+	</Id>
+	<Name>Manufacturing Barnacle Drones</Name>
+	<SpawnDistance>250</SpawnDistance>
+	<SpawnTimeMs>60000</SpawnTimeMs>
+	<FirstSpawnTimeMs>60000</FirstSpawnTimeMs>
+	<MaxDrones>10</MaxDrones>
+	<SpawnGroups>
+		<Group>(CPC)BARNACLE_DRONE_1_ANTENNA</Group>
+	</SpawnGroups>
+</Antenna>
+
+<!--RECON SCOUT-->
+
+<Antenna>
+	<Id>
+		<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+		<SubtypeId>(CPC)SCOUT_ANTENNA</SubtypeId>
+	</Id>
+	<Name>Requesting Reinforcements</Name>
+	<SpawnDistance>9000</SpawnDistance>
+	<SpawnTimeMs>3600000</SpawnTimeMs>
+	<FirstSpawnTimeMs>100</FirstSpawnTimeMs>
+	<MaxDrones>5</MaxDrones>
+	<SpawnGroups>
+		<Group>(CPC)KAMIKAZE_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)HORSEFLY_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)SALVAGE_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)FIGHTER_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)STRIKE_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)SNIPER_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)GRAVITY_GUN_DRONE_ANTENNA</Group>
+		<Group>(CPC)SIEGE_DRONE_ANTENNA</Group>
+		<Group>(CPC)SIEGE_DRONE_ANTENNA_2</Group>
+	</SpawnGroups>
+</Antenna>
+
+<!--BLACKMAIL SCOUT-->
+
+<Antenna>
+	<Id>
+		<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+		<SubtypeId>(CPC)BLACKMAIL_INIT</SubtypeId>
+	</Id>
+	<Name>Deactivate your weapons and come here. Or else...</Name>
+	<SpawnDistance>2200</SpawnDistance>
+	<SpawnTimeMs>36000000</SpawnTimeMs>
+	<FirstSpawnTimeMs>5000</FirstSpawnTimeMs>
+	<MaxDrones>1</MaxDrones>
+	<SpawnGroups>
+		<Group>(CPC)RELAY_DRONE_ANTENNA</Group>
+	</SpawnGroups>
+</Antenna>
+
+<Antenna>
+	<Id>
+		<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+		<SubtypeId>(CPC)BLACKMAIL_ANTENNA_1</SubtypeId>
+	</Id>
+	<Name>You've made a poor choice. Now you will pay.</Name>
+	<SpawnDistance>9000</SpawnDistance>
+	<SpawnTimeMs>3600000</SpawnTimeMs>
+	<FirstSpawnTimeMs>100</FirstSpawnTimeMs>
+	<MaxDrones>5</MaxDrones>
+	<SpawnGroups>
+		<Group>(CPC)KAMIKAZE_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)HORSEFLY_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)SALVAGE_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)FIGHTER_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)STRIKE_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)SNIPER_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)GRAVITY_GUN_DRONE_ANTENNA</Group>
+		<Group>(CPC)SIEGE_DRONE_ANTENNA</Group>
+		<Group>(CPC)SIEGE_DRONE_ANTENNA_2</Group>
+	</SpawnGroups>
+</Antenna>
+
+<Antenna>
+	<Id>
+		<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+		<SubtypeId>(CPC)BLACKMAIL_ANTENNA_2</SubtypeId>
+	</Id>
+	<Name>I've grown tired of waiting. Good Luck...</Name>
+	<SpawnDistance>9000</SpawnDistance>
+	<SpawnTimeMs>3600000</SpawnTimeMs>
+	<FirstSpawnTimeMs>100</FirstSpawnTimeMs>
+	<MaxDrones>5</MaxDrones>
+	<SpawnGroups>
+		<Group>(CPC)KAMIKAZE_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)HORSEFLY_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)SALVAGE_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)FIGHTER_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)STRIKE_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)SNIPER_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)GRAVITY_GUN_DRONE_ANTENNA</Group>
+		<Group>(CPC)SIEGE_DRONE_ANTENNA</Group>
+		<Group>(CPC)SIEGE_DRONE_ANTENNA_2</Group>
+	</SpawnGroups>
+</Antenna>
+
+<Antenna>
+	<Id>
+		<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+		<SubtypeId>(CPC)RELAY_ANTENNA</SubtypeId>
+	</Id>
+	<Name>Backup Transmitter Activated</Name>
+	<SpawnDistance>9000</SpawnDistance>
+	<SpawnTimeMs>3600000</SpawnTimeMs>
+	<FirstSpawnTimeMs>100</FirstSpawnTimeMs>
+	<MaxDrones>5</MaxDrones>
+	<SpawnGroups>
+		<Group>(CPC)KAMIKAZE_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)HORSEFLY_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)SALVAGE_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)FIGHTER_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)STRIKE_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)SNIPER_DRONE_5_ANTENNA</Group>
+		<Group>(CPC)GRAVITY_GUN_DRONE_ANTENNA</Group>
+		<Group>(CPC)SIEGE_DRONE_ANTENNA</Group>
+		<Group>(CPC)SIEGE_DRONE_ANTENNA_2</Group>
+	</SpawnGroups>
+</Antenna>
+
+<!--GLITCHY DRONE-->
+
+<Antenna>
+	<Id>
+		<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+		<SubtypeId>(CPC)GLITCHY_ANTENNA</SubtypeId>
+	</Id>
+	<Name>Uh oh.. I think I dialed the wrong number...</Name>
+	<SpawnDistance>4500</SpawnDistance>
+	<SpawnTimeMs>1000</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs>
+	<MaxDrones>3</MaxDrones>
+	<SpawnGroups>
+		<Group>(CPC)KAMIKAZE_DRONE_1_ANTENNA</Group>
+		<Group>(CPC)HORSEFLY_DRONE_1_ANTENNA</Group>
+		<Group>(CPC)SALVAGE_DRONE_1_ANTENNA</Group>
+	</SpawnGroups>
+</Antenna>
+
+<!--BARNACLE DRONE-->
+
+<Antenna>
+	<Id>
+		<TypeId>MyObjectBuilder_PirateAntennaDefinition</TypeId>
+		<SubtypeId>(CPC)BARNACLE_ANTENNA</SubtypeId>
+	</Id>
+	<Name>Target Contact Confirmed</Name>
+	<SpawnDistance>4500</SpawnDistance>
+	<SpawnTimeMs>3600000</SpawnTimeMs>
+	<FirstSpawnTimeMs>3000</FirstSpawnTimeMs>
+	<MaxDrones>3</MaxDrones>
+	<SpawnGroups>
+		<Group>(CPC)KAMIKAZE_DRONE_3</Group>
+		<Group>(CPC)HORSEFLY_DRONE_3</Group>
+		<Group>(CPC)FIGHTER_DRONE_3</Group>
+		<Group>(CPC)SALVAGE_DRONE_3</Group>
+		<Group>(CPC)STRIKE_DRONE_3</Group>
+		<Group>(CPC)SNIPER_DRONE_3</Group>
+	</SpawnGroups>
+</Antenna>
+
+</PirateAntennas>
+</Definitions>

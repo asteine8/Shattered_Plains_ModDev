@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <EntityComponents>
+      <EntityComponent xsi:type="MyObjectBuilder_ModStorageComponentDefinition">
+         <Id>
+            <TypeId>ModStorageComponent</TypeId>
+            <SubtypeId>ZMKJumpInhibitorMod</SubtypeId>
+         </Id>
+         <RegisteredStorageGuids>
+            <guid>525a38e0-fe23-4bc2-b0c4-e260b48ff5b4</guid>
+         </RegisteredStorageGuids>
+      </EntityComponent>
+   </EntityComponents>
+</Definitions>

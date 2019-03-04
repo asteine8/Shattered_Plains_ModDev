@@ -1,0 +1,1041 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+	<ContainerTypes>
+		
+		<!-- =====SMALL CONTAINERS===== -->
+		
+		<!-- =====CONTAINER START===== -->
+		<ContainerType CountMin="1" CountMax="5">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>CPC-Common-Components-Small</SubtypeId>
+			</Id>
+
+			<Items>
+			
+				<Item AmountMin="60" AmountMax="200">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>BulletproofGlass</SubtypeId>
+					</Id>
+				</Item>  
+
+				<Item AmountMin="20" AmountMax="150">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Computer</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="100" AmountMax="400">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Construction</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Display</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="100" AmountMax="250">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Girder</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="50" AmountMax="200">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>InteriorPlate</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="10" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>LargeTube</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="50" AmountMax="100">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>MetalGrid</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="50" AmountMax="150">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Motor</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="100" AmountMax="600">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SteelPlate</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="100" AmountMax="200">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SmallTube</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="10" AmountMax="100">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>NATO_5p56x45mm</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="2">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>HandDrillItem</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="2">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>WelderItem</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="2">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>AngleGrinderItem</SubtypeId>
+					</Id>
+				</Item>
+
+			</Items>
+			
+		</ContainerType>
+		<!-- ======CONTAINER END====== -->
+		
+		<!-- =====CONTAINER START===== -->
+		<ContainerType CountMin="1" CountMax="5">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>CPC-Rare-Components-Small</SubtypeId>
+			</Id>
+
+			<Items>
+			
+				<Item AmountMin="5" AmountMax="25">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Detector</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="10" AmountMax="75">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Explosives</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="2" AmountMax="6">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>GravityGenerator</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="3" AmountMax="10">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Medical</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="5" AmountMax="20">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>PowerCell</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="5" AmountMax="20">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>RadioCommunication</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="25" AmountMax="100">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Reactor</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="5" AmountMax="25">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SolarCell</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="25" AmountMax="150">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Superconductor</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="50" AmountMax="150">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Thrust</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="5" AmountMax="20">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>Missile200mm</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="5" AmountMax="25">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>NATO_25x184mm</SubtypeId>
+					</Id>
+				</Item>
+			
+			</Items>
+			
+		</ContainerType>
+		<!-- ======CONTAINER END====== -->
+		
+		<!-- =====CONTAINER START===== -->
+		<ContainerType CountMin="2" CountMax="4">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>CPC-Common-Ore-Small</SubtypeId>
+			</Id>
+			
+			<Items>
+			
+				<Item AmountMin="2000" AmountMax="7400">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Cobalt</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="2000" AmountMax="7400">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Ice</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="2000" AmountMax="7400">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Iron</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="2000" AmountMax="7400">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Nickel</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="2000" AmountMax="7400">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Silicon</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="2000" AmountMax="7400">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Stone</SubtypeId>
+					</Id>
+				</Item>
+			
+			</Items>
+			
+		</ContainerType>
+		<!-- ======CONTAINER END====== -->
+		
+		<!-- =====CONTAINER START===== -->
+		<ContainerType CountMin="2" CountMax="4">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>CPC-Rare-Ore-Small</SubtypeId>
+			</Id>
+			
+			<Items>
+			
+				<Item AmountMin="2000" AmountMax="7400">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Gold</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="2000" AmountMax="7400">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Magnesium</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="2000" AmountMax="7400">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Platinum</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="2000" AmountMax="7400">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Silver</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="2000" AmountMax="7400">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Uranium</SubtypeId>
+					</Id>
+				</Item>
+			
+			</Items>
+			
+		</ContainerType>
+		<!-- ======CONTAINER END====== -->
+		
+		<!-- =====CONTAINER START===== -->
+		<ContainerType CountMin="2" CountMax="4">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>CPC-Common-Ingots-Small</SubtypeId>
+			</Id>
+			
+			<Items>
+			
+				<Item AmountMin="2000" AmountMax="14000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>Cobalt</SubtypeId>
+					</Id>
+				</Item>
+
+				<Item AmountMin="2000" AmountMax="14000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>Iron</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="2000" AmountMax="14000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>Nickel</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="2000" AmountMax="11000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>Silicon</SubtypeId>
+					</Id>
+				</Item>
+
+			</Items>
+			
+		</ContainerType>
+		<!-- ======CONTAINER END====== -->
+		
+		<!-- =====CONTAINER START===== -->
+		<ContainerType CountMin="2" CountMax="4">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>CPC-Rare-Ingots-Small</SubtypeId>
+			</Id>
+			
+			<Items>
+			
+				<Item AmountMin="250" AmountMax="500">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>Gold</SubtypeId>
+					</Id>
+				</Item>
+
+				<Item AmountMin="500" AmountMax="1000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>Magnesium</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="50" AmountMax="300">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>Platinum</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="500" AmountMax="1000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>Silver</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="100" AmountMax="500">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>Uranium</SubtypeId>
+					</Id>
+				</Item>
+
+			</Items>
+			
+		</ContainerType>
+		<!-- ======CONTAINER END====== -->
+		
+		<!-- =====CONTAINER START===== -->
+		<ContainerType CountMin="2" CountMax="4">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>CPC-Common-Tools-Small</SubtypeId>
+			</Id>
+			
+			<Items>
+			
+				<Item AmountMin="1" AmountMax="3">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>HandDrillItem</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="3">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>HandDrill2Item</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="3">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>AngleGrinderItem</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="3">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>AngleGrinder2Item</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="3">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>WelderItem</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="3">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>Welder2Item</SubtypeId>
+					</Id>
+				</Item>
+
+			</Items>
+			
+		</ContainerType>
+		<!-- ======CONTAINER END====== -->
+		
+		<!-- =====CONTAINER START===== -->
+		<ContainerType CountMin="2" CountMax="4">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>CPC-Rare-Tools-Small</SubtypeId>
+			</Id>
+			
+			<Items>
+			
+				<Item AmountMin="1" AmountMax="3">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>HandDrill3Item</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="3">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>HandDrill4Item</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="3">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>AngleGrinder3Item</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="3">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>AngleGrinder4Item</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="3">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>Welder3Item</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="3">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>Welder4Item</SubtypeId>
+					</Id>
+				</Item>
+
+			</Items>
+			
+		</ContainerType>
+		<!-- ======CONTAINER END====== -->
+		
+		<!-- =====CONTAINER START===== -->
+		<ContainerType CountMin="2" CountMax="4">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>CPC-Common-Weapons-Small</SubtypeId>
+			</Id>
+			
+			<Items>
+				
+				<Item AmountMin="50" AmountMax="100">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>NATO_5p56x45mm</SubtypeId>
+					</Id>
+				</Item>
+
+				<Item AmountMin="1" AmountMax="3">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>AutomaticRifleItem</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="3">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>PreciseAutomaticRifleItem</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="3">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>RapidFireAutomaticRifleItem</SubtypeId>
+					</Id>
+				</Item>
+				
+			</Items>
+			
+		</ContainerType>
+		<!-- ======CONTAINER END====== -->
+		
+		<!-- =====CONTAINER START===== -->
+		<ContainerType CountMin="2" CountMax="4">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>CPC-Rare-Weapons-Small</SubtypeId>
+			</Id>
+			
+			<Items>
+				
+				<Item AmountMin="150" AmountMax="500">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>NATO_5p56x45mm</SubtypeId>
+					</Id>
+				</Item>
+
+				<Item AmountMin="1" AmountMax="2">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>UltimateAutomaticRifleItem</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="25" AmountMax="50">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Explosives</SubtypeId>
+					</Id>
+				</Item>
+
+			</Items>
+			
+		</ContainerType>
+		<!-- ======CONTAINER END====== -->
+		
+		<!-- =====LARGE CONTAINERS===== -->
+		
+		<!-- =====CONTAINER START===== -->
+		<ContainerType CountMin="7" CountMax="12">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>CPC-Common-Components-Large</SubtypeId>
+			</Id>
+
+			<Items>
+			
+				<Item AmountMin="600" AmountMax="2000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>BulletproofGlass</SubtypeId>
+					</Id>
+				</Item>  
+
+				<Item AmountMin="200" AmountMax="1500">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Computer</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1000" AmountMax="4000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Construction</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="100" AmountMax="500">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Display</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1000" AmountMax="2500">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Girder</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="500" AmountMax="2000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>InteriorPlate</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="100" AmountMax="500">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>LargeTube</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="500" AmountMax="1000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>MetalGrid</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="500" AmountMax="1500">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Motor</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1000" AmountMax="6000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SteelPlate</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1000" AmountMax="2000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SmallTube</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="100" AmountMax="1000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>NATO_5p56x45mm</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="3" AmountMax="5">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>HandDrillItem</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="3" AmountMax="5">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>WelderItem</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="3" AmountMax="5">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>AngleGrinderItem</SubtypeId>
+					</Id>
+				</Item>
+
+			</Items>
+			
+		</ContainerType>
+		<!-- ======CONTAINER END====== -->
+		
+		<!-- =====CONTAINER START===== -->
+		<ContainerType CountMin="5" CountMax="10">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>CPC-Rare-Components-Large</SubtypeId>
+			</Id>
+
+			<Items>
+			
+				<Item AmountMin="50" AmountMax="250">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Detector</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="100" AmountMax="750">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Explosives</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="20" AmountMax="60">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>GravityGenerator</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="30" AmountMax="100">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Medical</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="50" AmountMax="200">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>PowerCell</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="50" AmountMax="200">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>RadioCommunication</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="250" AmountMax="1000">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Reactor</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="50" AmountMax="250">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>SolarCell</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="250" AmountMax="1500">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Superconductor</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="500" AmountMax="1500">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Thrust</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="50" AmountMax="200">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>Missile200mm</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="50" AmountMax="250">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>NATO_25x184mm</SubtypeId>
+					</Id>
+				</Item>
+			
+			</Items>
+			
+		</ContainerType>
+		<!-- ======CONTAINER END====== -->
+		
+		<!-- =====CONTAINER START===== -->
+		<ContainerType CountMin="3" CountMax="13">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>CPC-Glitchy-Drone</SubtypeId>
+			</Id>
+
+			<Items>
+				
+				<Item AmountMin="5" AmountMax="25">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Component</TypeId>
+						<SubtypeId>Explosives</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="5">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>Missile200mm</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="5" AmountMax="20">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>AmmoMagazine</TypeId>
+						<SubtypeId>NATO_25x184mm</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>HandDrill3Item</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>HandDrill4Item</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>AngleGrinder3Item</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>AngleGrinder4Item</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>Welder3Item</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>Welder4Item</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>UltimateAutomaticRifleItem</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>UltimateAutomaticRifleItem</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>PreciseAutomaticRifleItem</SubtypeId>
+					</Id>
+				</Item>
+				
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>PhysicalGunObject</TypeId>
+						<SubtypeId>RapidFireAutomaticRifleItem</SubtypeId>
+					</Id>
+				</Item>
+			
+			</Items>
+			
+		</ContainerType>
+		<!-- ======CONTAINER END====== -->
+		
+	</ContainerTypes>
+</Definitions>
