@@ -22,7 +22,7 @@
           <GridSizeEnum>Small</GridSizeEnum>
           <CubeBlocks>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MyProgrammableBlock">
-              <SubtypeName>Corruption-SmallProgrammableBlock</SubtypeName>
+              <SubtypeName>SmallProgrammableBlock</SubtypeName>
               <EntityId>79247830497566352</EntityId>
               <Min x="0" y="0" z="-4" />
               <BlockOrientation Forward="Backward" Up="Down" />
@@ -475,7 +475,7 @@ void TryIceRefill(){
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>143162478271248891</EntityId>
               <Min x="2" y="0" z="-11" />
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
@@ -497,7 +497,7 @@ void TryIceRefill(){
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>123924834038086935</EntityId>
               <Min x="-2" y="0" z="-11" />
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
@@ -719,7 +719,7 @@ void TryIceRefill(){
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>73682292210388838</EntityId>
               <Min x="2" y="0" z="-4" />
               <BlockOrientation Forward="Backward" Up="Right" />
@@ -732,7 +732,7 @@ void TryIceRefill(){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>136713969924034841</EntityId>
               <Min x="-2" y="0" z="-4" />
               <BlockOrientation Forward="Backward" Up="Right" />
@@ -745,7 +745,7 @@ void TryIceRefill(){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>102318678470675658</EntityId>
               <Min x="2" y="-1" z="-5" />
               <BlockOrientation Forward="Backward" Up="Right" />
@@ -758,7 +758,7 @@ void TryIceRefill(){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>132226004933352165</EntityId>
               <Min x="-2" y="-1" z="-5" />
               <BlockOrientation Forward="Backward" Up="Right" />
@@ -771,7 +771,7 @@ void TryIceRefill(){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>88995792959942369</EntityId>
               <Min x="2" y="1" z="-5" />
               <BlockOrientation Forward="Backward" Up="Right" />
@@ -784,7 +784,7 @@ void TryIceRefill(){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>83441971709646384</EntityId>
               <Min x="-2" y="1" z="-5" />
               <BlockOrientation Forward="Backward" Up="Right" />
@@ -1297,7 +1297,7 @@ void TryIceRefill(){
               </Inventory>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>89829910804898811</EntityId>
               <Min x="2" y="0" z="-6" />
               <BlockOrientation Forward="Right" Up="Forward" />
@@ -1310,7 +1310,7 @@ void TryIceRefill(){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>125098471799925135</EntityId>
               <Min x="-3" y="0" z="-6" />
               <BlockOrientation Forward="Left" Up="Forward" />
@@ -1323,7 +1323,7 @@ void TryIceRefill(){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>97605504980590577</EntityId>
               <Min x="2" y="0" z="-7" />
               <BlockOrientation Forward="Right" Up="Forward" />
@@ -1336,7 +1336,7 @@ void TryIceRefill(){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>95050089564535982</EntityId>
               <Min x="-3" y="0" z="-7" />
               <BlockOrientation Forward="Left" Up="Forward" />
@@ -1349,7 +1349,7 @@ void TryIceRefill(){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>120530349657671181</EntityId>
               <Min x="2" y="0" z="-8" />
               <BlockOrientation Forward="Right" Up="Forward" />
@@ -1362,7 +1362,7 @@ void TryIceRefill(){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>107887016536077837</EntityId>
               <Min x="-3" y="0" z="-8" />
               <BlockOrientation Forward="Left" Up="Forward" />
@@ -1385,7 +1385,7 @@ void TryIceRefill(){
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>119060277438917870</EntityId>
               <Min x="1" y="-2" z="-9" />
               <BlockOrientation Forward="Down" Up="Right" />
@@ -1398,7 +1398,7 @@ void TryIceRefill(){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>76481787609815753</EntityId>
               <Min x="-1" y="-2" z="-9" />
               <BlockOrientation Forward="Down" Up="Right" />
@@ -1411,7 +1411,7 @@ void TryIceRefill(){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>125495442357654487</EntityId>
               <Min x="1" y="1" z="-9" />
               <BlockOrientation Forward="Up" Up="Right" />
@@ -1424,7 +1424,7 @@ void TryIceRefill(){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>141257837492783346</EntityId>
               <Min x="-1" y="1" z="-9" />
               <BlockOrientation Forward="Up" Up="Right" />
@@ -2138,7 +2138,7 @@ void TryIceRefill(){
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>89979124623524183</EntityId>
               <Min x="-2" y="-1" z="-10" />
               <BlockOrientation Forward="Forward" Up="Left" />
@@ -2151,7 +2151,7 @@ void TryIceRefill(){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>72084493743911556</EntityId>
               <Min x="2" y="-1" z="-10" />
               <BlockOrientation Forward="Forward" Up="Left" />
@@ -2164,7 +2164,7 @@ void TryIceRefill(){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>87506627827488432</EntityId>
               <Min x="-2" y="1" z="-10" />
               <BlockOrientation Forward="Forward" Up="Left" />
@@ -2177,7 +2177,7 @@ void TryIceRefill(){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>144011484166197273</EntityId>
               <Min x="2" y="1" z="-10" />
               <BlockOrientation Forward="Forward" Up="Left" />

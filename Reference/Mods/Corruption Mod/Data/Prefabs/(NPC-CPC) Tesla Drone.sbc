@@ -486,7 +486,7 @@
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>115024800542604321</EntityId>
               <Min x="3" y="0" z="-1" />
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
@@ -498,7 +498,7 @@
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>138604592432715171</EntityId>
               <Min x="-3" y="0" z="-1" />
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
@@ -558,7 +558,7 @@
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MyProgrammableBlock">
-              <SubtypeName>Corruption-SmallProgrammableBlock</SubtypeName>
+              <SubtypeName>SmallProgrammableBlock</SubtypeName>
               <EntityId>125272020130506235</EntityId>
               <Min x="0" y="0" z="3" />
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
@@ -1921,7 +1921,7 @@ void ApplyGyroOverride(double pitch_speed, double yaw_speed, double roll_speed, 
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>131587357596568889</EntityId>
               <Min x="-4" y="1" z="3" />
               <BlockOrientation Forward="Up" Up="Backward" />
@@ -1934,7 +1934,7 @@ void ApplyGyroOverride(double pitch_speed, double yaw_speed, double roll_speed, 
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>109680723333502935</EntityId>
               <Min x="4" y="1" z="3" />
               <BlockOrientation Forward="Up" Up="Backward" />
@@ -1947,7 +1947,7 @@ void ApplyGyroOverride(double pitch_speed, double yaw_speed, double roll_speed, 
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>112261588212678823</EntityId>
               <Min x="-4" y="-2" z="3" />
               <BlockOrientation Forward="Down" Up="Backward" />
@@ -1960,7 +1960,7 @@ void ApplyGyroOverride(double pitch_speed, double yaw_speed, double roll_speed, 
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>133143099240780445</EntityId>
               <Min x="4" y="-2" z="3" />
               <BlockOrientation Forward="Down" Up="Backward" />
@@ -1973,7 +1973,7 @@ void ApplyGyroOverride(double pitch_speed, double yaw_speed, double roll_speed, 
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>100928074478480600</EntityId>
               <Min x="-4" y="1" z="5" />
               <BlockOrientation Forward="Up" Up="Backward" />
@@ -1986,7 +1986,7 @@ void ApplyGyroOverride(double pitch_speed, double yaw_speed, double roll_speed, 
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>129696022083574892</EntityId>
               <Min x="4" y="1" z="5" />
               <BlockOrientation Forward="Up" Up="Backward" />
@@ -1999,7 +1999,7 @@ void ApplyGyroOverride(double pitch_speed, double yaw_speed, double roll_speed, 
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>111910844612933051</EntityId>
               <Min x="-4" y="-2" z="5" />
               <BlockOrientation Forward="Down" Up="Backward" />
@@ -2012,7 +2012,7 @@ void ApplyGyroOverride(double pitch_speed, double yaw_speed, double roll_speed, 
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>87351746817218367</EntityId>
               <Min x="4" y="-2" z="5" />
               <BlockOrientation Forward="Down" Up="Backward" />
@@ -2025,7 +2025,7 @@ void ApplyGyroOverride(double pitch_speed, double yaw_speed, double roll_speed, 
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>78525486699993214</EntityId>
               <Min x="3" y="0" z="3" />
               <BlockOrientation Forward="Right" Up="Backward" />
@@ -2038,7 +2038,7 @@ void ApplyGyroOverride(double pitch_speed, double yaw_speed, double roll_speed, 
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>128423798669719833</EntityId>
               <Min x="-4" y="0" z="3" />
               <BlockOrientation Forward="Left" Up="Backward" />
@@ -2051,7 +2051,7 @@ void ApplyGyroOverride(double pitch_speed, double yaw_speed, double roll_speed, 
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>96507820580699333</EntityId>
               <Min x="3" y="0" z="5" />
               <BlockOrientation Forward="Right" Up="Backward" />
@@ -2064,7 +2064,7 @@ void ApplyGyroOverride(double pitch_speed, double yaw_speed, double roll_speed, 
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>83869667659924447</EntityId>
               <Min x="-4" y="0" z="5" />
               <BlockOrientation Forward="Left" Up="Backward" />
@@ -2794,7 +2794,7 @@ void ApplyGyroOverride(double pitch_speed, double yaw_speed, double roll_speed, 
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>103141203577751674</EntityId>
               <Min x="-3" y="0" z="8" />
               <BlockOrientation Forward="Backward" Up="Left" />
@@ -2807,7 +2807,7 @@ void ApplyGyroOverride(double pitch_speed, double yaw_speed, double roll_speed, 
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>110111677089233951</EntityId>
               <Min x="3" y="0" z="8" />
               <BlockOrientation Forward="Backward" Up="Left" />

@@ -73,7 +73,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MyProgrammableBlock">
-              <SubtypeName>Corruption-SmallProgrammableBlock</SubtypeName>
+              <SubtypeName>SmallProgrammableBlock</SubtypeName>
               <EntityId>137245530864483150</EntityId>
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
               <Owner>0</Owner>

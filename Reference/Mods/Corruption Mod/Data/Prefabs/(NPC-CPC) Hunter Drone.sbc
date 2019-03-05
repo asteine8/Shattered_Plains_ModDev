@@ -1495,7 +1495,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>97358131822838461</EntityId>
               <Min x="2" y="3" z="-6" />
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
@@ -1508,7 +1508,7 @@
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>107747370753056020</EntityId>
               <Min x="-2" y="3" z="-6" />
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
@@ -1521,7 +1521,7 @@
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>126103620230356779</EntityId>
               <Min x="2" y="1" z="-6" />
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
@@ -1534,7 +1534,7 @@
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>83993521032798838</EntityId>
               <Min x="-2" y="1" z="-6" />
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
@@ -2903,7 +2903,7 @@
               <Silent>true</Silent>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MyProgrammableBlock">
-              <SubtypeName>Corruption-LargeProgrammableBlock</SubtypeName>
+              <SubtypeName>LargeProgrammableBlock</SubtypeName>
               <EntityId>88984180003949447</EntityId>
               <Min x="0" y="2" z="5" />
               <BlockOrientation Forward="Backward" Up="Up" />
@@ -5461,7 +5461,7 @@ void TryChat(string message){
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>87820249453161258</EntityId>
               <Min x="2" y="2" z="8" />
               <BlockOrientation Forward="Backward" Up="Down" />
@@ -5475,7 +5475,7 @@ void TryChat(string message){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>86820720151919283</EntityId>
               <Min x="-2" y="2" z="8" />
               <BlockOrientation Forward="Backward" Up="Down" />
@@ -5996,7 +5996,7 @@ void TryChat(string message){
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>101567894738398857</EntityId>
               <Min x="5" y="3" z="-1" />
               <BlockOrientation Forward="Up" Up="Left" />
@@ -6010,7 +6010,7 @@ void TryChat(string message){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>135883264596814231</EntityId>
               <Min x="-5" y="3" z="-1" />
               <BlockOrientation Forward="Up" Up="Left" />
@@ -6024,7 +6024,7 @@ void TryChat(string message){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>133242512018180486</EntityId>
               <Min x="5" y="0" z="-1" />
               <BlockOrientation Forward="Down" Up="Left" />
@@ -6038,7 +6038,7 @@ void TryChat(string message){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>101202463650145775</EntityId>
               <Min x="-5" y="0" z="-1" />
               <BlockOrientation Forward="Down" Up="Left" />
@@ -6792,7 +6792,7 @@ void TryChat(string message){
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>119030042898461762</EntityId>
               <Min x="9" y="3" z="9" />
               <BlockOrientation Forward="Right" Up="Backward" />
@@ -6806,7 +6806,7 @@ void TryChat(string message){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>78750306868630223</EntityId>
               <Min x="9" y="3" z="8" />
               <BlockOrientation Forward="Right" Up="Backward" />
@@ -6820,7 +6820,7 @@ void TryChat(string message){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>102923328455183581</EntityId>
               <Min x="-10" y="3" z="9" />
               <BlockOrientation Forward="Left" Up="Backward" />
@@ -6834,7 +6834,7 @@ void TryChat(string message){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>120375995435541923</EntityId>
               <Min x="-10" y="3" z="8" />
               <BlockOrientation Forward="Left" Up="Backward" />
@@ -6848,7 +6848,7 @@ void TryChat(string message){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>73332925047789058</EntityId>
               <Min x="9" y="1" z="9" />
               <BlockOrientation Forward="Right" Up="Backward" />
@@ -6862,7 +6862,7 @@ void TryChat(string message){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>85099886091927716</EntityId>
               <Min x="9" y="1" z="8" />
               <BlockOrientation Forward="Right" Up="Backward" />
@@ -6876,7 +6876,7 @@ void TryChat(string message){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>131986456128513840</EntityId>
               <Min x="-10" y="1" z="9" />
               <BlockOrientation Forward="Left" Up="Backward" />
@@ -6890,7 +6890,7 @@ void TryChat(string message){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>107566828005222791</EntityId>
               <Min x="-10" y="1" z="8" />
               <BlockOrientation Forward="Left" Up="Backward" />

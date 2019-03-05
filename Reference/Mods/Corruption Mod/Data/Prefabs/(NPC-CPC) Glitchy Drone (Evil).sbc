@@ -104,7 +104,7 @@
                     <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
                   </MyObjectBuilder_CubeBlock>
                   <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MyProgrammableBlock">
-                    <SubtypeName>Corruption-SmallProgrammableBlock</SubtypeName>
+                    <SubtypeName>SmallProgrammableBlock</SubtypeName>
                     <EntityId>114770571692977308</EntityId>
                     <Min x="1" y="0" z="-2" />
                     <BlockOrientation Forward="Backward" Up="Down" />
@@ -1212,7 +1212,7 @@ void TryChat(string message){
                     <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
                   </MyObjectBuilder_CubeBlock>
                   <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-                    <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+                    <SubtypeName>SmallBlockSmallThrust</SubtypeName>
                     <EntityId>142745130109663874</EntityId>
                     <Min x="2" y="0" z="-2" />
                     <BlockOrientation Forward="Forward" Up="Left" />
@@ -1225,7 +1225,7 @@ void TryChat(string message){
                     <Enabled>true</Enabled>
                   </MyObjectBuilder_CubeBlock>
                   <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-                    <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+                    <SubtypeName>SmallBlockSmallThrust</SubtypeName>
                     <EntityId>119301456002130367</EntityId>
                     <Min x="-2" y="0" z="-2" />
                     <BlockOrientation Forward="Forward" Up="Left" />
@@ -1515,7 +1515,7 @@ void TryChat(string message){
                     <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
                   </MyObjectBuilder_CubeBlock>
                   <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-                    <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+                    <SubtypeName>SmallBlockSmallThrust</SubtypeName>
                     <EntityId>138388500984146421</EntityId>
                     <Min x="-2" y="0" z="3" />
                     <BlockOrientation Forward="Left" Up="Forward" />
@@ -1528,7 +1528,7 @@ void TryChat(string message){
                     <Enabled>true</Enabled>
                   </MyObjectBuilder_CubeBlock>
                   <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-                    <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+                    <SubtypeName>SmallBlockSmallThrust</SubtypeName>
                     <EntityId>73289431580979692</EntityId>
                     <Min x="1" y="0" z="3" />
                     <BlockOrientation Forward="Right" Up="Forward" />
@@ -1551,7 +1551,7 @@ void TryChat(string message){
                     <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
                   </MyObjectBuilder_CubeBlock>
                   <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-                    <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+                    <SubtypeName>SmallBlockSmallThrust</SubtypeName>
                     <EntityId>111636955509589803</EntityId>
                     <Min x="1" y="0" z="5" />
                     <BlockOrientation Forward="Backward" Up="Down" />
@@ -1564,7 +1564,7 @@ void TryChat(string message){
                     <Enabled>true</Enabled>
                   </MyObjectBuilder_CubeBlock>
                   <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-                    <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+                    <SubtypeName>SmallBlockSmallThrust</SubtypeName>
                     <EntityId>78752395692220666</EntityId>
                     <Min x="-1" y="0" z="5" />
                     <BlockOrientation Forward="Backward" Up="Down" />
@@ -1697,7 +1697,7 @@ void TryChat(string message){
                     </Inventory>
                   </MyObjectBuilder_CubeBlock>
                   <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-                    <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+                    <SubtypeName>SmallBlockSmallThrust</SubtypeName>
                     <EntityId>124395672429855772</EntityId>
                     <Min x="0" y="-2" z="3" />
                     <BlockOrientation Forward="Down" Up="Right" />
@@ -1710,7 +1710,7 @@ void TryChat(string message){
                     <Enabled>true</Enabled>
                   </MyObjectBuilder_CubeBlock>
                   <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-                    <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+                    <SubtypeName>SmallBlockSmallThrust</SubtypeName>
                     <EntityId>124425993835691929</EntityId>
                     <Min x="0" y="1" z="3" />
                     <BlockOrientation Forward="Up" Up="Right" />
@@ -5458,7 +5458,7 @@ void TryChat(string message){
                     <BlinkOffset>0</BlinkOffset>
                   </MyObjectBuilder_CubeBlock>
                   <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-                    <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+                    <SubtypeName>SmallBlockSmallThrust</SubtypeName>
                     <EntityId>98940323872357090</EntityId>
                     <Min x="6" y="0" z="7" />
                     <BlockOrientation Forward="Backward" Up="Down" />
@@ -5471,7 +5471,7 @@ void TryChat(string message){
                     <Enabled>true</Enabled>
                   </MyObjectBuilder_CubeBlock>
                   <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-                    <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+                    <SubtypeName>SmallBlockSmallThrust</SubtypeName>
                     <EntityId>93670194506195581</EntityId>
                     <Min x="-6" y="0" z="7" />
                     <BlockOrientation Forward="Backward" Up="Down" />
@@ -5484,7 +5484,7 @@ void TryChat(string message){
                     <Enabled>true</Enabled>
                   </MyObjectBuilder_CubeBlock>
                   <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-                    <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+                    <SubtypeName>SmallBlockSmallThrust</SubtypeName>
                     <EntityId>84380164932515055</EntityId>
                     <Min x="4" y="0" z="7" />
                     <BlockOrientation Forward="Backward" Up="Down" />
@@ -5497,7 +5497,7 @@ void TryChat(string message){
                     <Enabled>true</Enabled>
                   </MyObjectBuilder_CubeBlock>
                   <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-                    <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+                    <SubtypeName>SmallBlockSmallThrust</SubtypeName>
                     <EntityId>86275034950263968</EntityId>
                     <Min x="-4" y="0" z="7" />
                     <BlockOrientation Forward="Backward" Up="Down" />
@@ -5510,7 +5510,7 @@ void TryChat(string message){
                     <Enabled>true</Enabled>
                   </MyObjectBuilder_CubeBlock>
                   <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-                    <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+                    <SubtypeName>SmallBlockSmallThrust</SubtypeName>
                     <EntityId>88344062163567881</EntityId>
                     <Min x="5" y="0" z="8" />
                     <BlockOrientation Forward="Backward" Up="Down" />
@@ -5523,7 +5523,7 @@ void TryChat(string message){
                     <Enabled>true</Enabled>
                   </MyObjectBuilder_CubeBlock>
                   <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-                    <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+                    <SubtypeName>SmallBlockSmallThrust</SubtypeName>
                     <EntityId>79934098031697904</EntityId>
                     <Min x="-5" y="0" z="8" />
                     <BlockOrientation Forward="Backward" Up="Down" />
@@ -6574,7 +6574,7 @@ void TryChat(string message){
               <GetOwnershipFromProjector>false</GetOwnershipFromProjector>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MyProgrammableBlock">
-              <SubtypeName>Corruption-SmallProgrammableBlock</SubtypeName>
+              <SubtypeName>SmallProgrammableBlock</SubtypeName>
               <EntityId>142832593732035789</EntityId>
               <Min x="1" y="0" z="-2" />
               <BlockOrientation Forward="Backward" Up="Down" />
@@ -7691,7 +7691,7 @@ void FacePanelManager(IMyTextPanel textPanel, string facePanelName){
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>104858647579132638</EntityId>
               <Min x="2" y="0" z="-2" />
               <BlockOrientation Forward="Forward" Up="Left" />
@@ -7705,7 +7705,7 @@ void FacePanelManager(IMyTextPanel textPanel, string facePanelName){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>128113255505491737</EntityId>
               <Min x="-2" y="0" z="-2" />
               <BlockOrientation Forward="Forward" Up="Left" />
@@ -8098,7 +8098,7 @@ void FacePanelManager(IMyTextPanel textPanel, string facePanelName){
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>123522944821202054</EntityId>
               <Min x="-2" y="0" z="3" />
               <BlockOrientation Forward="Left" Up="Forward" />
@@ -8112,7 +8112,7 @@ void FacePanelManager(IMyTextPanel textPanel, string facePanelName){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>122718525163131625</EntityId>
               <Min x="1" y="0" z="3" />
               <BlockOrientation Forward="Right" Up="Forward" />
@@ -8138,7 +8138,7 @@ void FacePanelManager(IMyTextPanel textPanel, string facePanelName){
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>142222681999272889</EntityId>
               <Min x="1" y="0" z="5" />
               <BlockOrientation Forward="Backward" Up="Down" />
@@ -8152,7 +8152,7 @@ void FacePanelManager(IMyTextPanel textPanel, string facePanelName){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>100053228940267646</EntityId>
               <Min x="-1" y="0" z="5" />
               <BlockOrientation Forward="Backward" Up="Down" />
@@ -8284,7 +8284,7 @@ void FacePanelManager(IMyTextPanel textPanel, string facePanelName){
               </Inventory>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>115410486685652626</EntityId>
               <Min x="0" y="-2" z="3" />
               <BlockOrientation Forward="Down" Up="Right" />
@@ -8298,7 +8298,7 @@ void FacePanelManager(IMyTextPanel textPanel, string facePanelName){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>119245371708738030</EntityId>
               <Min x="0" y="1" z="3" />
               <BlockOrientation Forward="Up" Up="Right" />

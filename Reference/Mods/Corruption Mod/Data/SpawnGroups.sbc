@@ -20,6 +20,39 @@
 	  [BossCustomGPSLabel:Dangerous Encounter]
 	  [DisableDampeners:false]
 	  
+	</Description>
+	
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Vengeance Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Shield Generator Module</BeaconText>
+			<Speed>15.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)TEST_GROUP</SubtypeId>
+	</Id>
+	<Description>
+	  
+	  [Modular Encounters SpawnGroup]
+	  [FactionOwner:CORRUPT]
+	  [UseThreatLevelCheck:true]
+	  [ThreatLevelCheckRange:10000]
+	  [ThreatIncludeOtherNpcOwners:false]
+	  [ThreatScoreMinimum:500]
+	  [ThreatScoreMaximum:1000]
+	  
 	  </Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>1.0</Frequency>

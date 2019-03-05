@@ -1367,7 +1367,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>100728733670757149</EntityId>
               <Min x="4" y="3" z="6" />
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
@@ -1398,7 +1398,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>139105570976570832</EntityId>
               <Min x="-2" y="3" z="6" />
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
@@ -1462,7 +1462,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>117436765569916436</EntityId>
               <Min x="1" y="5" z="8" />
               <BlockOrientation Forward="Up" Up="Forward" />
@@ -4378,7 +4378,7 @@
               <TargetCharacters>true</TargetCharacters>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>76112778799291346</EntityId>
               <Min x="-1" y="-2" z="2" />
               <BlockOrientation Forward="Down" Up="Backward" />
@@ -4392,7 +4392,7 @@
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>77649335448291053</EntityId>
               <Min x="3" y="-2" z="2" />
               <BlockOrientation Forward="Down" Up="Backward" />
@@ -4440,7 +4440,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>126511058098898066</EntityId>
               <Min x="-1" y="-2" z="4" />
               <BlockOrientation Forward="Down" Up="Backward" />
@@ -4481,7 +4481,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>98708328687607847</EntityId>
               <Min x="3" y="-2" z="4" />
               <BlockOrientation Forward="Down" Up="Backward" />
@@ -5907,7 +5907,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>115834081140336748</EntityId>
               <Min x="-1" y="-2" z="14" />
               <BlockOrientation Forward="Left" Up="Up" />
@@ -6139,7 +6139,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>73385263896479681</EntityId>
               <Min x="-1" y="-1" z="14" />
               <BlockOrientation Forward="Left" Up="Up" />
@@ -7839,7 +7839,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockLargeThrust</SubtypeName>
+              <SubtypeName>LargeBlockLargeThrust</SubtypeName>
               <EntityId>72801952694721176</EntityId>
               <Min x="7" y="-2" z="27" />
               <BlockOrientation Forward="Forward" Up="Right" />
@@ -7996,7 +7996,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockLargeThrust</SubtypeName>
+              <SubtypeName>LargeBlockLargeThrust</SubtypeName>
               <EntityId>87920335351656094</EntityId>
               <Min x="-6" y="-2" z="27" />
               <BlockOrientation Forward="Forward" Up="Left" />
@@ -8042,7 +8042,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>80460720369441633</EntityId>
               <Min x="2" y="-1" z="14" />
               <BlockOrientation Forward="Right" Up="Up" />
@@ -8211,7 +8211,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>80652934623275611</EntityId>
               <Min x="2" y="-2" z="14" />
               <BlockOrientation Forward="Right" Up="Up" />
@@ -8438,7 +8438,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>111389842870524525</EntityId>
               <Min x="4" y="2" z="12" />
               <BlockOrientation Forward="Right" Up="Backward" />
@@ -8713,7 +8713,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>116399845365362002</EntityId>
               <Min x="-3" y="2" z="14" />
               <BlockOrientation Forward="Left" Up="Backward" />
@@ -8856,7 +8856,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>78122074419745350</EntityId>
               <Min x="-3" y="2" z="12" />
               <BlockOrientation Forward="Left" Up="Backward" />
@@ -8870,7 +8870,7 @@
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>80678674851694139</EntityId>
               <Min x="4" y="2" z="14" />
               <BlockOrientation Forward="Right" Up="Backward" />
@@ -13178,7 +13178,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>104718142899518816</EntityId>
               <Min x="7" y="1" z="22" />
               <BlockOrientation Forward="Right" Up="Up" />
@@ -13213,7 +13213,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>104666948866520347</EntityId>
               <Min x="7" y="1" z="24" />
               <BlockOrientation Forward="Right" Up="Up" />
@@ -13233,7 +13233,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>122318097651333036</EntityId>
               <Min x="-6" y="1" z="22" />
               <BlockOrientation Forward="Left" Up="Up" />
@@ -13412,7 +13412,7 @@
               <TargetCharacters>false</TargetCharacters>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>95693713284468045</EntityId>
               <Min x="-6" y="1" z="24" />
               <BlockOrientation Forward="Left" Up="Up" />
@@ -15155,7 +15155,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MyProgrammableBlock">
-              <SubtypeName>Corruption-LargeProgrammableBlock</SubtypeName>
+              <SubtypeName>LargeProgrammableBlock</SubtypeName>
               <EntityId>137168085747963827</EntityId>
               <Min x="1" y="3" z="37" />
               <BlockOrientation Forward="Backward" Up="Up" />
@@ -15821,7 +15821,7 @@ string VectorToGPS(Vector3D coords, string gpsName){
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MyProgrammableBlock">
-              <SubtypeName>Corruption-LargeProgrammableBlock</SubtypeName>
+              <SubtypeName>LargeProgrammableBlock</SubtypeName>
               <EntityId>133395955183913940</EntityId>
               <Min x="1" y="3" z="38" />
               <BlockOrientation Forward="Backward" Up="Up" />
@@ -16625,7 +16625,7 @@ double MeasureDistance(Vector3D point_a, Vector3D point_b){
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>91274009628899744</EntityId>
               <Min x="-6" y="3" z="22" />
               <BlockOrientation Forward="Left" Up="Up" />
@@ -16639,7 +16639,7 @@ double MeasureDistance(Vector3D point_a, Vector3D point_b){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>134292406592441184</EntityId>
               <Min x="7" y="3" z="22" />
               <BlockOrientation Forward="Right" Up="Up" />
@@ -16653,7 +16653,7 @@ double MeasureDistance(Vector3D point_a, Vector3D point_b){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>95404353773959979</EntityId>
               <Min x="-6" y="3" z="24" />
               <BlockOrientation Forward="Left" Up="Up" />
@@ -16667,7 +16667,7 @@ double MeasureDistance(Vector3D point_a, Vector3D point_b){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>128661013189422092</EntityId>
               <Min x="7" y="3" z="24" />
               <BlockOrientation Forward="Right" Up="Up" />
@@ -18314,7 +18314,7 @@ double MeasureDistance(Vector3D point_a, Vector3D point_b){
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockLargeThrust</SubtypeName>
+              <SubtypeName>LargeBlockLargeThrust</SubtypeName>
               <EntityId>124420738299707998</EntityId>
               <Min x="0" y="0" z="38" />
               <BlockOrientation Forward="Backward" Up="Down" />
@@ -18340,7 +18340,7 @@ double MeasureDistance(Vector3D point_a, Vector3D point_b){
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockLargeThrust</SubtypeName>
+              <SubtypeName>LargeBlockLargeThrust</SubtypeName>
               <EntityId>93200121932289201</EntityId>
               <Min x="0" y="-2" z="36" />
               <BlockOrientation Forward="Backward" Up="Up" />
@@ -18354,7 +18354,7 @@ double MeasureDistance(Vector3D point_a, Vector3D point_b){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>140028037304885685</EntityId>
               <Min x="0" y="6" z="27" />
               <BlockOrientation Forward="Up" Up="Right" />
@@ -18368,7 +18368,7 @@ double MeasureDistance(Vector3D point_a, Vector3D point_b){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>143365052942982140</EntityId>
               <Min x="2" y="6" z="27" />
               <BlockOrientation Forward="Up" Up="Right" />
@@ -18382,7 +18382,7 @@ double MeasureDistance(Vector3D point_a, Vector3D point_b){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>79399125507349555</EntityId>
               <Min x="0" y="6" z="28" />
               <BlockOrientation Forward="Up" Up="Right" />
@@ -18396,7 +18396,7 @@ double MeasureDistance(Vector3D point_a, Vector3D point_b){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>117298205032784659</EntityId>
               <Min x="2" y="6" z="28" />
               <BlockOrientation Forward="Up" Up="Right" />
@@ -18410,7 +18410,7 @@ double MeasureDistance(Vector3D point_a, Vector3D point_b){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>124344906418507699</EntityId>
               <Min x="0" y="6" z="29" />
               <BlockOrientation Forward="Up" Up="Right" />
@@ -18424,7 +18424,7 @@ double MeasureDistance(Vector3D point_a, Vector3D point_b){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>108416420179127504</EntityId>
               <Min x="2" y="6" z="29" />
               <BlockOrientation Forward="Up" Up="Right" />
@@ -20405,7 +20405,7 @@ double MeasureDistance(Vector3D point_a, Vector3D point_b){
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockLargeThrust</SubtypeName>
+              <SubtypeName>LargeBlockLargeThrust</SubtypeName>
               <EntityId>126592404220530573</EntityId>
               <Min x="0" y="2" z="40" />
               <BlockOrientation Forward="Backward" Up="Up" />
@@ -22201,7 +22201,7 @@ double MeasureDistance(Vector3D point_a, Vector3D point_b){
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>131900869177522572</EntityId>
               <Min x="2" y="-7" z="26" />
               <BlockOrientation Forward="Down" Up="Right" />
@@ -22976,7 +22976,7 @@ double MeasureDistance(Vector3D point_a, Vector3D point_b){
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>113404387347755494</EntityId>
               <Min x="-6" y="-3" z="23" />
               <BlockOrientation Forward="Left" Up="Down" />
@@ -22990,7 +22990,7 @@ double MeasureDistance(Vector3D point_a, Vector3D point_b){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>81054106601791997</EntityId>
               <Min x="7" y="-3" z="23" />
               <BlockOrientation Forward="Right" Up="Down" />
@@ -23542,7 +23542,7 @@ double MeasureDistance(Vector3D point_a, Vector3D point_b){
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockSmallThrust</SubtypeName>
+              <SubtypeName>LargeBlockSmallThrust</SubtypeName>
               <EntityId>86947759929941824</EntityId>
               <Min x="0" y="-7" z="26" />
               <BlockOrientation Forward="Down" Up="Right" />
@@ -24567,7 +24567,7 @@ double MeasureDistance(Vector3D point_a, Vector3D point_b){
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockLargeThrust</SubtypeName>
+              <SubtypeName>LargeBlockLargeThrust</SubtypeName>
               <EntityId>81122513458274870</EntityId>
               <Min x="-6" y="-2" z="31" />
               <BlockOrientation Forward="Backward" Up="Left" />
@@ -24581,7 +24581,7 @@ double MeasureDistance(Vector3D point_a, Vector3D point_b){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-LargeBlockLargeThrust</SubtypeName>
+              <SubtypeName>LargeBlockLargeThrust</SubtypeName>
               <EntityId>103223119587907888</EntityId>
               <Min x="7" y="-2" z="31" />
               <BlockOrientation Forward="Backward" Up="Right" />

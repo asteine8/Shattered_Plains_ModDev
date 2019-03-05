@@ -102,7 +102,7 @@
               <IsMainRemoteControl>false</IsMainRemoteControl>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MyProgrammableBlock">
-              <SubtypeName>Corruption-SmallProgrammableBlock</SubtypeName>
+              <SubtypeName>SmallProgrammableBlock</SubtypeName>
               <EntityId>83228718674421482</EntityId>
               <Min x="0" y="0" z="-1" />
               <BlockOrientation Forward="Backward" Up="Up" />
@@ -654,7 +654,7 @@ void TryDespawn(IMyRemoteControl remoteControl, bool gravity){
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>102067605128710356</EntityId>
               <Min x="-2" y="-1" z="-7" />
               <BlockOrientation Forward="Forward" Up="Left" />
@@ -682,7 +682,7 @@ void TryDespawn(IMyRemoteControl remoteControl, bool gravity){
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>101595874474889222</EntityId>
               <Min x="2" y="-1" z="0" />
               <BlockOrientation Forward="Backward" Up="Right" />
@@ -696,7 +696,7 @@ void TryDespawn(IMyRemoteControl remoteControl, bool gravity){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>103724470586096301</EntityId>
               <Min x="-2" y="-1" z="0" />
               <BlockOrientation Forward="Backward" Up="Right" />
@@ -710,7 +710,7 @@ void TryDespawn(IMyRemoteControl remoteControl, bool gravity){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>142383394970877178</EntityId>
               <Min x="2" y="1" z="0" />
               <BlockOrientation Forward="Backward" Up="Right" />
@@ -724,7 +724,7 @@ void TryDespawn(IMyRemoteControl remoteControl, bool gravity){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>73824192942204211</EntityId>
               <Min x="-2" y="1" z="0" />
               <BlockOrientation Forward="Backward" Up="Right" />
@@ -738,7 +738,7 @@ void TryDespawn(IMyRemoteControl remoteControl, bool gravity){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>138680182992048746</EntityId>
               <Min x="2" y="-1" z="-7" />
               <BlockOrientation Forward="Forward" Up="Left" />
@@ -752,7 +752,7 @@ void TryDespawn(IMyRemoteControl remoteControl, bool gravity){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>135961676772473733</EntityId>
               <Min x="-2" y="1" z="-7" />
               <BlockOrientation Forward="Forward" Up="Left" />
@@ -766,7 +766,7 @@ void TryDespawn(IMyRemoteControl remoteControl, bool gravity){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>94833387742135319</EntityId>
               <Min x="2" y="1" z="-7" />
               <BlockOrientation Forward="Forward" Up="Left" />
@@ -792,7 +792,7 @@ void TryDespawn(IMyRemoteControl remoteControl, bool gravity){
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>124144528661001622</EntityId>
               <Min x="2" y="0" z="-6" />
               <BlockOrientation Forward="Right" Up="Backward" />
@@ -806,7 +806,7 @@ void TryDespawn(IMyRemoteControl remoteControl, bool gravity){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>97721154429850548</EntityId>
               <Min x="-3" y="0" z="-6" />
               <BlockOrientation Forward="Left" Up="Backward" />
@@ -854,7 +854,7 @@ void TryDespawn(IMyRemoteControl remoteControl, bool gravity){
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>90722968682221953</EntityId>
               <Min x="-3" y="0" z="0" />
               <BlockOrientation Forward="Left" Up="Backward" />
@@ -868,7 +868,7 @@ void TryDespawn(IMyRemoteControl remoteControl, bool gravity){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>96379938800497218</EntityId>
               <Min x="2" y="0" z="0" />
               <BlockOrientation Forward="Right" Up="Backward" />
@@ -888,7 +888,7 @@ void TryDespawn(IMyRemoteControl remoteControl, bool gravity){
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>104879336158572353</EntityId>
               <Min x="-1" y="2" z="-3" />
               <BlockOrientation Forward="Up" Up="Left" />
@@ -939,7 +939,7 @@ void TryDespawn(IMyRemoteControl remoteControl, bool gravity){
               <IgnoreOther>true</IgnoreOther>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>89557968395588816</EntityId>
               <Min x="1" y="2" z="-3" />
               <BlockOrientation Forward="Up" Up="Left" />
@@ -953,7 +953,7 @@ void TryDespawn(IMyRemoteControl remoteControl, bool gravity){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>141367779414802608</EntityId>
               <Min x="-1" y="-3" z="-3" />
               <BlockOrientation Forward="Down" Up="Left" />
@@ -967,7 +967,7 @@ void TryDespawn(IMyRemoteControl remoteControl, bool gravity){
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>112821893702638172</EntityId>
               <Min x="1" y="-3" z="-3" />
               <BlockOrientation Forward="Down" Up="Left" />

@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <SpawnGroups>
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Rebel_Spawn_Group_1</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceCargoShip:true]
+                [FactionOwner:RBL]
+                [ReplenishSystems:true]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>20.0</Frequency>
+            <IsPirate>true</IsPirate>
+
+            <Prefabs>
+                <Prefab SubtypeId="AS-3C Attack Fighter">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Rebel Fighter</BeaconText>
+                    <Speed>50.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Rebel_Territory_2_Fighters</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceCargoShip:true]
+                [FactionOwner:RBL]
+                [ReplenishSystems:true]
+
+                [Territory:Rebel Space]
+                [MaxDistanceFromTerritoryCenter:10000]
+                [MinDistanceFromTerritoryCenter:500]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>20.0</Frequency>
+            <IsPirate>true</IsPirate>
+
+            <Prefabs>
+                <Prefab SubtypeId="AS-3C Attack Fighter">
+                    <Position>
+                        <X>60.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Rebel Fighter</BeaconText>
+                    <Speed>50.0</Speed>
+                </Prefab>
+                <Prefab SubtypeId="AS-3C Attack Fighter">
+                    <Position>
+                        <X>-20.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Rebel Fighter</BeaconText>
+                    <Speed>50.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+    </SpawnGroups>
+</Definitions>

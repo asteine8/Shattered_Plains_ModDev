@@ -4,32 +4,35 @@
         <SpawnGroup>
             <Id>
                 <TypeId>SpawnGroupDefinition</TypeId>
-                <SubtypeId>RBL_Virga_Corvette</SubtypeId>
+                <SubtypeId>Rebel Space Territory</SubtypeId>
             </Id>
             <Description>
 
-                [Modular Encounters SpawnGroup]
-                [SpaceCargoShip:true]
-                [FactionOwner:RBL]
-
-                [DisableDampeners:false]
-                [ReplenishSystems:true]
+                [Modular Encounters Territory]
+                [Name:Rebel Space]
+                [TerritoryType:Static]
+                [Radius:20000]
+                [CoordsX:200000]
+                [CoordsY:0]
+                [CoordsZ:0]
+                [AnnounceArriveDepart:true]
 
             </Description>
 
+            <!-- We Need to add this, but it doesn't actually affect the spawner. Just to make the game happy -->
             <Icon>Textures\GUI\Icons\Fake.dds</Icon>
-            <Frequency>20.0</Frequency> <!--High Frequency Spawning for Testing-->
+            <Frequency>30.0</Frequency>
             <IsPirate>true</IsPirate>
 
             <Prefabs>
-                <Prefab SubtypeId="Virga Class Corvette MKIII">
+                <Prefab SubtypeId="AS-3C Attack Fighter">
                     <Position>
                         <X>0.0</X>
                         <Y>0.0</Y>
                         <Z>0.0</Z>
                     </Position>
-                    <BeaconText>Rebel Corvette</BeaconText>
-                    <Speed>50.0</Speed>
+                    <BeaconText>Rebel Fighter</BeaconText>
+                    <Speed>25.0</Speed>
                 </Prefab>
             </Prefabs>
         </SpawnGroup>

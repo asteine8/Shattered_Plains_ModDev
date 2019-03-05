@@ -29,7 +29,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>80320666976800828</EntityId>
               <Min x="1" y="2" z="-4" />
               <BlockOrientation Forward="Backward" Up="Left" />
@@ -304,7 +304,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>107186730690937575</EntityId>
               <Min x="-1" y="-1" z="-12" />
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
@@ -317,7 +317,7 @@
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>111521665445146851</EntityId>
               <Min x="-1" y="1" z="-12" />
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
@@ -330,7 +330,7 @@
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>138335198950636181</EntityId>
               <Min x="1" y="-1" z="-12" />
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
@@ -343,7 +343,7 @@
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>73403112374690605</EntityId>
               <Min x="1" y="1" z="-12" />
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
@@ -435,7 +435,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>76852952030651144</EntityId>
               <Min x="0" y="1" z="-11" />
               <BlockOrientation Forward="Up" Up="Left" />
@@ -449,7 +449,7 @@
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>127953794675867159</EntityId>
               <Min x="0" y="-2" z="-11" />
               <BlockOrientation Forward="Down" Up="Right" />
@@ -607,7 +607,7 @@
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>128900753329030617</EntityId>
               <Min x="-1" y="2" z="-4" />
               <BlockOrientation Forward="Backward" Up="Left" />
@@ -1870,7 +1870,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>119250610961176323</EntityId>
               <Min x="2" y="0" z="-9" />
               <BlockOrientation Forward="Right" Up="Forward" />
@@ -1884,7 +1884,7 @@
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>102794271707119539</EntityId>
               <Min x="-3" y="0" z="-9" />
               <BlockOrientation Forward="Left" Up="Forward" />
@@ -2054,7 +2054,7 @@
               <BuiltBy>0</BuiltBy>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MyProgrammableBlock">
-              <SubtypeName>Corruption-SmallProgrammableBlock</SubtypeName>
+              <SubtypeName>SmallProgrammableBlock</SubtypeName>
               <EntityId>88532475130932446</EntityId>
               <Min x="0" y="0" z="-1" />
               <ColorMaskHSV x="0" y="-0.97" z="-0.51" />
@@ -2804,7 +2804,7 @@ void ApplyGyroOverride(double pitch_speed, double yaw_speed, double roll_speed, 
               <CurrentShownTexture>0</CurrentShownTexture>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>115242845053232893</EntityId>
               <Min x="-1" y="-2" z="-4" />
               <BlockOrientation Forward="Backward" Up="Left" />
@@ -2818,7 +2818,7 @@ void ApplyGyroOverride(double pitch_speed, double yaw_speed, double roll_speed, 
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
-              <SubtypeName>Corruption-SmallBlockSmallThrust</SubtypeName>
+              <SubtypeName>SmallBlockSmallThrust</SubtypeName>
               <EntityId>74526921926534250</EntityId>
               <Min x="1" y="-2" z="-4" />
               <BlockOrientation Forward="Backward" Up="Left" />

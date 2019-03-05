@@ -22,7 +22,7 @@
           <GridSizeEnum>Small</GridSizeEnum>
           <CubeBlocks>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MyProgrammableBlock">
-              <SubtypeName>Corruption-SmallProgrammableBlock</SubtypeName>
+              <SubtypeName>SmallProgrammableBlock</SubtypeName>
               <EntityId>84762198869076174</EntityId>
               <Min x="0" y="0" z="1" />
               <ColorMaskHSV x="0" y="0" z="0.05" />

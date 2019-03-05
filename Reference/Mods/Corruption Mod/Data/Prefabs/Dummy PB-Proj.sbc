@@ -52,7 +52,7 @@
               <GetOwnershipFromProjector>false</GetOwnershipFromProjector>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MyProgrammableBlock">
-              <SubtypeName>Corruption-LargeProgrammableBlock</SubtypeName>
+              <SubtypeName>LargeProgrammableBlock</SubtypeName>
               <EntityId>86000438435185145</EntityId>
               <Min x="0" y="1" z="0" />
               <ColorMaskHSV x="0" y="1" z="-0.28" />

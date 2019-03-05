@@ -1068,7 +1068,7 @@ namespace MeridiusIX{
 			
 			for(int i = 0; i < prefabNameList.Count; i++){
 				
-				MyAPIGateway.PrefabManager.SpawnPrefab(tempSpawningList, prefabNameList[i], prefabCoordsList[i], characterEntity.WorldMatrix.Forward, characterEntity.WorldMatrix.Up, new Vector3(0,0,0), spawningOptions: SpawningOptions.SetNeutralOwner | SpawningOptions.RotateFirstCockpitTowardsDirection | SpawningOptions.SpawnRandomCargo, beaconName: prefabBeaconList[i], ownerId: ownerFaction, updateSync: false);
+				MyAPIGateway.PrefabManager.SpawnPrefab(tempSpawningList, prefabNameList[i], prefabCoordsList[i], characterEntity.WorldMatrix.Forward, characterEntity.WorldMatrix.Up, new Vector3(0,0,0), spawningOptions: SpawningOptions.RotateFirstCockpitTowardsDirection | SpawningOptions.SpawnRandomCargo, beaconName: prefabBeaconList[i], ownerId: ownerFaction, updateSync: false);
 				
 			}
 			
@@ -1444,6 +1444,7 @@ namespace MeridiusIX{
 			//From here, all grids are considered NPC and will now be deleted.
 			foreach(var cubeGrid in gridGroupList){
 				
+				LogEntry("Deleting Drone: " + cubeGrid.CustomName);
 				MyAPIGateway.Utilities.InvokeOnGameThread(() => cubeGrid.Delete());
 				
 			}
@@ -2248,7 +2249,7 @@ namespace MeridiusIX{
 			
 			for(int i = 0; i < prefabNameList.Count; i++){
 				
-				MyAPIGateway.PrefabManager.SpawnPrefab(tempSpawningList, prefabNameList[i], prefabCoordsList[i], forwardDir, upDir, (Vector3D)velocity, spawningOptions: SpawningOptions.SetNeutralOwner | SpawningOptions.RotateFirstCockpitTowardsDirection | SpawningOptions.SpawnRandomCargo, beaconName: prefabBeaconList[i], ownerId: corruptionFaction.FounderId, updateSync: false);
+				MyAPIGateway.PrefabManager.SpawnPrefab(tempSpawningList, prefabNameList[i], prefabCoordsList[i], forwardDir, upDir, (Vector3D)velocity, spawningOptions: SpawningOptions.RotateFirstCockpitTowardsDirection | SpawningOptions.SpawnRandomCargo, beaconName: prefabBeaconList[i], ownerId: corruptionFaction.FounderId, updateSync: false);
 				
 			}
 			
@@ -3253,7 +3254,7 @@ namespace MeridiusIX{
 			
 			for(int i = 0; i < prefabNameList.Count; i++){
 				
-				MyAPIGateway.PrefabManager.SpawnPrefab(tempSpawningList, prefabNameList[i], prefabCoordsList[i], prefabForward, prefabUp, new Vector3D(0,0,0), spawningOptions: SpawningOptions.SetNeutralOwner | SpawningOptions.RotateFirstCockpitTowardsDirection | SpawningOptions.SpawnRandomCargo, beaconName: prefabBeaconList[i], ownerId: corruptionFaction.FounderId, updateSync: false);
+				MyAPIGateway.PrefabManager.SpawnPrefab(tempSpawningList, prefabNameList[i], prefabCoordsList[i], prefabForward, prefabUp, new Vector3D(0,0,0), spawningOptions: SpawningOptions.RotateFirstCockpitTowardsDirection | SpawningOptions.SpawnRandomCargo, beaconName: prefabBeaconList[i], ownerId: corruptionFaction.FounderId, updateSync: false);
 				
 			}
 			

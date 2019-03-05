@@ -7,7 +7,7 @@
                 <SubtypeId>TheRebellion</SubtypeId>
             </Id>
             <DisplayName>The Rebellion</DisplayName>
-            <IsDefault>false</IsDefault>
+            <IsDefault>true</IsDefault>
 
             <DefaultRelation>Enemies</DefaultRelation>
             <AutoAcceptMember>false</AutoAcceptMember>
