@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-16"?>
+<RailgunConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <VersionNumber>1</VersionNumber>
+  <ArtificialGravityMultiplier>2</ArtificialGravityMultiplier>
+  <NaturalGravityMultiplier>1</NaturalGravityMultiplier>
+  <DrawProjectileTrails>true</DrawProjectileTrails>
+  <ShouldExplode>true</ShouldExplode>
+  <ExplosionRadius>0</ExplosionRadius>
+  <ExplosionDamage>0</ExplosionDamage>
+  <ShouldPenetrate>true</ShouldPenetrate>
+  <PenetrationDamage>33000</PenetrationDamage>
+  <PenetrationRange>100</PenetrationRange>
+</RailgunConfig>

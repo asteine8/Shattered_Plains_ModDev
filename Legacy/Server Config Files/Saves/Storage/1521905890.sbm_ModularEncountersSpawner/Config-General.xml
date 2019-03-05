@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ConfigGeneral xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ModVersion>1.017</ModVersion>
+  <EnableSpaceCargoShips>true</EnableSpaceCargoShips>
+  <EnablePlanetaryCargoShips>false</EnablePlanetaryCargoShips>
+  <EnableRandomEncounters>false</EnableRandomEncounters>
+  <EnablePlanetaryInstallations>false</EnablePlanetaryInstallations>
+  <EnableBossEncounters>true</EnableBossEncounters>
+  <UseMaxNpcGrids>true</UseMaxNpcGrids>
+  <UseGlobalEventsTimers>false</UseGlobalEventsTimers>
+  <IgnorePlanetWhitelists>false</IgnorePlanetWhitelists>
+  <IgnorePlanetBlacklists>false</IgnorePlanetBlacklists>
+  <MaxGlobalNpcGrids>5</MaxGlobalNpcGrids>
+  <PlayerWatcherTimerTrigger>10</PlayerWatcherTimerTrigger>
+  <NpcDistanceCheckTimerTrigger>1</NpcDistanceCheckTimerTrigger>
+  <NpcOwnershipCheckTimerTrigger>10</NpcOwnershipCheckTimerTrigger>
+  <NpcCleanupCheckTimerTrigger>30</NpcCleanupCheckTimerTrigger>
+  <NpcBlacklistCheckTimerTrigger>5</NpcBlacklistCheckTimerTrigger>
+  <SpawnedVoxelCheckTimerTrigger>900</SpawnedVoxelCheckTimerTrigger>
+  <SpawnedVoxelMinimumGridDistance>1000</SpawnedVoxelMinimumGridDistance>
+  <NpcGridNameBlacklist> 
+        <string>(CPC)HACKER_DRONE</string>
+        <string>DoM Blue 01</string>
+        <string>DoM Blue 02</string>
+        <string>DoM Blue 03</string>
+        <string>DoM Blue 04</string>
+        <string>DoM Red 01</string>
+        <string>DoM Red 02</string>
+        <string>DoM Red 03</string>
+        <string>DoM Red 04</string>
+        <string>Cargo Buddy mk.1</string>
+        <string>Bumblebee</string>
+        <string>Insinuator mk.1</string>
+        <string>Imperator mk.1</string>
+        <string>Instigator mk.1</string>
+        <string>Drillbot mk.1</string>
+        <string>Grindbot mk.1</string>
+        <string>Enforcer mk.2</string>
+        <string>Ablator</string>
+        <string>Cursor</string>
+        <string>Combatant mk.1_13 Weapons Ready</string>
+        <string>Penguin_mk.1</string>
+        <string>DSF3_Duchessa</string>
+        <string>Armed_Transport_Charon</string>
+        <string>Raefftech_Base_Ship_(outdated)</string>
+        <string>Spaceport_Terminal</string>
+        <string>TLF-28a_(LSF_CargoShip_Mod)</string>
+        <string>GLU_Jaguar_B-1,_light_Interceptor</string>
+        <string>Plataforma_1000</string>
+        <string>Computer_Part_Factory_(No_Mods)</string>
+        <string>Medium-Sized_Explorer_Christine</string>
+        <string>RAVEN</string>
+        <string>Carrier_[Infinity]</string>
+        <string>STARTERSHIP</string>
+        <string>Arke_Supply_Ship</string>
+        <string>(DL._Inc)_Defender_Drone_Mk_II</string>
+        <string>Kestral-Class_Assault_Fighter</string>
+        <string>(DL._Inc)_Grinder_Drone_Mk_II</string>
+        <string>(DL._Inc)_Welder_Drone_Mk_I</string>
+        <string>(DL._Inc)_Welder_Drone_Mk_II</string>
+        <string>(DL._Inc)_Defender_Drone_MK_I</string>
+        <string>(DL._Inc)_Grinder_Drone_Mk_I</string>
+        <string>(DL._Inc)_Mining_Drone_MK_I</string>
+        <string>(DL._Inc)_Mining_Drone_Mk_II</string>
+        <string>Dread_Hulk_Nefarious_[A2-9604-p]</string>
+        <string>Renaissance</string>
+        <string>Commercial_Salvager</string>
+        <string>Ubumboo_(for_Exploration)</string>
+        <string>GLU_Mule_A-1,_light_Freighter</string>
+        <string>SF-45</string>
+        <string>'Tick'_Ore_Scow_and_'Mite'_Mining_Drone</string>
+        <string>PZK_Coockie_monster_hull</string>
+        <string>Longsword_Mk._9S</string>
+        <string>Raven_MkII</string>
+        <string>Xedus_Ophiniam_class_Attack_Frigate</string>
+        <string>Volunder_exploration_ship</string>
+        <string>Trainspark</string>
+        <string>Small_Ship_5727</string>
+        <string>Platform_9178</string>
+        <string>Platform_8820</string>
+        <string>Platform_7912</string>
+        <string>Platform_6674</string>
+        <string>Platform_6572</string>
+        <string>Platform_417</string>
+        <string>Pitbull_Bomber</string>
+        <string>Large_Ship_1360</string>
+        <string>GM2-411_Combat_Destroyer</string>
+        <string>Explorer</string>
+        <string>Civil_Station</string>
+        <string>ASM-2</string>
+        <string>[O-S-L-E]_Enforcer</string>
+        <string>Military1</string>
+        <string>Military2</string>
+        <string>Military3</string>
+        <string>Mining1</string>
+        <string>Mining2</string>
+        <string>Mining3</string>
+        <string>The_Pilgrims_Curiosity</string>
+        <string>Trade1</string>
+        <string>Trade2</string>
+        <string>Trade3</string>
+        <string>Eradicator_mk.1</string>
+        <string>Incisor_mk.1</string>
+        <string>Informant_mk.1</string>
+        <string>Raiding_Station_-_Scourge</string>
+        <string>Raiding_Outpost_mk.1</string>
+        <string>Assailant_mk.1</string>
+        <string>Dyad_mk.1</string>
+        <string>Barb_mk.1</string>
+        <string>IMDC_Vulture_Fighter_Bomber</string>
+        <string>Weapon Platform Gatling1</string>
+        <string>PirateCarrier</string>
+        <string>IMDC_Cerberus_Destroyer_Mk.3</string>
+        <string>DriftingPursuant</string>
+        <string>FleetingRival</string>
+        <string>SpitefulAggressor</string>
+        <string>StingingAdversary</string>
+        <string>Spur</string>
+        <string>Tusk</string>
+        <string>Molar</string>
+        <string>KingMolar</string>
+        <string>DodgeDrone</string>		
+  </NpcGridNameBlacklist>
+  <NpcSpawnGroupBlacklist>
+        <string>(CPC)HACKER_DRONE</string>
+        <string>DoM Blue 01</string>
+        <string>DoM Blue 02</string>
+        <string>DoM Blue 03</string>
+        <string>DoM Blue 04</string>
+        <string>DoM Red 01</string>
+        <string>DoM Red 02</string>
+        <string>DoM Red 03</string>
+        <string>DoM Red 04</string>
+        <string>Cargo Buddy mk.1</string>
+        <string>Bumblebee</string>
+        <string>Insinuator mk.1</string>
+        <string>Imperator mk.1</string>
+        <string>Instigator mk.1</string>
+        <string>Drillbot mk.1</string>
+        <string>Grindbot mk.1</string>
+        <string>Enforcer mk.2</string>
+        <string>Ablator</string>
+        <string>Cursor</string>
+        <string>Combatant mk.1_13 Weapons Ready</string>
+        <string>Penguin_mk.1</string>
+        <string>DSF3_Duchessa</string>
+        <string>Armed_Transport_Charon</string>
+        <string>Raefftech_Base_Ship_(outdated)</string>
+        <string>Spaceport_Terminal</string>
+        <string>TLF-28a_(LSF_CargoShip_Mod)</string>
+        <string>GLU_Jaguar_B-1,_light_Interceptor</string>
+        <string>Plataforma_1000</string>
+        <string>Computer_Part_Factory_(No_Mods)</string>
+        <string>Medium-Sized_Explorer_Christine</string>
+        <string>RAVEN</string>
+        <string>Carrier_[Infinity]</string>
+        <string>STARTERSHIP</string>
+        <string>Arke_Supply_Ship</string>
+        <string>(DL._Inc)_Defender_Drone_Mk_II</string>
+        <string>Kestral-Class_Assault_Fighter</string>
+        <string>(DL._Inc)_Grinder_Drone_Mk_II</string>
+        <string>(DL._Inc)_Welder_Drone_Mk_I</string>
+        <string>(DL._Inc)_Welder_Drone_Mk_II</string>
+        <string>(DL._Inc)_Defender_Drone_MK_I</string>
+        <string>(DL._Inc)_Grinder_Drone_Mk_I</string>
+        <string>(DL._Inc)_Mining_Drone_MK_I</string>
+        <string>(DL._Inc)_Mining_Drone_Mk_II</string>
+        <string>Dread_Hulk_Nefarious_[A2-9604-p]</string>
+        <string>Renaissance</string>
+        <string>Commercial_Salvager</string>
+        <string>Ubumboo_(for_Exploration)</string>
+        <string>GLU_Mule_A-1,_light_Freighter</string>
+        <string>SF-45</string>
+        <string>'Tick'_Ore_Scow_and_'Mite'_Mining_Drone</string>
+        <string>PZK_Coockie_monster_hull</string>
+        <string>Longsword_Mk._9S</string>
+        <string>Raven_MkII</string>
+        <string>Xedus_Ophiniam_class_Attack_Frigate</string>
+        <string>Volunder_exploration_ship</string>
+        <string>Trainspark</string>
+        <string>Small_Ship_5727</string>
+        <string>Platform_9178</string>
+        <string>Platform_8820</string>
+        <string>Platform_7912</string>
+        <string>Platform_6674</string>
+        <string>Platform_6572</string>
+        <string>Platform_417</string>
+        <string>Pitbull_Bomber</string>
+        <string>Large_Ship_1360</string>
+        <string>GM2-411_Combat_Destroyer</string>
+        <string>Explorer</string>
+        <string>Civil_Station</string>
+        <string>ASM-2</string>
+        <string>[O-S-L-E]_Enforcer</string>
+        <string>Military1</string>
+        <string>Military2</string>
+        <string>Military3</string>
+        <string>Mining1</string>
+        <string>Mining2</string>
+        <string>Mining3</string>
+        <string>The_Pilgrims_Curiosity</string>
+        <string>Trade1</string>
+        <string>Trade2</string>
+        <string>Trade3</string>
+        <string>Eradicator_mk.1</string>
+        <string>Incisor_mk.1</string>
+        <string>Informant_mk.1</string>
+        <string>Raiding_Station_-_Scourge</string>
+        <string>Raiding_Outpost_mk.1</string>
+        <string>Assailant_mk.1</string>
+        <string>Dyad_mk.1</string>
+        <string>Barb_mk.1</string>
+        <string>IMDC_Vulture_Fighter_Bomber</string>
+        <string>Weapon Platform Gatling1</string>
+        <string>PirateCarrier</string>
+        <string>IMDC_Cerberus_Destroyer_Mk.3</string>
+        <string>DriftingPursuant</string>
+        <string>FleetingRival</string>
+        <string>SpitefulAggressor</string>
+        <string>StingingAdversary</string>
+        <string>Spur</string>
+        <string>Tusk</string>
+        <string>Molar</string>
+        <string>KingMolar</string>
+        <string>DodgeDrone</string>		
+  </NpcSpawnGroupBlacklist>
+</ConfigGeneral>

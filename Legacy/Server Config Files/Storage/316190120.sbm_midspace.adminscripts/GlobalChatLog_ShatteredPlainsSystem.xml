@@ -1,0 +1,4043 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfChatMessage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T12:30:59.0564493-06:00</Date>
+    <Message>'Gotlyfe' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197999513262</SteamId>
+      <PlayerName>Gotlyfe</PlayerName>
+    </Sender>
+    <Date>2019-03-01T12:33:55.2618769-06:00</Date>
+    <Message>FEAR ME FOR I AM ALLL OF THE SERVER</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T12:37:08.686701-06:00</Date>
+    <Message>'Gotlyfe' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T12:50:05.1056072-06:00</Date>
+    <Message>'Glocle' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T12:59:37.761324-06:00</Date>
+    <Message>'Glocle' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T13:08:55.2358279-06:00</Date>
+    <Message>'Glocle' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T13:12:49.3331122-06:00</Date>
+    <Message>'Nemo Nobody' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T13:17:26.4638615-06:00</Date>
+    <Message>'Glocle' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T13:35:13.9456669-06:00</Date>
+    <Message>'Nemo Nobody' dropped</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T14:51:55.7988552-06:00</Date>
+    <Message>'mukulute123' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:11:20.6951345-06:00</Date>
+    <Message>'mukulute123' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:22:20.5850705-06:00</Date>
+    <Message>'SengokuSpect' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198134048874</SteamId>
+      <PlayerName>SengokuSpect</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:24:13.8769064-06:00</Date>
+    <Message>oh boy, not again</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198134048874</SteamId>
+      <PlayerName>SengokuSpect</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:25:13.4751657-06:00</Date>
+    <Message>uh</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198279440870</SteamId>
+      <PlayerName>Nemo Nobody</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:25:15.7416685-06:00</Date>
+    <Message>hello</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198134048874</SteamId>
+      <PlayerName>SengokuSpect</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:25:17.5916023-06:00</Date>
+    <Message>what are the odds</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198279440870</SteamId>
+      <PlayerName>Nemo Nobody</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:25:23.2084941-06:00</Date>
+    <Message>atleast 12</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198134048874</SteamId>
+      <PlayerName>SengokuSpect</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:25:29.941428-06:00</Date>
+    <Message>oh no not again</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198279440870</SteamId>
+      <PlayerName>Nemo Nobody</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:25:35.6079315-06:00</Date>
+    <Message>?</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198134048874</SteamId>
+      <PlayerName>SengokuSpect</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:25:37.6749572-06:00</Date>
+    <Message>i just spawned</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198279440870</SteamId>
+      <PlayerName>Nemo Nobody</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:25:41.2746054-06:00</Date>
+    <Message>same</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198134048874</SteamId>
+      <PlayerName>SengokuSpect</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:25:42.1078219-06:00</Date>
+    <Message>i lost my ships</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198134048874</SteamId>
+      <PlayerName>SengokuSpect</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:25:43.6579747-06:00</Date>
+    <Message>again</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198279440870</SteamId>
+      <PlayerName>Nemo Nobody</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:25:49.2243123-06:00</Date>
+    <Message>rip</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198134048874</SteamId>
+      <PlayerName>SengokuSpect</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:25:51.9743774-06:00</Date>
+    <Message>and used the respawn pod</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198134048874</SteamId>
+      <PlayerName>SengokuSpect</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:25:58.8576705-06:00</Date>
+    <Message>and i found you really quickly</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198279440870</SteamId>
+      <PlayerName>Nemo Nobody</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:26:12.0906903-06:00</Date>
+    <Message>this is pretty much my only ship</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198134048874</SteamId>
+      <PlayerName>SengokuSpect</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:26:14.5572285-06:00</Date>
+    <Message>the other guy on the entire server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198279440870</SteamId>
+      <PlayerName>Nemo Nobody</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:26:16.1740884-06:00</Date>
+    <Message>and the starter ship</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198279440870</SteamId>
+      <PlayerName>Nemo Nobody</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:26:21.5403905-06:00</Date>
+    <Message>lol</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198134048874</SteamId>
+      <PlayerName>SengokuSpect</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:26:38.5233948-06:00</Date>
+    <Message>nice design, very basic</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198279440870</SteamId>
+      <PlayerName>Nemo Nobody</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:26:43.0233981-06:00</Date>
+    <Message>lol yeah</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198134048874</SteamId>
+      <PlayerName>SengokuSpect</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:26:45.4401696-06:00</Date>
+    <Message>but useful</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198279440870</SteamId>
+      <PlayerName>Nemo Nobody</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:26:50.6400561-06:00</Date>
+    <Message>dont have much resources to work with</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198279440870</SteamId>
+      <PlayerName>Nemo Nobody</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:27:04.0061501-06:00</Date>
+    <Message>theres nickel right here so thats nice</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198134048874</SteamId>
+      <PlayerName>SengokuSpect</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:27:17.456215-06:00</Date>
+    <Message>so... i just lost all my shit again so im going now</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198134048874</SteamId>
+      <PlayerName>SengokuSpect</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:27:28.3391953-06:00</Date>
+    <Message>nice to meet you tho</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198279440870</SteamId>
+      <PlayerName>Nemo Nobody</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:27:30.0058382-06:00</Date>
+    <Message>ight man gl</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:27:35.3255694-06:00</Date>
+    <Message>'SengokuSpect' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198279440870</SteamId>
+      <PlayerName>Nemo Nobody</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:27:37.8221982-06:00</Date>
+    <Message>yeah you too</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:36:35.1236218-06:00</Date>
+    <Message>'Killerbee77' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:52:51.7871904-06:00</Date>
+    <Message>'Nemo Nobody' dropped</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:53:03.3202226-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:53:05.7702779-06:00</Date>
+    <Message>'Nemo Nobody' dropped</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:59:01.8733326-06:00</Date>
+    <Message>'Bob' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T15:59:36.6725565-06:00</Date>
+    <Message>'personzz' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T16:01:46.820058-06:00</Date>
+    <Message>'Killerbee77' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T16:02:42.4447521-06:00</Date>
+    <Message>'Bob' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T16:04:01.3744428-06:00</Date>
+    <Message>'Nemo Nobody' dropped</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T16:14:08.8213737-06:00</Date>
+    <Message>'Nemo Nobody' dropped</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T16:14:32.6193244-06:00</Date>
+    <Message>'Nemo Nobody' dropped</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T16:19:45.765108-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T16:53:39.2217857-06:00</Date>
+    <Message>'Nemo Nobody' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T17:19:38.461558-06:00</Date>
+    <Message>'Xphonias' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198071699729</SteamId>
+      <PlayerName>Xphonias</PlayerName>
+    </Sender>
+    <Date>2019-03-01T17:21:41.5601606-06:00</Date>
+    <Message>EHELP</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198071699729</SteamId>
+      <PlayerName>Xphonias</PlayerName>
+    </Sender>
+    <Date>2019-03-01T17:21:48.47658-06:00</Date>
+    <Message>/ehelp</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198071699729</SteamId>
+      <PlayerName>Xphonias</PlayerName>
+    </Sender>
+    <Date>2019-03-01T17:21:53.5432757-06:00</Date>
+    <Message>/bal</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198071699729</SteamId>
+      <PlayerName>Xphonias</PlayerName>
+    </Sender>
+    <Date>2019-03-01T17:22:03.0597655-06:00</Date>
+    <Message>basalt why the fuck is my account at -4900000</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198071699729</SteamId>
+      <PlayerName>Xphonias</PlayerName>
+    </Sender>
+    <Date>2019-03-01T17:23:18.9080506-06:00</Date>
+    <Message>/pay Dyl </Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198071699729</SteamId>
+      <PlayerName>Xphonias</PlayerName>
+    </Sender>
+    <Date>2019-03-01T17:23:21.6917264-06:00</Date>
+    <Message>/pay dyl 1</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T17:29:36.4179125-06:00</Date>
+    <Message>'Xphonias' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T17:41:10.3854304-06:00</Date>
+    <Message>'targetPractice' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T17:43:39.0223306-06:00</Date>
+    <Message>'MIKSTER' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T17:49:00.8504017-06:00</Date>
+    <Message>'targetPractice' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T17:50:35.9542995-06:00</Date>
+    <Message>'targetPractice' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T17:53:32.3753273-06:00</Date>
+    <Message>'MIKSTER' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T17:58:43.6495825-06:00</Date>
+    <Message>'targetPractice' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T18:00:39.6235818-06:00</Date>
+    <Message>'targetPractice' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T18:08:07.0067538-06:00</Date>
+    <Message>'targetPractice' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T18:08:49.504366-06:00</Date>
+    <Message>'targetPractice' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T18:25:21.4353937-06:00</Date>
+    <Message>'personzz' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T18:27:36.4606303-06:00</Date>
+    <Message>'targetPractice' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T18:52:04.5462667-06:00</Date>
+    <Message>'Ambi' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T18:54:43.7614372-06:00</Date>
+    <Message>'Ambi' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T19:49:18.5712616-06:00</Date>
+    <Message>'Horny Rooster' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T19:55:45.1053056-06:00</Date>
+    <Message>'Horny Rooster' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T20:59:30.8233843-06:00</Date>
+    <Message>'Lost Cookies' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123932976678923</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T21:08:31.3058171-06:00</Date>
+    <Message>'Lost Cookies' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942727352323</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T22:20:59.6397253-06:00</Date>
+    <Message>'Mystogan' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942727352323</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T22:21:34.5573884-06:00</Date>
+    <Message>'Sern' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942727352323</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T22:21:42.0838874-06:00</Date>
+    <Message>'Rain42' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198021052187</SteamId>
+      <PlayerName>Mystogan</PlayerName>
+    </Sender>
+    <Date>2019-03-01T22:21:45.8690148-06:00</Date>
+    <Message>!cleanup list notype SpaceBall</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198355389914</SteamId>
+      <PlayerName>Rain42</PlayerName>
+    </Sender>
+    <Date>2019-03-01T22:22:00.7688202-06:00</Date>
+    <Message>oooh, colors</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198084462981</SteamId>
+      <PlayerName>Sern</PlayerName>
+    </Sender>
+    <Date>2019-03-01T22:25:28.385877-06:00</Date>
+    <Message>oh shoot the planet is gone</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198021052187</SteamId>
+      <PlayerName>Mystogan</PlayerName>
+    </Sender>
+    <Date>2019-03-01T22:26:06.8351791-06:00</Date>
+    <Message>Which Planet sern? </Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198084462981</SteamId>
+      <PlayerName>Sern</PlayerName>
+    </Sender>
+    <Date>2019-03-01T22:26:10.2683319-06:00</Date>
+    <Message>iridus</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198021052187</SteamId>
+      <PlayerName>Mystogan</PlayerName>
+    </Sender>
+    <Date>2019-03-01T22:26:12.5018272-06:00</Date>
+    <Message>Also idk how I feel about the colors...</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198021052187</SteamId>
+      <PlayerName>Mystogan</PlayerName>
+    </Sender>
+    <Date>2019-03-01T22:26:23.5855985-06:00</Date>
+    <Message>Guess admins are Purple?</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942727352323</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T22:26:59.3805101-06:00</Date>
+    <Message>'Mystogan' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942727352323</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T22:28:20.2033229-06:00</Date>
+    <Message>'Sern' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T22:39:51.3603311-06:00</Date>
+    <Message>'Rain42' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T22:48:05.0385334-06:00</Date>
+    <Message>'Rain42' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T22:50:18.957643-06:00</Date>
+    <Message>'Shattered Admin' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T22:52:50.3898728-06:00</Date>
+    <Message>'Shattered Admin' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T23:01:42.6220441-06:00</Date>
+    <Message>'[E6G] Imglidinhere' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T23:25:21.9728872-06:00</Date>
+    <Message>'zipgunlarry' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T23:36:15.9886345-06:00</Date>
+    <Message>'[E6G] Imglidinhere' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197996094540</SteamId>
+      <PlayerName>zipgunlarry</PlayerName>
+    </Sender>
+    <Date>2019-03-01T23:39:10.7728718-06:00</Date>
+    <Message>wwwwww</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T23:50:44.1783469-06:00</Date>
+    <Message>'Athlon' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-01T23:54:48.9124583-06:00</Date>
+    <Message>'Athlon' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:05:58.0772565-06:00</Date>
+    <Message>'zipgunlarry' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:06:48.69078-06:00</Date>
+    <Message>'Shattered Admin' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:14:00.2515088-06:00</Date>
+    <Message>'Slagger' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:22:18.5277063-06:00</Date>
+    <Message>'[E6G] Imglidinhere' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:25:49.5141406-06:00</Date>
+    <Message>'Shattered Admin' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:36:07.8450558-06:00</Date>
+    <Message>'Rain42' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198355389914</SteamId>
+      <PlayerName>Rain42</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:36:42.6941842-06:00</Date>
+    <Message>Notice</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198355389914</SteamId>
+      <PlayerName>Rain42</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:36:55.0598824-06:00</Date>
+    <Message>Damage coming online momentarily</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198045449393</SteamId>
+      <PlayerName>Slagger</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:37:08.3097559-06:00</Date>
+    <Message>lol</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:37:11.7429967-06:00</Date>
+    <Message>wow</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198045449393</SteamId>
+      <PlayerName>Slagger</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:37:22.4144068-06:00</Date>
+    <Message>O M G </Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:37:25.8640552-06:00</Date>
+    <Message>WOOOOOOO</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:37:35.647336-06:00</Date>
+    <Message>I'M BLUE DA BO DEE DA BO DAI!</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198045449393</SteamId>
+      <PlayerName>Slagger</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:37:35.907051-06:00</Date>
+    <Message>the Omni Chat is ColORED</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198355389914</SteamId>
+      <PlayerName>Rain42</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:37:42.4670394-06:00</Date>
+    <Message>XD</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198355389914</SteamId>
+      <PlayerName>Rain42</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:37:58.3796202-06:00</Date>
+    <Message>I think its colored according to faction relation</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:38:05.61305-06:00</Date>
+    <Message>Ahh</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198355389914</SteamId>
+      <PlayerName>Rain42</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:38:05.9038394-06:00</Date>
+    <Message>Where admins are purple</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198355389914</SteamId>
+      <PlayerName>Rain42</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:38:11.3627674-06:00</Date>
+    <Message>Sern was red a while back</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:38:12.2791749-06:00</Date>
+    <Message>OwO</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198045449393</SteamId>
+      <PlayerName>Slagger</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:38:16.1625446-06:00</Date>
+    <Message>rain we must settle an argument between glide n i</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198355389914</SteamId>
+      <PlayerName>Rain42</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:38:21.1957233-06:00</Date>
+    <Message>?</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198045449393</SteamId>
+      <PlayerName>Slagger</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:38:28.1952898-06:00</Date>
+    <Message>im blue</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198045449393</SteamId>
+      <PlayerName>Slagger</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:38:33.0950562-06:00</Date>
+    <Message>glide is green</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198355389914</SteamId>
+      <PlayerName>Rain42</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:38:43.561376-06:00</Date>
+    <Message>you are both blue...</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198355389914</SteamId>
+      <PlayerName>Rain42</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:38:46.8612017-06:00</Date>
+    <Message>*green</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:38:55.5112494-06:00</Date>
+    <Message>Well shit.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198045449393</SteamId>
+      <PlayerName>Slagger</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:38:58.7778008-06:00</Date>
+    <Message>im blue daba dee daba die</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198355389914</SteamId>
+      <PlayerName>Rain42</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:39:07.7272806-06:00</Date>
+    <Message>See gallary</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198045449393</SteamId>
+      <PlayerName>Slagger</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:39:21.1604935-06:00</Date>
+    <Message>this chat is beatuiful</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198355389914</SteamId>
+      <PlayerName>Rain42</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:44:41.7349275-06:00</Date>
+    <Message>omg</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198355389914</SteamId>
+      <PlayerName>Rain42</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:44:49.8513016-06:00</Date>
+    <Message>I just was checking the sound block</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198355389914</SteamId>
+      <PlayerName>Rain42</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:44:57.2177499-06:00</Date>
+    <Message>Just to make sure that the mod was working</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198355389914</SteamId>
+      <PlayerName>Rain42</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:45:12.5343301-06:00</Date>
+    <Message>And I had no idea that we had that many</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198355389914</SteamId>
+      <PlayerName>Rain42</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:46:28.8159219-06:00</Date>
+    <Message>/ehelp</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:47:41.8494104-06:00</Date>
+    <Message>Uh... are the planets still in game?</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198355389914</SteamId>
+      <PlayerName>Rain42</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:50:29.4782392-06:00</Date>
+    <Message>I hope so</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198355389914</SteamId>
+      <PlayerName>Rain42</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:50:50.079131-06:00</Date>
+    <Message>SO far, I know Mars, Earth, Ravcor, Europa, and Luna are still here</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198355389914</SteamId>
+      <PlayerName>Rain42</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:50:55.4956856-06:00</Date>
+    <Message>And Titan</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198045449393</SteamId>
+      <PlayerName>Slagger</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:51:00.81928-06:00</Date>
+    <Message>lies</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198355389914</SteamId>
+      <PlayerName>Rain42</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:51:06.3288449-06:00</Date>
+    <Message>But I havn't checked Iridus and Khelek</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:52:14.5079945-06:00</Date>
+    <Message>'Rain42' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:57:08.3019164-06:00</Date>
+    <Message>'[E6G] Imglidinhere' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T00:58:39.2891963-06:00</Date>
+    <Message>'Slagger' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T01:01:39.5671413-06:00</Date>
+    <Message>'StorStivEn' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198003062470</SteamId>
+      <PlayerName>StorStivEn</PlayerName>
+    </Sender>
+    <Date>2019-03-02T01:06:16.9002076-06:00</Date>
+    <Message>anyone online?</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T01:11:44.7727685-06:00</Date>
+    <Message>'StorStivEn' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T02:13:27.5519856-06:00</Date>
+    <Message>'KDG' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T02:21:29.7976303-06:00</Date>
+    <Message>'KDG' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T02:32:05.5690959-06:00</Date>
+    <Message>'KDG' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T02:54:32.2567309-06:00</Date>
+    <Message>'Spoondog' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T03:09:07.4795731-06:00</Date>
+    <Message>'KDG' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T04:22:42.6216342-06:00</Date>
+    <Message>'zipgunlarry' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T04:32:03.3438521-06:00</Date>
+    <Message>'zipgunlarry' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T04:43:20.8550733-06:00</Date>
+    <Message>'Horny Rooster' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T05:54:06.5746103-06:00</Date>
+    <Message>'Horny Rooster' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123942992730115</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T05:54:26.824815-06:00</Date>
+    <Message>'Spoondog' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T10:15:31.3760001-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T10:17:50.0126419-06:00</Date>
+    <Message>/balance</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T10:17:54.260206-06:00</Date>
+    <Message>/bal</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T10:18:07.1596171-06:00</Date>
+    <Message>I love the new chat :D</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T10:19:07.11271-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T10:36:40.5974505-06:00</Date>
+    <Message>'BlackyB0i' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T10:38:50.3361494-06:00</Date>
+    <Message>'BlackyB0i' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T10:41:27.9460454-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T11:44:34.5731921-06:00</Date>
+    <Message>'[E6G] Imglidinhere' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T11:50:39.1235895-06:00</Date>
+    <Message>'targetPractice' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T11:55:42.4572169-06:00</Date>
+    <Message>'targetPractice' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:23:08.915525-06:00</Date>
+    <Message>'nightwolf&lt;' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:37:19.7261815-06:00</Date>
+    <Message>hello</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:44:14.4973326-06:00</Date>
+    <Message>sup</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:44:17.7972697-06:00</Date>
+    <Message>hi</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:44:23.7302089-06:00</Date>
+    <Message>im stuck in the safezone</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:44:32.0132258-06:00</Date>
+    <Message>xD did u spawn in the freeport/</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:44:37.0634993-06:00</Date>
+    <Message>ya</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:44:43.8628143-06:00</Date>
+    <Message>Its not ment to be a place to start</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:44:49.3298433-06:00</Date>
+    <Message>oh</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:45:08.295764-06:00</Date>
+    <Message>i also looking for a faction to prove my self to</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:45:39.8452156-06:00</Date>
+    <Message>without a mic i cant recruit u</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:45:49.4628049-06:00</Date>
+    <Message>awww</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:46:08.327932-06:00</Date>
+    <Message>Unfortunately, DKM is not recruiting at the moment. We've been hit with... several deserters in a short period.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:46:23.4128212-06:00</Date>
+    <Message>oh</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:46:23.4133227-06:00</Date>
+    <Message>/c</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:46:29.6941722-06:00</Date>
+    <Message>That and we have an hourly requirement too. </Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:46:37.327235-06:00</Date>
+    <Message>We're the main badguys. :D</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:46:41.4275067-06:00</Date>
+    <Message>any way i can help</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:46:45.3436848-06:00</Date>
+    <Message>He wouldnt fit Imglidin]</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:46:54.9270228-06:00</Date>
+    <Message>Hes prob 1/3 your age</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:47:01.0266474-06:00</Date>
+    <Message>Ahh</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:47:04.443535-06:00</Date>
+    <Message>wow</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:47:05.2601958-06:00</Date>
+    <Message>I'm not THAT old.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:47:07.0099365-06:00</Date>
+    <Message>Nice but i dont think it wuld work</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:47:14.4931722-06:00</Date>
+    <Message>I'm 30. xD</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:47:14.4936784-06:00</Date>
+    <Message>ok</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:47:21.3431211-06:00</Date>
+    <Message>Hes nice but i dont think hes a pirate at heart :P</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:47:28.2761897-06:00</Date>
+    <Message>prob fit in swg tho</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:47:29.8263452-06:00</Date>
+    <Message>Point.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:47:43.9758655-06:00</Date>
+    <Message>kool;</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:47:50.6594693-06:00</Date>
+    <Message>That's not saying much. SWG is like the hufflepuff of the server.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:47:53.7923406-06:00</Date>
+    <Message>im looking at the factions</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:50:00.6913587-06:00</Date>
+    <Message>I have 2 glitchy drones spaming me xD</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T12:50:10.9080686-06:00</Date>
+    <Message>me 2</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:03:01.9949834-06:00</Date>
+    <Message>any staff on</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:18:12.6919899-06:00</Date>
+    <Message>night what do you need</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:18:24.4913876-06:00</Date>
+    <Message>i dont like the new colors of chat they quite clashy</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:18:40.934561-06:00</Date>
+    <Message>what you think glid?</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:18:57.761697-06:00</Date>
+    <Message>Hmm?</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:19:03.6781863-06:00</Date>
+    <Message>I like the colors.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:19:13.2445188-06:00</Date>
+    <Message>Colored is nice but Blue and Red</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:19:31.94457-06:00</Date>
+    <Message>Let's you know who is on what faction. Red means you're technically an enemy.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:19:44.0772633-06:00</Date>
+    <Message>ohh</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:19:47.1773816-06:00</Date>
+    <Message>Thats what it is</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:19:50.2104842-06:00</Date>
+    <Message>Blue is yourself, Green is anyone in your faction, White is neutral and Purple are admins.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:19:50.2275294-06:00</Date>
+    <Message>oh</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:20:02.2605079-06:00</Date>
+    <Message>I gotchaaaaa i didnt think about it xD</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:20:11.9267722-06:00</Date>
+    <Message>i mean i need to be moved int he faction thats what they said</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:20:22.1269079-06:00</Date>
+    <Message>What faction??</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:20:35.0430863-06:00</Date>
+    <Message>rfa</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:20:44.7595657-06:00</Date>
+    <Message>lmao</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:20:48.3595934-06:00</Date>
+    <Message>Of you fucked xD</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:21:05.7259748-06:00</Date>
+    <Message>But best of luck ;d</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:21:09.2092415-06:00</Date>
+    <Message>why</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:21:14.7091022-06:00</Date>
+    <Message>Have fun "working" with Bee!</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:21:17.5260783-06:00</Date>
+    <Message>xD</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:21:19.8422431-06:00</Date>
+    <Message>^^</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:21:22.2090357-06:00</Date>
+    <Message>xD</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:21:31.8086897-06:00</Date>
+    <Message>Go for SWG man youll have alot more fun</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:21:44.1751315-06:00</Date>
+    <Message>I would agree, but they actually don't build anything.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:22:18.124374-06:00</Date>
+    <Message>Literally. They had a lower total ship-block count in that last battle, all combined, than we did with one of our middle-sized ships.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:22:24.9410085-06:00</Date>
+    <Message>I hate energy</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:22:26.1246405-06:00</Date>
+    <Message>They don't actually ever build anything.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:22:29.5593061-06:00</Date>
+    <Message>Its dropping so fast</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:22:36.9693444-06:00</Date>
+    <Message>Yeah, you know why?</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:22:41.890505-06:00</Date>
+    <Message>Because you're cold.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:22:47.3575408-06:00</Date>
+    <Message>WATTTT</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:22:50.1905962-06:00</Date>
+    <Message>Yes.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:22:51.1906298-06:00</Date>
+    <Message>thats a thing now</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:22:57.0902935-06:00</Date>
+    <Message>Down at the bottom</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:23:02.2734825-06:00</Date>
+    <Message>I seeit Freeze</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:23:06.2401579-06:00</Date>
+    <Message>Yup</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:23:11.9066584-06:00</Date>
+    <Message>Stuck?</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:23:23.6898125-06:00</Date>
+    <Message>How do you warm up</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:23:34.1229394-06:00</Date>
+    <Message>Be in a pressurized environment.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:23:35.7249598-06:00</Date>
+    <Message>'nightwolf&lt;' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:24:03.9997963-06:00</Date>
+    <Message>There are benefits to having air pressurized ships. :)</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:24:31.0659617-06:00</Date>
+    <Message>Im fucked</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:25:01.7817236-06:00</Date>
+    <Message>my whole station is open concerpt</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:25:06.2980199-06:00</Date>
+    <Message>concept</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:26:25.5462609-06:00</Date>
+    <Message>'nightwolf&lt;' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:29:20.6348893-06:00</Date>
+    <Message>Glidin</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:29:25.4347334-06:00</Date>
+    <Message>I just realized something</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:29:39.6849296-06:00</Date>
+    <Message>Blast Furnaces arent craftable anymor</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:29:49.5007108-06:00</Date>
+    <Message>They're called something different.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:29:54.0343323-06:00</Date>
+    <Message>Basic Refinery.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:29:59.2674996-06:00</Date>
+    <Message>Yep xD</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:30:05.4840106-06:00</Date>
+    <Message>I have the orginial Blastys now</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:30:09.1671877-06:00</Date>
+    <Message>:P</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:30:27.3353426-06:00</Date>
+    <Message>I mean, you can simply rename them, because that's all they did.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:30:40.7244521-06:00</Date>
+    <Message>And it's not blast furnace, it's Arc Furnace, tyvm</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:35:45.0574818-06:00</Date>
+    <Message>'Killerbee77' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:39:31.99987-06:00</Date>
+    <Message>'Killerbee77' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:39:46.5813482-06:00</Date>
+    <Message>'yeahhhhbaby' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:40:24.7687718-06:00</Date>
+    <Message>where the fuck</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:40:44.7851366-06:00</Date>
+    <Message>Well if you searched in in the menu its Blast Furnace</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:40:52.9348164-06:00</Date>
+    <Message>in the item its Arc Furnace</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:42:25.8635128-06:00</Date>
+    <Message>'yeahhhhbaby' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:43:30.9783675-06:00</Date>
+    <Message>Well nyeh</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:44:22.5267107-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:44:46.2744023-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:45:31.625636-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:45:53.9235145-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:46:16.4905652-06:00</Date>
+    <Message>'Tier' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:46:59.6581048-06:00</Date>
+    <Message>'Tier' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:48:08.9222735-06:00</Date>
+    <Message>gLIDEN</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:48:28.8383407-06:00</Date>
+    <Message>say something i want to see if im broken or not</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:48:54.5228775-06:00</Date>
+    <Message>/kill</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:54:56.5720793-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:56:17.3359817-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:56:46.0525099-06:00</Date>
+    <Message>'yeahhhhbaby' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:58:42.8670884-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:58:53.4165825-06:00</Date>
+    <Message>'nightwolf&lt;' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T13:59:06.3478009-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:03:35.2563717-06:00</Date>
+    <Message>'yeahhhhbaby' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:05:35.2020398-06:00</Date>
+    <Message>'nightwolf&lt;' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:06:08.4693007-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:06:30.4333873-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:06:41.2517445-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:07:03.3827079-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:07:11.1674285-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:07:33.0319467-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:07:45.8832049-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:08:07.7978169-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:08:17.3994809-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:08:39.6784701-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:08:47.23021-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:09:09.1942873-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:09:12.2629983-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:09:36.0608498-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:09:39.4118854-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:10:01.3263665-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:10:19.4107027-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:10:41.0089094-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:10:58.3433944-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:11:21.2077199-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:13:17.0216257-06:00</Date>
+    <Message>night wolf how did u fix yourself</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:13:27.7212593-06:00</Date>
+    <Message>about?</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:13:39.3541569-06:00</Date>
+    <Message>or from?</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:14:41.0194685-06:00</Date>
+    <Message>oh relog</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:16:12.9433035-06:00</Date>
+    <Message>oh</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:16:18.8930667-06:00</Date>
+    <Message>wait</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:16:24.3265848-06:00</Date>
+    <Message>and anyone</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:18:05.008154-06:00</Date>
+    <Message>anyone giving rides</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:18:08.4577277-06:00</Date>
+    <Message>for payment</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:19:35.0352533-06:00</Date>
+    <Message>'Sern' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:20:29.0839716-06:00</Date>
+    <Message>Rides to where?</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:20:38.9340956-06:00</Date>
+    <Message>a directon</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:20:51.3507549-06:00</Date>
+    <Message>Need specifics.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:20:54.5672152-06:00</Date>
+    <Message>nvm</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:21:10.0998154-06:00</Date>
+    <Message>If you're in RFA, we're allied with them.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:22:32.4162176-06:00</Date>
+    <Message>oh</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:22:37.3818668-06:00</Date>
+    <Message>ok then you know all the bases</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:22:42.1979691-06:00</Date>
+    <Message>right</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:24:42.3960578-06:00</Date>
+    <Message>well </Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:24:45.7454475-06:00</Date>
+    <Message>idk</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:24:58.5243347-06:00</Date>
+    <Message>/.,mnbvcx</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:25:14.9239288-06:00</Date>
+    <Message>/bal</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:25:16.6922462-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:25:39.0898446-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:25:52.3727508-06:00</Date>
+    <Message>I actually do not know where the bases are at. Bee keeps that information quite hidden for... some reason.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:26:17.8558178-06:00</Date>
+    <Message>ok whell then i do not tell you</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:26:19.5237996-06:00</Date>
+    <Message>'Sern' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:26:54.4052499-06:00</Date>
+    <Message>ik</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:26:58.7381935-06:00</Date>
+    <Message>i made it off plant</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:27:00.721537-06:00</Date>
+    <Message>I mean, Bee is a particularly "special" person. We call him "butterfly" for a reason.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:27:42.94486-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:28:04.8365631-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:28:34.402755-06:00</Date>
+    <Message>'Scorpion' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:28:35.7878843-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:28:50.4189761-06:00</Date>
+    <Message>ok</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:28:56.9026375-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:28:59.3692184-06:00</Date>
+    <Message>im asking if you can know were</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:29:02.9870989-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:29:12.3857004-06:00</Date>
+    <Message>you know star base</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:29:24.9187307-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:30:58.8163786-06:00</Date>
+    <Message>I do not know star base.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:31:01.8664506-06:00</Date>
+    <Message>ok</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:31:05.4165751-06:00</Date>
+    <Message>so nvm</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:31:24.2330536-06:00</Date>
+    <Message>can you pick me up </Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:31:36.3156352-06:00</Date>
+    <Message>nvm im dieing</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:32:28.6982403-06:00</Date>
+    <Message>xD</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:34:13.8831693-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:34:26.7316615-06:00</Date>
+    <Message>i made it tio the armada yes</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:34:36.130995-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:34:39.766223-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198137531854</SteamId>
+      <PlayerName>Scorpion</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:34:55.4805628-06:00</Date>
+    <Message>hey is there anyone who i can join?</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:35:01.3806678-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:35:05.4535724-06:00</Date>
+    <Message>ya</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:35:09.8636349-06:00</Date>
+    <Message>but</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:35:18.7471932-06:00</Date>
+    <Message>you must ask our leader on discord</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:35:22.2800889-06:00</Date>
+    <Message>How many hours in game do you have?</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198137531854</SteamId>
+      <PlayerName>Scorpion</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:35:40.1136967-06:00</Date>
+    <Message>don't have much but i know the basics</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:35:53.1161816-06:00</Date>
+    <Message>he is ours</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:36:02.7995318-06:00</Date>
+    <Message>:P</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:36:17.0156856-06:00</Date>
+    <Message>Corsair is just salty he can't play right now.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:38:53.3863518-06:00</Date>
+    <Message>So does Davie, chief.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:39:41.2012039-06:00</Date>
+    <Message>scorpion</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:39:44.6343648-06:00</Date>
+    <Message>dont mind them</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:39:49.3007914-06:00</Date>
+    <Message>The difference is, you don't have anything we're afraid of, also have nothing to use against us either.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198357751682</SteamId>
+      <PlayerName>nightwolf&lt;</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:39:54.9507734-06:00</Date>
+    <Message>if u want to join us ping me on discord</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:39:56.9172932-06:00</Date>
+    <Message>Like, you're as dead int he water as we are.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:40:02.4676544-06:00</Date>
+    <Message>BTC is gheeey</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:40:16.3339711-06:00</Date>
+    <Message>They don't DO anything.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:40:49.1667046-06:00</Date>
+    <Message>BTC hasn't been in one fight, we've been in all three fights thus far. :P</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:41:04.3996342-06:00</Date>
+    <Message>Lot more than what you can claim. &lt;3</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:42:19.2351477-06:00</Date>
+    <Message>I work two jobs, 70+ hours a week, so I'm not sure where your claim comes from but it's ill-informed. :P</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:42:42.2012151-06:00</Date>
+    <Message>SE is just a game I rather enjoy. Sorry if that's a problem. </Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:43:30.6505086-06:00</Date>
+    <Message>That is a fair excuse.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:44:09.716085-06:00</Date>
+    <Message>grindy. Get it? Because I'm mining. :D</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:45:52.7127143-06:00</Date>
+    <Message>'nightwolf&lt;' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:46:23.1792685-06:00</Date>
+    <Message>'Scorpion' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:46:57.3961771-06:00</Date>
+    <Message>'Scorpion' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198137531854</SteamId>
+      <PlayerName>Scorpion</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:47:38.2784597-06:00</Date>
+    <Message>hey quick question</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198137531854</SteamId>
+      <PlayerName>Scorpion</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:47:45.3614186-06:00</Date>
+    <Message>i spawned in a pod in space</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198137531854</SteamId>
+      <PlayerName>Scorpion</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:47:57.5613222-06:00</Date>
+    <Message>i want to change where i spawn</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198137531854</SteamId>
+      <PlayerName>Scorpion</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:48:04.794748-06:00</Date>
+    <Message>how would i do that?</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:49:21.1547777-06:00</Date>
+    <Message>'Scorpion' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:52:36.5483737-06:00</Date>
+    <Message>'Ariah' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:54:14.1800828-06:00</Date>
+    <Message>Ariah</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:54:21.0129285-06:00</Date>
+    <Message>Can u do was Basalt suggeested?</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:55:31.9618509-06:00</Date>
+    <Message>Hey butcher, I noticed the difference between the Freeze and Warm temperature energy drain in game.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:55:36.6452952-06:00</Date>
+    <Message>It's staggering.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197962400756</SteamId>
+      <PlayerName>Ariah</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:56:14.1275901-06:00</Date>
+    <Message>I don't know what Basalt suggested. Someone shows as logged in a bit before they get messages.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197994962039</SteamId>
+      <PlayerName>[E6G] Imglidinhere</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:56:16.8942943-06:00</Date>
+    <Message>I know just standing around outside in freezing conditions it's like... 5 minutes you're out of power just standing there.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197962400756</SteamId>
+      <PlayerName>Ariah</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:57:09.4267131-06:00</Date>
+    <Message>Okay, I'll try to fix that.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:58:57.6874195-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T14:59:20.9520252-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197962400756</SteamId>
+      <PlayerName>Ariah</PlayerName>
+    </Sender>
+    <Date>2019-03-02T15:00:17.5463883-06:00</Date>
+    <Message>@Corsair, I'm not familiar with a way to remove your character from here. You can't kill yourself in-game?</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T15:01:30.5718153-06:00</Date>
+    <Message>basiclly i can only see the back ground and i can text but i cant see what i send.</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T15:02:34.6224877-06:00</Date>
+    <Message>'Ariah' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T15:16:37.5229704-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T15:19:13.4650144-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T15:34:14.6274497-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T15:36:31.9846861-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T15:56:30.2112855-06:00</Date>
+    <Message>'[E6G] Imglidinhere' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T15:57:45.358736-06:00</Date>
+    <Message>'personzz' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123961826483211</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T16:05:11.403578-06:00</Date>
+    <Message>'personzz' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T16:19:11.0043838-06:00</Date>
+    <Message>'Corsair' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T18:43:04.6552274-06:00</Date>
+    <Message>'personzz' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T19:24:11.6136788-06:00</Date>
+    <Message>/buy 500000 "ice"</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T19:25:23.9255897-06:00</Date>
+    <Message>/buy 10000 "Cobalt Ingot"</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T19:39:02.6170757-06:00</Date>
+    <Message>/sell 50000 "Gold Ingot"</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T19:39:30.7668651-06:00</Date>
+    <Message>/sell 49999.998976 "Gold Ingot"</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T19:39:43.9161321-06:00</Date>
+    <Message>/balance</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T19:39:45.8829715-06:00</Date>
+    <Message>/abl</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T19:39:47.0832057-06:00</Date>
+    <Message>/bal</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T19:40:26.9821907-06:00</Date>
+    <Message>/buy 100000 "Silver Ingot"</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T19:40:42.2987856-06:00</Date>
+    <Message>/buy 25000 "Silver Ingot"</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T19:41:10.4146989-06:00</Date>
+    <Message>/buy 2000 Nato</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T19:41:29.9143509-06:00</Date>
+    <Message>/buy 2000 "25x184mm NATO ammo container"</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T19:41:35.8145537-06:00</Date>
+    <Message>/buy 1000 "25x184mm NATO ammo container"</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T19:42:07.6971919-06:00</Date>
+    <Message>/buy 50000 "Cobalt Ingot"</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T19:42:18.2303921-06:00</Date>
+    <Message>/buy 100000 "Cobalt Ingot"</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T19:51:39.5135267-06:00</Date>
+    <Message>/pay personzz 2500000</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198138856986</SteamId>
+      <PlayerName>personzz</PlayerName>
+    </Sender>
+    <Date>2019-03-02T19:53:31.6166939-06:00</Date>
+    <Message>/bal</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T19:53:50.7831282-06:00</Date>
+    <Message>/buy 50 rail</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T19:53:56.1660728-06:00</Date>
+    <Message>/buy 50 ammo</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T19:54:01.81623-06:00</Date>
+    <Message>/buy 50 Per</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198138856986</SteamId>
+      <PlayerName>personzz</PlayerName>
+    </Sender>
+    <Date>2019-03-02T19:55:35.681146-06:00</Date>
+    <Message>/buy 100000 gravel</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198244865788</SteamId>
+      <PlayerName>Corsair</PlayerName>
+    </Sender>
+    <Date>2019-03-02T19:56:27.1916498-06:00</Date>
+    <Message>/buy 50 slug</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198138856986</SteamId>
+      <PlayerName>personzz</PlayerName>
+    </Sender>
+    <Date>2019-03-02T20:24:57.4824874-06:00</Date>
+    <Message>/buy 500000 gravel</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198138856986</SteamId>
+      <PlayerName>personzz</PlayerName>
+    </Sender>
+    <Date>2019-03-02T20:25:16.2320741-06:00</Date>
+    <Message>/buy 250000 gravel</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T20:31:42.2211203-06:00</Date>
+    <Message>'Corsair' dropped</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T20:54:45.5547831-06:00</Date>
+    <Message>'Corsair' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T21:02:51.4290187-06:00</Date>
+    <Message>'personzz' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T22:23:07.1801427-06:00</Date>
+    <Message>'Rain42' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-02T22:23:36.8312319-06:00</Date>
+    <Message>'Rain42' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T00:21:06.3424861-06:00</Date>
+    <Message>'Rayleonardo' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T00:32:55.9080199-06:00</Date>
+    <Message>'Rayleonardo' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T01:10:50.2899964-06:00</Date>
+    <Message>'nightwolf&lt;' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T01:13:24.6218518-06:00</Date>
+    <Message>'nightwolf&lt;' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T01:14:20.5357714-06:00</Date>
+    <Message>'nightwolf&lt;' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T01:16:06.8006979-06:00</Date>
+    <Message>'Athlon' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T01:50:07.8549847-06:00</Date>
+    <Message>'nightwolf&lt;' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T01:55:51.4306689-06:00</Date>
+    <Message>'StorStivEn' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198003062470</SteamId>
+      <PlayerName>StorStivEn</PlayerName>
+    </Sender>
+    <Date>2019-03-03T01:58:53.1984551-06:00</Date>
+    <Message>hey all</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198003062470</SteamId>
+      <PlayerName>StorStivEn</PlayerName>
+    </Sender>
+    <Date>2019-03-03T01:59:24.0312776-06:00</Date>
+    <Message>spawned without tools... </Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T01:59:48.8819638-06:00</Date>
+    <Message>'Athlon' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T02:01:03.1687302-06:00</Date>
+    <Message>'Athlon' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T02:06:25.4921787-06:00</Date>
+    <Message>'StorStivEn' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T02:20:24.8387013-06:00</Date>
+    <Message>'Athlon' dropped</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T02:32:45.4041017-06:00</Date>
+    <Message>'Athlon' dropped</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T02:33:35.386898-06:00</Date>
+    <Message>'Athlon' dropped</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T03:11:50.8064279-06:00</Date>
+    <Message>'Athlon' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T12:07:19.7559139-06:00</Date>
+    <Message>'Thor TTC' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T12:10:21.4778961-06:00</Date>
+    <Message>'Thor TTC' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T16:18:24.4458791-06:00</Date>
+    <Message>'Deadeye2287' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T16:26:32.3557312-06:00</Date>
+    <Message>'Deadeye2287' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T16:40:06.5724207-06:00</Date>
+    <Message>'BluntMachete' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T16:52:18.581226-06:00</Date>
+    <Message>'BluntMachete' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T18:49:29.054051-06:00</Date>
+    <Message>'legomstr17' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T19:46:24.0609933-06:00</Date>
+    <Message>'Gotlyfe' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T20:10:43.7568264-06:00</Date>
+    <Message>'legomstr17' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197999513262</SteamId>
+      <PlayerName>Gotlyfe</PlayerName>
+    </Sender>
+    <Date>2019-03-03T20:14:01.070557-06:00</Date>
+    <Message>ugh forgot all the inventories went down. including turrets and guns</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197999513262</SteamId>
+      <PlayerName>Gotlyfe</PlayerName>
+    </Sender>
+    <Date>2019-03-03T20:14:02.8373195-06:00</Date>
+    <Message>-_-</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T20:19:53.8795076-06:00</Date>
+    <Message>'Gotlyfe' dropped</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T20:19:55.6296503-06:00</Date>
+    <Message>'Gotlyfe' dropped</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T20:20:18.4789427-06:00</Date>
+    <Message>'Gotlyfe' dropped</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T20:22:18.8436103-06:00</Date>
+    <Message>'Gotlyfe' dropped</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197999513262</SteamId>
+      <PlayerName>Gotlyfe</PlayerName>
+    </Sender>
+    <Date>2019-03-03T20:30:08.2024848-06:00</Date>
+    <Message>I lost all my ingots but si, co, fe, ni</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197999513262</SteamId>
+      <PlayerName>Gotlyfe</PlayerName>
+    </Sender>
+    <Date>2019-03-03T20:30:24.6022018-06:00</Date>
+    <Message>sadness sadness</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197999513262</SteamId>
+      <PlayerName>Gotlyfe</PlayerName>
+    </Sender>
+    <Date>2019-03-03T20:30:37.7354777-06:00</Date>
+    <Message>going to be tough building for the final battle</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197999513262</SteamId>
+      <PlayerName>Gotlyfe</PlayerName>
+    </Sender>
+    <Date>2019-03-03T20:31:03.7345983-06:00</Date>
+    <Message>I'm already splitting them up for small ship shield emitters</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197999513262</SteamId>
+      <PlayerName>Gotlyfe</PlayerName>
+    </Sender>
+    <Date>2019-03-03T20:32:19.0332254-06:00</Date>
+    <Message>oh jesus i didn't even check</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197999513262</SteamId>
+      <PlayerName>Gotlyfe</PlayerName>
+    </Sender>
+    <Date>2019-03-03T20:32:29.9832468-06:00</Date>
+    <Message>They were pretty full</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197999513262</SteamId>
+      <PlayerName>Gotlyfe</PlayerName>
+    </Sender>
+    <Date>2019-03-03T20:32:36.4498784-06:00</Date>
+    <Message>i never sold any of my ur</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197999513262</SteamId>
+      <PlayerName>Gotlyfe</PlayerName>
+    </Sender>
+    <Date>2019-03-03T20:32:58.3157803-06:00</Date>
+    <Message>yeah i just sold silver and gold mostly</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197999513262</SteamId>
+      <PlayerName>Gotlyfe</PlayerName>
+    </Sender>
+    <Date>2019-03-03T20:33:04.015923-06:00</Date>
+    <Message>ur is good for missles </Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197999513262</SteamId>
+      <PlayerName>Gotlyfe</PlayerName>
+    </Sender>
+    <Date>2019-03-03T20:33:05.7991419-06:00</Date>
+    <Message>so</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197999513262</SteamId>
+      <PlayerName>Gotlyfe</PlayerName>
+    </Sender>
+    <Date>2019-03-03T20:33:14.8825063-06:00</Date>
+    <Message>i'll have to check</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197999513262</SteamId>
+      <PlayerName>Gotlyfe</PlayerName>
+    </Sender>
+    <Date>2019-03-03T20:35:13.6135658-06:00</Date>
+    <Message>/bal</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T20:36:32.4898371-06:00</Date>
+    <Message>'Gotlyfe' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90123970738974731</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T20:40:13.7675785-06:00</Date>
+    <Message>'Gotlyfe' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90124010028845063</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T21:03:53.5096795-06:00</Date>
+    <Message>'Gotlyfe' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561197999513262</SteamId>
+      <PlayerName>Gotlyfe</PlayerName>
+    </Sender>
+    <Date>2019-03-03T21:08:57.8124654-06:00</Date>
+    <Message>wb</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90124010028845063</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-03T21:30:13.3989471-06:00</Date>
+    <Message>'Gotlyfe' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90124024293602315</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-04T10:55:31.4122823-06:00</Date>
+    <Message>'Gotlyfe' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90124024293602315</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-04T10:57:04.6285533-06:00</Date>
+    <Message>'Gotlyfe' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90124024293602315</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-04T14:18:54.5164951-06:00</Date>
+    <Message>'Wacky Tobaccy' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90124024293602315</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-04T14:53:25.7044377-06:00</Date>
+    <Message>'Wacky Tobaccy' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90124024293602315</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-04T15:56:05.9942313-06:00</Date>
+    <Message>'Wacky Tobaccy' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90124024293602315</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-04T16:52:47.9174976-06:00</Date>
+    <Message>'The Caped Crusader' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198123644980</SteamId>
+      <PlayerName>The Caped Crusader</PlayerName>
+    </Sender>
+    <Date>2019-03-04T16:54:12.5105201-06:00</Date>
+    <Message>Hello?</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198123644980</SteamId>
+      <PlayerName>The Caped Crusader</PlayerName>
+    </Sender>
+    <Date>2019-03-04T16:55:35.9546547-06:00</Date>
+    <Message>I'm on a very large ship uhh, where do I go </Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90124024293602315</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-04T17:08:48.7918237-06:00</Date>
+    <Message>'Wacky Tobaccy' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90124024293602315</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-04T17:12:21.2396645-06:00</Date>
+    <Message>'The Caped Crusader' dropped</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90124024293602315</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-04T17:13:03.3381398-06:00</Date>
+    <Message>'The Caped Crusader' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90124024293602315</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-04T18:28:38.2658226-06:00</Date>
+    <Message>'Pjosip' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90124024293602315</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-04T18:28:44.8340773-06:00</Date>
+    <Message>'Pjosip' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90124024293602315</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-04T18:53:14.3252602-06:00</Date>
+    <Message>'Athlon' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198098451770</SteamId>
+      <PlayerName>Athlon</PlayerName>
+    </Sender>
+    <Date>2019-03-04T19:09:06.9153288-06:00</Date>
+    <Message>The server wipe already?</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90124024293602315</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-04T19:16:08.0762277-06:00</Date>
+    <Message>'Thor TTC' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90124024293602315</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-04T19:16:38.0437118-06:00</Date>
+    <Message>'Thor TTC' disconnected</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90124024293602315</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-04T19:18:14.840773-06:00</Date>
+    <Message>'Thor TTC' joined server</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>76561198161990480</SteamId>
+      <PlayerName>Thor TTC</PlayerName>
+    </Sender>
+    <Date>2019-03-04T19:18:28.6232102-06:00</Date>
+    <Message>/ehelp</Message>
+  </ChatMessage>
+  <ChatMessage>
+    <Sender>
+      <SteamId>90124024293602315</SteamId>
+      <PlayerName>Server</PlayerName>
+    </Sender>
+    <Date>2019-03-04T19:19:56.0072731-06:00</Date>
+    <Message>'Thor TTC' disconnected</Message>
+  </ChatMessage>
+</ArrayOfChatMessage>

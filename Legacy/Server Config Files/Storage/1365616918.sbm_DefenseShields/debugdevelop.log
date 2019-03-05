@@ -1,0 +1,930 @@
+03-04-19_09-45-24-155 - Logging Started: Server:True - Dedicated:True - MpActive:True
+03-04-19_09-45-24-159 - LoadConf - Session: This is a server
+03-04-19_09-45-24-704 - [NewRefresh] SlotScaler:9 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:0 - AllControllerBlocks:0
+03-04-19_09-45-32-608 - Exception in EntityInit: System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+   at System.Convert.FromBase64_ComputeResultLength(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at DefenseShields.ModulatorSettings.LoadSettings()
+   at DefenseShields.Modulators.StorageSetup()
+   at DefenseShields.Modulators.Init(MyObjectBuilder_EntityBase objectBuilder)
+03-04-19_09-46-57-455 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:31 - AllControllerBlocks:71
+03-04-19_09-47-27-454 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:31 - AllControllerBlocks:71
+03-04-19_09-48-35-757 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(11 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:11 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-49-05-791 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-49-35-786 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-50-05-789 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-50-35-788 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-51-05-785 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-51-35-785 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-52-05-788 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-52-35-783 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-53-05-783 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-53-35-781 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-54-06-828 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-54-36-832 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-55-06-824 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-55-36-826 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-56-06-829 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-56-36-827 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-57-06-824 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-57-36-824 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-58-06-822 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-58-36-824 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-59-06-817 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_09-59-36-820 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-00-06-815 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-00-36-817 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-01-06-819 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-01-36-816 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-02-06-826 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-02-36-814 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-03-06-816 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-03-36-813 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-04-07-382 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-04-37-379 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-05-07-382 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-05-37-379 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-06-07-378 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-06-37-381 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-07-07-381 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-07-37-388 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-08-07-378 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-08-37-379 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-09-07-374 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-09-37-376 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-10-07-380 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-10-37-372 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-11-07-372 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-11-37-372 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-12-07-373 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-12-37-374 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-13-07-372 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-13-37-368 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-14-07-899 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-14-37-899 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-15-07-899 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-15-37-904 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-16-07-900 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-16-37-900 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-17-07-897 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-17-37-898 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-18-07-896 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-18-37-896 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-19-07-896 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-19-37-898 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-20-07-893 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-20-37-897 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-21-07-892 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-21-37-894 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-22-07-893 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-22-37-887 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-23-07-889 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-23-37-889 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-24-08-421 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-24-38-419 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-25-08-415 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-25-38-420 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-26-08-422 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-26-38-420 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-27-08-412 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-27-38-419 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-28-08-416 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-28-38-412 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-29-08-413 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-29-38-415 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-30-08-414 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-30-38-419 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-31-08-412 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-31-38-418 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-32-08-411 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-32-38-408 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-33-08-404 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-33-38-404 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-34-08-973 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-34-38-969 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-35-08-969 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-35-39-094 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-36-09-093 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-36-39-096 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-37-09-097 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-37-39-097 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-38-09-094 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-38-39-093 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-39-09-095 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-39-39-092 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-40-09-093 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-40-39-093 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-41-09-090 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-41-39-088 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-42-09-091 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-42-39-087 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-43-09-090 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-43-39-087 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-44-09-648 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-44-39-649 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-45-09-651 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-45-39-648 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-46-09-647 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-46-39-649 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-47-09-650 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-47-39-654 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-48-09-642 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-48-39-644 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-49-09-640 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-49-39-645 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-50-09-648 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-50-39-639 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-51-09-639 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-51-39-643 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-52-09-637 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-52-39-641 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-53-09-642 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-53-39-644 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-54-10-219 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-54-40-217 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-55-11-075 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 4 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-55-41-295 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(4 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:4 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-56-12-370 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(5 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:5 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-56-42-372 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(5 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:5 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-57-12-370 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(5 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:5 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-57-42-372 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-58-12-365 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-58-42-373 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-59-12-364 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_10-59-42-362 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-00-12-380 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-00-42-369 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-01-12-365 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-01-42-363 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-02-12-360 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-02-42-361 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-03-12-367 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-03-42-359 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-04-12-967 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-04-42-961 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-05-12-962 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-05-42-971 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-06-12-960 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-06-42-958 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-07-12-960 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-07-42-957 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-08-12-966 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-08-42-956 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-09-12-954 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-09-42-956 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-10-12-954 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-10-42-955 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-11-12-955 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-11-42-963 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-12-12-953 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-12-42-950 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-13-12-957 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-13-42-955 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-14-13-560 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-14-43-558 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-15-13-563 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-15-43-557 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-16-13-556 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-16-43-553 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-17-13-553 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-17-43-555 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-18-13-552 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-18-43-552 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-19-13-550 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-19-43-549 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-20-13-551 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-20-43-553 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-21-13-549 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-21-43-549 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-22-13-550 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-22-43-549 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-23-13-546 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-23-43-549 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-24-14-119 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-24-44-118 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-25-14-119 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-25-44-117 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-26-14-124 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-26-44-120 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-27-14-115 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-27-44-113 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-28-14-114 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-28-44-114 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-29-14-112 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-29-44-112 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-30-14-111 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-30-44-112 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-31-14-115 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-31-44-113 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-32-14-111 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-32-44-110 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-33-14-112 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-33-44-107 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-34-14-687 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-34-44-691 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-35-14-689 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-35-44-689 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-36-14-688 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-36-44-689 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-37-14-817 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-37-44-813 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-38-14-805 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-38-44-807 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-39-14-806 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-39-44-807 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-40-14-807 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-40-44-804 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-41-14-803 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-41-44-805 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-42-14-811 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-42-44-804 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-43-14-801 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-43-44-802 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-44-15-437 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-44-45-437 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-45-15-439 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-45-45-440 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-46-15-439 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-46-45-441 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-47-15-437 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-47-45-433 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-48-15-440 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-48-45-431 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-49-15-435 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-49-45-439 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-50-15-432 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-50-45-428 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-51-15-430 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-51-45-431 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-52-15-429 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-52-45-430 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-53-15-428 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-53-45-531 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-54-16-116 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-54-46-115 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-55-16-115 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-55-46-113 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-56-16-109 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-56-46-113 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-57-16-111 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-57-46-115 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-58-16-110 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-58-46-111 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-59-16-109 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_11-59-46-106 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-00-16-110 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-00-46-107 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-01-16-107 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-01-46-103 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-02-16-102 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-02-46-107 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-03-16-110 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-03-46-104 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-04-16-685 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-04-46-688 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-05-16-689 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-05-46-685 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-06-16-691 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-06-46-686 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-07-16-687 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-07-46-682 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-08-16-681 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-08-46-679 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-09-16-682 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-09-46-678 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-10-16-682 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-10-46-686 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-11-16-682 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-11-46-680 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-12-16-675 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-12-46-684 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-13-16-678 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-13-46-679 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-14-17-288 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-14-47-297 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-15-17-291 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-15-47-286 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-16-17-289 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-16-47-289 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-17-17-288 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-17-47-287 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-18-17-287 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-18-47-292 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-19-17-286 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-19-47-283 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-20-17-282 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-20-47-283 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-21-17-281 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-21-47-282 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-22-17-284 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-22-47-277 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-23-17-286 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-23-47-278 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-24-17-860 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-24-47-856 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-25-17-859 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-25-47-857 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-26-17-856 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-26-47-855 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-27-17-856 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-27-47-856 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-28-17-864 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-28-47-853 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-29-17-854 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-29-47-858 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-30-17-855 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-30-47-849 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-31-17-858 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-31-47-848 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-32-17-848 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-32-47-856 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-33-17-852 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-33-47-847 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-34-18-432 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-34-48-430 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-35-18-430 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-35-48-433 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-36-18-428 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-36-48-427 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-37-18-429 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-37-48-429 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-38-18-429 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-38-48-430 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-39-18-425 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-39-48-426 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-40-18-424 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-40-48-423 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-41-18-428 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-41-48-421 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-42-18-422 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-42-48-421 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-43-18-423 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-43-48-421 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-44-18-994 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-44-48-995 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-45-18-992 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-45-48-993 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-46-18-993 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-46-48-993 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-47-18-989 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-47-48-990 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-48-18-987 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-48-48-987 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-49-18-988 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-49-48-988 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-50-18-988 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-50-48-986 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-51-18-987 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-51-48-987 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-52-18-989 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-52-48-983 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-53-18-984 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-53-48-982 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-54-19-569 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-54-49-566 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-55-19-577 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-55-49-570 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-56-19-568 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-56-49-569 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-57-19-566 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-57-49-569 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-58-19-566 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-58-49-564 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-59-19-565 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_12-59-49-567 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-00-19-569 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-00-49-561 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-01-19-561 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-01-49-563 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-02-19-560 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-02-49-562 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-03-19-557 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-03-49-558 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-04-20-135 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-04-50-134 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-05-20-134 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-05-50-133 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-06-20-130 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-06-50-137 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-07-20-133 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-07-50-127 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-08-20-127 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-08-50-128 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-09-20-128 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-09-50-128 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-10-20-134 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-10-50-128 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-11-20-127 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-11-50-121 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-12-20-122 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-12-50-120 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-13-20-123 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-13-50-118 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-14-20-706 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-14-50-704 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-15-20-701 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-15-50-705 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-16-20-703 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-16-50-704 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-17-20-704 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-17-50-700 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-18-20-701 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-18-50-706 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-19-20-704 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-19-50-702 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-20-20-699 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-20-50-697 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-21-20-702 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-21-50-696 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-22-20-697 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-22-50-698 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-23-20-695 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-23-50-699 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-24-21-251 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-24-51-251 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-25-21-254 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-25-51-249 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-26-21-251 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-26-51-248 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-27-21-248 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-27-51-247 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-28-21-244 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-28-51-247 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-29-21-247 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-29-51-245 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-30-21-243 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-30-51-253 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-31-21-244 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-31-51-241 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-32-21-244 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-32-51-242 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-33-21-240 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-33-51-236 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-34-21-829 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-34-51-828 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-35-21-824 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-35-51-827 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-36-21-823 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-36-51-825 - [NewRefresh] SlotScaler:1 - EntsUpdated:0 - ShieldsWaking:0 - EntsRemoved: 0 - EntsLostShield:0 - EntInRefreshSlots:(0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0) 
+                                     ProtectedEnts:0 - FunctionalShields:29 - AllControllerBlocks:61
+03-04-19_13-37-21-824 - [NewRefresh] SlotS
