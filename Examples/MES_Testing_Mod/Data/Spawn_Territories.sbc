@@ -11,11 +11,13 @@
                 [Modular Encounters Territory]
                 [Name:Rebel Space]
                 [TerritoryType:Static]
-                [Radius:20000]
+                [Radius:10000]
                 [CoordsX:200000]
                 [CoordsY:0]
                 [CoordsZ:0]
                 [AnnounceArriveDepart:true]
+
+                [Active:true]
 
             </Description>
 

@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DroneBehaviors>
+    <DroneBehavior xsi:type="MyObjectBuilder_DroneBehaviorDefinition">
+      <Id>
+        <TypeId>DroneBehaviorDefinition</TypeId>
+        <SubtypeId>UglyAI</SubtypeId>
+      </Id>
+      <StrafeWidth>20</StrafeWidth>
+      <StrafeHeight>20</StrafeHeight>
+      <StrafeDepth>10</StrafeDepth>
+      <MinStrafeDistance>5</MinStrafeDistance>
+
+      <AvoidCollisions>true</AvoidCollisions>
+      <RotateToPlayer>true</RotateToPlayer>
+      <UseStaticWeaponry>true</UseStaticWeaponry>
+      <UseTools>true</UseTools>
+      <UseRammingBehavior>true</UseRammingBehavior>
+      <AlternativeBehavior></AlternativeBehavior>
+
+      <SpeedLimit>75</SpeedLimit>
+      <PlayerYAxisOffset>0.9</PlayerYAxisOffset>
+      <TargetDistance>75</TargetDistance>
+      <MaxManeuverDistance>200</MaxManeuverDistance>
+      <StaticWeaponryUsage>800</StaticWeaponryUsage>
+      <ToolsUsage>8</ToolsUsage>
+      <RammingBehaviorDistance>75</RammingBehaviorDistance>
+
+      <UsePlanetHover>true</UsePlanetHover>
+      <PlanetHoverMin>50</PlanetHoverMin>
+      <PlanetHoverMax>75</PlanetHoverMax>
+		
+      <WaypointDelayMsMin>1000</WaypointDelayMsMin>
+      <WaypointDelayMsMax>3000</WaypointDelayMsMax>
+      <WaypointMaxTime>15000</WaypointMaxTime>
+      <WaypointThresholdDistance>0.5</WaypointThresholdDistance>
+      <LostTimeMs>20000</LostTimeMs>
+
+      <UsesWeaponBehaviors>true</UsesWeaponBehaviors>
+      <WeaponBehaviorNotFoundDelay>3</WeaponBehaviorNotFoundDelay>
+      <WeaponBehaviors>
+        <WeaponBehavior>
+          <Name>Gatling Burst</Name> <!-- Burst only from gatling guns that lasts for 2-3 seconds and then pause for 1-3 seconds -->
+          <Priority>30</Priority> <!-- Higher priority means that it will be used more often -->
+          <Requirements>
+            <Weapon>SmallGatlingGun</Weapon> <!-- Must have at least 1 working gatling gun -->
+          </Requirements>
+          <RequirementsIsWhitelist>true</RequirementsIsWhitelist>
+
+          <!-- List of things drone can ignore when targeting - behavior will be ignored if it cannot open fire -->
+          <IgnoresVoxels>false</IgnoresVoxels> <!-- Drone will not try to shoot through voxels -->
+          <IgnoresGrids>true</IgnoresGrids>
+          
+          <TimeMin>1</TimeMin> <!-- Cooldown time after all firing is done - minimum -->
+          <TimeMax>3</TimeMax> <!-- Cooldown time after all firing is done - maximum -->
+          <WeaponRules>
+            <WeaponRule>
+              <Weapon /> <!-- TypeId of weapon must match with this - check omitted when empty -->
+              <TimeMin>2</TimeMin> <!-- Minimum firing time -->
+              <TimeMax>3</TimeMax> <!-- Maximum firing time -->
+              <FiringAfterLosingSight>true</FiringAfterLosingSight> <!-- Once it starts shooting it will not stop even when not rotated to player -->
+              <CanGoThroughVoxels>true</CanGoThroughVoxels> <!-- Specific weapon can have different setting than the global one -->
+            </WeaponRule>
+          </WeaponRules>
+        </WeaponBehavior>
+        
+        <WeaponBehavior>
+          <Name>Rocket Volley</Name> <!-- Shoots one volley from rocket launchers and then pause for 4-6 seconds -->
+          <Priority>10</Priority>
+          <IgnoresVoxels>true</IgnoresVoxels> <!-- Behavior can start even when there is voxel -->
+          <IgnoresGrids>true</IgnoresGrids>
+          <TimeMin>3</TimeMin>
+          <TimeMax>5</TimeMax>
+          <Requirements>
+            <Weapon>SmallMissileLauncher</Weapon> <!-- Only rocket launchers will work -->
+            <Weapon>SmallMissileLauncherReload</Weapon>
+          </Requirements>
+          <RequirementsIsWhitelist>true</RequirementsIsWhitelist>
+          <WeaponRules>
+            <WeaponRule>
+              <Weapon /> <!-- Both launchers will use this -->
+              <TimeMin>0</TimeMin> <!-- Will be fired only once -->
+              <TimeMax>0</TimeMax>
+              <FiringAfterLosingSight>false</FiringAfterLosingSight>
+              <CanGoThroughVoxels>true</CanGoThroughVoxels>
+            </WeaponRule>
+          </WeaponRules>
+        </WeaponBehavior>
+
+        <WeaponBehavior>
+          <Name>Other Weapons</Name> <!-- Shoots from non-vanilla weapons and then pause for 4-6 seconds -->
+          <Priority>20</Priority>
+          <IgnoresVoxels>false</IgnoresVoxels>
+          <IgnoresGrids>true</IgnoresGrids>
+          <TimeMin>3</TimeMin>
+          <TimeMax>5</TimeMax>
+          <Requirements>
+            <Weapon>SmallMissileLauncher</Weapon>
+            <Weapon>SmallMissileLauncherReload</Weapon>
+            <Weapon>SmallGatlingGun</Weapon>
+          </Requirements>
+          <RequirementsIsWhitelist>false</RequirementsIsWhitelist>
+          <WeaponRules>
+            <WeaponRule>
+              <Weapon />
+              <TimeMin>3</TimeMin>
+              <TimeMax>5</TimeMax>
+              <FiringAfterLosingSight>false</FiringAfterLosingSight>
+              <CanGoThroughVoxels>false</CanGoThroughVoxels>
+            </WeaponRule>
+          </WeaponRules>
+        </WeaponBehavior>
+
+        <WeaponBehavior>
+          <Name>All Weapons</Name> <!-- Shoots from all weapons and then pause for 5-8 seconds -->
+          <Priority>2</Priority>
+          <IgnoresVoxels>true</IgnoresVoxels>
+          <IgnoresGrids>true</IgnoresGrids>
+          <TimeMin>4</TimeMin>
+          <TimeMax>6</TimeMax>
+          <Requirements />
+          <RequirementsIsWhitelist>false</RequirementsIsWhitelist>
+          <WeaponRules>
+            <WeaponRule>
+              <Weapon>SmallMissileLauncherReload</Weapon>
+              <TimeMin>0</TimeMin>
+              <TimeMax>0</TimeMax>
+              <FiringAfterLosingSight>false</FiringAfterLosingSight>
+              <CanGoThroughVoxels>true</CanGoThroughVoxels>
+            </WeaponRule>
+            <WeaponRule>
+              <Weapon>SmallMissileLauncher</Weapon>
+              <TimeMin>0</TimeMin>
+              <TimeMax>0</TimeMax>
+              <FiringAfterLosingSight>false</FiringAfterLosingSight>
+              <CanGoThroughVoxels>true</CanGoThroughVoxels>
+            </WeaponRule>
+            <WeaponRule>
+              <Weapon>SmallGatlingGun</Weapon> <!-- Gatlings -->
+              <TimeMin>3</TimeMin>
+              <TimeMax>5</TimeMax>
+              <FiringAfterLosingSight>true</FiringAfterLosingSight>
+              <CanGoThroughVoxels>false</CanGoThroughVoxels>
+            </WeaponRule>
+            <WeaponRule>
+              <Weapon /> <!-- modded weapons -->
+              <TimeMin>2</TimeMin>
+              <TimeMax>4</TimeMax>
+              <FiringAfterLosingSight>false</FiringAfterLosingSight>
+              <CanGoThroughVoxels>false</CanGoThroughVoxels>
+            </WeaponRule>
+          </WeaponRules>
+        </WeaponBehavior>
+      </WeaponBehaviors>
+    </DroneBehavior>
+	
+	<DroneBehavior xsi:type="MyObjectBuilder_DroneBehaviorDefinition">
+      <Id>
+        <TypeId>DroneBehaviorDefinition</TypeId>
+        <SubtypeId>UglyAICapital</SubtypeId>
+      </Id>
+      <StrafeWidth>1</StrafeWidth>
+      <StrafeHeight>1</StrafeHeight>
+      <StrafeDepth>1</StrafeDepth>
+      <MinStrafeDistance>1</MinStrafeDistance>
+
+      <AvoidCollisions>true</AvoidCollisions>
+      <RotateToPlayer>false</RotateToPlayer>
+      <UseStaticWeaponry>false</UseStaticWeaponry>
+      <UseTools>true</UseTools>
+      <UseRammingBehavior>true</UseRammingBehavior>
+      <AlternativeBehavior></AlternativeBehavior>
+
+      <SpeedLimit>20</SpeedLimit>
+      <PlayerYAxisOffset>0.9</PlayerYAxisOffset>
+      <TargetDistance>300</TargetDistance>
+      <MaxManeuverDistance>400</MaxManeuverDistance>
+      <StaticWeaponryUsage>800</StaticWeaponryUsage>
+      <ToolsUsage>8</ToolsUsage>
+      <RammingBehaviorDistance>75</RammingBehaviorDistance>
+
+      <UsePlanetHover>true</UsePlanetHover>
+      <PlanetHoverMin>50</PlanetHoverMin>
+      <PlanetHoverMax>75</PlanetHoverMax>
+		
+      <WaypointDelayMsMin>1000</WaypointDelayMsMin>
+      <WaypointDelayMsMax>3000</WaypointDelayMsMax>
+      <WaypointMaxTime>15000</WaypointMaxTime>
+      <WaypointThresholdDistance>0.5</WaypointThresholdDistance>
+      <LostTimeMs>20000</LostTimeMs>
+
+      <UsesWeaponBehaviors>false</UsesWeaponBehaviors>
+    </DroneBehavior>
+	
+  </DroneBehaviors>
+  </Definitions>

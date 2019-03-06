@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Factions>
+  
+    <Faction Tag="UGLY" Founder="Ugly Bob">
+      <Id>
+        <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+        <SubtypeId>Uglies</SubtypeId>
+      </Id>
+      <DisplayName>Uglies</DisplayName>
+      <IsDefault>true</IsDefault>
+	  <DefaultRelation>Enemies</DefaultRelation>
+	  <AcceptHumans>false</AcceptHumans>
+      <AutoAcceptMember>false</AutoAcceptMember>
+    </Faction>
+	
+  </Factions>
+</Definitions>

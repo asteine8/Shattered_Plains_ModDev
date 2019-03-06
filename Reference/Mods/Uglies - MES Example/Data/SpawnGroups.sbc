@@ -1,0 +1,524 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<SpawnGroups>
+
+<!--=========== CARGO SHIP GROUPS ==============-->
+
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(ARMCO)  Z-'ceptor</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[SpaceCargoShip:true]
+	[FactionOwner:UGLY]
+	[ReplenishSystems:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(ARMCO)  Z-'ceptor">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>20.0</Speed>
+			<Behaviour>UglyAI</Behaviour>
+			<BehaviourActivationDistance>12000</BehaviourActivationDistance>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(ARMCO) AT-A Tie (Tie-Ugly)</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[SpaceCargoShip:true]
+	[FactionOwner:UGLY]
+	[ReplenishSystems:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(ARMCO) AT-A Tie (Tie-Ugly)">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>20.0</Speed>
+			<Behaviour>UglyAI</Behaviour>
+			<BehaviourActivationDistance>12000</BehaviourActivationDistance>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(ARMCO) AT-S Tie (Tie-Ugly)</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[SpaceCargoShip:true]
+	[FactionOwner:UGLY]
+	[ReplenishSystems:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(ARMCO) AT-S Tie (Tie-Ugly)">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>20.0</Speed>
+			<Behaviour>UglyAI</Behaviour>
+			<BehaviourActivationDistance>12000</BehaviourActivationDistance>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(ARMCO) AX-Tie (Ugly)</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[SpaceCargoShip:true]
+	[FactionOwner:UGLY]
+	[ReplenishSystems:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(ARMCO) AX-Tie (Ugly)">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>20.0</Speed>
+			<Behaviour>UglyAI</Behaviour>
+			<BehaviourActivationDistance>12000</BehaviourActivationDistance>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(ARMCO) BTL-Tie (Ugly)</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[SpaceCargoShip:true]
+	[FactionOwner:UGLY]
+	[ReplenishSystems:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(ARMCO) BTL-Tie (Ugly)">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>20.0</Speed>
+			<Behaviour>UglyAI</Behaviour>
+			<BehaviourActivationDistance>12000</BehaviourActivationDistance>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(ARMCO) Deathseed</SubtypeId>
+	</Id>
+	<Enabled>false</Enabled>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[SpaceCargoShip:true]
+	[FactionOwner:UGLY]
+	[ReplenishSystems:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(ARMCO) Deathseed">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>20.0</Speed>
+			<Behaviour>UglyAI</Behaviour>
+			<BehaviourActivationDistance>12000</BehaviourActivationDistance>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(ARMCO) DIE Wing</SubtypeId>
+	</Id>
+	<Enabled>false</Enabled>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[SpaceCargoShip:true]
+	[FactionOwner:UGLY]
+	[ReplenishSystems:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(ARMCO) DIE Wing">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>20.0</Speed>
+			<Behaviour>UglyAI</Behaviour>
+			<BehaviourActivationDistance>12000</BehaviourActivationDistance>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(ARMCO) Kessel Wing</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[SpaceCargoShip:true]
+	[FactionOwner:UGLY]
+	[ReplenishSystems:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(ARMCO) Kessel Wing">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>20.0</Speed>
+			<Behaviour>UglyAI</Behaviour>
+			<BehaviourActivationDistance>12000</BehaviourActivationDistance>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(ARMCO) Z-100 Meridian (Ugly)</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[SpaceCargoShip:true]
+	[FactionOwner:UGLY]
+	[ReplenishSystems:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(ARMCO) Z-100 Meridian (Ugly)">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>20.0</Speed>
+			<Behaviour>UglyAI</Behaviour>
+			<BehaviourActivationDistance>12000</BehaviourActivationDistance>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(ARMCO) Z'ceptor (Tie-Ugly)</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[SpaceCargoShip:true]
+	[FactionOwner:UGLY]
+	[ReplenishSystems:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(ARMCO) Z'ceptor (Tie-Ugly)">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>20.0</Speed>
+			<Behaviour>UglyAI</Behaviour>
+			<BehaviourActivationDistance>12000</BehaviourActivationDistance>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(ARMCO) Z'ceptor (Tie-Ugly)</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[SpaceCargoShip:true]
+	[FactionOwner:UGLY]
+	[ReplenishSystems:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(ARMCO) Z'ceptor (Tie-Ugly)">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>20.0</Speed>
+			<Behaviour>UglyAI</Behaviour>
+			<BehaviourActivationDistance>12000</BehaviourActivationDistance>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>XY-wing (With Shield's)</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[SpaceCargoShip:true]
+	[FactionOwner:UGLY]
+	[ReplenishSystems:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="XY-wing (With Shield's)">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>20.0</Speed>
+			<Behaviour>UglyAI</Behaviour>
+			<BehaviourActivationDistance>12000</BehaviourActivationDistance>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>YAR-Wing (With Shield's)</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[SpaceCargoShip:true]
+	[FactionOwner:UGLY]
+	[ReplenishSystems:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="YAR-Wing (With Shield's)">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>20.0</Speed>
+			<Behaviour>UglyAI</Behaviour>
+			<BehaviourActivationDistance>12000</BehaviourActivationDistance>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>Y-Tie X (With Shield's)</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[SpaceCargoShip:true]
+	[FactionOwner:UGLY]
+	[ReplenishSystems:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="Y-Tie X (With Shield's)">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>20.0</Speed>
+			<Behaviour>UglyAI</Behaviour>
+			<BehaviourActivationDistance>12000</BehaviourActivationDistance>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(ARMCO) V-Wing Heavy Bomber</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[SpaceCargoShip:true]
+	[FactionOwner:UGLY]
+	[ReplenishSystems:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(ARMCO) V-Wing Heavy Bomber">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>20.0</Speed>
+			<Behaviour>UglyAI</Behaviour>
+			<BehaviourActivationDistance>12000</BehaviourActivationDistance>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+<!--
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>Polymer (Star Wars Ugly)</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[SpaceCargoShip:true]
+	[FactionOwner:UGLY]
+	[ReplenishSystems:true]
+	[DisableDampeners:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>0.1</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="Polymer (Star Wars Ugly)">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>20.0</Speed>
+			<Behaviour>UglyAICapital</Behaviour>
+			<BehaviourActivationDistance>12000</BehaviourActivationDistance>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+-->
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>Farathon class Transport Ship</SubtypeId>
+	</Id>
+	<Description>
+	  
+	[Modular Encounters SpawnGroup]
+	[SpaceCargoShip:true]
+	[FactionOwner:UGLY]
+	[ReplenishSystems:true]
+	[DisableDampeners:true]
+	  
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>0.5</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="Farathon class Transport Ship">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<Speed>20.0</Speed>
+			<Behaviour>UglyAICapital</Behaviour>
+			<BehaviourActivationDistance>12000</BehaviourActivationDistance>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+</SpawnGroups>
+</Definitions>
+

@@ -11,6 +11,7 @@
 
             <DefaultRelation>Enemies</DefaultRelation>
             <AutoAcceptMember>false</AutoAcceptMember>
+            <AcceptHumans>false</AcceptHumans>
         </Faction>
     </Factions>
 </Definitions>
