@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VoxelMaterials>
+  
+    <!-- RavLava -->
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>RavLava</SubtypeId>
+      </Id>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <MaterialTypeName>RavLava</MaterialTypeName>
+      <MinedOre>Stone</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>false</IsRare>
+      <IsIndestructible>false</IsIndestructible>
+      <DamageRatio>0.4</DamageRatio>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      
+      <ColorMetalXZnY>Textures\Voxels\RavLava\RavLava_cm.dds</ColorMetalXZnY>   
+      <NormalGlossXZnY>Textures\Voxels\RavLava\RavLava_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\RavLava\RavLava_add.dds</ExtXZnY>
+	  
+	  
+    </VoxelMaterial>
+	
+	<!-- RavRock -->
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>RavRock</SubtypeId>
+      </Id>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <MaterialTypeName>RavRock</MaterialTypeName>
+      <MinedOre>Stone</MinedOre>
+      <MinedOreRatio>7</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>false</IsRare>
+      <IsIndestructible>false</IsIndestructible>
+      <DamageRatio>0.2</DamageRatio>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      
+      <SpecularPower>24</SpecularPower>
+      <SpecularShininess>0.364</SpecularShininess>
+      
+      <ColorMetalXZnY>Textures\Voxels\RavRock\RavRock_cm.dds</ColorMetalXZnY>
+      <ColorMetalY>Textures\Voxels\RavRock\RavRock_cm.dds</ColorMetalY>
+      <NormalGlossXZnY>Textures\Voxels\RavRock\RavRock_ng.dds</NormalGlossXZnY>
+	  <ExtXZnY>Textures\Voxels\RavRock\RavRock_add.dds</ExtXZnY>
+	  
+    </VoxelMaterial>
+	
+	<!-- RavCrackedRock -->
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>RavCrackedRock</SubtypeId>
+      </Id>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>Stone</MinedOre>
+      <MinedOreRatio>6</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>false</IsRare>
+      <IsIndestructible>false</IsIndestructible>
+      <DamageRatio>1</DamageRatio>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+
+      <ColorMetalXZnY>Textures\Voxels\RavCrackedRock\RavCrackedRock_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\RavCrackedRock\RavCrackedRock_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\RavCrackedRock\RavCrackedRock_add.dds</ExtXZnY>
+
+      <SpecularPower>24</SpecularPower>
+      <SpecularShininess>0.364</SpecularShininess>
+
+      
+      <BiomeValueMin>0</BiomeValueMin>
+      <BiomeValueMax>10</BiomeValueMax>
+    </VoxelMaterial>
+	
+	<!-- RavSoil -->
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>RavSoil</SubtypeId>
+      </Id>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <MaterialTypeName>SoilDry</MaterialTypeName>
+      <MinedOre>Stone</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>false</IsRare>
+      <IsIndestructible>false</IsIndestructible>
+      <DamageRatio>1</DamageRatio>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      
+      <ColorMetalXZnY>Textures\Voxels\RavSoil\RavSoil_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\RavSoil\RavSoil_ng.dds</NormalGlossXZnY>
+	  <ExtXZnY>Textures\Voxels\RavSoil\RavSoil_add.dds</ExtXZnY>
+
+      <SpecularPower>24</SpecularPower>
+      <SpecularShininess>0.364</SpecularShininess>
+      
+    </VoxelMaterial>
+	
+  </VoxelMaterials>
+</Definitions>

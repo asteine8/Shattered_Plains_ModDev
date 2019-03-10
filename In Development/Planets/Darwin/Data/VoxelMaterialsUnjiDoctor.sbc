@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VoxelMaterials>
+	<!-- BalcorSoil -->
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>BalcorSoil</SubtypeId>
+      </Id>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <MaterialTypeName>MoonSoil</MaterialTypeName>
+      <MinedOre>Stone</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>false</IsRare>
+      <IsIndestructible>false</IsIndestructible>
+      <DamageRatio>1</DamageRatio>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      
+      <ColorMetalXZnY>Textures\Voxels\BalcorSoil\BalcorSoil_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\BalcorSoil\BalcorSoil_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\BalcorIce\BalcorSoil_add.dds</ExtXZnY>
+	  
+      <SpecularPower>0</SpecularPower>
+      <SpecularShininess>0.364</SpecularShininess>
+
+	</VoxelMaterial>
+	
+	<!-- BalcorRock -->
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>BalcorRock</SubtypeId>
+      </Id>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>Stone</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>false</IsRare>
+      <IsIndestructible>false</IsIndestructible>
+      <DamageRatio>1</DamageRatio>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      
+      <ColorMetalXZnY>Textures\Voxels\BalcorRock\BalcorRock_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\BalcorRock\BalcorRock_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\BalcorRock\BalcorRock_add.dds</ExtXZnY>
+	  
+      <SpecularPower>24</SpecularPower>
+      <SpecularShininess>0.364</SpecularShininess>
+      <LandingEffect>Landing_Jet_Ground_Dust</LandingEffect>
+      
+    </VoxelMaterial>
+	
+	<!-- BalcorIce -->
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>BalcorIce</SubtypeId>
+      </Id>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>Iron</MinedOre>
+      <MinedOreRatio>2</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>false</IsRare>
+      <IsIndestructible>false</IsIndestructible>
+      <DamageRatio>1</DamageRatio>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      
+      <ColorMetalXZnY>Textures\Voxels\BalcorIce\BalcorIce_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\BalcorIce\BalcorIce_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\BalcorIce\BalcorIce_add.dds</ExtXZnY>
+	  
+      <SpecularPower>24</SpecularPower>
+      <SpecularShininess>0.364</SpecularShininess>
+      
+    </VoxelMaterial>
+  </VoxelMaterials>
+</Definitions>

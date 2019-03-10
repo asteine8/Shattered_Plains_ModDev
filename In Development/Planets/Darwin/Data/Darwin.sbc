@@ -1,0 +1,372 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PlanetGeneratorDefinitions>
+    <PlanetGeneratorDefinition>
+      <Id>
+        <TypeId>PlanetGeneratorDefinition</TypeId>
+        <SubtypeId>Darwin</SubtypeId>
+      </Id>
+      <PlanetMaps Material="true" Ores="true" Biome="false" Occlusion="true"/>
+
+    <MesherPostprocessing xsi:type="MyObjectBuilder_VoxelMesherComponentDefinition">
+      <PostprocessingSteps>
+        <Step xsi:type="MyObjectBuilder_VoxelPostprocessingDecimate" ForPhysics="true">
+          <LodSettings>
+            <Settings FromLod="0">
+              <FeatureAngle>15</FeatureAngle>
+              <EdgeThreshold>.04</EdgeThreshold>
+              <PlaneThreshold>.02</PlaneThreshold>
+            </Settings>
+            <Settings FromLod="1">
+              <FeatureAngle>15</FeatureAngle>
+              <EdgeThreshold>.04</EdgeThreshold>
+              <PlaneThreshold>.04</PlaneThreshold>
+            </Settings>
+            <Settings FromLod="2">
+              <FeatureAngle>15</FeatureAngle>
+              <EdgeThreshold>.06</EdgeThreshold>
+              <PlaneThreshold>.06</PlaneThreshold>
+            </Settings>
+          </LodSettings>
+        </Step>
+      </PostprocessingSteps>
+    </MesherPostprocessing>
+	
+      <SurfaceDetail>
+        <Texture>Data/PlanetDataFiles/Extra/material_detail_4</Texture>
+        <Size>384</Size>
+        <Scale>2</Scale>
+        <Slope Min="16" Max="90" />
+        <Transition>7.5</Transition>
+      </SurfaceDetail>
+
+	<DistortionTable>
+      <Distortion Type="Perlin" Value ="92" Frequency="10" Height="4" LayerCount="6"/>
+    </DistortionTable>
+	  
+    <OreMappings>
+      <!-- Tier 1 !INSERT ONLY IN BLUE CHANNEL! -->
+      <!-- Fe 1-->
+      <Ore Value="1" Type="Iron_02" Start="10" Depth="3" />
+      <Ore Value="4" Type="Iron_02" Start="12" Depth="3" />
+      <Ore Value="8" Type="Iron_02" Start="14" Depth="4" />
+
+      <!-- Fe 2-->
+      <Ore Value="12" Type="Silicon_01" Start="25" Depth="5" />
+      <Ore Value="16" Type="Silicon_01" Start="28" Depth="5" />
+      <Ore Value="20" Type="Silicon_01" Start="31" Depth="8" />
+
+      <!-- Ni 1-->
+      <Ore Value="24" Type="Nickel_01" Start="10" Depth="4" />
+      <Ore Value="28" Type="Nickel_01" Start="11" Depth="4" />
+      <Ore Value="32" Type="Nickel_01" Start="11" Depth="6" />
+
+      <!-- Ni 2-->
+      <Ore Value="36" Type="Silicon_01" Start="24" Depth="5" />
+      <Ore Value="40" Type="Silicon_01" Start="27" Depth="5" />
+      <Ore Value="44" Type="Silicon_01" Start="30" Depth="8" />
+
+      <!-- Si 1-->
+      <Ore Value="48" Type="Silicon_01" Start="9" Depth="4" />
+      <Ore Value="52" Type="Silicon_01" Start="13" Depth="4" />
+      <Ore Value="56" Type="Silicon_01" Start="10" Depth="6" />
+
+      <!-- Si 2-->
+      <Ore Value="60" Type="Silicon_01" Start="22" Depth="6" />
+      <Ore Value="64" Type="Silicon_01" Start="25" Depth="7" />
+      <Ore Value="68" Type="Silicon_01" Start="27" Depth="9" />
+
+      <!-- ORE Tier 2 -->
+      <!-- Co 1-->
+      <Ore Value="72" Type="Magnesium_01" Start="20" Depth="3" />
+      <Ore Value="76" Type="Magnesium_01" Start="22" Depth="4" />
+      <Ore Value="80" Type="Magnesium_01" Start="26" Depth="6" />
+
+      <!-- Co 2-->
+      <Ore Value="84" Type="Silver_01" Start="52" Depth="5" />
+      <Ore Value="88" Type="Silver_01" Start="55" Depth="6" />
+      <Ore Value="92" Type="Silver_01" Start="62" Depth="9" />
+
+      <!-- Ag 1-->
+      <Ore Value="96" Type="Silver_01" Start="21" Depth="3" />
+      <Ore Value="100" Type="Silver_01" Start="25" Depth="3" />
+      <Ore Value="104" Type="Silver_01" Start="31" Depth="5" />
+
+      <!-- Ag 2-->
+      <Ore Value="108" Type="Silver_01" Start="55" Depth="8" />
+      <Ore Value="112" Type="Silver_01" Start="58" Depth="9" />
+      <Ore Value="116" Type="Silver_01" Start="63" Depth="11" />
+
+      <!-- Mg 1-->
+      <Ore Value="120" Type="Magnesium_01" Start="23" Depth="4" />
+      <Ore Value="124" Type="Magnesium_01" Start="26" Depth="4" />
+      <Ore Value="128" Type="Magnesium_01" Start="29" Depth="5" />
+
+      <!-- Mg 2-->
+      <Ore Value="132" Type="Magnesium_01" Start="53" Depth="7" />
+      <Ore Value="136" Type="Magnesium_01" Start="55" Depth="8" />
+      <Ore Value="140" Type="Magnesium_01" Start="59" Depth="10" />
+
+      <!-- ORE Tier 3 -->
+      <!-- U 1-->
+      <Ore Value="144" Type="Silver_01" Start="32" Depth="2" />
+      <Ore Value="148" Type="Silver_01" Start="35" Depth="3" />
+      <Ore Value="152" Type="Gold_01" Start="38" Depth="5" />
+
+      <!-- U 2-->
+      <Ore Value="156" Type="Gold_01" Start="80" Depth="8" />
+      <Ore Value="160" Type="Gold_01" Start="89" Depth="9" />
+      <Ore Value="164" Type="Gold_01" Start="96" Depth="11" />
+
+      <!-- Au 1-->
+      <Ore Value="168" Type="Gold_01" Start="40" Depth="1" />
+      <Ore Value="172" Type="Gold_01" Start="42" Depth="2" />
+      <Ore Value="176" Type="Gold_01" Start="45" Depth="3" />
+
+      <!-- Au 2-->
+      <Ore Value="180" Type="Gold_01" Start="100" Depth="4" />
+      <Ore Value="184" Type="Gold_01" Start="107" Depth="5" />
+      <Ore Value="188" Type="Gold_01" Start="112" Depth="8" />
+    </OreMappings>
+
+      <SoundRules>
+        <SoundRule>
+          <Height Min="0" Max="1.2"/>
+          <Latitude Min="0" Max="90"/>
+          <SunAngleFromZenith Min="0" Max="180"/>
+          <EnvironmentSound>AmbThunderstormLoop</EnvironmentSound>
+        </SoundRule>
+      </SoundRules>
+	  
+      <ComplexMaterials>
+        <MaterialGroup Name="Planet Features" Value="0">
+
+          <Rule>
+            <Layers>
+              <Layer Material="BalcorIce" Depth="10"/>
+            </Layers>
+            <Height Min="0" Max="0.05"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="0" Max="8"/>
+          </Rule>
+		  
+		      <Rule>
+            <Layers>
+              <Layer Material="BalcorSoil" Depth="5"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="8" Max="18"/>
+          </Rule>
+		  
+		      <Rule>
+            <Layers>
+              <Layer Material="BalcorRock" Depth="8"/>
+            </Layers>
+            <Height Min="0" Max="1"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="18" Max="90"/>
+          </Rule>
+		  
+        </MaterialGroup>
+      </ComplexMaterials>
+
+      <EnvironmentItems>
+		<Item>
+          <Biomes>
+            <Biome>0</Biome>
+          </Biomes>
+          <Materials>
+            <Material>BalcorSoil</Material>
+          </Materials>
+          <Items>
+            <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="BalcorRock" Density="0.0048" />
+          </Items>
+          <Rule>
+            <Height Min="0" Max="1.2"/>
+            <Latitude Min="0" Max="90"/>
+            <Slope Min="0" Max="90"/>
+          </Rule>
+        </Item>
+      </EnvironmentItems>
+
+      <DefaultSurfaceMaterial Material="BalcorSoil" MaxDepth="5"/>
+      <DefaultSubSurfaceMaterial Material="BalcorRock"/>
+
+      <HasAtmosphere>true</HasAtmosphere>
+	  <MaximumOxygen>0.2</MaximumOxygen>
+	  <Atmosphere>
+        <Breathable>true</Breathable>
+		<OxygenDensity>0.2</OxygenDensity>
+		<Density>1.5</Density>
+		<LimitAltitude>2.0</LimitAltitude>
+    <MaxWindSpeed>100</MaxWindSpeed>
+	  </Atmosphere>
+
+      <AtmosphereSettings>
+		<RayleighScattering>
+		  <X>18.9</X>
+		  <Y>39</Y>
+		  <Z>100</Z>
+		</RayleighScattering>
+		<MieScattering>50</MieScattering>
+		<MieColorScattering>
+		  <X>20</X>
+		  <Y>32</Y>
+		  <Z>91</Z>
+		</MieColorScattering>
+		<RayleighHeight>30.160</RayleighHeight>
+		<RayleighHeightSpace>12.285</RayleighHeightSpace>
+		<RayleighTransitionModifier>0.4</RayleighTransitionModifier>
+		<MieHeight>30</MieHeight>
+		<MieG>0.99985</MieG>
+		<Intensity>2.097</Intensity>
+		<SeaLevelModifier>0.96</SeaLevelModifier>
+		<AtmosphereTopModifier>1.1</AtmosphereTopModifier>
+		<FogIntensity>3</FogIntensity>
+		<Scale>1</Scale>
+      </AtmosphereSettings>
+	  
+    <CloudLayers>
+      <CloudLayer>
+        <!-- Far layer -->
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/BalcorClouds.dds</Texture>
+        </Textures>
+        <RelativeAltitude>1.1</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>1</Y>
+          <Z>0.2</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0002</AngularVelocity>
+        <InitialRotation>1.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+        <ApplyFogRelativeDistance>0.1</ApplyFogRelativeDistance>
+      </CloudLayer>
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/BalcorClouds.dds</Texture>
+        </Textures>
+        <RelativeAltitude>1.09</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>0.2</Y>
+          <Z>1</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0002</AngularVelocity>
+        <InitialRotation>3.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+        <ApplyFogRelativeDistance>0.05</ApplyFogRelativeDistance>
+      </CloudLayer>
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/BalcorClouds.dds</Texture>
+        </Textures>
+        <RelativeAltitude>1.08</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>0.2</Y>
+          <Z>1</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0002</AngularVelocity>
+        <InitialRotation>5.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+        <ApplyFogRelativeDistance>0.05</ApplyFogRelativeDistance>
+      </CloudLayer>
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/BalcorClouds.dds</Texture>
+        </Textures>
+        <RelativeAltitude>1.07</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>0.2</Y>
+          <Z>1</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0002</AngularVelocity>
+        <InitialRotation>5.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>3.0</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+        <ApplyFogRelativeDistance>0.05</ApplyFogRelativeDistance>
+      </CloudLayer>
+
+      <!-- Near layers -->
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/BalcorClouds.dds</Texture>
+        </Textures>
+        <RelativeAltitude>1.0</RelativeAltitude>
+        <RotationAxis>
+          <X>0</X>
+          <Y>1</Y>
+          <Z>0</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0006</AngularVelocity>
+        <InitialRotation>0.15</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0.5</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.6</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/BalcorClouds.dds</Texture>
+        </Textures>
+        <RelativeAltitude>2.0</RelativeAltitude>
+        <RotationAxis>
+          <X>0.2</X>
+          <Y>1</Y>
+          <Z>-0.2</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0006</AngularVelocity>
+        <InitialRotation>0.5</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0.7</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.5</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+
+      <CloudLayer>
+        <Model>Models/Environment/Sky/CloudSphere.mwm</Model>
+        <Textures>
+          <Texture>Textures/Models/Environment/Sky/BalcorClouds.dds</Texture>
+        </Textures>
+        <RelativeAltitude>3.0</RelativeAltitude>
+        <RotationAxis>
+          <X>-0.2</X>
+          <Y>1</Y>
+          <Z>0.2</Z>
+        </RotationAxis>
+        <AngularVelocity>0.0006</AngularVelocity>
+        <InitialRotation>1.2</InitialRotation>
+        <ScalingEnabled>false</ScalingEnabled>
+        <FadeOutRelativeAltitudeStart>0.8</FadeOutRelativeAltitudeStart>
+        <FadeOutRelativeAltitudeEnd>1.4</FadeOutRelativeAltitudeEnd>
+      </CloudLayer>
+    </CloudLayers>
+	  
+      <SurfaceGravity>0.3</SurfaceGravity>
+      <MaterialsMaxDepth Min="4000" Max="4000"/>
+      <MaterialsMinDepth Min="20" Max="20"/>
+
+      <HillParams Min = "-0.03" Max ="0.03"/>
+	  
+	  <!-- 60km -->
+	  
+    </PlanetGeneratorDefinition>
+
+  </PlanetGeneratorDefinitions>
+</Definitions>

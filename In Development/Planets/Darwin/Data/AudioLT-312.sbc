@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sounds>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AmbThunderstormLoop</SubtypeId>
+      </Id>
+      <Category>AMB</Category>
+      <MaxDistance>100</MaxDistance>
+      <Volume>0.8</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D2">
+          <Loop>Audio\ARC\AMB\AmbThunderstormLoop.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+  </Sounds>
+</Definitions>
