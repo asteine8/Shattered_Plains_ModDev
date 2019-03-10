@@ -394,6 +394,7 @@
 			<OxygenDensity>0.9</OxygenDensity>
 			<Density>1.0</Density>
 			<LimitAltitude>2.0</LimitAltitude>
+			<MaxWindSpeed>300</MaxWindSpeed>
 		</Atmosphere>
 
 		<AtmosphereSettings>
@@ -421,7 +422,7 @@
 
 
 
-		<SurfaceGravity>1</SurfaceGravity>
+		<SurfaceGravity>0.75</SurfaceGravity>
 		<MaterialsMaxDepth Min="3950" Max="4000"/>
 		<MaterialsMinDepth Min="30" Max="90"/>
 

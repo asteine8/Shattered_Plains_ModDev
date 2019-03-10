@@ -106,16 +106,6 @@
       <Ore Value="112" Type="Nickel_01" Start="58" Depth="9" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="116" Type="Nickel_01" Start="63" Depth="11" TargetColor="#616c83" ColorInfluence="15"/>
 
-      <!-- Mg 1-->
-      <Ore Value="120" Type="Magnesium_01" Start="23" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="124" Type="Magnesium_01" Start="26" Depth="4" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="128" Type="Magnesium_01" Start="29" Depth="5" TargetColor="#616c83" ColorInfluence="15"/>
-
-      <!-- Mg 2-->
-      <Ore Value="132" Type="Magnesium_01" Start="53" Depth="7" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="136" Type="Magnesium_01" Start="55" Depth="8" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="140" Type="Magnesium_01" Start="59" Depth="10" TargetColor="#616c83" ColorInfluence="15"/>
-
       <!-- ORE Tier 3 -->
       <!-- Si 1-->
       <Ore Value="144" Type="Silicon_01" Start="32" Depth="2" TargetColor="#616c83" ColorInfluence="15"/>
@@ -789,7 +779,7 @@
     </CloudLayers>
 
     <MaximumOxygen>1.0</MaximumOxygen>
-    <SurfaceGravity>1</SurfaceGravity>
+    <SurfaceGravity>1.5</SurfaceGravity>
     <MaterialsMaxDepth Min="4000" Max="4000"/>
     <MaterialsMinDepth Min="20" Max="20"/>
 

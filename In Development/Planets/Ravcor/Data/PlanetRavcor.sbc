@@ -209,13 +209,13 @@
       <DefaultSubSurfaceMaterial Material="RavCrackedRock"/>
 
       <HasAtmosphere>true</HasAtmosphere>
-	  <MaximumOxygen>0.1</MaximumOxygen>
+	  <MaximumOxygen>0.01</MaximumOxygen>
 	  <Atmosphere>
-        <Breathable>true</Breathable>
-		<OxygenDensity>0.0125</OxygenDensity>
-		<Density>0.73</Density>
+        <Breathable>false</Breathable>
+		<OxygenDensity>0.01</OxygenDensity>
+		<Density>0.3</Density>
 		<LimitAltitude>2.0</LimitAltitude>
-        <MaxWindSpeed>40</MaxWindSpeed>
+        <MaxWindSpeed>20</MaxWindSpeed>
 	  </Atmosphere>
 
       <AtmosphereSettings>
@@ -242,7 +242,7 @@
 		<Scale>1</Scale>
       </AtmosphereSettings>
 	  
-      <SurfaceGravity>1</SurfaceGravity>
+      <SurfaceGravity>0.3</SurfaceGravity>
       <MaterialsMaxDepth Min="4000" Max="4000"/>
       <MaterialsMinDepth Min="20" Max="20"/>
 
