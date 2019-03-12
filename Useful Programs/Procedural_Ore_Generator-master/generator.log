@@ -1,0 +1,2284 @@
+18:08:33.406 [main] INFO  Main - Attempting to load config.json
+18:08:33.446 [main] INFO  XMLConfigUpdater - Attempting to update PlanetGeneratorDefinitions file..
+18:08:33.576 [main] INFO  XMLConfigUpdater - Updated PlanetGeneratorDefinitions file
+18:08:33.577 [main] INFO  Main - Processing planet "EarthLike"
+18:08:33.578 [main] INFO  Main - 	Loading map data from: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\Data\PlanetDataFiles\EarthLike
+18:08:35.402 [main] INFO  MapData - 	Counting existing ore tiles...
+18:08:35.751 [main] INFO  MapData - 		front map existing tile count:144932
+18:08:35.997 [main] INFO  MapData - 		left map existing tile count:152232
+18:08:36.359 [main] INFO  MapData - 		right map existing tile count:144900
+18:08:36.698 [main] INFO  MapData - 		up map existing tile count:144864
+18:08:36.911 [main] INFO  MapData - 		down map existing tile count:144918
+18:08:37.147 [main] INFO  MapData - 		back map existing tile count:144914
+18:08:37.148 [main] INFO  MapData - 	Total existing tiles: 876760
+18:08:37.148 [main] INFO  Main - 	Clearing existing ore data
+18:08:43.370 [main] INFO  Main - 	Generating ore tiles with effective ore configs:
+[
+  {
+    "type": "Iron_02",
+    "id": 1,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 1,
+    "p": 0.4,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 200,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -7340032,
+    "makeColouredMaps": true,
+    "testColourHex": "E00000",
+    "startDepth": 12,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Nickel_01",
+    "id": 24,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 1,
+    "p": 0.2,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 80,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -7340032,
+    "makeColouredMaps": true,
+    "testColourHex": "FF9741",
+    "startDepth": 16,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Silicon_01",
+    "id": 48,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 1,
+    "p": 0.2,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 80,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -7340032,
+    "makeColouredMaps": true,
+    "testColourHex": "FFFFFF",
+    "startDepth": 18,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Cobalt_01",
+    "id": 72,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 1,
+    "p": 0.4,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 80,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -7340032,
+    "makeColouredMaps": true,
+    "testColourHex": "0033FF",
+    "startDepth": 30,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Silver_01",
+    "id": 96,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 1,
+    "p": 0.02,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 15,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -7340032,
+    "makeColouredMaps": true,
+    "testColourHex": "A0A0A0",
+    "startDepth": 40,
+    "depth": 5,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Magnesium_01",
+    "id": 120,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 1,
+    "p": 0.15,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 60,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -7340032,
+    "makeColouredMaps": true,
+    "testColourHex": "958CFF",
+    "startDepth": 32,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Gold_01",
+    "id": 168,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 1,
+    "p": 0.0,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 5,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -7340032,
+    "makeColouredMaps": true,
+    "testColourHex": "FFD800",
+    "startDepth": 55,
+    "depth": 4,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Uraninite_01",
+    "id": 144,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 1,
+    "p": 0.008,
+    "density": 0.7,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 7,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 0.2,
+    "surfaceHintColour": -7340032,
+    "makeColouredMaps": true,
+    "testColourHex": "00FF00",
+    "startDepth": 70,
+    "depth": 4,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Platinum_01",
+    "id": 192,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 1,
+    "p": 0.0,
+    "density": 0.6,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 10,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 0.2,
+    "surfaceHintColour": -7340032,
+    "makeColouredMaps": true,
+    "testColourHex": "5D188E",
+    "startDepth": 120,
+    "depth": 4,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  }
+]
+18:08:43.439 [main] INFO  Generator - 		Tiles generated for ore Gold_01 (id:168) with testColour ffffd800 : 0
+18:08:43.440 [main] INFO  Generator - 		Tiles generated for ore Platinum_01 (id:192) with testColour ff5d188e : 0
+18:08:43.440 [main] INFO  Generator - 		Tiles generated for ore Nickel_01 (id:24) with testColour ffff9741 : 8911
+18:08:43.440 [main] INFO  Generator - 		Tiles generated for ore Iron_02 (id:1) with testColour ffe00000 : 53607
+18:08:43.441 [main] INFO  Generator - 		Tiles generated for ore Silicon_01 (id:48) with testColour ffffffff : 11126
+18:08:43.441 [main] INFO  Generator - 		Tiles generated for ore Uraninite_01 (id:144) with testColour ff00ff00 : 8
+18:08:43.441 [main] INFO  Generator - 		Tiles generated for ore Magnesium_01 (id:120) with testColour ff958cff : 4890
+18:08:43.441 [main] INFO  Generator - 		Tiles generated for ore Cobalt_01 (id:72) with testColour ff0033ff : 21487
+18:08:43.441 [main] INFO  Generator - 		Tiles generated for ore Silver_01 (id:96) with testColour ffa0a0a0 : 125
+18:08:43.442 [main] INFO  Main - 	Tiles generated:100154
+18:08:43.442 [main] INFO  Main - 	Writing ore data to map images in: .\PlanetDataFiles\EarthLike
+18:08:43.442 [main] INFO  Main - Processing planet "Moon"
+18:08:43.442 [main] INFO  Main - 	Loading map data from: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\Data\PlanetDataFiles\Moon
+18:08:44.773 [main] INFO  MapData - 	Counting existing ore tiles...
+18:08:45.192 [main] INFO  MapData - 		front map existing tile count:59968
+18:08:45.549 [main] INFO  MapData - 		left map existing tile count:59968
+18:08:45.793 [main] INFO  MapData - 		right map existing tile count:59968
+18:08:46.009 [main] INFO  MapData - 		up map existing tile count:60200
+18:08:46.217 [main] INFO  MapData - 		down map existing tile count:59968
+18:08:46.456 [main] INFO  MapData - 		back map existing tile count:59968
+18:08:46.457 [main] INFO  MapData - 	Total existing tiles: 360040
+18:08:46.457 [main] INFO  Main - 	Clearing existing ore data
+18:08:51.991 [main] INFO  Main - 	Generating ore tiles with effective ore configs:
+[
+  {
+    "type": "Iron_02",
+    "id": 1,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 2,
+    "p": 0.1,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 200,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -5242880,
+    "makeColouredMaps": true,
+    "testColourHex": "E00000",
+    "startDepth": 12,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Nickel_01",
+    "id": 24,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 2,
+    "p": 0.05,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 80,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -5242880,
+    "makeColouredMaps": true,
+    "testColourHex": "FF9741",
+    "startDepth": 16,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Silicon_01",
+    "id": 48,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 2,
+    "p": 0.3,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 80,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -5242880,
+    "makeColouredMaps": true,
+    "testColourHex": "FFFFFF",
+    "startDepth": 18,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Cobalt_01",
+    "id": 72,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 2,
+    "p": 0.0,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 80,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -5242880,
+    "makeColouredMaps": true,
+    "testColourHex": "0033FF",
+    "startDepth": 30,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Silver_01",
+    "id": 96,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 2,
+    "p": 0.4,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 15,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -5242880,
+    "makeColouredMaps": true,
+    "testColourHex": "A0A0A0",
+    "startDepth": 40,
+    "depth": 5,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "BACK"
+    ]
+  },
+  {
+    "type": "Magnesium_01",
+    "id": 120,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 2,
+    "p": 0.05,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 60,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -5242880,
+    "makeColouredMaps": true,
+    "testColourHex": "958CFF",
+    "startDepth": 32,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Gold_01",
+    "id": 168,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 2,
+    "p": 0.2,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 5,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -5242880,
+    "makeColouredMaps": true,
+    "testColourHex": "FFD800",
+    "startDepth": 55,
+    "depth": 4,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT"
+    ]
+  },
+  {
+    "type": "Uraninite_01",
+    "id": 144,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 2,
+    "p": 0.0,
+    "density": 0.7,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 7,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 0.2,
+    "surfaceHintColour": -5242880,
+    "makeColouredMaps": true,
+    "testColourHex": "00FF00",
+    "startDepth": 70,
+    "depth": 4,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Platinum_01",
+    "id": 192,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 2,
+    "p": 0.005,
+    "density": 0.6,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 10,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 0.2,
+    "surfaceHintColour": -5242880,
+    "makeColouredMaps": true,
+    "testColourHex": "5D188E",
+    "startDepth": 120,
+    "depth": 4,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  }
+]
+18:08:52.026 [main] INFO  Generator - 		Tiles generated for ore Silver_01 (id:96) with testColour ffa0a0a0 : 5460
+18:08:52.026 [main] INFO  Generator - 		Tiles generated for ore Magnesium_01 (id:120) with testColour ff958cff : 2681
+18:08:52.026 [main] INFO  Generator - 		Tiles generated for ore Gold_01 (id:168) with testColour ffffd800 : 929
+18:08:52.026 [main] INFO  Generator - 		Tiles generated for ore Silicon_01 (id:48) with testColour ffffffff : 20586
+18:08:52.027 [main] INFO  Generator - 		Tiles generated for ore Nickel_01 (id:24) with testColour ffff9741 : 4506
+18:08:52.027 [main] INFO  Generator - 		Tiles generated for ore Platinum_01 (id:192) with testColour ff5d188e : 93
+18:08:52.027 [main] INFO  Generator - 		Tiles generated for ore Iron_02 (id:1) with testColour ffe00000 : 16814
+18:08:52.040 [main] INFO  Generator - 		Tiles generated for ore Cobalt_01 (id:72) with testColour ff0033ff : 0
+18:08:52.040 [main] INFO  Generator - 		Tiles generated for ore Uraninite_01 (id:144) with testColour ff00ff00 : 0
+18:08:52.040 [main] INFO  Main - 	Tiles generated:51069
+18:08:52.040 [main] INFO  Main - 	Writing ore data to map images in: .\PlanetDataFiles\Moon
+18:08:52.041 [main] INFO  Main - Processing planet "Mars"
+18:08:52.041 [main] INFO  Main - 	Loading map data from: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\Data\PlanetDataFiles\Mars
+18:08:53.504 [main] INFO  MapData - 	Counting existing ore tiles...
+18:08:53.739 [main] INFO  MapData - 		front map existing tile count:170761
+18:08:53.957 [main] INFO  MapData - 		left map existing tile count:170752
+18:08:54.209 [main] INFO  MapData - 		right map existing tile count:170752
+18:08:54.435 [main] INFO  MapData - 		up map existing tile count:170752
+18:08:54.727 [main] INFO  MapData - 		down map existing tile count:170752
+18:08:54.995 [main] INFO  MapData - 		back map existing tile count:170778
+18:08:54.995 [main] INFO  MapData - 	Total existing tiles: 1024547
+18:08:54.995 [main] INFO  Main - 	Clearing existing ore data
+18:09:00.630 [main] INFO  Main - 	Generating ore tiles with effective ore configs:
+[
+  {
+    "type": "Iron_02",
+    "id": 1,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 3,
+    "p": 0.5,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 300,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "E00000",
+    "startDepth": 12,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Nickel_01",
+    "id": 24,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 3,
+    "p": 0.05,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 10,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "FF9741",
+    "startDepth": 16,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Silicon_01",
+    "id": 48,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 3,
+    "p": 0.05,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 10,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "FFFFFF",
+    "startDepth": 18,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Cobalt_01",
+    "id": 72,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 3,
+    "p": 0.005,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 10,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "0033FF",
+    "startDepth": 30,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Silver_01",
+    "id": 96,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 3,
+    "p": 0.0,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 15,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "A0A0A0",
+    "startDepth": 40,
+    "depth": 5,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Magnesium_01",
+    "id": 120,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 3,
+    "p": 0.1,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 60,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "958CFF",
+    "startDepth": 32,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Gold_01",
+    "id": 168,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 3,
+    "p": 0.0,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 5,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "FFD800",
+    "startDepth": 55,
+    "depth": 4,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Uraninite_01",
+    "id": 144,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 3,
+    "p": 0.0,
+    "density": 0.7,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 7,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 0.2,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "00FF00",
+    "startDepth": 70,
+    "depth": 4,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Platinum_01",
+    "id": 192,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 3,
+    "p": 0.6,
+    "density": 0.6,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 25,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 0.2,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "5D188E",
+    "startDepth": 120,
+    "depth": 4,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  }
+]
+18:09:00.684 [main] INFO  Generator - 		Tiles generated for ore Uraninite_01 (id:144) with testColour ff00ff00 : 0
+18:09:00.684 [main] INFO  Generator - 		Tiles generated for ore Platinum_01 (id:192) with testColour ff5d188e : 7803
+18:09:00.685 [main] INFO  Generator - 		Tiles generated for ore Magnesium_01 (id:120) with testColour ff958cff : 2530
+18:09:00.685 [main] INFO  Generator - 		Tiles generated for ore Iron_02 (id:1) with testColour ffe00000 : 89288
+18:09:00.685 [main] INFO  Generator - 		Tiles generated for ore Silicon_01 (id:48) with testColour ffffffff : 266
+18:09:00.685 [main] INFO  Generator - 		Tiles generated for ore Silver_01 (id:96) with testColour ffa0a0a0 : 0
+18:09:00.686 [main] INFO  Generator - 		Tiles generated for ore Gold_01 (id:168) with testColour ffffd800 : 0
+18:09:00.686 [main] INFO  Generator - 		Tiles generated for ore Cobalt_01 (id:72) with testColour ff0033ff : 42
+18:09:00.686 [main] INFO  Generator - 		Tiles generated for ore Nickel_01 (id:24) with testColour ffff9741 : 277
+18:09:00.686 [main] INFO  Main - 	Tiles generated:100206
+18:09:00.686 [main] INFO  Main - 	Writing ore data to map images in: .\PlanetDataFiles\Mars
+18:09:00.687 [main] INFO  Main - Processing planet "Europa"
+18:09:00.687 [main] INFO  Main - 	Loading map data from: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\Data\PlanetDataFiles\Europa
+18:09:02.497 [main] INFO  MapData - 	Counting existing ore tiles...
+18:09:02.903 [main] INFO  MapData - 		front map existing tile count:59968
+18:09:03.333 [main] INFO  MapData - 		left map existing tile count:59968
+18:09:03.879 [main] INFO  MapData - 		right map existing tile count:59968
+18:09:04.298 [main] INFO  MapData - 		up map existing tile count:59968
+18:09:04.678 [main] INFO  MapData - 		down map existing tile count:59968
+18:09:05.066 [main] INFO  MapData - 		back map existing tile count:59968
+18:09:05.066 [main] INFO  MapData - 	Total existing tiles: 359808
+18:09:05.066 [main] INFO  Main - 	Clearing existing ore data
+18:09:12.089 [main] INFO  Main - 	Generating ore tiles with effective ore configs:
+[
+  {
+    "type": "Iron_02",
+    "id": 1,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 4,
+    "p": 0.1,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 200,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "E00000",
+    "startDepth": 12,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Nickel_01",
+    "id": 24,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 4,
+    "p": 0.05,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 80,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "FF9741",
+    "startDepth": 16,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Silicon_01",
+    "id": 48,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 4,
+    "p": 0.05,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 80,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "FFFFFF",
+    "startDepth": 18,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Cobalt_01",
+    "id": 72,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 4,
+    "p": 0.0,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 80,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "0033FF",
+    "startDepth": 30,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Silver_01",
+    "id": 96,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 4,
+    "p": 0.2,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 15,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "A0A0A0",
+    "startDepth": 40,
+    "depth": 5,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Magnesium_01",
+    "id": 120,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 4,
+    "p": 0.6,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 60,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "958CFF",
+    "startDepth": 32,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Gold_01",
+    "id": 168,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 4,
+    "p": 0.2,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 5,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "FFD800",
+    "startDepth": 55,
+    "depth": 4,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Uraninite_01",
+    "id": 144,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 4,
+    "p": 0.01,
+    "density": 0.7,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 7,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 0.2,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "00FF00",
+    "startDepth": 70,
+    "depth": 4,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Platinum_01",
+    "id": 192,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 4,
+    "p": 0.0,
+    "density": 0.6,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 10,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 0.2,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "5D188E",
+    "startDepth": 120,
+    "depth": 4,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  }
+]
+18:09:12.116 [main] INFO  Generator - 		Tiles generated for ore Gold_01 (id:168) with testColour ffffd800 : 604
+18:09:12.116 [main] INFO  Generator - 		Tiles generated for ore Uraninite_01 (id:144) with testColour ff00ff00 : 68
+18:09:12.117 [main] INFO  Generator - 		Tiles generated for ore Cobalt_01 (id:72) with testColour ff0033ff : 0
+18:09:12.117 [main] INFO  Generator - 		Tiles generated for ore Magnesium_01 (id:120) with testColour ff958cff : 19364
+18:09:12.117 [main] INFO  Generator - 		Tiles generated for ore Silver_01 (id:96) with testColour ffa0a0a0 : 1826
+18:09:12.117 [main] INFO  Generator - 		Tiles generated for ore Nickel_01 (id:24) with testColour ffff9741 : 2236
+18:09:12.117 [main] INFO  Generator - 		Tiles generated for ore Silicon_01 (id:48) with testColour ffffffff : 1830
+18:09:12.117 [main] INFO  Generator - 		Tiles generated for ore Platinum_01 (id:192) with testColour ff5d188e : 0
+18:09:12.118 [main] INFO  Generator - 		Tiles generated for ore Iron_02 (id:1) with testColour ffe00000 : 12783
+18:09:12.118 [main] INFO  Main - 	Tiles generated:38711
+18:09:12.118 [main] INFO  Main - 	Writing ore data to map images in: .\PlanetDataFiles\Europa
+18:09:12.118 [main] INFO  Main - Processing planet "Alien"
+18:09:12.119 [main] INFO  Main - 	Loading map data from: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\Data\PlanetDataFiles\Alien
+18:09:13.702 [main] INFO  MapData - 	Counting existing ore tiles...
+18:09:14.146 [main] INFO  MapData - 		front map existing tile count:144932
+18:09:14.536 [main] INFO  MapData - 		left map existing tile count:152213
+18:09:14.987 [main] INFO  MapData - 		right map existing tile count:144900
+18:09:15.383 [main] INFO  MapData - 		up map existing tile count:144864
+18:09:15.636 [main] INFO  MapData - 		down map existing tile count:144918
+18:09:15.877 [main] INFO  MapData - 		back map existing tile count:144963
+18:09:15.878 [main] INFO  MapData - 	Total existing tiles: 876790
+18:09:15.878 [main] INFO  Main - 	Clearing existing ore data
+18:09:22.878 [main] INFO  Main - 	Generating ore tiles with effective ore configs:
+[
+  {
+    "type": "Iron_02",
+    "id": 1,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 50000,
+    "maxOrePatches": 1000,
+    "seed": 5,
+    "p": 0.0,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 200,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -6291456,
+    "makeColouredMaps": true,
+    "testColourHex": "E00000",
+    "startDepth": 12,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Nickel_01",
+    "id": 24,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 50000,
+    "maxOrePatches": 1000,
+    "seed": 5,
+    "p": 0.0,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 80,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -6291456,
+    "makeColouredMaps": true,
+    "testColourHex": "FF9741",
+    "startDepth": 16,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Silicon_01",
+    "id": 48,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 50000,
+    "maxOrePatches": 1000,
+    "seed": 5,
+    "p": 0.0,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 80,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -6291456,
+    "makeColouredMaps": true,
+    "testColourHex": "FFFFFF",
+    "startDepth": 18,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Cobalt_01",
+    "id": 72,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 50000,
+    "maxOrePatches": 1000,
+    "seed": 5,
+    "p": 0.0,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 80,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -6291456,
+    "makeColouredMaps": true,
+    "testColourHex": "0033FF",
+    "startDepth": 30,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Silver_01",
+    "id": 96,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 50000,
+    "maxOrePatches": 1000,
+    "seed": 5,
+    "p": 0.0,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 15,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -6291456,
+    "makeColouredMaps": true,
+    "testColourHex": "A0A0A0",
+    "startDepth": 40,
+    "depth": 5,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Magnesium_01",
+    "id": 120,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 50000,
+    "maxOrePatches": 1000,
+    "seed": 5,
+    "p": 0.0,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 60,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -6291456,
+    "makeColouredMaps": true,
+    "testColourHex": "958CFF",
+    "startDepth": 32,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Gold_01",
+    "id": 168,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 50000,
+    "maxOrePatches": 1000,
+    "seed": 5,
+    "p": 0.4,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 5,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -6291456,
+    "makeColouredMaps": true,
+    "testColourHex": "FFD800",
+    "startDepth": 55,
+    "depth": 4,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Uraninite_01",
+    "id": 144,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 50000,
+    "maxOrePatches": 1000,
+    "seed": 5,
+    "p": 1.0,
+    "density": 0.7,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 25,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 0.2,
+    "surfaceHintColour": -6291456,
+    "makeColouredMaps": true,
+    "testColourHex": "00FF00",
+    "startDepth": 70,
+    "depth": 4,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Platinum_01",
+    "id": 192,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 50000,
+    "maxOrePatches": 1000,
+    "seed": 5,
+    "p": 0.0,
+    "density": 0.6,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 10,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 0.2,
+    "surfaceHintColour": -6291456,
+    "makeColouredMaps": true,
+    "testColourHex": "5D188E",
+    "startDepth": 120,
+    "depth": 4,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  }
+]
+18:09:22.893 [main] INFO  Generator - 		Tiles generated for ore Platinum_01 (id:192) with testColour ff5d188e : 0
+18:09:22.894 [main] INFO  Generator - 		Tiles generated for ore Gold_01 (id:168) with testColour ffffd800 : 1485
+18:09:22.894 [main] INFO  Generator - 		Tiles generated for ore Silicon_01 (id:48) with testColour ffffffff : 0
+18:09:22.894 [main] INFO  Generator - 		Tiles generated for ore Silver_01 (id:96) with testColour ffa0a0a0 : 0
+18:09:22.894 [main] INFO  Generator - 		Tiles generated for ore Cobalt_01 (id:72) with testColour ff0033ff : 0
+18:09:22.895 [main] INFO  Generator - 		Tiles generated for ore Nickel_01 (id:24) with testColour ffff9741 : 0
+18:09:22.897 [main] INFO  Generator - 		Tiles generated for ore Magnesium_01 (id:120) with testColour ff958cff : 0
+18:09:22.897 [main] INFO  Generator - 		Tiles generated for ore Uraninite_01 (id:144) with testColour ff00ff00 : 17298
+18:09:22.897 [main] INFO  Generator - 		Tiles generated for ore Iron_02 (id:1) with testColour ffe00000 : 0
+18:09:22.897 [main] INFO  Main - 	Tiles generated:18783
+18:09:22.897 [main] INFO  Main - 	Writing ore data to map images in: .\PlanetDataFiles\Alien
+18:09:22.898 [main] INFO  Main - Processing planet "Titan"
+18:09:22.898 [main] INFO  Main - 	Loading map data from: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\Data\PlanetDataFiles\Titan
+18:09:24.415 [main] INFO  MapData - 	Counting existing ore tiles...
+18:09:24.814 [main] INFO  MapData - 		front map existing tile count:59968
+18:09:25.213 [main] INFO  MapData - 		left map existing tile count:59968
+18:09:25.612 [main] INFO  MapData - 		right map existing tile count:59968
+18:09:26.010 [main] INFO  MapData - 		up map existing tile count:59968
+18:09:26.400 [main] INFO  MapData - 		down map existing tile count:59968
+18:09:26.846 [main] INFO  MapData - 		back map existing tile count:59968
+18:09:26.846 [main] INFO  MapData - 	Total existing tiles: 359808
+18:09:26.846 [main] INFO  Main - 	Clearing existing ore data
+18:09:34.785 [main] INFO  Main - 	Generating ore tiles with effective ore configs:
+[
+  {
+    "type": "Iron_02",
+    "id": 1,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 6,
+    "p": 0.2,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 200,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "E00000",
+    "startDepth": 12,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Nickel_01",
+    "id": 24,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 6,
+    "p": 0.7,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 80,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "FF9741",
+    "startDepth": 16,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Silicon_01",
+    "id": 48,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 6,
+    "p": 0.2,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 80,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "FFFFFF",
+    "startDepth": 18,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Cobalt_01",
+    "id": 72,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 6,
+    "p": 0.0,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 80,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "0033FF",
+    "startDepth": 30,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Silver_01",
+    "id": 96,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 6,
+    "p": 0.2,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 15,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "A0A0A0",
+    "startDepth": 40,
+    "depth": 5,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Magnesium_01",
+    "id": 120,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 6,
+    "p": 0.0,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 60,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "958CFF",
+    "startDepth": 32,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Gold_01",
+    "id": 168,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 6,
+    "p": 0.0,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 5,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "FFD800",
+    "startDepth": 55,
+    "depth": 4,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Uraninite_01",
+    "id": 144,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 6,
+    "p": 0.1,
+    "density": 0.7,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 5,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 0.2,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "00FF00",
+    "startDepth": 70,
+    "depth": 4,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Platinum_01",
+    "id": 192,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 6,
+    "p": 0.3,
+    "density": 0.6,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 10,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 0.2,
+    "surfaceHintColour": -8388608,
+    "makeColouredMaps": true,
+    "testColourHex": "5D188E",
+    "startDepth": 120,
+    "depth": 4,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  }
+]
+18:09:34.823 [main] INFO  Generator - 		Tiles generated for ore Nickel_01 (id:24) with testColour ffff9741 : 26749
+18:09:34.823 [main] INFO  Generator - 		Tiles generated for ore Magnesium_01 (id:120) with testColour ff958cff : 0
+18:09:34.823 [main] INFO  Generator - 		Tiles generated for ore Platinum_01 (id:192) with testColour ff5d188e : 1415
+18:09:34.823 [main] INFO  Generator - 		Tiles generated for ore Cobalt_01 (id:72) with testColour ff0033ff : 0
+18:09:34.824 [main] INFO  Generator - 		Tiles generated for ore Uraninite_01 (id:144) with testColour ff00ff00 : 216
+18:09:34.824 [main] INFO  Generator - 		Tiles generated for ore Iron_02 (id:1) with testColour ffe00000 : 22646
+18:09:34.824 [main] INFO  Generator - 		Tiles generated for ore Silver_01 (id:96) with testColour ffa0a0a0 : 1605
+18:09:34.824 [main] INFO  Generator - 		Tiles generated for ore Gold_01 (id:168) with testColour ffffd800 : 0
+18:09:34.824 [main] INFO  Generator - 		Tiles generated for ore Silicon_01 (id:48) with testColour ffffffff : 8898
+18:09:34.824 [main] INFO  Main - 	Tiles generated:61529
+18:09:34.825 [main] INFO  Main - 	Writing ore data to map images in: .\PlanetDataFiles\Titan
+18:09:34.825 [main] INFO  Main - Steam workshop table summary:
+[table]
+[tr]
+[th][/th]
+[th]EarthLike[/th]
+[th]Moon[/th]
+[th]Mars[/th]
+[th]Europa[/th]
+[th]Alien[/th]
+[th]Titan[/th]
+[/tr]
+[tr][th]Platinum[/th]
+[td]0[/td]
+[td]93[/td]
+[td]7803[/td]
+[td]0[/td]
+[td]0[/td]
+[td]1415[/td]
+[/tr]
+[tr][th]Iron[/th]
+[td]53607[/td]
+[td]16814[/td]
+[td]89288[/td]
+[td]12783[/td]
+[td]0[/td]
+[td]22646[/td]
+[/tr]
+[tr][th]Nickel[/th]
+[td]8911[/td]
+[td]4506[/td]
+[td]277[/td]
+[td]2236[/td]
+[td]0[/td]
+[td]26749[/td]
+[/tr]
+[tr][th]Silicon[/th]
+[td]11126[/td]
+[td]20586[/td]
+[td]266[/td]
+[td]1830[/td]
+[td]0[/td]
+[td]8898[/td]
+[/tr]
+[tr][th]Magnesium[/th]
+[td]4890[/td]
+[td]2681[/td]
+[td]2530[/td]
+[td]19364[/td]
+[td]0[/td]
+[td]0[/td]
+[/tr]
+[tr][th]Cobalt[/th]
+[td]21487[/td]
+[td]0[/td]
+[td]42[/td]
+[td]0[/td]
+[td]0[/td]
+[td]0[/td]
+[/tr]
+[tr][th]Uraninite[/th]
+[td]8[/td]
+[td]0[/td]
+[td]0[/td]
+[td]68[/td]
+[td]17298[/td]
+[td]216[/td]
+[/tr]
+[tr][th]Gold[/th]
+[td]0[/td]
+[td]929[/td]
+[td]0[/td]
+[td]604[/td]
+[td]1485[/td]
+[td]0[/td]
+[/tr]
+[tr][th]Silver[/th]
+[td]125[/td]
+[td]5460[/td]
+[td]0[/td]
+[td]1826[/td]
+[td]0[/td]
+[td]1605[/td]
+[/tr]
+[/table]
+
+18:09:34.828 [main] INFO  Main - Waiting for all image compression/writer threads to finish...
+18:10:39.432 [main] INFO  Main - Images for EarthLike done
+18:10:39.432 [main] INFO  Main - Images for Moon done
+18:10:39.433 [main] INFO  Main - Images for Mars done
+18:10:39.433 [main] INFO  Main - Images for Europa done
+18:11:17.023 [main] INFO  Main - Images for Alien done
+18:11:17.023 [main] INFO  Main - Images for Titan done
+18:11:17.023 [main] INFO  Main - All Image compression/writer threads complete
+18:11:17.024 [main] INFO  Main - Done. Press the ENTER key to exit
+18:12:03.800 [main] INFO  Main - Attempting to load config.json
+18:12:03.836 [main] INFO  XMLConfigUpdater - Attempting to update PlanetGeneratorDefinitions file..
+18:12:03.960 [main] INFO  XMLConfigUpdater - Updated PlanetGeneratorDefinitions file
+18:12:03.961 [main] INFO  Main - Processing planet "EarthLike"
+18:12:03.962 [main] INFO  Main - 	Loading map data from: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\Data\PlanetDataFiles\EarthLike
+18:12:05.745 [main] INFO  MapData - 	Counting existing ore tiles...
+18:12:06.072 [main] INFO  MapData - 		front map existing tile count:144932
+18:12:06.339 [main] INFO  MapData - 		left map existing tile count:152232
+18:12:06.681 [main] INFO  MapData - 		right map existing tile count:144900
+18:12:06.997 [main] INFO  MapData - 		up map existing tile count:144864
+18:12:07.209 [main] INFO  MapData - 		down map existing tile count:144918
+18:12:07.445 [main] INFO  MapData - 		back map existing tile count:144914
+18:12:07.445 [main] INFO  MapData - 	Total existing tiles: 876760
+18:12:07.446 [main] INFO  Main - 	Clearing existing ore data
+18:12:13.428 [main] INFO  Main - 	Generating ore tiles with effective ore configs:
+[
+  {
+    "type": "Iron_02",
+    "id": 1,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 1,
+    "p": 0.4,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 200,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -7340032,
+    "makeColouredMaps": true,
+    "testColourHex": "E00000",
+    "startDepth": 12,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Nickel_01",
+    "id": 24,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 1,
+    "p": 0.2,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 80,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -7340032,
+    "makeColouredMaps": true,
+    "testColourHex": "FF9741",
+    "startDepth": 16,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Silicon_01",
+    "id": 48,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 1,
+    "p": 0.2,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 80,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -7340032,
+    "makeColouredMaps": true,
+    "testColourHex": "FFFFFF",
+    "startDepth": 18,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Cobalt_01",
+    "id": 72,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 1,
+    "p": 0.4,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 80,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -7340032,
+    "makeColouredMaps": true,
+    "testColourHex": "0033FF",
+    "startDepth": 30,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Silver_01",
+    "id": 96,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 1,
+    "p": 0.02,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 15,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -7340032,
+    "makeColouredMaps": true,
+    "testColourHex": "A0A0A0",
+    "startDepth": 40,
+    "depth": 5,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Magnesium_01",
+    "id": 120,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 1,
+    "p": 0.15,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 60,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -7340032,
+    "makeColouredMaps": true,
+    "testColourHex": "958CFF",
+    "startDepth": 32,
+    "depth": 6,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Gold_01",
+    "id": 168,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 1,
+    "p": 0.0,
+    "density": 0.9,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 5,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 1.0,
+    "surfaceHintColour": -7340032,
+    "makeColouredMaps": true,
+    "testColourHex": "FFD800",
+    "startDepth": 55,
+    "depth": 4,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Uraninite_01",
+    "id": 144,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 1,
+    "p": 0.008,
+    "density": 0.7,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 7,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 0.2,
+    "surfaceHintColour": -7340032,
+    "makeColouredMaps": true,
+    "testColourHex": "00FF00",
+    "startDepth": 70,
+    "depth": 4,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  },
+  {
+    "type": "Platinum_01",
+    "id": 192,
+    "surfaceAreaMultiplier": 1.0,
+    "surfaceAreaVariance": 0.4,
+    "maxOreTiles": 100000,
+    "maxOrePatches": 1000,
+    "seed": 1,
+    "p": 0.0,
+    "density": 0.6,
+    "shape": 1,
+    "avoidIce": true,
+    "surfaceArea": 10,
+    "surfaceHintMaps": true,
+    "surfaceHintProbability": 0.2,
+    "surfaceHintColour": -7340032,
+    "makeColouredMaps": true,
+    "testColourHex": "5D188E",
+    "startDepth": 120,
+    "depth": 4,
+    "mappingFileTargetColour": "#616c83",
+    "mappingFileColourInfluence": 15,
+    "centreOreTile": -1,
+    "planetFaces": [
+      "FRONT",
+      "LEFT",
+      "RIGHT",
+      "UP",
+      "DOWN",
+      "BACK"
+    ]
+  }
+]
+18:12:13.497 [main] INFO  Generator - 		Tiles generated for ore Gold_01 (id:168) with testColour ffffd800 : 0
+18:12:13.498 [main] INFO  Generator - 		Tiles generated for ore Platinum_01 (id:192) with testColour ff5d188e : 0
+18:12:13.498 [main] INFO  Generator - 		Tiles generated for ore Nickel_01 (id:24) with testColour ffff9741 : 8911
+18:12:13.498 [main] INFO  Generator - 		Tiles generated for ore Iron_02 (id:1) with testColour ffe00000 : 53607
+18:12:13.499 [main] INFO  Generator - 		Tiles generated for ore Silicon_01 (id:48) with testColour ffffffff : 11126
+18:12:13.499 [main] INFO  Generator - 		Tiles generated for ore Uraninite_01 (id:144) with testColour ff00ff00 : 8
+18:12:13.499 [main] INFO  Generator - 		Tiles generated for ore Magnesium_01 (id:120) with testColour ff958cff : 4890
+18:12:13.500 [main] INFO  Generator - 		Tiles generated for ore Cobalt_01 (id:72) with testColour ff0033ff : 21487
+18:12:13.500 [main] INFO  Generator - 		Tiles generated for ore Silver_01 (id:96) with testColour ffa0a0a0 : 125
+18:12:13.500 [main] INFO  Main - 	Tiles generated:100154
+18:12:13.500 [main] INFO  Main - 	Writing ore data to map images in: .\PlanetDataFiles\EarthLike
+18:12:13.501 [main] INFO  Main - Processing planet "Moon"
+18:12:13.501 [main] INFO  Main - 	Loading map data from: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Content\Data\PlanetDataFiles\Moon
+18:12:14.888 [main] INFO  MapData - 	Counting existing ore tiles...
