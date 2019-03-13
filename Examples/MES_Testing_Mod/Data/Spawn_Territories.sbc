@@ -10,11 +10,11 @@
 
                 [Modular Encounters Territory]
                 [Name:Rebel Space]
-                [TerritoryType:Static]
-                [Radius:10000]
-                [CoordsX:200000]
-                [CoordsY:0]
-                [CoordsZ:0]
+                [Type:Static]
+                [Radius:200000]
+                [CoordsX:1031072]
+                [CoordsY:131072]
+                [CoordsZ:1631072]
                 [AnnounceArriveDepart:true]
 
                 [Active:true]
@@ -34,6 +34,88 @@
                         <Z>0.0</Z>
                     </Position>
                     <BeaconText>Rebel Fighter</BeaconText>
+                    <Speed>25.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Rebel Atmosphere Territory</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters Territory]
+                [Name:Rebel Airspace]
+                [Type:Planetary]
+                [Radius:70000]
+                [CoordsX:0]
+                [CoordsY:0]
+                [CoordsZ:0]
+                [AnnounceArriveDepart:true]
+
+                [Active:true]
+
+                [ScaleRadiusWithPlanetSize:false]
+                [PlanetGeneratorName:Mars]
+
+            </Description>
+
+            <!-- We Need to add this, but it doesn't actually affect the spawner. Just to make the game happy -->
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>30.0</Frequency>
+            <IsPirate>true</IsPirate>
+
+            <Prefabs>
+                <Prefab SubtypeId="AS-3C Attack Fighter">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Rebel Fighter</BeaconText>
+                    <Speed>25.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>UEN Atmosphere Territory</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters Territory]
+                [Name:United Earth Airspace]
+                [Type:Planetary]
+                [Radius:70000]
+                [CoordsX:0]
+                [CoordsY:0]
+                [CoordsZ:0]
+                [AnnounceArriveDepart:true]
+
+                [Active:true]
+
+                [ScaleRadiusWithPlanetSize:false]
+                [PlanetGeneratorName:EarthLike]
+
+            </Description>
+
+            <!-- We Need to add this, but it doesn't actually affect the spawner. Just to make the game happy -->
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>30.0</Frequency>
+            <IsPirate>true</IsPirate>
+
+            <Prefabs>
+                <Prefab SubtypeId="AS-3C Attack Fighter">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>UEN Fighter</BeaconText>
                     <Speed>25.0</Speed>
                 </Prefab>
             </Prefabs>

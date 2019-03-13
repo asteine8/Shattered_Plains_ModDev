@@ -8,7 +8,7 @@
         ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         -->
 
-        <SpawnGroup>
+        <!-- <SpawnGroup>
             <Id>
                 <TypeId>SpawnGroupDefinition</TypeId>
                 <SubtypeId>Rebel_Spawn_Group_1</SubtypeId>
@@ -27,28 +27,28 @@
             <IsPirate>true</IsPirate>
 
             <Prefabs>
-                <Prefab SubtypeId="AS-3C Attack Fighter">
+                <Prefab SubtypeId="Stirling Class Patrol Boat MKIII">
                     <Position>
                         <X>0.0</X>
                         <Y>0.0</Y>
                         <Z>0.0</Z>
                     </Position>
-                    <BeaconText>RBL Fighter</BeaconText>
+                    <BeaconText>Patrol Boat</BeaconText>
                     <Speed>50.0</Speed>
                 </Prefab>
             </Prefabs>
-        </SpawnGroup>
+        </SpawnGroup> -->
 
         <!--
         ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-                                Groups for Territory
+                            Groups for Space Territory
         ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         -->
 
         <SpawnGroup>
             <Id>
                 <TypeId>SpawnGroupDefinition</TypeId>
-                <SubtypeId>Rebel_Territory_1_Fighter</SubtypeId>
+                <SubtypeId>Rebel_Territory_1_Patrol Boat</SubtypeId>
             </Id>
             <Description>
 
@@ -66,13 +66,13 @@
             <IsPirate>true</IsPirate>
 
             <Prefabs>
-                <Prefab SubtypeId="AS-3C Attack Fighter">
+                <Prefab SubtypeId="Stirling Class Patrol Boat MKIII">
                     <Position>
                         <X>0.0</X>
                         <Y>0.0</Y>
                         <Z>0.0</Z>
                     </Position>
-                    <BeaconText>RBL Fighter</BeaconText>
+                    <BeaconText>Patrol Boat</BeaconText>
                     <Speed>75.0</Speed>
                 </Prefab>
             </Prefabs>
@@ -81,7 +81,7 @@
         <SpawnGroup>
             <Id>
                 <TypeId>SpawnGroupDefinition</TypeId>
-                <SubtypeId>Rebel_Territory_3_Fighters</SubtypeId>
+                <SubtypeId>Rebel_Territory_3_Patrol Boats</SubtypeId>
             </Id>
             <Description>
 
@@ -99,31 +99,31 @@
             <IsPirate>true</IsPirate>
 
             <Prefabs>
-                <Prefab SubtypeId="AS-3C Attack Fighter">
+                <Prefab SubtypeId="Stirling Class Patrol Boat MKIII">
                     <Position>
                         <X>60.0</X>
                         <Y>0.0</Y>
                         <Z>0.0</Z>
                     </Position>
-                    <BeaconText>RBL Fighter</BeaconText>
+                    <BeaconText>Patrol Boat</BeaconText>
                     <Speed>50.0</Speed>
                 </Prefab>
-                <Prefab SubtypeId="AS-3C Attack Fighter">
+                <Prefab SubtypeId="Stirling Class Patrol Boat MKIII">
                     <Position>
                         <X>-20.0</X>
                         <Y>0.0</Y>
                         <Z>0.0</Z>
                     </Position>
-                    <BeaconText>RBL Fighter</BeaconText>
+                    <BeaconText>Patrol Boat</BeaconText>
                     <Speed>50.0</Speed>
                 </Prefab>
-                <Prefab SubtypeId="AS-3C Attack Fighter">
+                <Prefab SubtypeId="Stirling Class Patrol Boat MKIII">
                     <Position>
                         <X>0.0</X>
                         <Y>50.0</Y>
                         <Z>10.0</Z>
                     </Position>
-                    <BeaconText>RBL Fighter</BeaconText>
+                    <BeaconText>Patrol Boat</BeaconText>
                     <Speed>50.0</Speed>
                 </Prefab>
             </Prefabs>
@@ -156,7 +156,7 @@
                         <Y>0.0</Y>
                         <Z>0.0</Z>
                     </Position>
-                    <BeaconText>RBL Corvette</BeaconText>
+                    <BeaconText>Corvette</BeaconText>
                     <Speed>30.0</Speed>
                 </Prefab>
             </Prefabs>
@@ -189,7 +189,7 @@
                         <Y>0.0</Y>
                         <Z>0.0</Z>
                     </Position>
-                    <BeaconText>RBL Destroyer</BeaconText>
+                    <BeaconText>Destroyer</BeaconText>
                     <Speed>30.0</Speed>
                 </Prefab>
             </Prefabs>
@@ -222,7 +222,7 @@
                         <Y>0.0</Y>
                         <Z>0.0</Z>
                     </Position>
-                    <BeaconText>RBL Light Freighter</BeaconText>
+                    <BeaconText>Light Freighter</BeaconText>
                     <Speed>25.0</Speed>
                 </Prefab>
             </Prefabs>
@@ -255,8 +255,131 @@
                         <Y>0.0</Y>
                         <Z>0.0</Z>
                     </Position>
-                    <BeaconText>RBL Heavy Freighter</BeaconText>
+                    <BeaconText>Heavy Freighter</BeaconText>
                     <Speed>10.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <!--
+        ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                        Groups for Planetary Territory
+        ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+        -->
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Rebel_Territory_ATMFreighter_1</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [AtmosphericCargoShip:true]
+                [FactionOwner:RBL]
+                [ReplenishSystems:true]
+
+                [Territory:Rebel Airspace]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>20.0</Frequency>
+            <IsPirate>true</IsPirate>
+
+            <Prefabs>
+                <Prefab SubtypeId="Oka Class Freighter MKIV">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Light Freighter</BeaconText>
+                    <Speed>40.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Rebel_Territory_ATMFighter_1</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [AtmosphericCargoShip:true]
+                [FactionOwner:RBL]
+                [ReplenishSystems:true]
+
+                [Territory:Rebel Airspace]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>50.0</Frequency>
+            <IsPirate>true</IsPirate>
+
+            <Prefabs>
+                <Prefab SubtypeId="FV-2A 01">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Light Fighter</BeaconText>
+                    <Speed>75.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Rebel_Territory_ATMFighter_Formation</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [AtmosphericCargoShip:true]
+                [FactionOwner:RBL]
+                [ReplenishSystems:true]
+
+                [Territory:Rebel Airspace]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>20.0</Frequency>
+            <IsPirate>true</IsPirate>
+
+            <Prefabs>
+                <Prefab SubtypeId="FV-2A 01">
+                    <Position>
+                        <X>25.0</X>
+                        <Y>0.0</Y>
+                        <Z>25.0</Z>
+                    </Position>
+                    <BeaconText>Light Fighter</BeaconText>
+                    <Speed>75.0</Speed>
+                </Prefab>
+                <Prefab SubtypeId="FV-2A 01">
+                    <Position>
+                        <X>-25.0</X>
+                        <Y>25.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Light Fighter</BeaconText>
+                    <Speed>75.0</Speed>
+                </Prefab>
+                <Prefab SubtypeId="FV-2A 01">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>-25.0</Y>
+                        <Z>-30.0</Z>
+                    </Position>
+                    <BeaconText>Light Fighter</BeaconText>
+                    <Speed>75.0</Speed>
                 </Prefab>
             </Prefabs>
         </SpawnGroup>

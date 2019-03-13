@@ -14,4 +14,19 @@
             <AcceptHumans>false</AcceptHumans>
         </Faction>
     </Factions>
+
+    <Factions>
+        <Faction Tag="UEN" Founder="UEN NPC">
+            <Id>
+                <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+                <SubtypeId>United Earth Navy</SubtypeId>
+            </Id>
+            <DisplayName>United Earth Navy</DisplayName>
+            <IsDefault>true</IsDefault>
+
+            <DefaultRelation>Enemies</DefaultRelation>
+            <AutoAcceptMember>false</AutoAcceptMember>
+            <AcceptHumans>false</AcceptHumans>
+        </Faction>
+    </Factions>
 </Definitions>
