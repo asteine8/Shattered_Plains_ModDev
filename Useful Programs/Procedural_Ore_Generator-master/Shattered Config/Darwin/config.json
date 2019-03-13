@@ -1,8 +1,8 @@
 {
 	"planetDataPath": "E:\\Users\\Desktop\\Shattered Plains Server\\ModDev\\In Development\\Planets\\PlanetDataFiles\\",
-	"planetGeneratorDefinitionsPath": "E:\\Users\\Desktop\\Shattered Plains Server\\ModDev\\In Development\\Planets\\Gea\\Data\\PlanetGeneratorDefinitions.sbc",
+	"planetGeneratorDefinitionsPath": "E:\\Users\\Desktop\\Shattered Plains Server\\ModDev\\In Development\\Planets\\Darwin\\Data\\Darwin.sbc",
 	"makeColouredMaps": true,
-	"surfaceHintMaps": true,
+	"surfaceHintMaps": false,
 	"shape": 1,
 	"density": 0.9,	
 	"oreTemplates": [
@@ -85,7 +85,7 @@
 	],
 	"planets": [
 		{
-			"name": "Gea",
+			"name": "Darwin",
 			"seed": 4,
 			"surfaceHintColour": 144,
 			"ores": [

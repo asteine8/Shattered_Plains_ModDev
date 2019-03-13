@@ -1,6 +1,6 @@
 {
 	"planetDataPath": "E:\\Users\\Desktop\\Shattered Plains Server\\ModDev\\In Development\\Planets\\PlanetDataFiles\\",
-	"planetGeneratorDefinitionsPath": "E:\\Users\\Desktop\\Shattered Plains Server\\ModDev\\In Development\\Planets\\Gea\\Data\\PlanetGeneratorDefinitions.sbc",
+	"planetGeneratorDefinitionsPath": "E:\\Users\\Desktop\\Shattered Plains Server\\ModDev\\In Development\\Planets\\Nova Prime\\Data\\NovaPrime.sbc",
 	"makeColouredMaps": true,
 	"surfaceHintMaps": true,
 	"shape": 1,
@@ -85,40 +85,39 @@
 	],
 	"planets": [
 		{
-			"name": "Gea",
-			"seed": 4,
+			"name": "Nova Prime",
+			"seed": 1,
 			"surfaceHintColour": 144,
 			"ores": [
 				{
 					"id": 1,
-					"p": 0.4
+					"p": 0.40
 				},
 				{
 					"id": 24,
-					"p": 0.2
+					"p": .175
 				},
 				{
 					"id": 48,
-					"p": 0.2
+					"p": .175
 				},
 				{
 					"id": 72,
-					"p": 0.4
+					"p": .175
 				},
 				{
 					"id": 96,
-					"p": 0.02
+					"p": 0.05
 				},
 				{
-					"id": 120,
-					"p": 0.15
+					"id": 120
 				},
 				{
-					"id": 168
+					"id": 168,
+					"p": 0.025
 				},
 				{
-					"id": 144,
-					"p": 0.008
+					"id": 144
 				},
 				{
 					"id": 192
