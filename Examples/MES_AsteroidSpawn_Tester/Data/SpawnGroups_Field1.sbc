@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <SpawnGroups>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Asteroid_1</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceRandomEncounter:true]
+                [Territory:Asteroid Field 1]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>500.0</Frequency>
+            <IsPirate>true</IsPirate>
+
+            <!-- <Prefabs>
+                <Prefab SubtypeId="Stirling Class Patrol Boat MKIII">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Patrol Boat</BeaconText>
+                    <Speed>75.0</Speed>
+                </Prefab>
+            </Prefabs> -->
+
+            <Voxels>
+                <Voxel StorageName="ProcAsteroid-12345r1011.773-82196427419161856">
+                    <Offset>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Offset>
+                </Voxel>
+                <CenterOffset>true</CenterOffset>
+            </Voxels>
+        </SpawnGroup>
+
+    </SpawnGroups>
+</Definitions>
