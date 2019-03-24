@@ -2,12 +2,33 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <VoxelMapStorages>
 
+        <!-- <VoxelMapStorage>
+            <Id>
+                <TypeId>VoxelMapStorageDefinition</TypeId>
+                <SubtypeId>ProcAsteroid_1</SubtypeId>
+            </Id>
+            <StorageFile>VoxelMaps\ProcAsteroid_1.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
+            <UseForProceduralRemovals>false</UseForProceduralRemovals>
+            <UseForProceduralAdditions>false</UseForProceduralAdditions>
+        </VoxelMapStorage> -->
+
         <VoxelMapStorage>
             <Id>
                 <TypeId>VoxelMapStorageDefinition</TypeId>
-                <SubtypeId>ProcAsteroid-12345r1011.773-82196427419161856</SubtypeId>
+                <SubtypeId>Asteroid_1</SubtypeId>
             </Id>
-            <StorageFile>VoxelMaps\ProcAsteroid-12345r1011.773-82196427419161856.vx2</StorageFile>
+            <StorageFile>VoxelMaps\ProcAsteroid-1840864824r515.0101-95080080888855662.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
+        </VoxelMapStorage>
+
+        <VoxelMapStorage>
+            <Id>
+                <TypeId>VoxelMapStorageDefinition</TypeId>
+                <SubtypeId>Asteroid_2</SubtypeId>
+            </Id>
+            <StorageFile>VoxelMaps\ProcAsteroid-1206211832r64-85084933984460556.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
         </VoxelMapStorage>
 
     </VoxelMapStorages>

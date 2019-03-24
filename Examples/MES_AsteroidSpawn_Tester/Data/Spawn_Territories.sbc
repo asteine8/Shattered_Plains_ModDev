@@ -26,7 +26,7 @@
             <Frequency>30.0</Frequency>
 
             <Prefabs>
-                <Prefab SubtypeId="AS-3C Attack Fighter">
+                <Prefab SubtypeId="Empty">
                     <Position>
                         <X>0.0</X>
                         <Y>0.0</Y>
