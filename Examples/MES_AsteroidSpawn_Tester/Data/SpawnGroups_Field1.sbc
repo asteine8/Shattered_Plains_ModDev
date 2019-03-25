@@ -17,22 +17,75 @@
 
             <Icon>Textures\GUI\Icons\Fake.dds</Icon>
             <Frequency>500.0</Frequency>
-            <IsPirate>true</IsPirate>
+            <!-- <IsPirate>false</IsPirate> -->
+            <!-- <IsEncounter>true</IsEncounter> -->
 
-            <!-- <Prefabs>
-                <Prefab SubtypeId="Stirling Class Patrol Boat MKIII">
+            <IsEncounter>true</IsEncounter>
+            <IsPirate>true</IsPirate>
+            <Frequency>10.0</Frequency>
+            <ReactorsOn>true</ReactorsOn>
+
+            <Prefabs>
+                <Prefab SubtypeId="Empty">
                     <Position>
                         <X>0.0</X>
                         <Y>0.0</Y>
                         <Z>0.0</Z>
                     </Position>
-                    <BeaconText>Patrol Boat</BeaconText>
-                    <Speed>75.0</Speed>
+                    <BeaconText>Empty</BeaconText>
+                    <Speed>0.0</Speed>
                 </Prefab>
-            </Prefabs> -->
+            </Prefabs>
 
             <Voxels>
-                <Voxel StorageName="ProcAsteroid-12345r1011.773-82196427419161856">
+                <Voxel StorageName="Asteroid_1">
+                    <Offset>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Offset>
+                </Voxel>
+                <CenterOffset>true</CenterOffset>
+            </Voxels>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Asteroid_2</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceRandomEncounter:true]
+                [Territory:Asteroid Field 1]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>500.0</Frequency>
+            <!-- <IsPirate>false</IsPirate> -->
+            <!-- <IsEncounter>true</IsEncounter> -->
+
+            <IsEncounter>true</IsEncounter>
+            <IsPirate>true</IsPirate>
+            <Frequency>10.0</Frequency>
+            <ReactorsOn>true</ReactorsOn>
+
+            <Prefabs>
+                <Prefab SubtypeId="Empty">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Empty</BeaconText>
+                    <Speed>0.0</Speed>
+                </Prefab>
+            </Prefabs>
+
+            <Voxels>
+                <Voxel StorageName="Asteroid_2">
                     <Offset>
                         <X>0.0</X>
                         <Y>0.0</Y>
