@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Encoding info:
+
+  Loopable sounds must use AdpcmEncode.exe for all <Start>, <Loop> and <End>. Adpcm supports loops.
+  Use xWMAEncode.exe for everything else. Wmaudio2 has better compression but doesn't support loops.
+-->
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sounds>
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>ZatShot</SubtypeId>
+      </Id>
+      <Category>WEP_PLAY</Category>
+      <MaxDistance>46.6797371</MaxDistance>
+      <Volume>0.602728665</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Loop>Audio\ZatShot.xwm</Loop>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>StaffShot</SubtypeId>
+      </Id>
+      <Category>WEP_PLAY</Category>
+      <MaxDistance>46.6797371</MaxDistance>
+      <Volume>0.602728665</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\StaffShot.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>SupergateActive</SubtypeId>
+      </Id>
+      <Category>BLOCK</Category>
+      <MaxDistance>500</MaxDistance>
+      <Volume>0.945168</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\gate_open.xwm</Start>
+          <Loop>Audio\gate_loop.xwm</Loop>
+          <End>Audio\gate_close.xwm</End>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>Stargate Theme</SubtypeId>
+      </Id>
+      <Category>BLOCK</Category>
+      <MaxDistance>99999999999</MaxDistance>
+      <Volume>0.945168</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <!-- <Start>Audio\gate_open.xwm</Start> -->
+          <Loop>Audio\StargateTheme.xwm</Loop>
+          <!-- <End>Audio\gate_close.xwm</End> -->
+        </Wave>
+      </Waves>
+    </Sound>
+  </Sounds>
+</Definitions>
+<!-- vim: set tabstop=2 expandtab shiftwidth=2 nobackup: -->
+

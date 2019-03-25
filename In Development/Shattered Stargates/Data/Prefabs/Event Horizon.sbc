@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Prefabs>
+    <Prefab>
+      <Id>
+        <TypeId>MyObjectBuilder_PrefabDefinition</TypeId>
+        <SubtypeId>Event Horizon</SubtypeId>
+      </Id>
+      <DisplayName>Phoenix</DisplayName>
+      <CubeGrids>
+        <CubeGrid>
+          <EntityId>150125277869602249</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="1572.5" y="515" z="-10160" />
+            <Forward x="0" y="-0" z="-1" />
+            <Up x="0" y="1" z="0" />
+          </PositionAndOrientation>
+          <GridSizeEnum>Large</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
+              <SubtypeName>Phoenix_Stargate_EventHorizon_Antenna</SubtypeName>
+              <EntityId>155418618801706847</EntityId>
+              <Min x="0" y="0" z="0" />
+              <BlockOrientation Forward="Forward" Up="Up" />
+              <ColorMaskHSV x="0" y="-1" z="0" />
+              <ShareMode>All</ShareMode>
+              <DeformationRatio>0</DeformationRatio>
+              <CustomName />
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <Enabled>false</Enabled>
+              <BroadcastRadius>99.9999847</BroadcastRadius>
+              <ShowShipName>false</ShowShipName>
+              <EnableBroadcasting>true</EnableBroadcasting>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_LaserAntenna">
+              <SubtypeName>Phoenix_Stargate_EventHorizon_LinkAntenna</SubtypeName>
+              <EntityId>209720370585250324</EntityId>
+              <Min x="0" y="1" z="0" />
+              <BlockOrientation Forward="Forward" Up="Up" />
+              <ColorMaskHSV x="0" y="-1" z="0" />
+              <ShareMode>All</ShareMode>
+              <DeformationRatio>0</DeformationRatio>
+              <CustomName>Upper Antenna</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <Enabled>true</Enabled>
+              <State>0</State>
+              <targetEntityId xsi:nil="true" />
+              <gpsTarget xsi:nil="true" />
+              <gpsTargetName />
+              <LastTargetPosition>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+              </LastTargetPosition>
+              <HeadRotation>
+                <X>0</X>
+                <Y>0</Y>
+              </HeadRotation>
+              <LastKnownTargetName />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_LaserAntenna">
+              <SubtypeName>Phoenix_Stargate_EventHorizon_LinkAntenna</SubtypeName>
+              <EntityId>210917816939525296</EntityId>
+              <Min x="0" y="-1" z="0" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0" y="-1" z="0" />
+              <ShareMode>All</ShareMode>
+              <DeformationRatio>0</DeformationRatio>
+              <CustomName>Lower Antenna</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <Enabled>true</Enabled>
+              <State>0</State>
+              <targetEntityId xsi:nil="true" />
+              <gpsTarget xsi:nil="true" />
+              <gpsTargetName />
+              <LastTargetPosition>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+              </LastTargetPosition>
+              <HeadRotation>
+                <X>0</X>
+                <Y>0</Y>
+              </HeadRotation>
+              <LastKnownTargetName />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
+              <SubtypeName>Phoenix_Stargate_EventHorizon_Light</SubtypeName>
+              <EntityId>178024979540016262</EntityId>
+              <Min x="0" y="0" z="-1" />
+              <BlockOrientation Forward="Forward" Up="Up" />
+              <ColorMaskHSV x="0" y="-1" z="0" />
+              <ShareMode>None</ShareMode>
+              <DeformationRatio>0</DeformationRatio>
+              <CustomName>Back Light</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <Enabled>true</Enabled>
+              <Radius>10</Radius>
+              <Falloff>1.5</Falloff>
+              <Intensity>0.5</Intensity>
+              <BlinkIntervalSeconds>0</BlinkIntervalSeconds>
+              <BlinkLenght>10</BlinkLenght>
+              <BlinkOffset>0</BlinkOffset>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_InteriorLight">
+              <SubtypeName>Phoenix_Stargate_EventHorizon_Light</SubtypeName>
+              <EntityId>198611765175864161</EntityId>
+              <Min x="0" y="0" z="1" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0" y="-1" z="0" />
+              <ShareMode>None</ShareMode>
+              <DeformationRatio>0</DeformationRatio>
+              <CustomName>Front Light</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <Enabled>true</Enabled>
+              <Radius>10</Radius>
+              <Falloff>1.5</Falloff>
+              <Intensity>0.5</Intensity>
+              <BlinkIntervalSeconds>0</BlinkIntervalSeconds>
+              <BlinkLenght>10</BlinkLenght>
+              <BlinkOffset>0</BlinkOffset>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Reactor">
+              <SubtypeName>Phoenix_Stargate_EventHorizon_Reactor</SubtypeName>
+              <EntityId>178562191131763561</EntityId>
+              <Min x="1" y="-1" z="0" />
+              <BlockOrientation Forward="Forward" Up="Up" />
+              <ColorMaskHSV x="0" y="-1" z="0" />
+              <ShareMode>All</ShareMode>
+              <DeformationRatio>0</DeformationRatio>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>false</ShowInTerminal>
+              <Enabled>true</Enabled>
+              <Inventory>
+                <Items>
+                  <MyObjectBuilder_InventoryItem>
+                    <Amount>1.0</Amount>
+                    <PhysicalContent xsi:type="MyObjectBuilder_Ingot">
+                      <SubtypeName>Uranium</SubtypeName>
+                    </PhysicalContent>
+                    <ItemId>0</ItemId>
+                    <AmountDecimal>1.0</AmountDecimal>
+                  </MyObjectBuilder_InventoryItem>
+                </Items>
+                <nextItemId>1</nextItemId>
+              </Inventory>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>Event Horizon</SubtypeName>
+              <EntityId>159058260215915162</EntityId>
+              <Min x="0" y="-1" z="1" />
+              <BlockOrientation Forward="Forward" Up="Up" />
+              <ColorMaskHSV x="0" y="-1" z="0" />
+              <ShareMode>None</ShareMode>
+              <DeformationRatio>0</DeformationRatio>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <IsStatic>true</IsStatic>
+          <Skeleton />
+          <LinearVelocity x="0" y="0" z="0" />
+          <AngularVelocity x="0" y="0" z="0" />
+          <XMirroxPlane xsi:nil="true" />
+          <YMirroxPlane xsi:nil="true" />
+          <ZMirroxPlane xsi:nil="true" />
+          <BlockGroups />
+          <Handbrake>false</Handbrake>
+          <DisplayName>Event Horizon</DisplayName>
+          <CreatePhysics>false</CreatePhysics>
+          <EnableSmallToLargeConnections>false</EnableSmallToLargeConnections>
+        </CubeGrid>
+      </CubeGrids>
+      <WorkshopId>0</WorkshopId>
+      <OwnerSteamId>76561197973109369</OwnerSteamId>
+      <Points>0</Points>
+    </Prefab>
+  </Prefabs>
+</Definitions>
+<!-- vim: set tabstop=2 expandtab shiftwidth=2 nobackup: -->
+

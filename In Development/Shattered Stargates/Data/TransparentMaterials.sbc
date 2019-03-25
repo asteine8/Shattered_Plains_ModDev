@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TransparentMaterials>
+    
+
+
+<TransparentMaterial>
+      <Id>
+        <TypeId>TransparentMaterialDefinition</TypeId>
+        <SubtypeId>Glass</SubtypeId>
+      </Id>
+      <AlphaMistingEnable>false</AlphaMistingEnable>
+      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <Emissivity>0</Emissivity>
+      <IgnoreDepth>false</IgnoreDepth>
+      <SoftParticleDistanceScale>2000</SoftParticleDistanceScale>
+      <Texture>Textures\Particles\SquareWindowDirt.dds</Texture>
+      <UseAtlas>false</UseAtlas>
+      <NeedSort>true</NeedSort>
+      <UVOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </UVOffset>
+      <UVSize>
+        <X>1</X>
+        <Y>1</Y>
+      </UVSize>
+      <Color>
+        <X>0.3</X>
+        <Y>0.3</Y>
+        <Z>0.4</Z>
+        <W>0.4</W>
+      </Color>
+      <Reflectivity>0.5</Reflectivity>
+    </TransparentMaterial>
+    
+
+
+<TransparentMaterial>
+      <Id>
+        <TypeId>TransparentMaterialDefinition</TypeId>
+        <SubtypeId>Shield</SubtypeId>
+      </Id>
+      <AlphaMistingEnable>false</AlphaMistingEnable>
+      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <Emissivity>0</Emissivity>
+      <Reflection>false</Reflection>
+      <IgnoreDepth>false</IgnoreDepth>
+      <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
+      <Texture>Textures\Models\Iris_shield.dds</Texture>
+      <UseAtlas>false</UseAtlas>
+      <NeedSort>true</NeedSort>
+      <UVOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </UVOffset>
+      <UVSize>
+        <X>1</X>
+        <Y>1</Y>
+      </UVSize>
+      <Color>
+        <X>0.3</X>
+        <Y>0.3</Y>
+        <Z>0.4</Z>
+        <W>0.4</W>
+      </Color>
+      <Reflectivity>0.0</Reflectivity>
+    </TransparentMaterial>
+    <TransparentMaterial>
+      <Id>
+        <TypeId>TransparentMaterialDefinition</TypeId>
+        <SubtypeId>GlareNone</SubtypeId>
+      </Id>
+      <AlphaMistingEnable>false</AlphaMistingEnable>
+      <AlphaSaturation>0.55</AlphaSaturation>
+      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <Emissivity>0</Emissivity>
+      <IgnoreDepth>true</IgnoreDepth>
+      <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
+      <Texture>Textures\Particles\GlareNone.dds</Texture>
+      <UseAtlas>false</UseAtlas>
+      <UVOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </UVOffset>
+      <UVSize>
+        <X>1</X>
+        <Y>1</Y>
+      </UVSize>
+    </TransparentMaterial>
+    
+
+<TransparentMaterial>
+      <Id>
+        <TypeId>TransparentMaterialDefinition</TypeId>
+        <SubtypeId>VortexCW</SubtypeId>
+      </Id>
+      <AlphaMistingEnable>false</AlphaMistingEnable>
+      <AlphaSaturation>1</AlphaSaturation>
+      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <Emissivity>0</Emissivity>
+      <IgnoreDepth>false</IgnoreDepth>
+      <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
+      <Texture>Textures\Particles\Vortex.dds</Texture>
+      <UseAtlas>false</UseAtlas>
+      <NeedSort>true</NeedSort>
+      <UVOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </UVOffset>
+      <UVSize>
+        <X>1</X>
+        <Y>1</Y>
+      </UVSize>
+      <Color>
+        <X>1</X> <!-- X,Y,Z: Acts sort of like Gamma for the texture; 0=dark 1=normal -->
+        <Y>1</Y>
+        <Z>1</Z>
+        <W>0.2</W> <!-- Use this to adjust transparency; 0=transparent 1=opaque -->
+      </Color>
+      <ColorAdd>
+        <X>0</X> <!-- X,Y,Z: Adds artificial color to texture; Suggested to leave this at 0 -->
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>0.1</W> <!-- Keep this value at 0.1; Use <color><W> to fine tune transparency -->
+      </ColorAdd>
+      <ShadowMultiplier>
+        <X>1</X>  <!-- controls "emissivity", suggest 0 for windows, 1 for force fields -->
+        <Y>1</Y>
+        <Z>1</Z>
+        <W>1</W>  <!-- controls "darkening" effect of glass in shadow, 1 for no change, higher for darker tinted glass in shadow -->
+      </ShadowMultiplier>
+      <Fresnel>0</Fresnel> <!-- Suggest 1 to 1.5 for windows; Hard to explain, sort of like reflectivity angle; Suggest 0 for no effect on 'force fields' -->
+      <IsFlareOccluder>true</IsFlareOccluder> <!-- Hides sprite flares from stuff like the sun, lights, and thrusters; Suggest 'false' usually, use at your own discretion -->
+      <Reflectivity>0</Reflectivity> <!-- Controls reflectivity; Suggest very low numbers, for example 0.05 -->
+    </TransparentMaterial>
+    
+
+<TransparentMaterial>
+      <Id>
+        <TypeId>TransparentMaterialDefinition</TypeId>
+        <SubtypeId>VortexCCW</SubtypeId>
+      </Id>
+      <AlphaMistingEnable>false</AlphaMistingEnable>
+      <AlphaSaturation>1</AlphaSaturation>
+      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <Emissivity>0</Emissivity>
+      <IgnoreDepth>false</IgnoreDepth>
+      <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
+      <Texture>Textures\Particles\Vortex.dds</Texture>
+      <UseAtlas>false</UseAtlas>
+      <NeedSort>true</NeedSort>
+      <UVOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </UVOffset>
+      <UVSize>
+        <X>1</X>
+        <Y>1</Y>
+      </UVSize>
+      <Color>
+        <X>1</X> <!-- X,Y,Z: Acts sort of like Gamma for the texture; 0=dark 1=normal -->
+        <Y>1</Y>
+        <Z>1</Z>
+        <W>0.99</W> <!-- Use this to adjust transparency; 0=transparent 1=opaque -->
+      </Color>
+      <ColorAdd>
+        <X>0</X> <!-- X,Y,Z: Adds artificial color to texture; Suggested to leave this at 0 -->
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>0.1</W> <!-- Keep this value at 0.1; Use <color><W> to fine tune transparency -->
+      </ColorAdd>
+      <ShadowMultiplier>
+        <X>1</X>  <!-- controls "emissivity", suggest 0 for windows, 1 for force fields -->
+        <Y>1</Y>
+        <Z>1</Z>
+        <W>1</W>  <!-- controls "darkening" effect of glass in shadow, 1 for no change, higher for darker tinted glass in shadow -->
+      </ShadowMultiplier>
+      <Fresnel>0</Fresnel> <!-- Suggest 1 to 1.5 for windows; Hard to explain, sort of like reflectivity angle; Suggest 0 for no effect on 'force fields' -->
+      <IsFlareOccluder>true</IsFlareOccluder> <!-- Hides sprite flares from stuff like the sun, lights, and thrusters; Suggest 'false' usually, use at your own discretion -->
+      <Reflectivity>0</Reflectivity> <!-- Controls reflectivity; Suggest very low numbers, for example 0.05 -->
+    </TransparentMaterial>
+    
+
+<TransparentMaterial>
+      <Id>
+        <TypeId>TransparentMaterialDefinition</TypeId>
+        <SubtypeId>PuddleCW</SubtypeId>
+      </Id>
+      <AlphaMistingEnable>false</AlphaMistingEnable>
+      <AlphaSaturation>1</AlphaSaturation>
+      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <Emissivity>0</Emissivity>
+      <IgnoreDepth>false</IgnoreDepth>
+      <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
+      <Texture>Textures\Particles\Puddle.dds</Texture>
+      <UseAtlas>false</UseAtlas>
+      <NeedSort>true</NeedSort>
+      <UVOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </UVOffset>
+      <UVSize>
+        <X>1</X>
+        <Y>1</Y>
+      </UVSize>
+      <Color>
+        <X>1</X> <!-- X,Y,Z: Acts sort of like Gamma for the texture; 0=dark 1=normal -->
+        <Y>1</Y>
+        <Z>1</Z>
+        <W>0.2</W> <!-- Use this to adjust transparency; 0=transparent 1=opaque -->
+      </Color>
+      <ColorAdd>
+        <X>0</X> <!-- X,Y,Z: Adds artificial color to texture; Suggested to leave this at 0 -->
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>0.1</W> <!-- Keep this value at 0.1; Use <color><W> to fine tune transparency -->
+      </ColorAdd>
+      <ShadowMultiplier>
+        <X>1</X>  <!-- controls "emissivity", suggest 0 for windows, 1 for force fields -->
+        <Y>1</Y>
+        <Z>1</Z>
+        <W>1</W>  <!-- controls "darkening" effect of glass in shadow, 1 for no change, higher for darker tinted glass in shadow -->
+      </ShadowMultiplier>
+      <Fresnel>0</Fresnel> <!-- Suggest 1 to 1.5 for windows; Hard to explain, sort of like reflectivity angle; Suggest 0 for no effect on 'force fields' -->
+      <IsFlareOccluder>true</IsFlareOccluder> <!-- Hides sprite flares from stuff like the sun, lights, and thrusters; Suggest 'false' usually, use at your own discretion -->
+      <Reflectivity>0</Reflectivity> <!-- Controls reflectivity; Suggest very low numbers, for example 0.05 -->
+    </TransparentMaterial>
+    
+
+<TransparentMaterial>
+      <!-- Front of gate -->
+      <Id>
+        <TypeId>TransparentMaterialDefinition</TypeId>
+        <SubtypeId>PuddleCCW</SubtypeId>
+      </Id>
+      <AlphaMistingEnable>false</AlphaMistingEnable>
+      <AlphaSaturation>1</AlphaSaturation>
+      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <Emissivity>0</Emissivity>
+      <IgnoreDepth>false</IgnoreDepth>
+      <SoftParticleDistanceScale>1</SoftParticleDistanceScale>
+      <Texture>Textures\Particles\Puddle.dds</Texture>
+      <UseAtlas>false</UseAtlas>
+      <NeedSort>true</NeedSort>
+      <UVOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </UVOffset>
+      <UVSize>
+        <X>1</X>
+        <Y>1</Y>
+      </UVSize>
+      <Color>
+        <X>1</X> <!-- X,Y,Z: Acts sort of like Gamma for the texture; 0=dark 1=normal -->
+        <Y>1</Y>
+        <Z>1</Z>
+        <W>0.99</W> <!-- Use this to adjust transparency; 0=transparent 1=opaque -->
+      </Color>
+      <ColorAdd>
+        <X>0</X> <!-- X,Y,Z: Adds artificial color to texture; Suggested to leave this at 0 -->
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>0.1</W> <!-- Keep this value at 0.1; Use <color><W> to fine tune transparency -->
+      </ColorAdd>
+      <ShadowMultiplier>
+        <X>1</X>  <!-- controls "emissivity", suggest 0 for windows, 1 for force fields -->
+        <Y>1</Y>
+        <Z>1</Z>
+        <W>1</W>  <!-- controls "darkening" effect of glass in shadow, 1 for no change, higher for darker tinted glass in shadow -->
+      </ShadowMultiplier>
+      <Fresnel>0</Fresnel> <!-- Suggest 1 to 1.5 for windows; Hard to explain, sort of like reflectivity angle; Suggest 0 for no effect on 'force fields' -->
+      <IsFlareOccluder>true</IsFlareOccluder> <!-- Hides sprite flares from stuff like the sun, lights, and thrusters; Suggest 'false' usually, use at your own discretion -->
+      <Reflectivity>0</Reflectivity> <!-- Controls reflectivity; Suggest very low numbers, for example 0.05 -->
+    </TransparentMaterial>
+    
+
+<TransparentMaterial>
+      <Id>
+        <TypeId>TransparentMaterialDefinition</TypeId>
+        <SubtypeId>PuddleUCW</SubtypeId>
+      </Id>
+      <AlphaMistingEnable>false</AlphaMistingEnable>
+      <AlphaSaturation>1</AlphaSaturation>
+      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <Emissivity>0</Emissivity>
+      <IgnoreDepth>false</IgnoreDepth>
+      <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
+      <Texture>Textures\Particles\PuddleU.dds</Texture>
+      <UseAtlas>false</UseAtlas>
+      <NeedSort>true</NeedSort>
+      <UVOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </UVOffset>
+      <UVSize>
+        <X>1</X>
+        <Y>1</Y>
+      </UVSize>
+      <Color>
+        <X>1</X> <!-- X,Y,Z: Acts sort of like Gamma for the texture; 0=dark 1=normal -->
+        <Y>1</Y>
+        <Z>1</Z>
+        <W>0.2</W> <!-- Use this to adjust transparency; 0=transparent 1=opaque -->
+      </Color>
+      <ColorAdd>
+        <X>0</X> <!-- X,Y,Z: Adds artificial color to texture; Suggested to leave this at 0 -->
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>0.1</W> <!-- Keep this value at 0.1; Use <color><W> to fine tune transparency -->
+      </ColorAdd>
+      <ShadowMultiplier>
+        <X>1</X>  <!-- controls "emissivity", suggest 0 for windows, 1 for force fields -->
+        <Y>1</Y>
+        <Z>1</Z>
+        <W>1</W>  <!-- controls "darkening" effect of glass in shadow, 1 for no change, higher for darker tinted glass in shadow -->
+      </ShadowMultiplier>
+      <Fresnel>0</Fresnel> <!-- Suggest 1 to 1.5 for windows; Hard to explain, sort of like reflectivity angle; Suggest 0 for no effect on 'force fields' -->
+      <IsFlareOccluder>true</IsFlareOccluder> <!-- Hides sprite flares from stuff like the sun, lights, and thrusters; Suggest 'false' usually, use at your own discretion -->
+      <Reflectivity>0</Reflectivity> <!-- Controls reflectivity; Suggest very low numbers, for example 0.05 -->
+    </TransparentMaterial>
+    
+
+<TransparentMaterial>
+      <Id>
+        <TypeId>TransparentMaterialDefinition</TypeId>
+        <SubtypeId>PuddleUCCW</SubtypeId>
+      </Id>
+      <AlphaMistingEnable>false</AlphaMistingEnable>
+      <AlphaSaturation>0</AlphaSaturation>
+      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <Emissivity>0</Emissivity>
+      <IgnoreDepth>false</IgnoreDepth>
+      <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
+      <Texture>Textures\Particles\PuddleU.dds</Texture>
+      <UseAtlas>false</UseAtlas>
+      <NeedSort>true</NeedSort>
+      <UVOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </UVOffset>
+      <UVSize>
+        <X>1</X>
+        <Y>1</Y>
+      </UVSize>
+      <Color>
+        <X>1</X> <!-- X,Y,Z: Acts sort of like Gamma for the texture; 0=dark 1=normal -->
+        <Y>1</Y>
+        <Z>1</Z>
+        <W>0.99</W> <!-- Use this to adjust transparency; 0=transparent 1=opaque -->
+      </Color>
+      <ColorAdd>
+        <X>0</X> <!-- X,Y,Z: Adds artificial color to texture; Suggested to leave this at 0 -->
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>0.1</W> <!-- Keep this value at 0.1; Use <color><W> to fine tune transparency -->
+      </ColorAdd>
+      <ShadowMultiplier>
+        <X>1</X>  <!-- controls "emissivity", suggest 0 for windows, 1 for force fields -->
+        <Y>1</Y>
+        <Z>1</Z>
+        <W>1</W>  <!-- controls "darkening" effect of glass in shadow, 1 for no change, higher for darker tinted glass in shadow -->
+      </ShadowMultiplier>
+      <Fresnel>0</Fresnel> <!-- Suggest 1 to 1.5 for windows; Hard to explain, sort of like reflectivity angle; Suggest 0 for no effect on 'force fields' -->
+      <IsFlareOccluder>true</IsFlareOccluder> <!-- Hides sprite flares from stuff like the sun, lights, and thrusters; Suggest 'false' usually, use at your own discretion -->
+      <Reflectivity>0</Reflectivity> <!-- Controls reflectivity; Suggest very low numbers, for example 0.05 -->
+    </TransparentMaterial>
+
+
+
+
+
+  </TransparentMaterials>
+</Definitions>
+<!-- vim: set tabstop=2 expandtab shiftwidth=2 nobackup: -->

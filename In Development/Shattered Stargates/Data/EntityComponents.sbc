@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_ModStorageComponentDefinition">
+      <Id>
+        <TypeId>ModStorageComponent</TypeId>
+        <SubtypeId>PortalEntity</SubtypeId>
+      </Id>
+      <RegisteredStorageGuids>
+        <guid>C713C142-11D4-4DC3-964B-25487F74DF5C</guid>
+      </RegisteredStorageGuids>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>
+<!-- vim: set tabstop=2 expandtab shiftwidth=2 nobackup: -->
+

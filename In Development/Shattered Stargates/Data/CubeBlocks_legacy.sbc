@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CubeBlocks>
+    <!-- Deprecated in Nov 2016 -->
+    <!-- DHDs -->
+    <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+      <Id>
+        <TypeId>Door</TypeId>
+        <SubtypeId>DHD</SubtypeId>
+      </Id>
+      <DisplayName>DHD</DisplayName>
+      <Icon>Textures\gui\DHD.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <Public>false</Public>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Blocks\DHD glowing.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="30" />
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="MetalGrid" Count="2" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="PowerCell" Count="1" />
+        <Component Subtype="Construction" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Blocks\DHD dark.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>DHD</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <OpenSound />
+      <CloseSound />
+      <DamageEffectId>214</DamageEffectId>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Door</TypeId>
+          <SubtypeId>DHD SGU</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Door</TypeId>
+          <SubtypeId>DHD Atlantis</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+      <Id>
+        <TypeId>Door</TypeId>
+        <SubtypeId>DHD SGU</SubtypeId>
+      </Id>
+      <DisplayName>DHD SGU</DisplayName>
+      <Icon>Textures\gui\DHD Universe.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <Public>false</Public>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <GuiVisible>false</GuiVisible>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Blocks\DHD SGU.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="25" />
+        <Component Subtype="InteriorPlate" Count="8" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="MetalGrid" Count="6" />
+        <Component Subtype="Computer" Count="12" />
+        <Component Subtype="PowerCell" Count="1" />
+        <Component Subtype="Construction" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0.8" EndX="1" EndY="1" />
+      </MountPoints>
+      <BlockPairName>DHD SGU</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <OpenSound />
+      <CloseSound />
+      <DamageEffectId>214</DamageEffectId>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+      <Id>
+        <TypeId>Door</TypeId>
+        <SubtypeId>DHD Computer</SubtypeId>
+      </Id>
+      <DisplayName>DHD Computer</DisplayName>
+      <Icon>Textures\gui\DHD Computer.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <Public>false</Public>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Blocks\DHD Computer.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="40" />
+        <Component Subtype="InteriorPlate" Count="8" />
+        <Component Subtype="Construction" Count="12" />
+        <Component Subtype="Display" Count="24" />
+        <Component Subtype="Computer" Count="16" />
+        <Component Subtype="PowerCell" Count="1" />
+        <Component Subtype="Construction" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.4" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Blocks\DHD Computer C1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Blocks\DHD Computer C2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Blocks\DHD Computer C3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>DHD Computer</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>35</BuildTimeSeconds>
+      <OpenSound />
+      <CloseSound />
+      <DamageEffectId>214</DamageEffectId>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+      <Id>
+        <TypeId>Door</TypeId>
+        <SubtypeId>DHD Computer Small</SubtypeId>
+      </Id>
+      <DisplayName>DHD Computer</DisplayName>
+      <Icon>Textures\gui\DHD Computer.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <Public>false</Public>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Blocks\DHDComputerSmall.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="InteriorPlate" Count="2" />
+        <Component Subtype="Girder" Count="2" />
+        <Component Subtype="Display" Count="2" />
+        <Component Subtype="Computer" Count="16" />
+        <Component Subtype="PowerCell" Count="1" />
+        <Component Subtype="Construction" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Blocks\DHD Computer Small C1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Blocks\DHD Computer Small C2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Blocks\DHD Computer Small C3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>DHD Computer</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <OpenSound />
+      <CloseSound />
+      <DamageEffectId>214</DamageEffectId>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_DoorDefinition">
+      <Id>
+        <TypeId>Door</TypeId>
+        <SubtypeId>DHD Atlantis</SubtypeId>
+      </Id>
+      <DisplayName>Atlantis DHD</DisplayName>
+      <Icon>Textures\gui\DHD Atlantis.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <Public>false</Public>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <GuiVisible>false</GuiVisible>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Blocks\DHD Atlantis.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="30" />
+        <Component Subtype="InteriorPlate" Count="12" />
+        <Component Subtype="Construction" Count="14" />
+        <Component Subtype="Display" Count="30" />
+        <Component Subtype="Computer" Count="22" />
+        <Component Subtype="PowerCell" Count="1" />
+        <Component Subtype="Construction" Count="12" />
+      </Components>
+      <CriticalComponent Subtype="PowerCell" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Blocks\Atlantis DHD C1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Blocks\Atlantis DHD C2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>DHD Atlantis</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>45</BuildTimeSeconds>
+      <OpenSound />
+      <CloseSound />
+      <DamageEffectId>214</DamageEffectId>
+    </Definition>
+    <!-- End DHDs -->
+  </CubeBlocks>
+</Definitions>
+<!-- Quegga, Phoenix, Neronix17, SgtIgram -->
+<!-- vim: set tabstop=2 expandtab shiftwidth=2 nobackup: -->

@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+<!--
+  Encoding info:
+
+  Loopable sounds must use AdpcmEncode.exe for all <Start>, <Loop> and <End>. Adpcm supports loops.
+  Use xWMAEncode.exe for everything else. Wmaudio2 has better compression but doesn't support loops.
+-->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Sounds>
+		<Sound>
+			<Id>
+				<TypeId>AudioDefinition</TypeId>
+				<SubtypeId>StargateActive</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<MaxDistance>70.0248051</MaxDistance>
+			<Volume>0.50</Volume>
+			<Loopable>true</Loopable>
+			<Waves>
+				<Wave Type="D3">
+					<Start>Audio\gate_open.xwm</Start>
+					<Loop>Audio\gate_loop.xwm</Loop>
+					<End>Audio\gate_close.xwm</End>
+				</Wave>
+			</Waves>
+		</Sound>
+		<Sound>
+			<Id>
+				<TypeId>AudioDefinition</TypeId>
+				<SubtypeId>StargateShutdown</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<MaxDistance>70.0248051</MaxDistance>
+			<Volume>0.50</Volume>
+			<Loopable>false</Loopable>
+			<Waves>
+				<Wave Type="D3">
+					<Start>Audio\gate_close.xwm</Start>
+				</Wave>
+			</Waves>
+		</Sound>
+		<Sound>
+			<Id>
+				<TypeId>AudioDefinition</TypeId>
+				<SubtypeId>DHDDial</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<MaxDistance>32</MaxDistance>
+			<Volume>0.95</Volume>
+			<Waves>
+				<Wave Type="D3">
+					<Start>Audio\dhd_button.xwm</Start>
+				</Wave>
+			</Waves>
+		</Sound>
+		<Sound>
+			<Id>
+				<TypeId>AudioDefinition</TypeId>
+				<SubtypeId>DHDClose</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<MaxDistance>32</MaxDistance>
+			<Volume>0.95</Volume>
+			<Waves>
+				<Wave Type="D3">
+					<Start>Audio\dhd_close.xwm</Start>
+				</Wave>
+			</Waves>
+		</Sound>
+		<Sound>
+			<Id>
+				<TypeId>AudioDefinition</TypeId>
+				<SubtypeId>IrisOpen</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<MaxDistance>32</MaxDistance>
+			<Volume>0.95</Volume>
+			<Waves>
+				<Wave Type="D3">
+					<Start>Audio\irisopen.xwm</Start>
+				</Wave>
+			</Waves>
+		</Sound>
+		<Sound>
+			<Id>
+				<TypeId>AudioDefinition</TypeId>
+				<SubtypeId>IrisClose</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<MaxDistance>32</MaxDistance>
+			<Volume>0.95</Volume>
+			<Waves>
+				<Wave Type="D3">
+					<Start>Audio\irisclose.xwm</Start>
+				</Wave>
+			</Waves>
+    </Sound>
+		<Sound>
+			<Id>
+				<TypeId>AudioDefinition</TypeId>
+				<SubtypeId>ShieldOpen</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<MaxDistance>32</MaxDistance>
+			<Volume>0.95</Volume>
+			<Waves>
+				<Wave Type="D3">
+					<Start>Audio\shield_deactivation.xwm</Start>
+				</Wave>
+			</Waves>
+		</Sound>
+		<Sound>
+			<Id>
+				<TypeId>AudioDefinition</TypeId>
+				<SubtypeId>ShieldClose</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<MaxDistance>32</MaxDistance>
+			<Volume>0.95</Volume>
+			<Waves>
+				<Wave Type="D3">
+					<Start>Audio\shield_activation.xwm</Start>
+				</Wave>
+			</Waves>
+    </Sound>
+    <!-- Dialing sounds -->
+    <Sound>
+			<Id>
+				<TypeId>AudioDefinition</TypeId>
+				<SubtypeId>SG1_Dial_Long</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<MaxDistance>32</MaxDistance>
+			<Volume>0.95</Volume>
+			<Waves>
+				<Wave Type="D3">
+					<Start>Audio\sg1_gate_dial_chevron.xwm</Start>
+				</Wave>
+			</Waves>
+		</Sound>
+    <Sound>
+			<Id>
+				<TypeId>AudioDefinition</TypeId>
+				<SubtypeId>SG1_Dial_Short</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<MaxDistance>32</MaxDistance>
+			<Volume>0.95</Volume>
+			<Waves>
+				<Wave Type="D3">
+					<Start>Audio\sg1_gate_dial_chevron_short.xwm</Start>
+				</Wave>
+			</Waves>
+		</Sound>
+    <Sound>
+			<Id>
+				<TypeId>AudioDefinition</TypeId>
+				<SubtypeId>SGA_Dial_Long</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<MaxDistance>32</MaxDistance>
+			<Volume>0.95</Volume>
+			<Waves>
+				<Wave Type="D3">
+					<Start>Audio\sga_gate_dial_chevron.xwm</Start>
+				</Wave>
+			</Waves>
+		</Sound>
+    <Sound>
+			<Id>
+				<TypeId>AudioDefinition</TypeId>
+				<SubtypeId>SGA_Dial_Short</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<MaxDistance>32</MaxDistance>
+			<Volume>0.95</Volume>
+			<Waves>
+				<Wave Type="D3">
+					<Start>Audio\sga_gate_dial_chevron_short.xwm</Start>
+				</Wave>
+			</Waves>
+		</Sound>
+    <Sound>
+			<Id>
+				<TypeId>AudioDefinition</TypeId>
+				<SubtypeId>SGU_Dial_Long</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<MaxDistance>32</MaxDistance>
+			<Volume>0.95</Volume>
+			<Waves>
+				<Wave Type="D3">
+					<Start>Audio\sgu_gate_dial_chevron.xwm</Start>
+				</Wave>
+			</Waves>
+		</Sound>
+    <Sound>
+			<Id>
+				<TypeId>AudioDefinition</TypeId>
+				<SubtypeId>SGU_Dial_Long1</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<MaxDistance>32</MaxDistance>
+			<Volume>0.95</Volume>
+			<Waves>
+				<Wave Type="D3">
+					<Start>Audio\sgu_gate_dial_chevron1.xwm</Start>
+				</Wave>
+			</Waves>
+		</Sound>
+    <Sound>
+			<Id>
+				<TypeId>AudioDefinition</TypeId>
+				<SubtypeId>SGU_Dial_Short</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<MaxDistance>32</MaxDistance>
+			<Volume>0.95</Volume>
+			<Waves>
+				<Wave Type="D3">
+					<Start>Audio\sgu_gate_dial_chevron_short.xwm</Start>
+				</Wave>
+			</Waves>
+    </Sound>
+    
+    <Sound>
+			<Id>
+				<TypeId>AudioDefinition</TypeId>
+				<SubtypeId>Stargate_Hit_Iris</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<MaxDistance>32</MaxDistance>
+			<Volume>0.95</Volume>
+			<Waves>
+				<Wave Type="D3">
+					<Start>Audio\iris_hit.xwm</Start>
+				</Wave>
+			</Waves>
+    </Sound>
+    <Sound>
+			<Id>
+				<TypeId>AudioDefinition</TypeId>
+				<SubtypeId>Stargate_Hit_Shield</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<MaxDistance>32</MaxDistance>
+			<Volume>0.95</Volume>
+			<Waves>
+				<Wave Type="D3">
+					<Start>Audio\iris_hit_atlantis.xwm</Start>
+				</Wave>
+			</Waves>
+    </Sound>
+    <Sound>
+			<Id>
+				<TypeId>AudioDefinition</TypeId>
+				<SubtypeId>Stargate_Enter_Wormhole</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<MaxDistance>32</MaxDistance>
+			<Volume>0.95</Volume>
+			<Waves>
+				<Wave Type="D3">
+					<Start>Audio\enter_wormhole.xwm</Start>
+				</Wave>
+			</Waves>
+    </Sound>
+    <Sound>
+			<Id>
+				<TypeId>AudioDefinition</TypeId>
+				<SubtypeId>DHD_Atlantis</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<MaxDistance>32</MaxDistance>
+			<Volume>0.95</Volume>
+			<Waves>
+				<Wave Type="D3">
+					<Start>Audio\dhd_atlantis.xwm</Start>
+				</Wave>
+			</Waves>
+    </Sound>
+
+  </Sounds>
+</Definitions>
+<!-- vim: set tabstop=2 expandtab shiftwidth=2 nobackup: -->

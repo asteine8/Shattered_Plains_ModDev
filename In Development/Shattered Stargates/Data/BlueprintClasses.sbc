@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <BlueprintClassEntries>
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="TerminalBlock/Stargate M" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="TerminalBlock/Stargate O" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="TerminalBlock/Stargate A" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="TerminalBlock/Stargate U" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="TerminalBlock/Supergate" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="ButtonPanel/Phoenix_Stargate_DHD_SG1" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="ButtonPanel/Phoenix_Stargate_DHD_SGA" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="ButtonPanel/Phoenix_Stargate_DHD_SG1_Computer" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="ButtonPanel/Phoenix_Stargate_DHD_SGU_Computer" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="ButtonPanel/Phoenix_Stargate_DHD_SGA_Computer" />
+
+
+  </BlueprintClassEntries>
+</Definitions>
+<!-- vim: set tabstop=2 expandtab shiftwidth=2 nobackup: -->
+

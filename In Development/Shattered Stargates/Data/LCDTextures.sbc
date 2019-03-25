@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LCDTextures>
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>Stargate SG1 Dialing</SubtypeId>
+      </Id>
+     <TexturePath>Textures\LCD\sg1_dialing.dds</TexturePath>
+    </LCDTextureDefinition>
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>Stargate SG1 Idle</SubtypeId>
+      </Id>
+     <TexturePath>Textures\LCD\sg1_idle.dds</TexturePath>
+    </LCDTextureDefinition>
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>Stargate SG1 Idle Iris</SubtypeId>
+      </Id>
+     <TexturePath>Textures\LCD\sg1_idle_iris.dds</TexturePath>
+    </LCDTextureDefinition>
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>Stargate SG1 Incoming</SubtypeId>
+      </Id>
+     <TexturePath>Textures\LCD\sg1_incoming.dds</TexturePath>
+    </LCDTextureDefinition>
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>Stargate SG1 Incoming Iris</SubtypeId>
+      </Id>
+     <TexturePath>Textures\LCD\sg1_incoming_iris.dds</TexturePath>
+    </LCDTextureDefinition>
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>Stargate SG1 Outgoing</SubtypeId>
+      </Id>
+     <TexturePath>Textures\LCD\sg1_outgoing.dds</TexturePath>
+    </LCDTextureDefinition>
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>Stargate SG1 Outgoing Iris</SubtypeId>
+      </Id>
+     <TexturePath>Textures\LCD\sg1_outgoing_iris.dds</TexturePath>
+    </LCDTextureDefinition>
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>Stargate SG1 Shutdown</SubtypeId>
+      </Id>
+     <TexturePath>Textures\LCD\sg1_shutdown.dds</TexturePath>
+    </LCDTextureDefinition>
+  </LCDTextures>
+</Definitions>
+<!-- vim: set tabstop=2 expandtab shiftwidth=2 nobackup: -->
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId />
+      </Id>
+      <DisplayName>Stargate</DisplayName>
+      <Name>Stargate</Name>
+      <ItemIds>
+        <string>TerminalBlock/Supergate</string>
+        <string>TerminalBlock/Stargate M</string>
+        <string>TerminalBlock/Stargate O</string>
+        <string>TerminalBlock/Stargate A</string>
+        <string>TerminalBlock/Stargate U</string>
+        <string>Door/DHD</string>
+        <string>Door/DHD SGU</string>
+        <string>Door/DHD Computer</string>
+        <string>Door/DHD Atlantis</string>
+        <string>ButtonPanel/Phoenix_Stargate_DHD_SG1</string>
+        <string>ButtonPanel/Phoenix_Stargate_DHD_SGA</string>
+        <string>ButtonPanel/Phoenix_Stargate_DHD_SG1_Computer</string>
+        <string>ButtonPanel/Phoenix_Stargate_DHD_SGU_Computer</string>
+        <string>ButtonPanel/Phoenix_Stargate_DHD_SGA_Computer</string>
+        <string>Reactor/Supergate</string>
+        <string>Reactor/SGC</string>
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>
+<!-- vim: set tabstop=2 expandtab shiftwidth=2 nobackup: -->
