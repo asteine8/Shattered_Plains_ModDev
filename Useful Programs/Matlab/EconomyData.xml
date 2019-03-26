@@ -1488,8 +1488,8 @@
                <TypeId>MyObjectBuilder_Component</TypeId>
                <SubtypeName>Tribble</SubtypeName>
                <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
+               <SellPrice>1</SellPrice>
+               <BuyPrice>1</BuyPrice>
                <IsBlacklisted>false</IsBlacklisted>
             </MarketItem>
             <MarketItem>
@@ -1527,18 +1527,18 @@
             <MarketItem>
                <TypeId>MyObjectBuilder_AmmoMagazine</TypeId>
                <SubtypeName>NiFeDUSlugMagazineLZM</SubtypeName>
-               <Quantity>0</Quantity>
-               <SellPrice>1</SellPrice>
-               <BuyPrice>1</BuyPrice>
-               <IsBlacklisted>true</IsBlacklisted>
+               <Quantity>1000000000</Quantity>
+               <SellPrice>NaN</SellPrice>
+               <BuyPrice>NaN</BuyPrice>
+               <IsBlacklisted>false</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_Ingot</TypeId>
                <SubtypeName>NPECurrencyCredit</SubtypeName>
-               <Quantity>1000000000</Quantity>
+               <Quantity>0</Quantity>
                <SellPrice>1</SellPrice>
                <BuyPrice>1</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
          </MarketItems>
       </Market>
@@ -2246,8 +2246,8 @@
                <TypeId>MyObjectBuilder_Component</TypeId>
                <SubtypeName>Tribble</SubtypeName>
                <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
+               <SellPrice>1</SellPrice>
+               <BuyPrice>1</BuyPrice>
                <IsBlacklisted>false</IsBlacklisted>
             </MarketItem>
             <MarketItem>
@@ -2285,18 +2285,18 @@
             <MarketItem>
                <TypeId>MyObjectBuilder_AmmoMagazine</TypeId>
                <SubtypeName>NiFeDUSlugMagazineLZM</SubtypeName>
-               <Quantity>0</Quantity>
-               <SellPrice>1</SellPrice>
-               <BuyPrice>1</BuyPrice>
-               <IsBlacklisted>true</IsBlacklisted>
+               <Quantity>1000000000</Quantity>
+               <SellPrice>NaN</SellPrice>
+               <BuyPrice>NaN</BuyPrice>
+               <IsBlacklisted>false</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_Ingot</TypeId>
                <SubtypeName>NPECurrencyCredit</SubtypeName>
-               <Quantity>1000000000</Quantity>
+               <Quantity>0</Quantity>
                <SellPrice>1</SellPrice>
                <BuyPrice>1</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
          </MarketItems>
       </Market>
@@ -3004,8 +3004,8 @@
                <TypeId>MyObjectBuilder_Component</TypeId>
                <SubtypeName>Tribble</SubtypeName>
                <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
+               <SellPrice>1</SellPrice>
+               <BuyPrice>1</BuyPrice>
                <IsBlacklisted>false</IsBlacklisted>
             </MarketItem>
             <MarketItem>
@@ -3043,18 +3043,18 @@
             <MarketItem>
                <TypeId>MyObjectBuilder_AmmoMagazine</TypeId>
                <SubtypeName>NiFeDUSlugMagazineLZM</SubtypeName>
-               <Quantity>0</Quantity>
-               <SellPrice>1</SellPrice>
-               <BuyPrice>1</BuyPrice>
-               <IsBlacklisted>true</IsBlacklisted>
+               <Quantity>1000000000</Quantity>
+               <SellPrice>NaN</SellPrice>
+               <BuyPrice>NaN</BuyPrice>
+               <IsBlacklisted>false</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_Ingot</TypeId>
                <SubtypeName>NPECurrencyCredit</SubtypeName>
-               <Quantity>1000000000</Quantity>
+               <Quantity>0</Quantity>
                <SellPrice>1</SellPrice>
                <BuyPrice>1</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
          </MarketItems>
       </Market>
@@ -3762,8 +3762,8 @@
                <TypeId>MyObjectBuilder_Component</TypeId>
                <SubtypeName>Tribble</SubtypeName>
                <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
+               <SellPrice>1</SellPrice>
+               <BuyPrice>1</BuyPrice>
                <IsBlacklisted>false</IsBlacklisted>
             </MarketItem>
             <MarketItem>
@@ -3801,18 +3801,18 @@
             <MarketItem>
                <TypeId>MyObjectBuilder_AmmoMagazine</TypeId>
                <SubtypeName>NiFeDUSlugMagazineLZM</SubtypeName>
-               <Quantity>0</Quantity>
-               <SellPrice>1</SellPrice>
-               <BuyPrice>1</BuyPrice>
-               <IsBlacklisted>true</IsBlacklisted>
+               <Quantity>1000000000</Quantity>
+               <SellPrice>NaN</SellPrice>
+               <BuyPrice>NaN</BuyPrice>
+               <IsBlacklisted>false</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_Ingot</TypeId>
                <SubtypeName>NPECurrencyCredit</SubtypeName>
-               <Quantity>1000000000</Quantity>
+               <Quantity>0</Quantity>
                <SellPrice>1</SellPrice>
                <BuyPrice>1</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
          </MarketItems>
       </Market>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-16"?>
 <EconConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <DefaultPrices>
       <MarketItem>
@@ -690,28 +690,12 @@
          <IsBlacklisted>true</IsBlacklisted>
       </MarketItem>
       <MarketItem>
-         <TypeId>MyObjectBuilder_Component</TypeId>
-         <SubtypeName>Tribble</SubtypeName>
+         <TypeId>MyObjectBuilder_Ingot</TypeId>
+         <SubtypeName>NPECurrencyCredit</SubtypeName>
          <Quantity>1000000000</Quantity>
-         <SellPrice>NaN</SellPrice>
-         <BuyPrice>NaN</BuyPrice>
-         <IsBlacklisted>false</IsBlacklisted>
-      </MarketItem>
-      <MarketItem>
-         <TypeId>MyObjectBuilder_Component</TypeId>
-         <SubtypeName>ShieldComponent</SubtypeName>
-         <Quantity>1000000000</Quantity>
-         <SellPrice>NaN</SellPrice>
-         <BuyPrice>NaN</BuyPrice>
-         <IsBlacklisted>false</IsBlacklisted>
-      </MarketItem>
-      <MarketItem>
-         <TypeId>MyObjectBuilder_AmmoMagazine</TypeId>
-         <SubtypeName>Corruption-Missile200mm-Sniper</SubtypeName>
-         <Quantity>0</Quantity>
          <SellPrice>1</SellPrice>
          <BuyPrice>1</BuyPrice>
-         <IsBlacklisted>true</IsBlacklisted>
+         <IsBlacklisted>false</IsBlacklisted>
       </MarketItem>
       <MarketItem>
          <TypeId>MyObjectBuilder_AmmoMagazine</TypeId>
@@ -730,6 +714,14 @@
          <IsBlacklisted>true</IsBlacklisted>
       </MarketItem>
       <MarketItem>
+         <TypeId>MyObjectBuilder_Component</TypeId>
+         <SubtypeName>Tribble</SubtypeName>
+         <Quantity>1000000000</Quantity>
+         <SellPrice>NaN</SellPrice>
+         <BuyPrice>NaN</BuyPrice>
+         <IsBlacklisted>false</IsBlacklisted>
+      </MarketItem>
+      <MarketItem>
          <TypeId>MyObjectBuilder_AmmoMagazine</TypeId>
          <SubtypeName>NiFeDUSlugMagazineLZM</SubtypeName>
          <Quantity>0</Quantity>
@@ -738,37 +730,37 @@
          <IsBlacklisted>true</IsBlacklisted>
       </MarketItem>
       <MarketItem>
-         <TypeId>MyObjectBuilder_Ingot</TypeId>
-         <SubtypeName>NPECurrencyCredit</SubtypeName>
+         <TypeId>MyObjectBuilder_Component</TypeId>
+         <SubtypeName>ShieldComponent</SubtypeName>
          <Quantity>1000000000</Quantity>
-         <SellPrice>1</SellPrice>
-         <BuyPrice>1</BuyPrice>
+         <SellPrice>NaN</SellPrice>
+         <BuyPrice>NaN</BuyPrice>
          <IsBlacklisted>false</IsBlacklisted>
       </MarketItem>
    </DefaultPrices>
    <CurrencyName>Credits</CurrencyName>
-   <TradeNetworkName>Shattered Trade Alliance</TradeNetworkName>
-   <DefaultStartingBalance>100000</DefaultStartingBalance>
+   <TradeNetworkName>Shattered Trade Network</TradeNetworkName>
+   <DefaultStartingBalance>100</DefaultStartingBalance>
    <TradeZoneLicenceCostMin>20000</TradeZoneLicenceCostMin>
    <TradeZoneLicenceCostMax>20000000</TradeZoneLicenceCostMax>
    <TradeZoneMinRadius>20</TradeZoneMinRadius>
    <TradeZoneMaxRadius>5000</TradeZoneMaxRadius>
    <TradeZoneRelinkRatio>0.5</TradeZoneRelinkRatio>
    <MaximumPlayerTradeZones>1</MaximumPlayerTradeZones>
-   <LimitedRange>true</LimitedRange>
+   <LimitedRange>false</LimitedRange>
    <LimitedSupply>true</LimitedSupply>
-   <NPCStartingBalance>99999999999</NPCStartingBalance>
-   <NpcMerchantName>Merchant</NpcMerchantName>
+   <NPCStartingBalance>200000</NPCStartingBalance>
+   <NpcMerchantName>_Default_NPC_Merchant_</NpcMerchantName>
    <DefaultTradeRange>2500</DefaultTradeRange>
    <Language>0</Language>
    <EnableLcds>true</EnableLcds>
    <EnableNpcTradezones>true</EnableNpcTradezones>
-   <EnablePlayerTradezones>false</EnablePlayerTradezones>
+   <EnablePlayerTradezones>true</EnablePlayerTradezones>
    <EnablePlayerPayments>true</EnablePlayerPayments>
-   <PriceScaling>false</PriceScaling>
+   <PriceScaling>true</PriceScaling>
    <ShipTrading>true</ShipTrading>
    <MinimumLcdDisplayInterval>1</MinimumLcdDisplayInterval>
    <EnableMissions>false</EnableMissions>
    <TradeTimeout>00:02:00</TradeTimeout>
-   <AccountExpiry>120.00:00:00</AccountExpiry>
+   <AccountExpiry>60.00:00:00</AccountExpiry>
 </EconConfig>
