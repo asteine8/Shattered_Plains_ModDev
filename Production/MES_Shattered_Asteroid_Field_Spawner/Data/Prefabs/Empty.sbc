@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Prefabs>
+    <Prefab xsi:type="MyObjectBuilder_PrefabDefinition">
+      <Id Type="MyObjectBuilder_PrefabDefinition" Subtype="Empty" />
+      <CubeGrids>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>114299223111711759</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="0" y="0" z="0" />
+            <Forward x="0.7636086" y="-0.460342854" z="0.45275408" />
+            <Up x="-0.3099795" y="-0.876481354" z="-0.368365318" />
+            <Orientation>
+              <X>0.850829065</X>
+              <Y>-0.0496683419</Y>
+              <Z>-0.462958485</Z>
+              <W>-0.2435002</W>
+            </Orientation>
+          </PositionAndOrientation>
+
+          <GridSizeEnum>Small</GridSizeEnum>
+
+          <CubeBlocks>
+          </CubeBlocks>
+        </CubeGrid>
+      </CubeGrids>
+    </Prefab>
+  </Prefabs>
+</Definitions>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <SpawnGroups>
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Asteroid_Field_A</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters Territory]
+                [Name:Asteroid Field A]
+                [Type:Static]
+                [Radius:500000]
+                [CoordsX:100000]
+                [CoordsY:1000000]
+                [CoordsZ:0]
+                [AnnounceArriveDepart:true]
+
+                [Active:true]
+
+            </Description>
+
+            <!-- We Need to add this, but it doesn't actually affect the spawner. Just to make the game happy -->
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>10.0</Frequency>
+
+            <Prefabs>
+                <Prefab SubtypeId="Empty">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Asteroid Field A</BeaconText>
+                    <Speed>0.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+    </SpawnGroups>
+</Definitions>
