@@ -1455,18 +1455,18 @@
             <MarketItem>
                <TypeId>MyObjectBuilder_GasProperties</TypeId>
                <SubtypeName>Oxygen</SubtypeName>
-               <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <Quantity>10000</Quantity>
+               <SellPrice>0.035</SellPrice>
+               <BuyPrice>0.033</BuyPrice>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_GasProperties</TypeId>
                <SubtypeName>Hydrogen</SubtypeName>
-               <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <Quantity>10000</Quantity>
+               <SellPrice>0.03</SellPrice>
+               <BuyPrice>0.025</BuyPrice>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_Component</TypeId>
@@ -1495,10 +1495,10 @@
             <MarketItem>
                <TypeId>MyObjectBuilder_Component</TypeId>
                <SubtypeName>ShieldComponent</SubtypeName>
-               <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <Quantity>0</Quantity>
+               <SellPrice>1</SellPrice>
+               <BuyPrice>1</BuyPrice>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_AmmoMagazine</TypeId>
@@ -1511,10 +1511,10 @@
             <MarketItem>
                <TypeId>MyObjectBuilder_AmmoMagazine</TypeId>
                <SubtypeName>JumpDriveDisruptionMagazine</SubtypeName>
-               <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <Quantity>0</Quantity>
+               <SellPrice>1</SellPrice>
+               <BuyPrice>1</BuyPrice>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_Component</TypeId>
@@ -1527,10 +1527,10 @@
             <MarketItem>
                <TypeId>MyObjectBuilder_AmmoMagazine</TypeId>
                <SubtypeName>NiFeDUSlugMagazineLZM</SubtypeName>
-               <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <Quantity>0</Quantity>
+               <SellPrice>1</SellPrice>
+               <BuyPrice>1</BuyPrice>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_Ingot</TypeId>
@@ -2213,18 +2213,18 @@
             <MarketItem>
                <TypeId>MyObjectBuilder_GasProperties</TypeId>
                <SubtypeName>Oxygen</SubtypeName>
-               <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <Quantity>10000</Quantity>
+               <SellPrice>0.035</SellPrice>
+               <BuyPrice>0.033</BuyPrice>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_GasProperties</TypeId>
                <SubtypeName>Hydrogen</SubtypeName>
-               <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <Quantity>10000</Quantity>
+               <SellPrice>0.03</SellPrice>
+               <BuyPrice>0.025</BuyPrice>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_Component</TypeId>
@@ -2253,10 +2253,10 @@
             <MarketItem>
                <TypeId>MyObjectBuilder_Component</TypeId>
                <SubtypeName>ShieldComponent</SubtypeName>
-               <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <Quantity>0</Quantity>
+               <SellPrice>1</SellPrice>
+               <BuyPrice>1</BuyPrice>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_AmmoMagazine</TypeId>
@@ -2269,10 +2269,10 @@
             <MarketItem>
                <TypeId>MyObjectBuilder_AmmoMagazine</TypeId>
                <SubtypeName>JumpDriveDisruptionMagazine</SubtypeName>
-               <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <Quantity>0</Quantity>
+               <SellPrice>1</SellPrice>
+               <BuyPrice>1</BuyPrice>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_Component</TypeId>
@@ -2285,10 +2285,10 @@
             <MarketItem>
                <TypeId>MyObjectBuilder_AmmoMagazine</TypeId>
                <SubtypeName>NiFeDUSlugMagazineLZM</SubtypeName>
-               <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <Quantity>0</Quantity>
+               <SellPrice>1</SellPrice>
+               <BuyPrice>1</BuyPrice>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_Ingot</TypeId>
@@ -2971,18 +2971,18 @@
             <MarketItem>
                <TypeId>MyObjectBuilder_GasProperties</TypeId>
                <SubtypeName>Oxygen</SubtypeName>
-               <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <Quantity>10000</Quantity>
+               <SellPrice>0.035</SellPrice>
+               <BuyPrice>0.033</BuyPrice>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_GasProperties</TypeId>
                <SubtypeName>Hydrogen</SubtypeName>
-               <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <Quantity>10000</Quantity>
+               <SellPrice>0.03</SellPrice>
+               <BuyPrice>0.025</BuyPrice>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_Component</TypeId>
@@ -3011,10 +3011,10 @@
             <MarketItem>
                <TypeId>MyObjectBuilder_Component</TypeId>
                <SubtypeName>ShieldComponent</SubtypeName>
-               <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <Quantity>0</Quantity>
+               <SellPrice>1</SellPrice>
+               <BuyPrice>1</BuyPrice>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_AmmoMagazine</TypeId>
@@ -3027,10 +3027,10 @@
             <MarketItem>
                <TypeId>MyObjectBuilder_AmmoMagazine</TypeId>
                <SubtypeName>JumpDriveDisruptionMagazine</SubtypeName>
-               <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <Quantity>0</Quantity>
+               <SellPrice>1</SellPrice>
+               <BuyPrice>1</BuyPrice>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_Component</TypeId>
@@ -3043,10 +3043,10 @@
             <MarketItem>
                <TypeId>MyObjectBuilder_AmmoMagazine</TypeId>
                <SubtypeName>NiFeDUSlugMagazineLZM</SubtypeName>
-               <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <Quantity>0</Quantity>
+               <SellPrice>1</SellPrice>
+               <BuyPrice>1</BuyPrice>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_Ingot</TypeId>
@@ -3729,18 +3729,18 @@
             <MarketItem>
                <TypeId>MyObjectBuilder_GasProperties</TypeId>
                <SubtypeName>Oxygen</SubtypeName>
-               <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <Quantity>10000</Quantity>
+               <SellPrice>0.035</SellPrice>
+               <BuyPrice>0.033</BuyPrice>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_GasProperties</TypeId>
                <SubtypeName>Hydrogen</SubtypeName>
-               <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <Quantity>10000</Quantity>
+               <SellPrice>0.03</SellPrice>
+               <BuyPrice>0.025</BuyPrice>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_Component</TypeId>
@@ -3769,10 +3769,10 @@
             <MarketItem>
                <TypeId>MyObjectBuilder_Component</TypeId>
                <SubtypeName>ShieldComponent</SubtypeName>
-               <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <Quantity>0</Quantity>
+               <SellPrice>1</SellPrice>
+               <BuyPrice>1</BuyPrice>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_AmmoMagazine</TypeId>
@@ -3785,10 +3785,10 @@
             <MarketItem>
                <TypeId>MyObjectBuilder_AmmoMagazine</TypeId>
                <SubtypeName>JumpDriveDisruptionMagazine</SubtypeName>
-               <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <Quantity>0</Quantity>
+               <SellPrice>1</SellPrice>
+               <BuyPrice>1</BuyPrice>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_Component</TypeId>
@@ -3801,10 +3801,10 @@
             <MarketItem>
                <TypeId>MyObjectBuilder_AmmoMagazine</TypeId>
                <SubtypeName>NiFeDUSlugMagazineLZM</SubtypeName>
-               <Quantity>1000000000</Quantity>
-               <SellPrice>NaN</SellPrice>
-               <BuyPrice>NaN</BuyPrice>
-               <IsBlacklisted>false</IsBlacklisted>
+               <Quantity>0</Quantity>
+               <SellPrice>1</SellPrice>
+               <BuyPrice>1</BuyPrice>
+               <IsBlacklisted>true</IsBlacklisted>
             </MarketItem>
             <MarketItem>
                <TypeId>MyObjectBuilder_Ingot</TypeId>

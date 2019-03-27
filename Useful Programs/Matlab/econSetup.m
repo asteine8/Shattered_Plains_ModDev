@@ -90,9 +90,9 @@ struct2xml(econConfig, 'EconomyConfig.xml');
 %Write Economy Data to File 
 struct2xml(econData, 'EconomyData.xml'); 
 
-XML = struct2xml(econConfig, 'EconomyConfig.xml'); 
 
-xmlwrite('EconomyConfig.xml', XML)
+
+
 
 
     
