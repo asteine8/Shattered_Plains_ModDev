@@ -1,0 +1,55 @@
+```ini
+[Territory Datasheet]
+All units are in meters <x,y,z> format
+#Nova Prime Orbit
+<-1159742.625, 643565.75, -72601.171875>
+Radius = 160000
+
+#Nova Prime Airspace
+<-1159742.625, 643565.75, -72601.171875>
+Radius = 70000
+
+#Gea Orbit
+<1114496.75, 1191977.75, 1438067.5>
+Radius = 150000
+
+#Gea Airspace
+<1114496.75, 1191977.75, 1438067.5>
+Radius = 47,611.5
+
+#Zelroth Orbit
+<-1028353.0625, -743802.0625, -142940.953125>
+Radius = 75000
+
+#Zelroth Airspace
+<-1028353.0625, -743802.0625, -142940.953125>
+Radius = 20,116.5
+
+#Darwin Orbit
+<1427618, -501123.5, -3150.1806640625>
+Radius = 125000
+
+#Darwin Airspace
+<1427618, -501123.5, -3150.1806640625>
+Radius = 40,066.5
+
+#Neutral Zone A (Around Freeport)
+<0,0,0>
+Radius = 50000
+
+#Asteroid Field A (Neutral Zone)
+<0,750000,-200000>
+Radius = 200000
+
+#Asteroid Field B (Around Zelroth)
+<-1028353.0625, -743802.0625, -142940.953125>
+Radius = 100000
+
+#Asteroid Field C (Around Darwin)
+<1427618, -501123.5, -3150.1806640625>
+Radius = 150000
+
+#Corrupted Space (Around Zelroth)
+<-1028353.0625, -743802.0625, -142940.953125>
+Radius = 125000
+```

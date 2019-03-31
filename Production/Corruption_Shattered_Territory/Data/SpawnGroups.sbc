@@ -1,0 +1,1889 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<SpawnGroups>
+
+<!--=========== CARGO SHIP GROUPS ==============-->
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)BOSS_VENGEANCE_DRONE</SubtypeId>
+	</Id>
+	<Description>
+	  
+	  [Modular Encounters SpawnGroup]
+	  [BossEncounterSpace:true]
+	  [FactionOwner:CORRUPT]
+	  [BossCustomAnnounceEnable:true]
+	  [BossCustomAnnounceAuthor:Exiled Engineer]
+	  [BossCustomAnnounceMessage:You've been causing me a lot of trouble... Let's see how you handle a REAL fight.]
+	  [BossCustomGPSLabel:Dangerous Encounter]
+	  [DisableDampeners:false]
+
+	  [Territory:Corrupted Space]
+	  
+	  </Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Vengeance Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Shield Generator Module</BeaconText>
+			<Speed>15.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)TEST_GROUP</SubtypeId>
+	</Id>
+	<Description>
+	  
+	  [Modular Encounters SpawnGroup]
+	  [FactionOwner:CORRUPT]
+	  [UseThreatLevelCheck:true]
+	  [ThreatLevelCheckRange:10000]
+	  [ThreatIncludeOtherNpcOwners:false]
+	  [ThreatScoreMinimum:500]
+	  [ThreatScoreMaximum:1000]
+
+	  [Territory:Corrupted Space]
+	  
+	  </Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<IsPirate>true</IsPirate>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Vengeance Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Shield Generator Module</BeaconText>
+			<Speed>15.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)HIVE_SHIP</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Hive Ship">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Hive Ship</BeaconText>
+			<Speed>15.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)EXPERIMENTAL_DRONE</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Experimental Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Experimental Drone</BeaconText>
+			<Speed>15.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)STALKER_DRONE</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Stalker Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Stalker Drone</BeaconText>
+			<Speed>15.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)DECEPTION_DRONE</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>3.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Damaged Research Vessel">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Damaged Research Vessel</BeaconText>
+			<Speed>25.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)PROVOCATEUR_DRONE</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>3.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Provocateur Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Provocateur Drone</BeaconText>
+			<Speed>25.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)HACKER_DRONE</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>3.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Hacker Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Hacker Drone</BeaconText>
+			<Speed>25.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)MEDIUM_CARGO_TRANSPORT</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>3.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Medium Cargo Transport">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Medium Cargo Transport</BeaconText>
+			<Speed>25.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)TESLA_DRONE_1</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>3.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Tesla Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Tesla Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)SHIELD_COORDINATOR_1</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Assault Drone">
+			<Position>
+				<X>250.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Assault Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<!--=========== Debug Group 3 ==============-->
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)KAMIKAZE_DRONE_1</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>4.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Kamikaze Gatling Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Kamikaze Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)HORSEFLY_DRONE_1</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>3.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Horsefly Gatling Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Horsefly Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)FIGHTER_DRONE_1</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>3.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Fighter Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Fighter Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)SCATTER_DRONE_1</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>3.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Scatter Cannon Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Scatter Cannon Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)SALVAGE_DRONE_1</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>3.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Salvage Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Salvage Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)STRIKE_DRONE_1</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>3.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Strike Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Strike Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)SNIPER_DRONE_1</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>3.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Sniper Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Sniper Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)TUNNEL_DRONE_1</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>3.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Tunnel Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Tunnel Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)BARNACLE_DRONE_1</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>3.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Barnacle Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Barnacle Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)SCOUT_DRONE_1</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Scouting Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Scouting Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)BLACKMAIL_DRONE_1</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>3.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Blackmail Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Scouting Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)HUNTER</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Hunter Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Hunter Drone</BeaconText>
+			<Speed>20.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)GLITCHY_DRONE_1</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>2.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Glitchy Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Glitchy Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)GLITCHY_DRONE_EVIL_1</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Glitchy Drone (Evil)">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Glitchy Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)KAMIKAZE_DRONE_3</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Kamikaze Gatling Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>100.0</Z>
+			</Position>
+			<BeaconText>Kamikaze Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Kamikaze Gatling Drone Mk.II">
+			<Position>
+				<X>100.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Kamikaze Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Kamikaze Missile Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>100.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Kamikaze Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)HORSEFLY_DRONE_3</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Horsefly Gatling Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>100.0</Z>
+			</Position>
+			<BeaconText>Horsefly Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Horsefly Gatling Drone Mk.II">
+			<Position>
+				<X>100.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Horsefly Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Horsefly Missile Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>100.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Horsefly Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)FIGHTER_DRONE_3</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Fighter Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>200.0</Z>
+			</Position>
+			<BeaconText>Fighter Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Fighter Drone Mk.II">
+			<Position>
+				<X>200.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Fighter Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Fighter Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>200.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Fighter Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)SCATTER_DRONE_3</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Scatter Cannon Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>200.0</Z>
+			</Position>
+			<BeaconText>Scatter Cannon Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Scatter Cannon Drone">
+			<Position>
+				<X>200.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Scatter Cannon Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Scatter Cannon Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>200.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Scatter Cannon Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)SALVAGE_DRONE_3</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Salvage Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>100.0</Z>
+			</Position>
+			<BeaconText>Salvage Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Salvage Drone">
+			<Position>
+				<X>100.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Salvage Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Salvage Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>100.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Salvage Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)STRIKE_DRONE_3</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Strike Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>200.0</Z>
+			</Position>
+			<BeaconText>Strike Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Strike Drone Mk.II">
+			<Position>
+				<X>200.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Strike Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Strike Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>200.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Strike Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)SNIPER_DRONE_3</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Sniper Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>200.0</Z>
+			</Position>
+			<BeaconText>Sniper Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Sniper Drone Mk.II">
+			<Position>
+				<X>200.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Sniper Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Sniper Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>200.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Sniper Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)TUNNEL_DRONE_3</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Tunnel Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>500.0</Z>
+			</Position>
+			<BeaconText>Tunnel Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Tunnel Drone">
+			<Position>
+				<X>500.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Tunnel Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Tunnel Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>500.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Tunnel Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)BARNACLE_DRONE_3</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Barnacle Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>200.0</Z>
+			</Position>
+			<BeaconText>Barnacle Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Barnacle Drone">
+			<Position>
+				<X>200.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Barnacle Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Barnacle Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>200.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Barnacle Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<!--=========== HOSTILE ENCOUNTER GROUPS ==============-->
+
+<!--=========== PIRATE DRONE GROUPS ==============-->
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)KAMIKAZE_DRONE_1_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Kamikaze Gatling Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Kamikaze Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)KAMIKAZE_DRONE_5_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Kamikaze Gatling Drone Mk.II">
+			<Position>
+				<X>100.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Kamikaze Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Kamikaze Gatling Drone Mk.II">
+			<Position>
+				<X>-100.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Kamikaze Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Kamikaze Missile Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Kamikaze Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Kamikaze Gatling Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>100.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Kamikaze Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Kamikaze Gatling Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>-100.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Kamikaze Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)HORSEFLY_DRONE_1_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Horsefly Gatling Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Horsefly Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)HORSEFLY_DRONE_5_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Horsefly Gatling Drone Mk.II">
+			<Position>
+				<X>100.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Horsefly Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Horsefly Gatling Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>100.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Horsefly Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Horsefly Missile Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Horsefly Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Horsefly Gatling Drone Mk.II">
+			<Position>
+				<X>-100.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Horsefly Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Horsefly Gatling Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>-100.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Horsefly Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)SALVAGE_DRONE_1_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Salvage Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Salvage Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)SALVAGE_DRONE_5_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Salvage Drone">
+			<Position>
+				<X>100.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Salvage Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Salvage Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>100.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Salvage Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Salvage Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Salvage Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Salvage Drone">
+			<Position>
+				<X>-100.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Salvage Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Salvage Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>-100.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Salvage Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)FIGHTER_DRONE_1_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Fighter Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Fighter Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)FIGHTER_DRONE_5_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Fighter Drone Mk.II">
+			<Position>
+				<X>100.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Fighter Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Fighter Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>100.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Fighter Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Fighter Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Fighter Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Fighter Drone Mk.II">
+			<Position>
+				<X>-100.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Fighter Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Fighter Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>-100.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Fighter Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)STRIKE_DRONE_1_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Strike Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Strike Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)STRIKE_DRONE_5_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Strike Drone Mk.II">
+			<Position>
+				<X>100.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Strike Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Strike Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>100.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Strike Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Strike Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Strike Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Strike Drone Mk.II">
+			<Position>
+				<X>-100.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Strike Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Strike Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>-100.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Strike Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)SNIPER_DRONE_1_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Sniper Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Sniper Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)SNIPER_DRONE_5_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Sniper Drone Mk.II">
+			<Position>
+				<X>100.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Sniper Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Sniper Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>100.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Sniper Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Sniper Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Sniper Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Sniper Drone Mk.II">
+			<Position>
+				<X>-100.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Sniper Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Sniper Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>-100.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Sniper Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)BARNACLE_DRONE_1_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Barnacle Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Barnacle Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)GRAVITY_GUN_DRONE_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Gravity Cannon Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Gravity Cannon Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)SIEGE_DRONE_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Siege Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Siege Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)SWIFT_DRONE_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Swift Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Swift Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)SIEGE_DRONE_ANTENNA_2</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Siege Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Siege Drone Mk.II</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)HOUND_DRONE_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Hound Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Hound Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)GLITCHY_DRONE_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Salvage Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>75.0</Z>
+			</Position>
+			<BeaconText>Salvage Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Horsefly Gatling Drone Mk.II">
+			<Position>
+				<X>75.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Horsefly Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Kamikaze Gatling Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>75.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Kamikaze Drone</BeaconText>
+			<Speed>10.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)RELAY_DRONE_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Relay Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText></BeaconText>
+			<Speed>0.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)ASSAULT_DRONE_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Assault Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText></BeaconText>
+			<Speed>0.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)DECEPTION_DRONE_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Horsefly Gatling Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>1500.0</Z>
+			</Position>
+			<BeaconText>Horsefly Drone Mk.II</BeaconText>
+			<Speed>0.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Horsefly Missile Drone Mk.II">
+			<Position>
+				<X>1500.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Horsefly Drone Mk.II</BeaconText>
+			<Speed>0.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Horsefly Gatling Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>1500.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Horsefly Drone Mk.II</BeaconText>
+			<Speed>0.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Strike Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>-1500.0</Z>
+			</Position>
+			<BeaconText>Strike Drone Mk.II</BeaconText>
+			<Speed>0.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Strike Drone Mk.II">
+			<Position>
+				<X>-1500.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Strike Drone Mk.II</BeaconText>
+			<Speed>0.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Strike Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>-1500.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Strike Drone Mk.II</BeaconText>
+			<Speed>0.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+<SpawnGroup>
+	<Id>
+		<TypeId>SpawnGroupDefinition</TypeId>
+		<SubtypeId>(CPC)BOSS_SQUADRON_ANTENNA</SubtypeId>
+	</Id>
+	<Description>
+		[Territory:Corrupted Space]
+	</Description>
+	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	<IsPirate>true</IsPirate>
+	<Frequency>1.0</Frequency>
+	<Prefabs>
+		<Prefab SubtypeId="(NPC-CPC) Horsefly Gatling Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>1500.0</Z>
+			</Position>
+			<BeaconText>Horsefly Drone Mk.II</BeaconText>
+			<Speed>0.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Horsefly Missile Drone Mk.II">
+			<Position>
+				<X>1500.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Horsefly Drone Mk.II</BeaconText>
+			<Speed>0.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Experimental Drone">
+			<Position>
+				<X>0.0</X>
+				<Y>1500.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Experimental Drone</BeaconText>
+			<Speed>0.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Strike Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>-1500.0</Z>
+			</Position>
+			<BeaconText>Strike Drone Mk.II</BeaconText>
+			<Speed>0.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Strike Drone Mk.II">
+			<Position>
+				<X>-1500.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Strike Drone Mk.II</BeaconText>
+			<Speed>0.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Fighter Drone Mk.II">
+			<Position>
+				<X>0.0</X>
+				<Y>-1500.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Fighter Drone Mk.II</BeaconText>
+			<Speed>0.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Fighter Drone Mk.II">
+			<Position>
+				<X>1500.0</X>
+				<Y>1500.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Fighter Drone Mk.II</BeaconText>
+			<Speed>0.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Sniper Drone Mk.II">
+			<Position>
+				<X>-1500.0</X>
+				<Y>1500.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Sniper Drone Mk.II</BeaconText>
+			<Speed>0.0</Speed>
+		</Prefab>
+		<Prefab SubtypeId="(NPC-CPC) Sniper Drone Mk.II">
+			<Position>
+				<X>1500.0</X>
+				<Y>-1500.0</Y>
+				<Z>0.0</Z>
+			</Position>
+			<BeaconText>Sniper Drone Mk.II</BeaconText>
+			<Speed>0.0</Speed>
+		</Prefab>
+	</Prefabs>
+</SpawnGroup>
+
+
+<!--=========== NEUTRAL ENCOUNTER GROUPS ==============-->
+
+
+</SpawnGroups>
+</Definitions>
+

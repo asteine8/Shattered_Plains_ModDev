@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LCDTextures>
+  
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>CPC-DroneFaceNormal</SubtypeId>
+      </Id>
+     <TexturePath>Textures\CPC\CPC-DroneFaceNormal.dds</TexturePath>
+    </LCDTextureDefinition>
+	
+	<LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>CPC-DroneFaceHappy</SubtypeId>
+      </Id>
+     <TexturePath>Textures\CPC\CPC-DroneFaceHappy.dds</TexturePath>
+    </LCDTextureDefinition>
+	
+	<LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>CPC-DroneFaceWorking</SubtypeId>
+      </Id>
+     <TexturePath>Textures\CPC\CPC-DroneFaceWorking.dds</TexturePath>
+    </LCDTextureDefinition>
+	
+	<LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>CPC-DroneFaceWorried</SubtypeId>
+      </Id>
+     <TexturePath>Textures\CPC\CPC-DroneFaceWorried.dds</TexturePath>
+    </LCDTextureDefinition>
+	
+	<LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>CPC-DroneFaceDizzy</SubtypeId>
+      </Id>
+     <TexturePath>Textures\CPC\CPC-DroneFaceDizzy.dds</TexturePath>
+    </LCDTextureDefinition>
+	
+	<LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>CPC-DroneFaceDead</SubtypeId>
+      </Id>
+     <TexturePath>Textures\CPC\CPC-DroneFaceDead.dds</TexturePath>
+    </LCDTextureDefinition>
+	
+	<LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>CPC-DroneFaceBored</SubtypeId>
+      </Id>
+     <TexturePath>Textures\CPC\CPC-DroneFaceBored.dds</TexturePath>
+    </LCDTextureDefinition>
+	
+	<LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>CPC-DroneFaceExplode</SubtypeId>
+      </Id>
+     <TexturePath>Textures\CPC\CPC-DroneFaceExplode.dds</TexturePath>
+    </LCDTextureDefinition>
+	
+	<LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>CPC-DroneFaceMad1</SubtypeId>
+      </Id>
+     <TexturePath>Textures\CPC\CPC-DroneFaceMad1.dds</TexturePath>
+    </LCDTextureDefinition>
+	
+	<LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>CPC-DroneFaceMad2</SubtypeId>
+      </Id>
+     <TexturePath>Textures\CPC\CPC-DroneFaceMad2.dds</TexturePath>
+    </LCDTextureDefinition>
+	
+	<LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>CPC-DroneFacePain</SubtypeId>
+      </Id>
+     <TexturePath>Textures\CPC\CPC-DroneFacePain.dds</TexturePath>
+    </LCDTextureDefinition>
+	
+	<LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>CPC-DroneFaceSad1</SubtypeId>
+      </Id>
+     <TexturePath>Textures\CPC\CPC-DroneFaceSad1.dds</TexturePath>
+    </LCDTextureDefinition>
+	
+	<LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>CPC-DroneFaceSad2</SubtypeId>
+      </Id>
+     <TexturePath>Textures\CPC\CPC-DroneFaceSad2.dds</TexturePath>
+    </LCDTextureDefinition>
+	
+	<LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>CPC-DroneFaceBerserk</SubtypeId>
+      </Id>
+     <TexturePath>Textures\CPC\CPC-DroneFaceBerserk.dds</TexturePath>
+    </LCDTextureDefinition>
+   
+  </LCDTextures>
+</Definitions>

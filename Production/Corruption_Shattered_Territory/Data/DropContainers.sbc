@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DropContainers>
+    
+    <DropContainer>
+      <Id>
+        <TypeId>DropContainerDefinition</TypeId>
+        <SubtypeId>Container_CPC_1</SubtypeId>
+      </Id>
+      <Prefab>(NPC-CPC) Trap Pod 1</Prefab>
+      <Priority>1</Priority>
+      <SpawnRules>
+        <CanSpawnInSpace>true</CanSpawnInSpace>
+        <CanSpawnInAtmosphere>false</CanSpawnInAtmosphere>
+        <CanSpawnOnMoon>false</CanSpawnOnMoon>
+        <CanBePersonal>true</CanBePersonal>
+        <CanBeCompetetive>false</CanBeCompetetive>
+      </SpawnRules>
+    </DropContainer>
+
+  </DropContainers>
+</Definitions>
