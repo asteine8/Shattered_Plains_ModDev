@@ -20,7 +20,7 @@
 	  [BossCustomGPSLabel:Dangerous Encounter]
 	  [DisableDampeners:false]
 
-	  [Territory:Corrupted Space]
+	  [Territory:Darwin Corrupted Space]
 	  
 	  </Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -54,7 +54,7 @@
 	  [ThreatScoreMinimum:500]
 	  [ThreatScoreMaximum:1000]
 
-	  [Territory:Corrupted Space]
+	  [Territory:Darwin Corrupted Space]
 	  
 	  </Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -79,7 +79,7 @@
 		<SubtypeId>(CPC)HIVE_SHIP</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>1.0</Frequency>
@@ -102,7 +102,7 @@
 		<SubtypeId>(CPC)EXPERIMENTAL_DRONE</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>1.0</Frequency>
@@ -125,7 +125,7 @@
 		<SubtypeId>(CPC)STALKER_DRONE</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>2.0</Frequency>
@@ -148,7 +148,7 @@
 		<SubtypeId>(CPC)DECEPTION_DRONE</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>3.0</Frequency>
@@ -171,7 +171,7 @@
 		<SubtypeId>(CPC)PROVOCATEUR_DRONE</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>3.0</Frequency>
@@ -194,7 +194,7 @@
 		<SubtypeId>(CPC)HACKER_DRONE</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>3.0</Frequency>
@@ -217,7 +217,7 @@
 		<SubtypeId>(CPC)MEDIUM_CARGO_TRANSPORT</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>3.0</Frequency>
@@ -240,7 +240,7 @@
 		<SubtypeId>(CPC)TESLA_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>3.0</Frequency>
@@ -263,7 +263,7 @@
 		<SubtypeId>(CPC)SHIELD_COORDINATOR_1</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>2.0</Frequency>
@@ -288,7 +288,7 @@
 		<SubtypeId>(CPC)KAMIKAZE_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>4.0</Frequency>
@@ -311,7 +311,7 @@
 		<SubtypeId>(CPC)HORSEFLY_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>3.0</Frequency>
@@ -334,7 +334,7 @@
 		<SubtypeId>(CPC)FIGHTER_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>3.0</Frequency>
@@ -357,7 +357,7 @@
 		<SubtypeId>(CPC)SCATTER_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>3.0</Frequency>
@@ -380,7 +380,7 @@
 		<SubtypeId>(CPC)SALVAGE_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>3.0</Frequency>
@@ -403,7 +403,7 @@
 		<SubtypeId>(CPC)STRIKE_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>3.0</Frequency>
@@ -426,7 +426,7 @@
 		<SubtypeId>(CPC)SNIPER_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>3.0</Frequency>
@@ -449,7 +449,7 @@
 		<SubtypeId>(CPC)TUNNEL_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>3.0</Frequency>
@@ -472,7 +472,7 @@
 		<SubtypeId>(CPC)BARNACLE_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>3.0</Frequency>
@@ -495,7 +495,7 @@
 		<SubtypeId>(CPC)SCOUT_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>2.0</Frequency>
@@ -518,7 +518,7 @@
 		<SubtypeId>(CPC)BLACKMAIL_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>3.0</Frequency>
@@ -541,7 +541,7 @@
 		<SubtypeId>(CPC)HUNTER</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>2.0</Frequency>
@@ -564,7 +564,7 @@
 		<SubtypeId>(CPC)GLITCHY_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>2.0</Frequency>
@@ -587,7 +587,7 @@
 		<SubtypeId>(CPC)GLITCHY_DRONE_EVIL_1</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>1.0</Frequency>
@@ -610,7 +610,7 @@
 		<SubtypeId>(CPC)KAMIKAZE_DRONE_3</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>1.0</Frequency>
@@ -651,7 +651,7 @@
 		<SubtypeId>(CPC)HORSEFLY_DRONE_3</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>1.0</Frequency>
@@ -692,7 +692,7 @@
 		<SubtypeId>(CPC)FIGHTER_DRONE_3</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>1.0</Frequency>
@@ -733,7 +733,7 @@
 		<SubtypeId>(CPC)SCATTER_DRONE_3</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>1.0</Frequency>
@@ -774,7 +774,7 @@
 		<SubtypeId>(CPC)SALVAGE_DRONE_3</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>1.0</Frequency>
@@ -815,7 +815,7 @@
 		<SubtypeId>(CPC)STRIKE_DRONE_3</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>1.0</Frequency>
@@ -856,7 +856,7 @@
 		<SubtypeId>(CPC)SNIPER_DRONE_3</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>1.0</Frequency>
@@ -897,7 +897,7 @@
 		<SubtypeId>(CPC)TUNNEL_DRONE_3</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>1.0</Frequency>
@@ -938,7 +938,7 @@
 		<SubtypeId>(CPC)BARNACLE_DRONE_3</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<Frequency>1.0</Frequency>
@@ -983,7 +983,7 @@
 		<SubtypeId>(CPC)KAMIKAZE_DRONE_1_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1007,7 +1007,7 @@
 		<SubtypeId>(CPC)KAMIKAZE_DRONE_5_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1067,7 +1067,7 @@
 		<SubtypeId>(CPC)HORSEFLY_DRONE_1_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1091,7 +1091,7 @@
 		<SubtypeId>(CPC)HORSEFLY_DRONE_5_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1151,7 +1151,7 @@
 		<SubtypeId>(CPC)SALVAGE_DRONE_1_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1175,7 +1175,7 @@
 		<SubtypeId>(CPC)SALVAGE_DRONE_5_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1235,7 +1235,7 @@
 		<SubtypeId>(CPC)FIGHTER_DRONE_1_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1259,7 +1259,7 @@
 		<SubtypeId>(CPC)FIGHTER_DRONE_5_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1319,7 +1319,7 @@
 		<SubtypeId>(CPC)STRIKE_DRONE_1_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1343,7 +1343,7 @@
 		<SubtypeId>(CPC)STRIKE_DRONE_5_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1403,7 +1403,7 @@
 		<SubtypeId>(CPC)SNIPER_DRONE_1_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1427,7 +1427,7 @@
 		<SubtypeId>(CPC)SNIPER_DRONE_5_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1487,7 +1487,7 @@
 		<SubtypeId>(CPC)BARNACLE_DRONE_1_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1511,7 +1511,7 @@
 		<SubtypeId>(CPC)GRAVITY_GUN_DRONE_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1535,7 +1535,7 @@
 		<SubtypeId>(CPC)SIEGE_DRONE_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1559,7 +1559,7 @@
 		<SubtypeId>(CPC)SWIFT_DRONE_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1583,7 +1583,7 @@
 		<SubtypeId>(CPC)SIEGE_DRONE_ANTENNA_2</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1607,7 +1607,7 @@
 		<SubtypeId>(CPC)HOUND_DRONE_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1631,7 +1631,7 @@
 		<SubtypeId>(CPC)GLITCHY_DRONE_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1673,7 +1673,7 @@
 		<SubtypeId>(CPC)RELAY_DRONE_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1697,7 +1697,7 @@
 		<SubtypeId>(CPC)ASSAULT_DRONE_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1721,7 +1721,7 @@
 		<SubtypeId>(CPC)DECEPTION_DRONE_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>
@@ -1790,7 +1790,7 @@
 		<SubtypeId>(CPC)BOSS_SQUADRON_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
-		[Territory:Corrupted Space]
+		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
 	<IsPirate>true</IsPirate>

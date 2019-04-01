@@ -1,0 +1,440 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <SpawnGroups>
+        <!-- <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Rebel Space Territory</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters Territory]
+                [Name:Rebel Space]
+                [Type:Static]
+                [Radius:200000]
+                [CoordsX:1031072]
+                [CoordsY:131072]
+                [CoordsZ:1631072]
+                [AnnounceArriveDepart:true]
+
+                [Active:true]
+
+            </Description>
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>30.0</Frequency>
+            <IsPirate>true</IsPirate>
+
+            <Prefabs>
+                <Prefab SubtypeId="Stirling Class Patrol Boat MKIII">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Rebel Patrol Boat</BeaconText>
+                    <Speed>25.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Rebel Atmosphere Territory</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters Territory]
+                [Name:Rebel Airspace]
+                [Type:Planetary]
+                [Radius:70000]
+                [CoordsX:0]
+                [CoordsY:0]
+                [CoordsZ:0]
+                [AnnounceArriveDepart:true]
+
+                [Active:true]
+
+                [ScaleRadiusWithPlanetSize:false]
+                [PlanetGeneratorName:Mars]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>30.0</Frequency>
+            <IsPirate>true</IsPirate>
+
+            <Prefabs>
+                <Prefab SubtypeId="Stirling Class Patrol Boat MKIII">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Rebel Patrol Boat</BeaconText>
+                    <Speed>25.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup> -->
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Nova_Prime_Orbit</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters Territory]
+                [Name:Nova Prime Orbit]
+                [Type:Static]
+                [Radius:160000]
+                [CoordsX:-1159742.625]
+                [CoordsY:643565.75]
+                [CoordsZ:-72601.171875]
+                [AnnounceArriveDepart:true]
+
+                [Active:true]
+
+            </Description>
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>30.0</Frequency>
+            <IsPirate>true</IsPirate>
+
+            <Prefabs>
+                <Prefab SubtypeId="Stirling Class Patrol Boat MKIII">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Rebel Patrol Boat</BeaconText>
+                    <Speed>25.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Nova_Prime_Airspace</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters Territory]
+                [Name:#Nova Prime Airspace]
+                [Type:Static]
+                [Radius:70000]
+                [CoordsX:-1159742.625]
+                [CoordsY:643565.75]
+                [CoordsZ:-72601.171875]
+                [AnnounceArriveDepart:true]
+
+                [Active:true]
+
+            </Description>
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>30.0</Frequency>
+            <IsPirate>true</IsPirate>
+
+            <Prefabs>
+                <Prefab SubtypeId="Stirling Class Patrol Boat MKIII">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Rebel Patrol Boat</BeaconText>
+                    <Speed>25.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Gea_Orbit</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters Territory]
+                [Name:Gea Orbit]
+                [Type:Static]
+                [Radius:150000]
+                [CoordsX:1114496.75]
+                [CoordsY:1191977.75]
+                [CoordsZ:1438067.5]
+                [AnnounceArriveDepart:true]
+
+                [Active:true]
+
+            </Description>
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>30.0</Frequency>
+            <IsPirate>true</IsPirate>
+
+            <Prefabs>
+                <Prefab SubtypeId="Stirling Class Patrol Boat MKIII">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Rebel Patrol Boat</BeaconText>
+                    <Speed>25.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Gea Airspace</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters Territory]
+                [Name:Gea Airspace]
+                [Type:Static]
+                [Radius:47611.5]
+                [CoordsX:1114496.75]
+                [CoordsY:1191977.75]
+                [CoordsZ:1438067.5]
+                [AnnounceArriveDepart:true]
+
+                [Active:true]
+
+            </Description>
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>30.0</Frequency>
+            <IsPirate>true</IsPirate>
+
+            <Prefabs>
+                <Prefab SubtypeId="Stirling Class Patrol Boat MKIII">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Rebel Patrol Boat</BeaconText>
+                    <Speed>25.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Zelroth_Orbit</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters Territory]
+                [Name:Zelroth Orbit]
+                [Type:Static]
+                [Radius:75000]
+                [CoordsX:-1028353.0625]
+                [CoordsY:-743802.0625]
+                [CoordsZ:-142940.953125]
+                [AnnounceArriveDepart:true]
+
+                [Active:true]
+
+            </Description>
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>30.0</Frequency>
+            <IsPirate>true</IsPirate>
+
+            <Prefabs>
+                <Prefab SubtypeId="Stirling Class Patrol Boat MKIII">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Rebel Patrol Boat</BeaconText>
+                    <Speed>25.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Zelroth_Airspace</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters Territory]
+                [Name:Zelroth Airspace]
+                [Type:Static]
+                [Radius:20116.5]
+                [CoordsX:-1028353.0625]
+                [CoordsY:-743802.0625]
+                [CoordsZ:-142940.953125]
+                [AnnounceArriveDepart:true]
+
+                [Active:true]
+
+            </Description>
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>30.0</Frequency>
+            <IsPirate>true</IsPirate>
+
+            <Prefabs>
+                <Prefab SubtypeId="Stirling Class Patrol Boat MKIII">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Rebel Patrol Boat</BeaconText>
+                    <Speed>25.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Darwin_Orbit</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters Territory]
+                [Name:Darwin Orbit]
+                [Type:Static]
+                [Radius:125000]
+                [CoordsX:1427618]
+                [CoordsY:-501123.5]
+                [CoordsZ:-3150.1806640625]
+                [AnnounceArriveDepart:true]
+
+                [Active:true]
+
+            </Description>
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>30.0</Frequency>
+            <IsPirate>true</IsPirate>
+
+            <Prefabs>
+                <Prefab SubtypeId="Stirling Class Patrol Boat MKIII">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Rebel Patrol Boat</BeaconText>
+                    <Speed>25.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Darwin_Airspace</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters Territory]
+                [Name:Darwin Airspace]
+                [Type:Static]
+                [Radius:40066.5]
+                [CoordsX:1427618]
+                [CoordsY:-501123.5]
+                [CoordsZ:-3150.1806640625]
+                [AnnounceArriveDepart:true]
+
+                [Active:true]
+
+            </Description>
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>30.0</Frequency>
+            <IsPirate>true</IsPirate>
+
+            <Prefabs>
+                <Prefab SubtypeId="Stirling Class Patrol Boat MKIII">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Rebel Patrol Boat</BeaconText>
+                    <Speed>25.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Neutral_Zone_A</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters Territory]
+                [Name:Neutral Zone A]
+                [Type:Static]
+                [Radius:50000]
+                [CoordsX:0]
+                [CoordsY:0]
+                [CoordsZ:0]
+                [AnnounceArriveDepart:true]
+
+                [Active:true]
+
+            </Description>
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>30.0</Frequency>
+            <IsPirate>true</IsPirate>
+
+            <Prefabs>
+                <Prefab SubtypeId="Stirling Class Patrol Boat MKIII">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Rebel Patrol Boat</BeaconText>
+                    <Speed>25.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Neutral_Zone_B</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters Territory]
+                [Name:Neutral Zone B]
+                [Type:Static]
+                [Radius:200000]
+                [CoordsX:0]
+                [CoordsY:750000]
+                [CoordsZ:-200000]
+                [AnnounceArriveDepart:true]
+
+                [Active:true]
+
+            </Description>
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>30.0</Frequency>
+            <IsPirate>true</IsPirate>
+
+            <Prefabs>
+                <Prefab SubtypeId="Stirling Class Patrol Boat MKIII">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Rebel Patrol Boat</BeaconText>
+                    <Speed>25.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+    </SpawnGroups>
+</Definitions>

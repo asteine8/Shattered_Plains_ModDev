@@ -5,13 +5,13 @@
         <SpawnGroup>
             <Id>
                 <TypeId>SpawnGroupDefinition</TypeId>
-                <SubtypeId>Field_A_Asteroid_1</SubtypeId>
+                <SubtypeId>Field_B_Asteroid_1</SubtypeId>
             </Id>
             <Description>
 
                 [Modular Encounters SpawnGroup]
                 [SpaceRandomEncounter:true]
-                [Territory:Asteroid Field A]
+                [Territory:Asteroid Field B]
 
             </Description>
 
@@ -36,7 +36,817 @@
             </Prefabs>
 
             <Voxels>
-                <Voxel StorageName="Field_A_Asteroid_1">
+                <Voxel StorageName="Field_B_Asteroid_1">
+                    <Offset>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Offset>
+                </Voxel>
+                <CenterOffset>true</CenterOffset>
+            </Voxels>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Field_B_Asteroid_2</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceRandomEncounter:true]
+                [Territory:Asteroid Field B]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>100.0</Frequency>
+
+            <IsEncounter>true</IsEncounter>
+            <IsPirate>true</IsPirate>
+            <Frequency>10.0</Frequency>
+            <ReactorsOn>true</ReactorsOn>
+
+            <Prefabs>
+                <Prefab SubtypeId="Empty">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Empty</BeaconText>
+                    <Speed>0.0</Speed>
+                </Prefab>
+            </Prefabs>
+
+            <Voxels>
+                <Voxel StorageName="Field_B_Asteroid_2">
+                    <Offset>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Offset>
+                </Voxel>
+                <CenterOffset>true</CenterOffset>
+            </Voxels>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Field_B_Asteroid_3</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceRandomEncounter:true]
+                [Territory:Asteroid Field B]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>100.0</Frequency>
+
+            <IsEncounter>true</IsEncounter>
+            <IsPirate>true</IsPirate>
+            <Frequency>10.0</Frequency>
+            <ReactorsOn>true</ReactorsOn>
+
+            <Prefabs>
+                <Prefab SubtypeId="Empty">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Empty</BeaconText>
+                    <Speed>0.0</Speed>
+                </Prefab>
+            </Prefabs>
+
+            <Voxels>
+                <Voxel StorageName="Field_B_Asteroid_3">
+                    <Offset>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Offset>
+                </Voxel>
+                <CenterOffset>true</CenterOffset>
+            </Voxels>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Field_B_Asteroid_4</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceRandomEncounter:true]
+                [Territory:Asteroid Field B]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>100.0</Frequency>
+
+            <IsEncounter>true</IsEncounter>
+            <IsPirate>true</IsPirate>
+            <Frequency>10.0</Frequency>
+            <ReactorsOn>true</ReactorsOn>
+
+            <Prefabs>
+                <Prefab SubtypeId="Empty">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Empty</BeaconText>
+                    <Speed>0.0</Speed>
+                </Prefab>
+            </Prefabs>
+
+            <Voxels>
+                <Voxel StorageName="Field_B_Asteroid_4">
+                    <Offset>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Offset>
+                </Voxel>
+                <CenterOffset>true</CenterOffset>
+            </Voxels>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Field_B_Asteroid_5</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceRandomEncounter:true]
+                [Territory:Asteroid Field B]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>100.0</Frequency>
+
+            <IsEncounter>true</IsEncounter>
+            <IsPirate>true</IsPirate>
+            <Frequency>10.0</Frequency>
+            <ReactorsOn>true</ReactorsOn>
+
+            <Prefabs>
+                <Prefab SubtypeId="Empty">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Empty</BeaconText>
+                    <Speed>0.0</Speed>
+                </Prefab>
+            </Prefabs>
+
+            <Voxels>
+                <Voxel StorageName="Field_B_Asteroid_5">
+                    <Offset>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Offset>
+                </Voxel>
+                <CenterOffset>true</CenterOffset>
+            </Voxels>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Field_B_Asteroid_6</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceRandomEncounter:true]
+                [Territory:Asteroid Field B]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>100.0</Frequency>
+
+            <IsEncounter>true</IsEncounter>
+            <IsPirate>true</IsPirate>
+            <Frequency>10.0</Frequency>
+            <ReactorsOn>true</ReactorsOn>
+
+            <Prefabs>
+                <Prefab SubtypeId="Empty">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Empty</BeaconText>
+                    <Speed>0.0</Speed>
+                </Prefab>
+            </Prefabs>
+
+            <Voxels>
+                <Voxel StorageName="Field_B_Asteroid_6">
+                    <Offset>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Offset>
+                </Voxel>
+                <CenterOffset>true</CenterOffset>
+            </Voxels>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Field_B_Asteroid_7</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceRandomEncounter:true]
+                [Territory:Asteroid Field B]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>100.0</Frequency>
+
+            <IsEncounter>true</IsEncounter>
+            <IsPirate>true</IsPirate>
+            <Frequency>10.0</Frequency>
+            <ReactorsOn>true</ReactorsOn>
+
+            <Prefabs>
+                <Prefab SubtypeId="Empty">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Empty</BeaconText>
+                    <Speed>0.0</Speed>
+                </Prefab>
+            </Prefabs>
+
+            <Voxels>
+                <Voxel StorageName="Field_B_Asteroid_7">
+                    <Offset>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Offset>
+                </Voxel>
+                <CenterOffset>true</CenterOffset>
+            </Voxels>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Field_B_Asteroid_8</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceRandomEncounter:true]
+                [Territory:Asteroid Field B]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>100.0</Frequency>
+
+            <IsEncounter>true</IsEncounter>
+            <IsPirate>true</IsPirate>
+            <Frequency>10.0</Frequency>
+            <ReactorsOn>true</ReactorsOn>
+
+            <Prefabs>
+                <Prefab SubtypeId="Empty">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Empty</BeaconText>
+                    <Speed>0.0</Speed>
+                </Prefab>
+            </Prefabs>
+
+            <Voxels>
+                <Voxel StorageName="Field_B_Asteroid_8">
+                    <Offset>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Offset>
+                </Voxel>
+                <CenterOffset>true</CenterOffset>
+            </Voxels>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Field_B_Asteroid_9</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceRandomEncounter:true]
+                [Territory:Asteroid Field B]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>100.0</Frequency>
+
+            <IsEncounter>true</IsEncounter>
+            <IsPirate>true</IsPirate>
+            <Frequency>10.0</Frequency>
+            <ReactorsOn>true</ReactorsOn>
+
+            <Prefabs>
+                <Prefab SubtypeId="Empty">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Empty</BeaconText>
+                    <Speed>0.0</Speed>
+                </Prefab>
+            </Prefabs>
+
+            <Voxels>
+                <Voxel StorageName="Field_B_Asteroid_9">
+                    <Offset>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Offset>
+                </Voxel>
+                <CenterOffset>true</CenterOffset>
+            </Voxels>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Field_B_Asteroid_10</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceRandomEncounter:true]
+                [Territory:Asteroid Field B]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>100.0</Frequency>
+
+            <IsEncounter>true</IsEncounter>
+            <IsPirate>true</IsPirate>
+            <Frequency>10.0</Frequency>
+            <ReactorsOn>true</ReactorsOn>
+
+            <Prefabs>
+                <Prefab SubtypeId="Empty">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Empty</BeaconText>
+                    <Speed>0.0</Speed>
+                </Prefab>
+            </Prefabs>
+
+            <Voxels>
+                <Voxel StorageName="Field_B_Asteroid_10">
+                    <Offset>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Offset>
+                </Voxel>
+                <CenterOffset>true</CenterOffset>
+            </Voxels>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Field_B_Asteroid_11</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceRandomEncounter:true]
+                [Territory:Asteroid Field B]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>100.0</Frequency>
+
+            <IsEncounter>true</IsEncounter>
+            <IsPirate>true</IsPirate>
+            <Frequency>10.0</Frequency>
+            <ReactorsOn>true</ReactorsOn>
+
+            <Prefabs>
+                <Prefab SubtypeId="Empty">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Empty</BeaconText>
+                    <Speed>0.0</Speed>
+                </Prefab>
+            </Prefabs>
+
+            <Voxels>
+                <Voxel StorageName="Field_B_Asteroid_11">
+                    <Offset>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Offset>
+                </Voxel>
+                <CenterOffset>true</CenterOffset>
+            </Voxels>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Field_B_Asteroid_12</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceRandomEncounter:true]
+                [Territory:Asteroid Field B]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>100.0</Frequency>
+
+            <IsEncounter>true</IsEncounter>
+            <IsPirate>true</IsPirate>
+            <Frequency>10.0</Frequency>
+            <ReactorsOn>true</ReactorsOn>
+
+            <Prefabs>
+                <Prefab SubtypeId="Empty">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Empty</BeaconText>
+                    <Speed>0.0</Speed>
+                </Prefab>
+            </Prefabs>
+
+            <Voxels>
+                <Voxel StorageName="Field_B_Asteroid_12">
+                    <Offset>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Offset>
+                </Voxel>
+                <CenterOffset>true</CenterOffset>
+            </Voxels>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Field_B_Asteroid_13</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceRandomEncounter:true]
+                [Territory:Asteroid Field B]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>100.0</Frequency>
+
+            <IsEncounter>true</IsEncounter>
+            <IsPirate>true</IsPirate>
+            <Frequency>10.0</Frequency>
+            <ReactorsOn>true</ReactorsOn>
+
+            <Prefabs>
+                <Prefab SubtypeId="Empty">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Empty</BeaconText>
+                    <Speed>0.0</Speed>
+                </Prefab>
+            </Prefabs>
+
+            <Voxels>
+                <Voxel StorageName="Field_B_Asteroid_13">
+                    <Offset>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Offset>
+                </Voxel>
+                <CenterOffset>true</CenterOffset>
+            </Voxels>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Field_B_Asteroid_14</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceRandomEncounter:true]
+                [Territory:Asteroid Field B]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>100.0</Frequency>
+
+            <IsEncounter>true</IsEncounter>
+            <IsPirate>true</IsPirate>
+            <Frequency>10.0</Frequency>
+            <ReactorsOn>true</ReactorsOn>
+
+            <Prefabs>
+                <Prefab SubtypeId="Empty">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Empty</BeaconText>
+                    <Speed>0.0</Speed>
+                </Prefab>
+            </Prefabs>
+
+            <Voxels>
+                <Voxel StorageName="Field_B_Asteroid_14">
+                    <Offset>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Offset>
+                </Voxel>
+                <CenterOffset>true</CenterOffset>
+            </Voxels>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Field_B_Asteroid_15</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceRandomEncounter:true]
+                [Territory:Asteroid Field B]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>100.0</Frequency>
+
+            <IsEncounter>true</IsEncounter>
+            <IsPirate>true</IsPirate>
+            <Frequency>10.0</Frequency>
+            <ReactorsOn>true</ReactorsOn>
+
+            <Prefabs>
+                <Prefab SubtypeId="Empty">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Empty</BeaconText>
+                    <Speed>0.0</Speed>
+                </Prefab>
+            </Prefabs>
+
+            <Voxels>
+                <Voxel StorageName="Field_B_Asteroid_15">
+                    <Offset>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Offset>
+                </Voxel>
+                <CenterOffset>true</CenterOffset>
+            </Voxels>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Field_B_Asteroid_16</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceRandomEncounter:true]
+                [Territory:Asteroid Field B]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>100.0</Frequency>
+
+            <IsEncounter>true</IsEncounter>
+            <IsPirate>true</IsPirate>
+            <Frequency>10.0</Frequency>
+            <ReactorsOn>true</ReactorsOn>
+
+            <Prefabs>
+                <Prefab SubtypeId="Empty">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Empty</BeaconText>
+                    <Speed>0.0</Speed>
+                </Prefab>
+            </Prefabs>
+
+            <Voxels>
+                <Voxel StorageName="Field_B_Asteroid_16">
+                    <Offset>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Offset>
+                </Voxel>
+                <CenterOffset>true</CenterOffset>
+            </Voxels>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Field_B_Asteroid_17</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceRandomEncounter:true]
+                [Territory:Asteroid Field B]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>100.0</Frequency>
+
+            <IsEncounter>true</IsEncounter>
+            <IsPirate>true</IsPirate>
+            <Frequency>10.0</Frequency>
+            <ReactorsOn>true</ReactorsOn>
+
+            <Prefabs>
+                <Prefab SubtypeId="Empty">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Empty</BeaconText>
+                    <Speed>0.0</Speed>
+                </Prefab>
+            </Prefabs>
+
+            <Voxels>
+                <Voxel StorageName="Field_B_Asteroid_17">
+                    <Offset>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Offset>
+                </Voxel>
+                <CenterOffset>true</CenterOffset>
+            </Voxels>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Field_B_Asteroid_18</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceRandomEncounter:true]
+                [Territory:Asteroid Field B]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>100.0</Frequency>
+
+            <IsEncounter>true</IsEncounter>
+            <IsPirate>true</IsPirate>
+            <Frequency>10.0</Frequency>
+            <ReactorsOn>true</ReactorsOn>
+
+            <Prefabs>
+                <Prefab SubtypeId="Empty">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Empty</BeaconText>
+                    <Speed>0.0</Speed>
+                </Prefab>
+            </Prefabs>
+
+            <Voxels>
+                <Voxel StorageName="Field_B_Asteroid_18">
+                    <Offset>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Offset>
+                </Voxel>
+                <CenterOffset>true</CenterOffset>
+            </Voxels>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Field_B_Asteroid_19</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+                [SpaceRandomEncounter:true]
+                [Territory:Asteroid Field B]
+
+            </Description>
+
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>100.0</Frequency>
+
+            <IsEncounter>true</IsEncounter>
+            <IsPirate>true</IsPirate>
+            <Frequency>10.0</Frequency>
+            <ReactorsOn>true</ReactorsOn>
+
+            <Prefabs>
+                <Prefab SubtypeId="Empty">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Empty</BeaconText>
+                    <Speed>0.0</Speed>
+                </Prefab>
+            </Prefabs>
+
+            <Voxels>
+                <Voxel StorageName="Field_B_Asteroid_19">
                     <Offset>
                         <X>0.0</X>
                         <Y>0.0</Y>

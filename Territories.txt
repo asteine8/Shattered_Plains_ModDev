@@ -49,7 +49,11 @@ Radius = 100000
 <1427618, -501123.5, -3150.1806640625>
 Radius = 150000
 
-#Corrupted Space (Around Zelroth)
+#Zelroth Corrupted Space
 <-1028353.0625, -743802.0625, -142940.953125>
 Radius = 125000
+
+#Darwin Corrupted Space
+<1427618, -501123.5, -3150.1806640625>
+Radius = 175000
 ```

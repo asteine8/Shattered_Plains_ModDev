@@ -5,17 +5,57 @@
         <SpawnGroup>
             <Id>
                 <TypeId>SpawnGroupDefinition</TypeId>
-                <SubtypeId>Corrupted Space Territory</SubtypeId>
+                <SubtypeId>Corrupted Space Territory Zelroth</SubtypeId>
             </Id>
             <Description>
 
                 [Modular Encounters Territory]
-                [Name:Corrupted Space]
+                [Name:Zelroth Corrupted Space]
                 [Type:Static]
                 [Radius:125000]
-                [CoordsX:-743802.0625]
-                [CoordsY:-750000]
+                [CoordsX:-1028353.0625]
+                [CoordsY:-743802.0625]
                 [CoordsZ:-142940.953125]
+                [AnnounceArriveDepart:true]
+
+                [Active:true]
+
+            </Description>
+
+            <!-- Location: <-1000,-750,0> km -->
+
+            <!-- We Need to add this, but it doesn't actually affect the spawner. Just to make the game happy -->
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <Frequency>30.0</Frequency>
+            <IsPirate>true</IsPirate>
+
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-CPC) Assault Drone">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <BeaconText>Rebel Fighter</BeaconText>
+                    <Speed>25.0</Speed>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>Corrupted Space Territory Darwin</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters Territory]
+                [Name:Darwin Corrupted Space]
+                [Type:Static]
+                [Radius:175000]
+                [CoordsX:1427618]
+                [CoordsY:-501123.5]
+                [CoordsZ:-3150.1806640625]
                 [AnnounceArriveDepart:true]
 
                 [Active:true]
