@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Phillip\\Documents\\SE Content\\Shattered_Plains_ModDev\\Examples\\TestScriptMod1\\TestScriptMod1\\TestScriptMod1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Phillip\\Documents\\SE Content\\Shattered_Plains_ModDev\\Examples\\TestScriptMod1\\TestScriptMod1\\TestScriptMod1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Phillip\\Documents\\SE Content\\Shattered_Plains_ModDev\\Examples\\TestScriptMod1\\TestScriptMod1\\TestScriptMod1.csproj",
+        "projectName": "TestScriptMod1",
+        "projectPath": "C:\\Users\\Phillip\\Documents\\SE Content\\Shattered_Plains_ModDev\\Examples\\TestScriptMod1\\TestScriptMod1\\TestScriptMod1.csproj",
+        "packagesPath": "C:\\Users\\Phillip\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Phillip\\Documents\\SE Content\\Shattered_Plains_ModDev\\Examples\\TestScriptMod1\\TestScriptMod1\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Phillip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.15063"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.15063": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.15063": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.8, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

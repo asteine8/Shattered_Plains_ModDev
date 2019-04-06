@@ -1,0 +1,303 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+  
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-RVR) Reaver Fighter</SubtypeId>
+      </Id>
+	  <Description>
+
+			[Modular Encounters SpawnGroup]
+			[SpaceCargoShip:true]
+			[FactionOwner:REAVER]
+			[ReplenishSystems:true]
+
+      </Description>
+	  <IsPirate>true</IsPirate>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Reaver Fighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>Fighter</BeaconText>
+          <Speed>25.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-RVR) Reaver Assault Corvette</SubtypeId>
+      </Id>
+	  <Description>
+
+			[Modular Encounters SpawnGroup]
+			[SpaceCargoShip:true]
+			[FactionOwner:REAVER]
+			[ReplenishSystems:true]
+
+      </Description>
+	  <IsPirate>true</IsPirate>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Reaver Assault Corvette">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>Assault Corvette</BeaconText>
+          <Speed>25.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-RVR) Reaver Strike Corvette</SubtypeId>
+      </Id>
+	  <Description>
+
+			[Modular Encounters SpawnGroup]
+			[SpaceCargoShip:true]
+			[FactionOwner:REAVER]
+			[ReplenishSystems:true]
+
+      </Description>
+	  <IsPirate>true</IsPirate>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Reaver Strike Corvette">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>Strike Corvette</BeaconText>
+          <Speed>25.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-RVR) Reaver Harpoon Corvette</SubtypeId>
+      </Id>
+	  <Description>
+
+			[Modular Encounters SpawnGroup]
+			[SpaceCargoShip:true]
+			[FactionOwner:REAVER]
+			[ReplenishSystems:true]
+
+      </Description>
+	  <IsPirate>true</IsPirate>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Reaver Harpoon Corvette">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>Harpoon Corvette</BeaconText>
+          <Speed>25.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-RVR) Reaver Heavy Corvette</SubtypeId>
+      </Id>
+	  <Description>
+
+			[Modular Encounters SpawnGroup]
+			[SpaceCargoShip:true]
+			[FactionOwner:REAVER]
+			[ReplenishSystems:true]
+
+      </Description>
+	  <IsPirate>true</IsPirate>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Reaver Heavy Corvette">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>Heavy Corvette</BeaconText>
+          <Speed>25.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-RVR) Reaver Trans-U</SubtypeId>
+      </Id>
+	  <Description>
+
+			[Modular Encounters SpawnGroup]
+			[SpaceCargoShip:true]
+			[FactionOwner:REAVER]
+			[ReplenishSystems:true]
+
+      </Description>
+	  <IsPirate>true</IsPirate>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Reaver Trans-U">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>Trans-U</BeaconText>
+          <Speed>25.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-RVR) Reaver Heavy Frigate</SubtypeId>
+      </Id>
+	  <Description>
+
+			[Modular Encounters SpawnGroup]
+			[SpaceCargoShip:true]
+			[FactionOwner:REAVER]
+			[ReplenishSystems:true]
+
+      </Description>
+	  <IsPirate>true</IsPirate>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Reaver Heavy Frigate">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>Heavy Frigate</BeaconText>
+          <Speed>25.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-RVR) Reaver Team 1</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	  <Description>
+
+			[Modular Encounters SpawnGroup]
+			[SpaceCargoShip:true]
+			[FactionOwner:REAVER]
+			[ReplenishSystems:true]
+
+      </Description>
+	  <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Reaver Fighter">
+          <Position>
+            <X>300.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>Fighter</BeaconText>
+          <Speed>25.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="(NPC-RVR) Reaver Assault Corvette">
+          <Position>
+            <X>0.0</X>
+            <Y>300.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>Fighter</BeaconText>
+          <Speed>25.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="(NPC-RVR) Reaver Strike Corvette">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>300.0</Z>
+          </Position>
+          <BeaconText>Fighter</BeaconText>
+          <Speed>25.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+	
+	<SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-RVR) Reaver Team 2</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+	  <Description>
+
+			[Modular Encounters SpawnGroup]
+			[SpaceCargoShip:true]
+			[FactionOwner:REAVER]
+			[ReplenishSystems:true]
+
+      </Description>
+	  <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-RVR) Reaver Harpoon Corvette">
+          <Position>
+            <X>300.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>Fighter</BeaconText>
+          <Speed>25.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="(NPC-RVR) Reaver Heavy Corvette">
+          <Position>
+            <X>0.0</X>
+            <Y>300.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <BeaconText>Fighter</BeaconText>
+          <Speed>25.0</Speed>
+        </Prefab>
+		<Prefab SubtypeId="(NPC-RVR) Reaver Trans-U">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>300.0</Z>
+          </Position>
+          <BeaconText>Fighter</BeaconText>
+          <Speed>25.0</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>
