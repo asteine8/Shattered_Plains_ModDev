@@ -1,7 +1,14 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <Factions>
-        <Faction Tag="RBL" Founder="Rebel NPC">
+
+        <!--
+        ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                Example Factions 
+        ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+        -->
+
+        <!-- <Faction Tag="RBL" Founder="Rebel NPC">
             <Id>
                 <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
                 <SubtypeId>TheRebellion</SubtypeId>
@@ -13,9 +20,7 @@
             <AutoAcceptMember>false</AutoAcceptMember>
             <AcceptHumans>false</AcceptHumans>
         </Faction>
-    </Factions>
 
-    <Factions>
         <Faction Tag="UEN" Founder="UEN NPC">
             <Id>
                 <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
@@ -27,6 +32,6 @@
             <DefaultRelation>Enemies</DefaultRelation>
             <AutoAcceptMember>false</AutoAcceptMember>
             <AcceptHumans>false</AcceptHumans>
-        </Faction>
+        </Faction> -->
     </Factions>
 </Definitions>

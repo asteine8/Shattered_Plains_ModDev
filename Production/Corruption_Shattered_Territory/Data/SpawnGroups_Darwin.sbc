@@ -79,6 +79,8 @@
 		<SubtypeId>(CPC)HIVE_SHIP</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -102,6 +104,8 @@
 		<SubtypeId>(CPC)EXPERIMENTAL_DRONE</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -125,6 +129,8 @@
 		<SubtypeId>(CPC)STALKER_DRONE</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -148,6 +154,8 @@
 		<SubtypeId>(CPC)DECEPTION_DRONE</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -171,6 +179,8 @@
 		<SubtypeId>(CPC)PROVOCATEUR_DRONE</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -194,6 +204,8 @@
 		<SubtypeId>(CPC)HACKER_DRONE</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -217,6 +229,8 @@
 		<SubtypeId>(CPC)MEDIUM_CARGO_TRANSPORT</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -240,6 +254,8 @@
 		<SubtypeId>(CPC)TESLA_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -263,6 +279,8 @@
 		<SubtypeId>(CPC)SHIELD_COORDINATOR_1</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -288,6 +306,8 @@
 		<SubtypeId>(CPC)KAMIKAZE_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -311,6 +331,8 @@
 		<SubtypeId>(CPC)HORSEFLY_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -334,6 +356,8 @@
 		<SubtypeId>(CPC)FIGHTER_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -357,6 +381,8 @@
 		<SubtypeId>(CPC)SCATTER_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -380,6 +406,8 @@
 		<SubtypeId>(CPC)SALVAGE_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -403,6 +431,8 @@
 		<SubtypeId>(CPC)STRIKE_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -426,6 +456,8 @@
 		<SubtypeId>(CPC)SNIPER_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -449,6 +481,8 @@
 		<SubtypeId>(CPC)TUNNEL_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -472,6 +506,8 @@
 		<SubtypeId>(CPC)BARNACLE_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -495,6 +531,8 @@
 		<SubtypeId>(CPC)SCOUT_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -518,6 +556,8 @@
 		<SubtypeId>(CPC)BLACKMAIL_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -541,6 +581,8 @@
 		<SubtypeId>(CPC)HUNTER</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -564,6 +606,8 @@
 		<SubtypeId>(CPC)GLITCHY_DRONE_1</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -587,6 +631,8 @@
 		<SubtypeId>(CPC)GLITCHY_DRONE_EVIL_1</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -610,6 +656,8 @@
 		<SubtypeId>(CPC)KAMIKAZE_DRONE_3</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -651,6 +699,8 @@
 		<SubtypeId>(CPC)HORSEFLY_DRONE_3</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -692,6 +742,8 @@
 		<SubtypeId>(CPC)FIGHTER_DRONE_3</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -733,6 +785,8 @@
 		<SubtypeId>(CPC)SCATTER_DRONE_3</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -774,6 +828,8 @@
 		<SubtypeId>(CPC)SALVAGE_DRONE_3</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -815,6 +871,8 @@
 		<SubtypeId>(CPC)STRIKE_DRONE_3</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -856,6 +914,8 @@
 		<SubtypeId>(CPC)SNIPER_DRONE_3</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -897,6 +957,8 @@
 		<SubtypeId>(CPC)TUNNEL_DRONE_3</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -938,6 +1000,8 @@
 		<SubtypeId>(CPC)BARNACLE_DRONE_3</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -983,6 +1047,8 @@
 		<SubtypeId>(CPC)KAMIKAZE_DRONE_1_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1007,6 +1073,8 @@
 		<SubtypeId>(CPC)KAMIKAZE_DRONE_5_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1067,6 +1135,8 @@
 		<SubtypeId>(CPC)HORSEFLY_DRONE_1_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1091,6 +1161,8 @@
 		<SubtypeId>(CPC)HORSEFLY_DRONE_5_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1151,6 +1223,8 @@
 		<SubtypeId>(CPC)SALVAGE_DRONE_1_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1175,6 +1249,8 @@
 		<SubtypeId>(CPC)SALVAGE_DRONE_5_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1235,6 +1311,8 @@
 		<SubtypeId>(CPC)FIGHTER_DRONE_1_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1259,6 +1337,8 @@
 		<SubtypeId>(CPC)FIGHTER_DRONE_5_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1319,6 +1399,8 @@
 		<SubtypeId>(CPC)STRIKE_DRONE_1_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1343,6 +1425,8 @@
 		<SubtypeId>(CPC)STRIKE_DRONE_5_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1403,6 +1487,8 @@
 		<SubtypeId>(CPC)SNIPER_DRONE_1_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1427,6 +1513,8 @@
 		<SubtypeId>(CPC)SNIPER_DRONE_5_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1487,6 +1575,8 @@
 		<SubtypeId>(CPC)BARNACLE_DRONE_1_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1511,6 +1601,8 @@
 		<SubtypeId>(CPC)GRAVITY_GUN_DRONE_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1535,6 +1627,8 @@
 		<SubtypeId>(CPC)SIEGE_DRONE_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1559,6 +1653,8 @@
 		<SubtypeId>(CPC)SWIFT_DRONE_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1583,6 +1679,8 @@
 		<SubtypeId>(CPC)SIEGE_DRONE_ANTENNA_2</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1607,6 +1705,8 @@
 		<SubtypeId>(CPC)HOUND_DRONE_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1631,6 +1731,8 @@
 		<SubtypeId>(CPC)GLITCHY_DRONE_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1673,6 +1775,8 @@
 		<SubtypeId>(CPC)RELAY_DRONE_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1697,6 +1801,8 @@
 		<SubtypeId>(CPC)ASSAULT_DRONE_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1721,6 +1827,8 @@
 		<SubtypeId>(CPC)DECEPTION_DRONE_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>
@@ -1790,6 +1898,8 @@
 		<SubtypeId>(CPC)BOSS_SQUADRON_ANTENNA</SubtypeId>
 	</Id>
 	<Description>
+		[Modular Encounters SpawnGroup]
+		[SpaceCargoShip:true]
 		[Territory:Darwin Corrupted Space]
 	</Description>
 	<Icon>Textures\GUI\Icons\Fake.dds</Icon>

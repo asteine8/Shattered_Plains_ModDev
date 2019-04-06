@@ -302,5 +302,182 @@
             <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
         </VoxelMapStorage>
 
+        <!-- 
+        +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+        Field C
+        +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+         -->
+
+        <VoxelMapStorage>
+            <Id>
+                <TypeId>VoxelMapStorageDefinition</TypeId>
+                <SubtypeId>Field_C_Asteroid_1</SubtypeId>
+            </Id>
+            <StorageFile>VoxelMaps\Field_C\Asteroid_Au_Ag_01_F3.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
+        </VoxelMapStorage>
+
+        <VoxelMapStorage>
+            <Id>
+                <TypeId>VoxelMapStorageDefinition</TypeId>
+                <SubtypeId>Field_C_Asteroid_2</SubtypeId>
+            </Id>
+            <StorageFile>VoxelMaps\Field_C\Asteroid_Au_Fe_02_F3.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
+        </VoxelMapStorage>
+
+        <VoxelMapStorage>
+            <Id>
+                <TypeId>VoxelMapStorageDefinition</TypeId>
+                <SubtypeId>Field_C_Asteroid_3</SubtypeId>
+            </Id>
+            <StorageFile>VoxelMaps\Field_C\Asteroid_Ag_03_F3.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
+        </VoxelMapStorage>
+
+        <VoxelMapStorage>
+            <Id>
+                <TypeId>VoxelMapStorageDefinition</TypeId>
+                <SubtypeId>Field_C_Asteroid_4</SubtypeId>
+            </Id>
+            <StorageFile>VoxelMaps\Field_C\Asteroid_Au_Ni_04_F3.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
+        </VoxelMapStorage>
+
+        <VoxelMapStorage>
+            <Id>
+                <TypeId>VoxelMapStorageDefinition</TypeId>
+                <SubtypeId>Field_C_Asteroid_5</SubtypeId>
+            </Id>
+            <StorageFile>VoxelMaps\Field_C\Asteroid_Co_Ni_05_F3.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
+        </VoxelMapStorage>
+
+        <VoxelMapStorage>
+            <Id>
+                <TypeId>VoxelMapStorageDefinition</TypeId>
+                <SubtypeId>Field_C_Asteroid_6</SubtypeId>
+            </Id>
+            <StorageFile>VoxelMaps\Field_C\Asteroid_Au_Ni_06_F3.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
+        </VoxelMapStorage>
+
+        <VoxelMapStorage>
+            <Id>
+                <TypeId>VoxelMapStorageDefinition</TypeId>
+                <SubtypeId>Field_C_Asteroid_7</SubtypeId>
+            </Id>
+            <StorageFile>VoxelMaps\Field_C\Asteroid_Fe_Si_Ag_Co_07_F3.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
+        </VoxelMapStorage>
+
+        <VoxelMapStorage>
+            <Id>
+                <TypeId>VoxelMapStorageDefinition</TypeId>
+                <SubtypeId>Field_C_Asteroid_8</SubtypeId>
+            </Id>
+            <StorageFile>VoxelMaps\Field_C\Asteroid_Fe_Si_08_F3.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
+        </VoxelMapStorage>
+
+        <VoxelMapStorage>
+            <Id>
+                <TypeId>VoxelMapStorageDefinition</TypeId>
+                <SubtypeId>Field_C_Asteroid_9</SubtypeId>
+            </Id>
+            <StorageFile>VoxelMaps\Field_C\Asteroid_Au_Co_09_F3.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
+        </VoxelMapStorage>
+
+        <VoxelMapStorage>
+            <Id>
+                <TypeId>VoxelMapStorageDefinition</TypeId>
+                <SubtypeId>Field_C_Asteroid_10</SubtypeId>
+            </Id>
+            <StorageFile>VoxelMaps\Field_C\Asteroid_Ag_10_F3.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
+        </VoxelMapStorage>
+
+        <VoxelMapStorage>
+            <Id>
+                <TypeId>VoxelMapStorageDefinition</TypeId>
+                <SubtypeId>Field_C_Asteroid_11</SubtypeId>
+            </Id>
+            <StorageFile>VoxelMaps\Field_C\Asteroid_Fe_Ag_Co_Au_11_F3.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
+        </VoxelMapStorage>
+
+        <VoxelMapStorage>
+            <Id>
+                <TypeId>VoxelMapStorageDefinition</TypeId>
+                <SubtypeId>Field_C_Asteroid_12</SubtypeId>
+            </Id>
+            <StorageFile>VoxelMaps\Field_C\Asteroid_Co_Au_12_F3.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
+        </VoxelMapStorage>
+
+        <VoxelMapStorage>
+            <Id>
+                <TypeId>VoxelMapStorageDefinition</TypeId>
+                <SubtypeId>Field_C_Asteroid_13</SubtypeId>
+            </Id>
+            <StorageFile>VoxelMaps\Field_C\Asteroid_Au_13_F3.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
+        </VoxelMapStorage>
+
+        <VoxelMapStorage>
+            <Id>
+                <TypeId>VoxelMapStorageDefinition</TypeId>
+                <SubtypeId>Field_C_Asteroid_14</SubtypeId>
+            </Id>
+            <StorageFile>VoxelMaps\Field_C\Asteroid_Fe_Ag_Ni_U_14_F3.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
+        </VoxelMapStorage>
+
+        <VoxelMapStorage>
+            <Id>
+                <TypeId>VoxelMapStorageDefinition</TypeId>
+                <SubtypeId>Field_C_Asteroid_15</SubtypeId>
+            </Id>
+            <StorageFile>VoxelMaps\Field_C\Asteroid_Fe_Ag_Au_Co_U_15_F3.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
+        </VoxelMapStorage>
+
+        <VoxelMapStorage>
+            <Id>
+                <TypeId>VoxelMapStorageDefinition</TypeId>
+                <SubtypeId>Field_C_Asteroid_16</SubtypeId>
+            </Id>
+            <StorageFile>VoxelMaps\Field_C\Asteroid_U_Fe_Ag_16_F3.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
+        </VoxelMapStorage>
+
+        <VoxelMapStorage>
+            <Id>
+                <TypeId>VoxelMapStorageDefinition</TypeId>
+                <SubtypeId>Field_C_Asteroid_17</SubtypeId>
+            </Id>
+            <StorageFile>VoxelMaps\Field_C\Asteroid_U_Si_Fe_Au_17_F3.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
+        </VoxelMapStorage>
+
+        <VoxelMapStorage>
+            <Id>
+                <TypeId>VoxelMapStorageDefinition</TypeId>
+                <SubtypeId>Field_C_Asteroid_18</SubtypeId>
+            </Id>
+            <StorageFile>VoxelMaps\Field_C\Asteroid_U_Au_Fe_18_F3.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
+        </VoxelMapStorage>
+
+        <VoxelMapStorage>
+            <Id>
+                <TypeId>VoxelMapStorageDefinition</TypeId>
+                <SubtypeId>Field_C_Asteroid_19</SubtypeId>
+            </Id>
+            <StorageFile>VoxelMaps\Field_C\Asteroid_U_Fe_Au_19_F3.vx2</StorageFile>
+            <UseAsPrimaryProceduralAdditionShape>true</UseAsPrimaryProceduralAdditionShape>
+        </VoxelMapStorage>
+
     </VoxelMapStorages>
 </Definitions>
