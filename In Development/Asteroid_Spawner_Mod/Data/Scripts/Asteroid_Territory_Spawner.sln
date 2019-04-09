@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asteroid_Territory_Spawner", "Asteroid_Territory_Spawner\Asteroid_Territory_Spawner.csproj", "{583E47D1-FCB5-45CC-88BF-AF23BDA247C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{583E47D1-FCB5-45CC-88BF-AF23BDA247C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{583E47D1-FCB5-45CC-88BF-AF23BDA247C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{583E47D1-FCB5-45CC-88BF-AF23BDA247C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{583E47D1-FCB5-45CC-88BF-AF23BDA247C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97958E5C-695B-4CCA-ADAF-5BF4AA071219}
+	EndGlobalSection
+EndGlobal

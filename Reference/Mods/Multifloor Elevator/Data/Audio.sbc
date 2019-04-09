@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Sounds>
+		<Sound>
+			<Id>
+				<TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+				<SubtypeId>ElevatorMusic1</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<Volume>2</Volume>
+			<Loopable>true</Loopable>
+			<Waves>
+				<Wave Type="D3">
+					<Loop>Audio\ElevatorMusic1.wav</Loop>
+				</Wave>
+			</Waves>
+		</Sound>
+		<Sound>
+			<Id>
+				<TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+				<SubtypeId>ElevatorMusic2</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<Volume>2</Volume>
+			<Loopable>true</Loopable>
+			<Waves>
+				<Wave Type="D3">
+					<Loop>Audio\ElevatorMusic2.wav</Loop>
+				</Wave>
+			</Waves>
+		</Sound>
+		<Sound>
+			<Id>
+				<TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+				<SubtypeId>ElevatorMusic3</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<Volume>1</Volume>
+			<Loopable>true</Loopable>
+			<Waves>
+				<Wave Type="D3">
+					<Loop>Audio\ElevatorMusic3.wav</Loop>
+				</Wave>
+			</Waves>
+		</Sound>
+		<Sound>
+			<Id>
+				<TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+				<SubtypeId>ElevatorMusic4</SubtypeId>
+			</Id>
+			<Category>BLOCK</Category>
+			<Volume>1</Volume>
+			<Loopable>true</Loopable>
+			<Waves>
+				<Wave Type="D3">
+					<Loop>Audio\ElevatorMusic4.wav</Loop>
+				</Wave>
+			</Waves>
+		</Sound>
+	</Sounds>
+</Definitions>

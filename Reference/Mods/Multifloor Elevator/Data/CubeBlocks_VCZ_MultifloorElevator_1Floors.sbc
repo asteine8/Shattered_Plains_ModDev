@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+			<Id>
+				<TypeId>AdvancedDoor</TypeId>
+				<SubtypeId>VCZ_Elevator_Bottom</SubtypeId>
+			</Id>
+			<DisplayName>VCZ Elevator Bottom</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\VCZ_Elevator_Bottom_Icon.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\VCZ_Elevator_Bottom.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="MetalGrid" Count="5" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="Motor" Count="1" />
+				<Component Subtype="Computer" Count="1" />
+				<Component Subtype="Construction" Count="10" />
+				<Component Subtype="MetalGrid" Count="5" />
+				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="BulletproofGlass" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\VCZ_Elevator_Bottom_Constr1.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<!-- <MountPoint Side="Top" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" /> -->
+				<!-- <MountPoint Side="Top" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" /> -->
+				<!-- <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" /> -->
+				<!-- <MountPoint Side="Top" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" /> -->
+				<MountPoint Side="Left" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+			</MountPoints>
+			<BlockPairName>VCZ_Elevator_Bottom</BlockPairName>
+			<BlockVariants>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>VCZ_Elevator_Middle</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AdvancedDoor</TypeId>
+					<SubtypeId>VCZ_Elevator_Top</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>VCZ_Elevator_Filler</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>VCZ_Elevator_FillerDouble</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>AirVent</TypeId>
+					<SubtypeId>VCZ_Elevator_Filler_Vent</SubtypeId>
+				</BlockVariant>
+			</BlockVariants>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>10</BuildTimeSeconds>
+			<PowerConsumptionIdle>0.001</PowerConsumptionIdle>
+			<PowerConsumptionMoving>0.01</PowerConsumptionMoving>
+			<DamageEffectId>212</DamageEffectId>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<ResourceSinkGroup>Doors</ResourceSinkGroup>
+			<Subparts>
+				<SubpartDefinition>
+					<Name>VCZ_Elevator_Floor_Buttons1</Name>
+				</SubpartDefinition>
+				<SubpartDefinition>
+					<Name>VCZ_Elevator_Floor_Buttons2</Name>
+				</SubpartDefinition>
+				<SubpartDefinition>
+					<Name>VCZ_Elevator_Floor_Buttons3</Name>
+				</SubpartDefinition>
+				<SubpartDefinition>
+					<Name>VCZ_Elevator_Floor_Buttons4</Name>
+				</SubpartDefinition>
+				<SubpartDefinition>
+					<Name>VCZ_Elevator_Door</Name>
+				</SubpartDefinition>
+			</Subparts>
+			<OpeningSequence>
+				<Opening>
+					<IDs>0</IDs>
+					<Move>Slide</Move>
+					<SlideDirection x="1" y="0" z="-1" />
+					<MaxOpen>0.1</MaxOpen>
+					<Speed>1</Speed>
+					<OpenDelay>0</OpenDelay>
+					<CloseDelay>0</CloseDelay>
+				</Opening>
+				<Opening>
+					<IDs>1</IDs>
+					<Move>Slide</Move>
+					<SlideDirection x="-1" y="0" z="1" />
+					<MaxOpen>0.1</MaxOpen>
+					<Speed>1</Speed>
+					<OpenDelay>0</OpenDelay>
+					<CloseDelay>0</CloseDelay>
+				</Opening>
+				<Opening>
+					<IDs>2</IDs>
+					<Move>Slide</Move>
+					<SlideDirection x="1" y="0" z="1" />
+					<MaxOpen>0.1</MaxOpen>
+					<Speed>1</Speed>
+					<OpenDelay>0</OpenDelay>
+					<CloseDelay>0</CloseDelay>
+				</Opening>
+				<Opening>
+					<IDs>3</IDs>
+					<Move>Slide</Move>
+					<SlideDirection x="-1" y="0" z="-1" />
+					<MaxOpen>0.1</MaxOpen>
+					<Speed>1</Speed>
+					<OpenDelay>0</OpenDelay>
+					<CloseDelay>0</CloseDelay>
+				</Opening>
+				<Opening>
+					<IDs>4</IDs>
+					<Move>Slide</Move>
+					<SlideDirection x="0" y="1" z="0" />
+					<MaxOpen>2.2</MaxOpen>
+					<Speed>2.2</Speed>
+					<OpenDelay>0</OpenDelay>
+					<CloseDelay>0</CloseDelay>
+					<OpenSound>BlockPiston</OpenSound>
+					<CloseSound>BlockPiston</CloseSound>
+				</Opening>
+			</OpeningSequence>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+			<Id>
+				<TypeId>AdvancedDoor</TypeId>
+				<SubtypeId>VCZ_Elevator_Middle</SubtypeId>
+			</Id>
+			<DisplayName>VCZ Elevator Middle</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\VCZ_Elevator_Middle_Icon.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\VCZ_Elevator_Middle.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="MetalGrid" Count="5" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="Motor" Count="1" />
+				<Component Subtype="Computer" Count="1" />
+				<Component Subtype="Construction" Count="10" />
+				<Component Subtype="MetalGrid" Count="5" />
+				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="BulletproofGlass" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\VCZ_Elevator_Middle_Constr1.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<!-- <MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" /> -->
+				<!-- <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" /> -->
+				<!-- <MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" /> -->
+				<!-- <MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" /> -->
+				<!-- <MountPoint Side="Top" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" /> -->
+				<!-- <MountPoint Side="Top" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" /> -->
+				<!-- <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" /> -->
+				<!-- <MountPoint Side="Top" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" /> -->
+				<MountPoint Side="Left" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+			</MountPoints>
+			<BlockPairName>VCZ_Elevator_Middle</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>10</BuildTimeSeconds>
+			<PowerConsumptionIdle>0.001</PowerConsumptionIdle>
+			<PowerConsumptionMoving>0.01</PowerConsumptionMoving>
+			<DamageEffectId>212</DamageEffectId>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<ResourceSinkGroup>Doors</ResourceSinkGroup>
+			<Subparts>
+				<SubpartDefinition>
+					<Name>VCZ_Elevator_Floor_Buttons1</Name>
+				</SubpartDefinition>
+				<SubpartDefinition>
+					<Name>VCZ_Elevator_Floor_Buttons2</Name>
+				</SubpartDefinition>
+				<SubpartDefinition>
+					<Name>VCZ_Elevator_Floor_Buttons3</Name>
+				</SubpartDefinition>
+				<SubpartDefinition>
+					<Name>VCZ_Elevator_Floor_Buttons4</Name>
+				</SubpartDefinition>
+				<SubpartDefinition>
+					<Name>VCZ_Elevator_Door</Name>
+				</SubpartDefinition>
+			</Subparts>
+			<OpeningSequence>
+				<Opening>
+					<IDs>0</IDs>
+					<Move>Slide</Move>
+					<SlideDirection x="1" y="0" z="-1" />
+					<MaxOpen>0.1</MaxOpen>
+					<Speed>1</Speed>
+					<OpenDelay>0</OpenDelay>
+					<CloseDelay>0</CloseDelay>
+				</Opening>
+				<Opening>
+					<IDs>1</IDs>
+					<Move>Slide</Move>
+					<SlideDirection x="-1" y="0" z="1" />
+					<MaxOpen>0.1</MaxOpen>
+					<Speed>1</Speed>
+					<OpenDelay>0</OpenDelay>
+					<CloseDelay>0</CloseDelay>
+				</Opening>
+				<Opening>
+					<IDs>2</IDs>
+					<Move>Slide</Move>
+					<SlideDirection x="1" y="0" z="1" />
+					<MaxOpen>0.1</MaxOpen>
+					<Speed>1</Speed>
+					<OpenDelay>0</OpenDelay>
+					<CloseDelay>0</CloseDelay>
+				</Opening>
+				<Opening>
+					<IDs>3</IDs>
+					<Move>Slide</Move>
+					<SlideDirection x="-1" y="0" z="-1" />
+					<MaxOpen>0.1</MaxOpen>
+					<Speed>1</Speed>
+					<OpenDelay>0</OpenDelay>
+					<CloseDelay>0</CloseDelay>
+				</Opening>
+				<Opening>
+					<IDs>4</IDs>
+					<Move>Slide</Move>
+					<SlideDirection x="0" y="1" z="0" />
+					<MaxOpen>2.2</MaxOpen>
+					<Speed>2.2</Speed>
+					<OpenDelay>0</OpenDelay>
+					<CloseDelay>0</CloseDelay>
+					<OpenSound>BlockPiston</OpenSound>
+					<CloseSound>BlockPiston</CloseSound>
+				</Opening>
+			</OpeningSequence>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+			<Id>
+				<TypeId>AdvancedDoor</TypeId>
+				<SubtypeId>VCZ_Elevator_Top</SubtypeId>
+			</Id>
+			<DisplayName>VCZ Elevator Top</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\VCZ_Elevator_Top_Icon.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\VCZ_Elevator_Top.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="MetalGrid" Count="5" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="Motor" Count="1" />
+				<Component Subtype="Computer" Count="1" />
+				<Component Subtype="Construction" Count="10" />
+				<Component Subtype="MetalGrid" Count="5" />
+				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="BulletproofGlass" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\VCZ_Elevator_Top_Constr1.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<!-- <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" /> -->
+				<!-- <MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" /> -->
+				<!-- <MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" /> -->
+				<!-- <MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" /> -->
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.10" StartY="0.90" EndX="0.90" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.10" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.90" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.10" />
+			</MountPoints>
+			<BlockPairName>VCZ_Elevator_Top</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>25</BuildTimeSeconds>
+			<PowerConsumptionIdle>0.001</PowerConsumptionIdle>
+			<PowerConsumptionMoving>0.01</PowerConsumptionMoving>
+			<DamageEffectId>212</DamageEffectId>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<ResourceSinkGroup>Doors</ResourceSinkGroup>
+			<Subparts>
+				<SubpartDefinition>
+					<Name>VCZ_Elevator_Floor_Buttons1</Name>
+				</SubpartDefinition>
+				<SubpartDefinition>
+					<Name>VCZ_Elevator_Floor_Buttons2</Name>
+				</SubpartDefinition>
+				<SubpartDefinition>
+					<Name>VCZ_Elevator_Floor_Buttons3</Name>
+				</SubpartDefinition>
+				<SubpartDefinition>
+					<Name>VCZ_Elevator_Floor_Buttons4</Name>
+				</SubpartDefinition>
+				<SubpartDefinition>
+					<Name>VCZ_Elevator_Door</Name>
+				</SubpartDefinition>
+			</Subparts>
+			<OpeningSequence>
+				<Opening>
+					<IDs>0</IDs>
+					<Move>Slide</Move>
+					<SlideDirection x="1" y="0" z="-1" />
+					<MaxOpen>0.1</MaxOpen>
+					<Speed>1</Speed>
+					<OpenDelay>0</OpenDelay>
+					<CloseDelay>0</CloseDelay>
+				</Opening>
+				<Opening>
+					<IDs>1</IDs>
+					<Move>Slide</Move>
+					<SlideDirection x="-1" y="0" z="1" />
+					<MaxOpen>0.1</MaxOpen>
+					<Speed>1</Speed>
+					<OpenDelay>0</OpenDelay>
+					<CloseDelay>0</CloseDelay>
+				</Opening>
+				<Opening>
+					<IDs>2</IDs>
+					<Move>Slide</Move>
+					<SlideDirection x="1" y="0" z="1" />
+					<MaxOpen>0.1</MaxOpen>
+					<Speed>1</Speed>
+					<OpenDelay>0</OpenDelay>
+					<CloseDelay>0</CloseDelay>
+				</Opening>
+				<Opening>
+					<IDs>3</IDs>
+					<Move>Slide</Move>
+					<SlideDirection x="-1" y="0" z="-1" />
+					<MaxOpen>0.1</MaxOpen>
+					<Speed>1</Speed>
+					<OpenDelay>0</OpenDelay>
+					<CloseDelay>0</CloseDelay>
+				</Opening>
+				<Opening>
+					<IDs>4</IDs>
+					<Move>Slide</Move>
+					<SlideDirection x="0" y="-1" z="0" />
+					<MaxOpen>2.2</MaxOpen>
+					<Speed>2.2</Speed>
+					<OpenDelay>0</OpenDelay>
+					<CloseDelay>0</CloseDelay>
+					<OpenSound>BlockPiston</OpenSound>
+					<CloseSound>BlockPiston</CloseSound>
+				</Opening>
+			</OpeningSequence>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>VCZ_Elevator_Filler</SubtypeId>
+			</Id>
+			<DisplayName>VCZ Elevator Filler</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\VCZ_Elevator_Icon.dds</Icon>
+			<GuiVisible>false</GuiVisible>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\VCZ_Elevator_Filler.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="MetalGrid" Count="5" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="Motor" Count="1" />
+				<Component Subtype="Construction" Count="10" />
+				<Component Subtype="MetalGrid" Count="5" />
+				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="BulletproofGlass" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\VCZ_Elevator_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\VCZ_Elevator_Constr2.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.04" EndX="0.04" EndY="0.96" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.04" EndX="0.04" EndY="0.96" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Top" StartX="0.96" StartY="0.04" EndX="1.00" EndY="0.96" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.96" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.96" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.96" StartY="0.04" EndX="1.00" EndY="0.96" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BlockPairName>VCZ_Elevator_Filler</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>10</BuildTimeSeconds>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>VCZ_Elevator_FillerDouble</SubtypeId>
+			</Id>
+			<DisplayName>VCZ Elevator Filler Double</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\VCZ_Elevator_Icon.dds</Icon>
+			<GuiVisible>false</GuiVisible>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\VCZ_Elevator_FillerDouble.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="30" />
+				<Component Subtype="MetalGrid" Count="5" />
+				<Component Subtype="Construction" Count="30" />
+				<Component Subtype="Motor" Count="1" />
+				<Component Subtype="Construction" Count="15" />
+				<Component Subtype="MetalGrid" Count="10" />
+				<Component Subtype="SteelPlate" Count="15" />
+				<Component Subtype="BulletproofGlass" Count="20" />
+			</Components>
+			<CriticalComponent Subtype="Motor" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\VCZ_Elevator_FillerDouble_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\VCZ_Elevator_FillerDouble_Constr2.mwm" />
+			</BuildProgressModels>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
+				<MountPoint Side="Top" StartX="0.96" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.96" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+				<MountPoint Side="Bottom" StartX="0.96" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.96" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.04" />
+			</MountPoints>
+			<BlockPairName>VCZ_Elevator_FillerDouble</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>10</BuildTimeSeconds>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_AirVentDefinition">
+			<Id>
+				<TypeId>AirVent</TypeId>
+				<SubtypeId>VCZ_Elevator_Filler_Vent</SubtypeId>
+			</Id>
+			<DisplayName>VCZ Elevator Filler Vent</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\VCZ_Elevator_Filler_Vent_Icon.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<GuiVisible>false</GuiVisible>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\VCZ_Elevator_Filler_Vent.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="MetalGrid" Count="5" />
+				<Component Subtype="Construction" Count="20" />
+				<Component Subtype="Motor" Count="1" />
+				<Component Subtype="Computer" Count="1" />
+				<Component Subtype="Construction" Count="10" />
+				<Component Subtype="MetalGrid" Count="5" />
+				<Component Subtype="SteelPlate" Count="10" />
+				<Component Subtype="BulletproofGlass" Count="15" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.10" EndX="0.10" EndY="0.90" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+				<MountPoint Side="Top" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Top" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.90" StartY="0.10" EndX="1.00" EndY="0.90" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\VCZ_Elevator_Filler_Vent_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\VCZ_Elevator_Filler_Vent_Constr2.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>VCZ_Elevator_Filler_Vent</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>10</BuildTimeSeconds>
+
+			<ResourceSourceGroup>Battery</ResourceSourceGroup>
+			<ResourceSinkGroup>Factory</ResourceSinkGroup>
+			<OperationalPowerConsumption>0.1</OperationalPowerConsumption>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<VentilationCapacityPerSecond>300</VentilationCapacityPerSecond>
+
+			<DamageEffectId>213</DamageEffectId>
+			<DamagedSound>ParticleWeapExpl</DamagedSound>
+			<PressurizeSound>BlockAirVentExhale</PressurizeSound>
+			<DepressurizeSound>BlockAirVentDepressurize</DepressurizeSound>
+			<IdleSound>BlockAirVentIdle</IdleSound>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+		</Definition>
+
+
+
+	</CubeBlocks>
+
+	<BlockPositions>
+		<BlockPosition>
+			<Name>VCZ_Elevator_Bottom</Name>
+			<Position>
+				<X>7</X>
+				<Y>8</Y>
+			</Position>
+		</BlockPosition>
+	</BlockPositions>
+</Definitions>
