@@ -17,8 +17,9 @@ using VRage.Utils;
 using VRageMath;
 
 namespace Asteroid_Territory_Spawner {
-    class Player_Registrar {
+    public class Player_Registrar {
         public List<MyPlayerInfo> PlayerInfos;
+
         public Player_Registrar() {
             this.PlayerInfos = new List<MyPlayerInfo>();
         }
@@ -27,12 +28,23 @@ namespace Asteroid_Territory_Spawner {
             this.RegisterPlayers();
         }
 
-        public void UpdateDistanceTraveled() {
-            foreach(MyPlayerInfo playerInfo in this.PlayerInfos) {
-                playerInfo.UpdatePosition();
+        // Update the regions adjacent to these regions
+        public List<Vector3I> GetRegionsThatNeedUpdate() {
+            List<Vector3I> Regions = new List<Vector3I>();
+            
+            foreach (MyPlayerInfo player in PlayerInfos) {
+                if (player.InNewRegion()) {
+                    Regions.Add(player.Region + new Vector3I(1, 0, 0));
+                    Regions.Add(player.Region + new Vector3I(-1, 0, 0));
+                    Regions.Add(player.Region + new Vector3I(0, 1, 0));
+                    Regions.Add(player.Region + new Vector3I(0, -1, 0));
+                    Regions.Add(player.Region + new Vector3I(0, 0, 1));
+                    Regions.Add(player.Region + new Vector3I(0, 0, -1));
+                }
             }
-        }
 
+            return Regions;
+        }
         public void RegisterPlayers() {
             List<MyPlayerInfo> NewPlayerInfos = new List<MyPlayerInfo>();
 

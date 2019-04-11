@@ -17,27 +17,26 @@ using VRage.Utils;
 using VRageMath;
 
 namespace Asteroid_Territory_Spawner {
-    class MyPlayerInfo {
+    public class MyPlayerInfo {
 
         public IMyPlayer Player;
-        public Vector3D LastKnownPosition;
-        public double DistanceTraveled;
+
+        public Vector3I Region;
 
         public MyPlayerInfo(IMyPlayer player) {
             this.Player = player;
-            this.LastKnownPosition = this.Player.GetPosition();
-            this.DistanceTraveled = 0;
+            this.Region = Vector3I.Zero;
         }
 
-        public void UpdatePosition() {
-            Vector3D CurrentPosition = this.Player.GetPosition();
-            this.DistanceTraveled += (this.LastKnownPosition - CurrentPosition).Length();
-            this.LastKnownPosition = CurrentPosition;
-        }
-        public double GetDistanceTraveled() {
-            double temp = this.DistanceTraveled;
-            this.DistanceTraveled = 0;
-            return temp;
+        public bool InNewRegion() {
+            Vector3I currentRegion = VoxelSpawner.GetRegionFromPosition(this.Player.GetPosition());
+            if (currentRegion != this.Region) {
+                this.Region = currentRegion; // Update the region
+                return true;
+            }
+            else {
+                return false;
+            }
         }
     }
 }
