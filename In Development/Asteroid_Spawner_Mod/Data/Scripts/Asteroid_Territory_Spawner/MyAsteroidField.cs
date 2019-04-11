@@ -17,6 +17,39 @@ using VRage.Utils;
 using VRageMath;
 
 namespace Asteroid_Territory_Spawner {
-    class MyAsteroidField {
+    public class MyAsteroidField {
+        public FieldShape Shape;
+        public Vector3D Center;
+        public double InnerRadius;
+        public double OuterRadius;
+        public enum FieldShape {
+            SPHERE, SHELL, TOROID
+        }
+
+        public MyAsteroidField(FieldShape shape) {
+            this.Shape = shape;
+        }
+
+        public bool RegionInField(Vector3I region) {
+            bool inField = false;
+            Vector3D regionPosition = (new Vector3D(region)) * VoxelSpawner.REGION_SIZE;
+            double distanceToCenter = (regionPosition - this.Center).Length();
+
+            switch (this.Shape) {
+                case FieldShape.SPHERE:
+                    if (distanceToCenter < OuterRadius) {
+                        inField = true;
+                    }
+                    break;
+                case FieldShape.SHELL:
+                    break;
+                case FieldShape.TOROID:
+                    break;
+            }
+
+            return inField;
+        }
+
+
     }
 }

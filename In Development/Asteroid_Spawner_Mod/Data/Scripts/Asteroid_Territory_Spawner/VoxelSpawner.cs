@@ -18,15 +18,15 @@ using VRageMath;
 
 namespace Asteroid_Territory_Spawner {
     public class VoxelSpawner {
-        const int MAX_VOXELS_IN_REGION = 10;
-        const int MAX_VOXELS_IN_CLUSTER = 7;
-        const int MAX_DISTANCE_BETWEEN_VOXELS_IN_CLUSTER = 500; // meters
-        const int MIN_DISTANCE_BETWEEN_VOXELS = 50; // meters
+        public const int MAX_VOXELS_IN_REGION = 10;
+        public const int MAX_VOXELS_IN_CLUSTER = 7;
+        public const int MAX_DISTANCE_BETWEEN_VOXELS_IN_CLUSTER = 500; // meters
+        public const int MIN_DISTANCE_BETWEEN_VOXELS = 50; // meters
 
-        const double MAX_ASTEROID_SIZE = 256;
-        const double CLUSTER_SPAWN_CHANCE = 0.5;
+        public const double MAX_ASTEROID_SIZE = 256;
+        public const double CLUSTER_SPAWN_CHANCE = 0.5;
 
-        const double REGION_SIZE = 5000; // The size of the cubical region of space. Gotta orgainize space somehow... (Floor divide by this number to get the region)
+        public const double REGION_SIZE = 5000; // The size of the cubical region of space. Gotta orgainize space somehow... (Floor divide by this number to get the region)
 
 
         public VoxelSpawner() {
