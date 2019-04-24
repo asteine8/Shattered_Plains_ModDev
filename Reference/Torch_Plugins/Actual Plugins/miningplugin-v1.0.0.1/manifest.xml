@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<PluginManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>MiningPlugin</Name>
+  <Guid>c72cfa21-7fc5-41be-af0d-b65601921493</Guid>
+  <Repository>rexxar_tc/MiningPlugin</Repository>
+  <Version>v1.0.0.1</Version>
+</PluginManifest>
